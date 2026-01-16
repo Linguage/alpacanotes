@@ -1,0 +1,1760 @@
+[
+  {
+    "id": "2001479952299122798",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "电影海报或镜头（战争片）\n\nhttps://t.co/sk3Eb3eAgN",
+    "created_at": "2025-12-18T02:29:40.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 1,
+      "reply_count": 1,
+      "quote_count": 1,
+      "view_count": 426,
+      "impression_count": 426
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/sk3Eb3eAgN",
+          "indices": [
+            14,
+            37
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2001460907025510680?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001479766860505486",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "都江堰航拍\n\nhttps://t.co/IHYO407uBt",
+    "created_at": "2025-12-18T02:28:56.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 226,
+      "impression_count": 226
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/IHYO407uBt",
+          "indices": [
+            7,
+            30
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2001435489518113190?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001479653543059956",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "哪吒传奇\n\nhttps://t.co/fDxVM7Uo2x",
+    "created_at": "2025-12-18T02:28:29.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 184,
+      "impression_count": 184
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/fDxVM7Uo2x",
+          "indices": [
+            6,
+            29
+          ],
+          "display_url": "x.com/XUJWilliam/sta…",
+          "expanded_url": "https://x.com/XUJWilliam/status/2001276603071086684?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001474220434641268",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@VoxcatAI 它基本都上标不准。\n\n我感觉当前的技术还是图像与文本分离的，二者之间没有形成有效的映射，各搞各的。\n\n单拉出来文本与图像都还不错，但是形成的信息图从构图上可以，但细节上不太行",
+    "created_at": "2025-12-18T02:06:54.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 22,
+      "impression_count": 22
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001469245956460735",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@VoxcatAI 效果上看很不错，有潜力。\n\n但是我感觉当前大模型在生成工程图方面有点惨不忍睹。\n\n我也试过一些其它的东西，让大模型对结构部件进行标注，几乎全是错的，😂😂😂",
+    "created_at": "2025-12-18T01:47:08.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 75,
+      "impression_count": 75
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001463024310439977",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@kevinma_dev_zh 😅😅😅",
+    "created_at": "2025-12-18T01:22:25.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 34,
+      "impression_count": 34
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001460907025510680",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "剪纸艺术重构的电影画面\n\n剪纸通常直接使用某种色调单一的纸张，色彩感会变得强烈。我喜欢这种色彩浓烈的美术风格。\n\n战争影片常常色调黯淡，通过剪纸艺术重构其镜头效果也不错。\n\n本帖的作为示例的四部影片\n1.  父辈的旗帜\n2. 兄弟连\n3. 拯救大兵瑞恩\n4. 太平洋战争 https://t.co/0AZIXrURqn",
+    "created_at": "2025-12-18T01:14:00.000Z",
+    "metrics": {
+      "like_count": 4,
+      "retweet_count": 1,
+      "reply_count": 0,
+      "quote_count": 1,
+      "view_count": 767,
+      "impression_count": 767
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8Yw6VaaQAANRG5.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8Yw6VaaQAANRG5.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8Yw6VgaMAAS9kT.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8Yw6VgaMAAS9kT.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8Yw6VhaUAAq88a.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8Yw6VhaUAAq88a.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8Yw6VhaAAAGnnd.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8Yw6VhaAAAGnnd.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001453102319419679",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@interjc wish you good luck",
+    "created_at": "2025-12-18T00:42:59.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 64,
+      "impression_count": 64
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "interjc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001435489518113190",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "(如果）用剪纸雕饰再现都江堰（看起来挺复杂） https://t.co/gjqM4tXXuM",
+    "created_at": "2025-12-17T23:33:00.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 1,
+      "view_count": 461,
+      "impression_count": 461
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8XtcWTbcAAYY4n.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XtcWTbcAAYY4n.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8XtnXzbwAAMTUY.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XtnXzbwAAMTUY.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001358602033074211",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "希望能被更多人看到\n\nhttps://t.co/9oM6ogPpVb",
+    "created_at": "2025-12-17T18:27:28.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 151,
+      "impression_count": 151
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/9oM6ogPpVb",
+          "indices": [
+            11,
+            34
+          ],
+          "display_url": "x.com/i/status/20011…",
+          "expanded_url": "https://x.com/i/status/2001183856725299303"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001358343953395837",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "剪纸艺术的一种玩法，很独特，感觉潜力巨大！\n\n可以直接生成特定主题的“多层剪纸光影灯箱”。",
+    "created_at": "2025-12-17T18:26:27.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 3,
+      "quote_count": 0,
+      "view_count": 302,
+      "impression_count": 302
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001353344980521043",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@cheuk_baby @0x00_Krypt @tisch_eins @dotey 感觉这是一种独特的美术风格",
+    "created_at": "2025-12-17T18:06:35.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 77,
+      "impression_count": 77
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cheuk_baby"
+        },
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "tisch_eins"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001335950623068532",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@dotey 我已经把这个职称写入简历。\n\n但又发现自己其实不配，因为从定义上，Prompt Kiddie需要是被人追捧的AI高人。所以先给自己抬旗了🤣🤣🤣 https://t.co/PuaW6ohRIS",
+    "created_at": "2025-12-17T16:57:28.000Z",
+    "metrics": {
+      "like_count": 16,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 1781,
+      "impression_count": 1781
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8YsCJgaIAA8Cuf.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8YsCJgaIAA8Cuf.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001315843289067853",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@dotey 老照片中的美艳\nhttps://t.co/qlzlPfPbCu",
+    "created_at": "2025-12-17T15:37:34.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 339,
+      "impression_count": 339
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/qlzlPfPbCu",
+          "indices": [
+            15,
+            38
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2000881948991107421?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001297314955022713",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Adam38363368936 然而你却没有勇气向神仙姐姐表达爱意🐶",
+    "created_at": "2025-12-17T14:23:56.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 77,
+      "impression_count": 77
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Adam38363368936"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001296894723494371",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "经典老动画片\nhttps://t.co/UrkHKJJj6u",
+    "created_at": "2025-12-17T14:22:16.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 318,
+      "impression_count": 318
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/UrkHKJJj6u",
+          "indices": [
+            7,
+            30
+          ],
+          "display_url": "x.com/i/status/20012…",
+          "expanded_url": "https://x.com/i/status/2001288412796752059"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001296665618362569",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "西方经典油画的“重制版”\n\nhttps://t.co/kUJ5YUg68r",
+    "created_at": "2025-12-17T14:21:22.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 360,
+      "impression_count": 360
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/kUJ5YUg68r",
+          "indices": [
+            14,
+            37
+          ],
+          "display_url": "x.com/i/status/20012…",
+          "expanded_url": "https://x.com/i/status/2001293486289469601"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001294144166097149",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Vincentcharming Awesome！\n\n你是来自荷兰的Vincent吗？",
+    "created_at": "2025-12-17T14:11:20.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 66,
+      "impression_count": 66
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Vincentcharming"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001288785196409092",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@0x00_Krypt @tisch_eins @dotey 是你带来的创意！",
+    "created_at": "2025-12-17T13:50:03.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 112,
+      "impression_count": 112
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "tisch_eins"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001288412796752059",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "这是你的童年吗？\n\n用剪纸艺术再现经典：\n1. 大闹天宫\n2. 宝莲灯\n3. 葫芦娃\n4. 黑猫警长 https://t.co/LsMZKFEjM1",
+    "created_at": "2025-12-17T13:48:34.000Z",
+    "metrics": {
+      "like_count": 28,
+      "retweet_count": 4,
+      "reply_count": 5,
+      "quote_count": 1,
+      "view_count": 3090,
+      "impression_count": 3090
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8YBMb7a0AAgJDs.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8YBMb7a0AAgJDs.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8YBMfkboAAnV4C.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8YBMfkboAAnV4C.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8YBMfpbYAE5bNr.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8YBMfpbYAE5bNr.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8YBMfibgAAbJH4.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8YBMfibgAAbJH4.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001282746430488772",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@XUJWilliam @0x00_Krypt @tisch_eins @dotey 感觉可以八九十年代的哪些动画片都可以来一遍😂",
+    "created_at": "2025-12-17T13:26:03.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 59,
+      "impression_count": 59
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "XUJWilliam"
+        },
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "tisch_eins"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001276811607740919",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@XUJWilliam @0x00_Krypt @tisch_eins @dotey 帅！",
+    "created_at": "2025-12-17T13:02:28.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 154,
+      "impression_count": 154
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "XUJWilliam"
+        },
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "tisch_eins"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001274358191546743",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Adam38363368936 why not? \n\n2000 fo是很不错的里程碑🤓",
+    "created_at": "2025-12-17T12:52:43.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 27,
+      "impression_count": 27
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Adam38363368936"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001264488973230324",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "九色鹿 https://t.co/5sS9xzZT4E",
+    "created_at": "2025-12-17T12:13:30.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 314,
+      "impression_count": 314
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8XrVYab0AIQeZq.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XrVYab0AIQeZq.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8XrbnaasAAlhiO.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XrbnaasAAlhiO.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001262390420414843",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Vincentcharming @0x00_Krypt @Ali_TongyiLab 好漂亮！\n\n可以尝试一下这个，在两斤老师的基础上修改的，可以把任意图片转成剪纸艺术\n\nhttps://t.co/gtKxQsae8Y",
+    "created_at": "2025-12-17T12:05:10.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 34,
+      "impression_count": 34
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/gtKxQsae8Y",
+          "indices": [
+            87,
+            110
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2001259741570576739?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Vincentcharming"
+        },
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "Ali_TongyiLab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001260581131821451",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@rionaifantasy ♥️♥️♥️",
+    "created_at": "2025-12-17T11:57:58.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 34,
+      "impression_count": 34
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "rionaifantasy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001260012761735194",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "宝玉老师早期也做过图片转剪纸的，感觉这中手艺随着大模型进步，可以做得更加精致了。\n\nhttps://t.co/AcM04JUFRn",
+    "created_at": "2025-12-17T11:55:43.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 554,
+      "impression_count": 554
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/AcM04JUFRn",
+          "indices": [
+            42,
+            65
+          ],
+          "display_url": "x.com/dotey/status/1…",
+          "expanded_url": "https://x.com/dotey/status/1910144766978687355?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001259741570576739",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "用剪纸艺术来复现敦煌的飞天壁画\n\n剪纸艺术太美了，第一眼就惊到了。\n\n感谢两斤老师@0x00_Krypt，我把他的提示词进行了简单修改，简单的贴上一张敦煌飞天壁画照片，就可以自动地用剪纸风格将其重现！\n\n---\n提示词（英文见第一张图的ALT）：\n\n基于上传图片中的敦煌飞天主题，创作一个充满活力且现代的3D分层剪纸透视场景。使用色彩鲜艳、高饱和度的哑光艺术纸层层堆叠，形成分明的物理层次，营造出一个生动、清新的画面，没有任何陈旧或做旧的效果。每一个元素（人物、飘带、云朵、花卉）都是边缘干净利落的模切层。深邃的投射阴影增强了“隧道书”般的纵深感。配色方案采用纯净、明亮的蓝色、红色、金色、绿色和白色的丰富光谱。现代摄影棚布光突显了纸张的纹理与阴影。8k分辨率，Octane渲染。",
+    "created_at": "2025-12-17T11:54:38.000Z",
+    "metrics": {
+      "like_count": 88,
+      "retweet_count": 20,
+      "reply_count": 7,
+      "quote_count": 2,
+      "view_count": 16487,
+      "impression_count": 16487
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8Xhs9va4AY4vzn.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8Xhs9va4AY4vzn.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8XhZCxbYAAOMxF.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XhZCxbYAAOMxF.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8XhgK-a4AEpSRb.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XhgK-a4AEpSRb.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8XhkcXaIAA_viA.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XhkcXaIAA_viA.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0x00_Krypt"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001258396180500939",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@LocalGhost97665 我对好东西从来都是不吝好评的\n\nYou deserve it!",
+    "created_at": "2025-12-17T11:49:17.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 22,
+      "impression_count": 22
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LocalGhost97665"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001257868839018966",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@LocalGhost97665 Come on! 希望你不用花很久，我很菜的🤣",
+    "created_at": "2025-12-17T11:47:12.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 16,
+      "impression_count": 16
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LocalGhost97665"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001257686080622848",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@aidavid125 是否可以让它先梳理一下不同时期的建筑名称与风格，然后再基于此生成图片呢？",
+    "created_at": "2025-12-17T11:46:28.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 11,
+      "impression_count": 11
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "aidavid125"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001257396602331516",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@aidavid125 不知道是不是我的错觉。大模型对各种高塔经常傻傻分不清，即便它们很出名。我今天早上就被热毛了😂😂😂",
+    "created_at": "2025-12-17T11:45:19.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 11,
+      "impression_count": 11
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "aidavid125"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001257021694447813",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@LocalGhost97665 It's my honor!",
+    "created_at": "2025-12-17T11:43:50.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 30,
+      "impression_count": 30
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LocalGhost97665"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001256729187852423",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@aidavid125 不过东方明珠为什么会被放在那么靠后的位置🤣",
+    "created_at": "2025-12-17T11:42:40.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 24,
+      "impression_count": 24
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "aidavid125"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001256532797989332",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@aidavid125 太帅了！",
+    "created_at": "2025-12-17T11:41:53.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 62,
+      "impression_count": 62
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "aidavid125"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001248189660434670",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Vincentcharming @0x00_Krypt @Ali_TongyiLab 各种民间手艺都能被AI融入进来，太棒了!",
+    "created_at": "2025-12-17T11:08:44.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 13,
+      "impression_count": 13
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Vincentcharming"
+        },
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "Ali_TongyiLab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001247110419878117",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Jackywine @MuskElon520000 https://t.co/RKvj5FBJbn",
+    "created_at": "2025-12-17T11:04:27.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 15,
+      "impression_count": 15
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8XbowebYAAKrj0.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XbowebYAAKrj0.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Jackywine"
+        },
+        {
+          "username": "MuskElon520000"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001246495010701646",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "纽约冬天，中央公园的盛夏 https://t.co/FMjWhGtnbx",
+    "created_at": "2025-12-17T11:02:00.000Z",
+    "metrics": {
+      "like_count": 13,
+      "retweet_count": 0,
+      "reply_count": 3,
+      "quote_count": 0,
+      "view_count": 1735,
+      "impression_count": 1735
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8W_iqjb0AAzT9u.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W_iqjb0AAzT9u.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8W_sXubwAAz3dA.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W_sXubwAAz3dA.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001234699470151811",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@0x00_Krypt @Ali_TongyiLab 哈哈，共同进步！",
+    "created_at": "2025-12-17T10:15:08.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 15,
+      "impression_count": 15
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0x00_Krypt"
+        },
+        {
+          "username": "Ali_TongyiLab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001233403169984598",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "两斤老师太有创意了，被翻牌子，略羡慕。\n\n好快，一晃，马年就要到了😱😱😱 https://t.co/pm3BYwVY9h",
+    "created_at": "2025-12-17T10:09:59.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 3,
+      "quote_count": 0,
+      "view_count": 310,
+      "impression_count": 310
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8XPF44a4AIi-4o.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XPF44a4AIi-4o.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8XPF42bYAAJnfQ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XPF42bYAAJnfQ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001230012239003992",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@0x00_Krypt 赶紧转发, 发表获奖感言（😜😜😜）",
+    "created_at": "2025-12-17T09:56:30.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 17,
+      "impression_count": 17
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0x00_Krypt"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001225408369328564",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@0x00_Krypt wow 上电视了\nhttps://t.co/4k70AqcAsa",
+    "created_at": "2025-12-17T09:38:12.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 121,
+      "impression_count": 121
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/4k70AqcAsa",
+          "indices": [
+            21,
+            44
+          ],
+          "display_url": "x.com/Ali_TongyiLab/…",
+          "expanded_url": "https://x.com/Ali_TongyiLab/status/2001219163293925821?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0x00_Krypt"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001220048061411822",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@EmpireStateBldg New York in winter &amp; Central Park in summer https://t.co/JfyPacZy7w",
+    "created_at": "2025-12-17T09:16:54.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 93,
+      "impression_count": 93
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8XC6hya4AAcwM1.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XC6hya4AAcwM1.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "EmpireStateBldg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001218554255794244",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Jackywine 太棒了，感谢Fenng老师为专业赐名🤣 https://t.co/5eTPtQrEKh",
+    "created_at": "2025-12-17T09:10:58.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 283,
+      "impression_count": 283
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8XBcWDa4AABuVZ.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8XBcWDa4AABuVZ.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Jackywine"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001217051411582998",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@lijiuer92 🤣🤣🤣\n\n我也经常感到尴尬...",
+    "created_at": "2025-12-17T09:05:00.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 9,
+      "impression_count": 9
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "lijiuer92"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001210461833060416",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@lijiuer92 @pamvonhadder 这个如何？ https://t.co/5I61ISf91b",
+    "created_at": "2025-12-17T08:38:49.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 29,
+      "impression_count": 29
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8W6Sg4aQAAHd17.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W6Sg4aQAAHd17.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "lijiuer92"
+        },
+        {
+          "username": "pamvonhadder"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001210318748574013",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "被吐槽像汽车后视镜了。换几个滤镜（手持的夏季矩形滤镜，无手持的横向矩形秋季滤镜 https://t.co/DP8TPg8t5V",
+    "created_at": "2025-12-17T08:38:15.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 172,
+      "impression_count": 172
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8W472zaIAAXh6f.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W472zaIAAXh6f.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8W6B3-aoAA7dDb.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W6B3-aoAA7dDb.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001207954440130644",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "穿越时空的滤镜，更多的玩法！\n\n对雪天纽约中央公园的照片，前景置于图中的桥梁部分，使用夏季滤镜进行渲染，即可实现跨越季节的对照。 https://t.co/NcuTTfJYcf",
+    "created_at": "2025-12-17T08:28:51.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 469,
+      "impression_count": 469
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8W3StqbQAA1nwm.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W3StqbQAA1nwm.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8W3XQ-a4AE02X7.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W3XQ-a4AE02X7.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2001206882153726400",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@pamvonhadder Maybe it's the bridge in summer https://t.co/VHRTHg9P9Y",
+    "created_at": "2025-12-17T08:24:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 253,
+      "impression_count": 253
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8W29xPaYAAacqy.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8W29xPaYAAacqy.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "pamvonhadder"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2001203822128173392",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@Rain10688 @manofmatch2023 回头试一下。其实主体是英语，剩下的是我自己加的，直接输入中文",
+    "created_at": "2025-12-17T08:12:26.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 36,
+      "impression_count": 36
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Rain10688"
+        },
+        {
+          "username": "manofmatch2023"
+        }
+      ]
+    }
+  }
+]
