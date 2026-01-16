@@ -4,109 +4,11 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://henripogatrain.github.io/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Jan 2026 16:54:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jan 2026 17:00:30 GMT</lastBuildDate>
         <atom:link href="https://henripogatrain.github.io/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 Jan 2026 16:54:09 GMT</pubDate>
+        <pubDate>Fri, 16 Jan 2026 17:00:30 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
-        <item>
-            <title><![CDATA[博客网站开发与重构回顾]]></title>
-            <description><![CDATA[回顾过去三天的网站重构工作，总结从雏形搭建到功能完善的完整过程，分享AI辅助开发的体验和未来渐进式迭代策略。]]></description>
-            <link>https://henripogatrain.github.io/alpacanotes/posts/website-refactor-2026</link>
-            <guid isPermaLink="false">https://henripogatrain.github.io/alpacanotes/posts/website-refactor-2026</guid>
-            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
-            <pubDate>Sat, 17 Jan 2026 00:00:00 GMT</pubDate>
-            <content:encoded>&lt;p&gt;过去三天，我开发了一个极简的博客网站，并对之前的网站(Linguista.cn)集中进行了一次完整的博客网站重构工作。&lt;/p&gt;
-&lt;p&gt;博客网站的开发是受纳瓦尔博客启发，从开始搭建雏形，到逐步完善功能模块，再到最后的UI美化增强，整个过程充满了挑战与收获。&lt;/p&gt;
-&lt;p&gt;这次重构让我重新审视了网站的定位——轻量化、美观、高效，并探索出了一条以人为主导、AI辅助的开发模式。我计划通过渐进式迭代，不断地推进网站的完善。&lt;/p&gt;
-&lt;h2 id=&quot;博客网站开发与重构回顾要点总结&quot;&gt;《博客网站开发与重构回顾》要点总结&lt;/h2&gt;
-&lt;h3 id=&quot;时间线&quot;&gt;时间线&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;过去三天&lt;/strong&gt;集中进行网站重构工作&lt;/p&gt;
-&lt;h3 id=&quot;主要工作&quot;&gt;主要工作&lt;/h3&gt;
-&lt;h4 id=&quot;第一天网站雏形搭建&quot;&gt;第一天：网站雏形搭建&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;受纳瓦尔博客启发,决定复刻一个&lt;strong&gt;简洁的博客&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;期望对备份的推文有更好的管理体验&lt;/li&gt;
-&lt;li&gt;使用 &lt;strong&gt;Windsurf + Gemini 3 Pro&lt;/strong&gt; 开发&lt;/li&gt;
-&lt;li&gt;效果惊人,一次基本完成雏形&lt;/li&gt;
-&lt;li&gt;复用之前网站的配置,效率很高&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;第二天功能完善&quot;&gt;第二天：功能完善&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;完善网站各功能模块&lt;/li&gt;
-&lt;li&gt;思考网站定位:&lt;strong&gt;轻量化、美观、高效&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;避免之前博客臃肿、维护困难的问题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;第三天美化增强&quot;&gt;第三天：美化增强&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;优化文章目录呈现效果&lt;/li&gt;
-&lt;li&gt;新增&lt;strong&gt;Topics&lt;/strong&gt;模块&lt;/li&gt;
-&lt;li&gt;添加&lt;strong&gt;RSS订阅功能&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;新网站核心功能&quot;&gt;新网站核心功能&lt;/h3&gt;
-&lt;h4 id=&quot;文章更新&quot;&gt;文章更新&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;以人为主导、AI辅助&lt;/strong&gt;的创作模式&lt;/li&gt;
-&lt;li&gt;区别于纯AI生成或搬运的内容&lt;/li&gt;
-&lt;li&gt;主要发布原创性文章&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;推文备份管理&quot;&gt;推文备份管理&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;下载推文JSON格式数据&lt;/li&gt;
-&lt;li&gt;通过程序直接生成网页(避免转Markdown的性能问题)&lt;/li&gt;
-&lt;li&gt;添加时间轴导航&lt;/li&gt;
-&lt;li&gt;用于&lt;strong&gt;回顾和本地检索&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;推文数量多(几千条)时有性能问题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;并行重构项目&quot;&gt;并行重构项目&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Linguista网站重构&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;激进式重构:移除冗余CSS,改用&lt;strong&gt;Tailwind&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;备份原代码库,在新代码库中修改&lt;/li&gt;
-&lt;li&gt;完成后替换原基础设施&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;未来策略&quot;&gt;未来策略&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;渐进式迭代&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;避免集中大修改&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;每天修复1-2个bug&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;逐步完善,长期优化&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;核心理念&lt;/strong&gt;:轻量化、高效、AI辅助开发、渐进式演进&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;原文口述转录&quot;&gt;原文(口述转录)&lt;/h2&gt;
-&lt;p&gt;我现在需要回顾一下过去三天的时间，主要是对我的网站进行重构。&lt;/p&gt;
-&lt;p&gt;前天的下午，我在浏览纳瓦尔的博客后，决定复刻一下他的博客。不过，随后我去骑车了，回来的时候已经大概十点多。纳瓦尔的博客网站非常简洁，我也需要一个比较简洁的网站，于是我用 windsurf 进行了复刻。我调用了 Gemini 3 Pro，效果好得让我震惊，只花了一次就基本完成了网站雏形的搭建。当然，也不是完全一次完成的，因为我之前做过几个网站，我让 AI 直接把之前网站的一些配置搬过来，进行了重新整理，效率非常高。&lt;/p&gt;
-&lt;p&gt;做完这些事情后，接下来要做的就是丰富网站内容。这是第二天的工作。第二天，我基本上完善了网站的不同功能模块，整体做得比较完善。这个时候我开始思考网站的定位，主要是提升页面展示效果，让它看起来更好看，同时还需要保持轻量化。因为我之前有一个比较大的博客网站，那个网站非常臃肿，内容太多了。&lt;/p&gt;
-&lt;p&gt;一方面，另一方面是我实在没怎么维护它，它原来的性能也是越来越差。我希望这个新的网站能够比较高效。&lt;/p&gt;
-&lt;p&gt;对这个网站，我的期望是：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;首先用来更新我的文章，我自己写的文章。现在很难不去用AI来写，但是以自己为主导、以AI为辅助的创作，可能也非常有价值，至少对自己来说这是非常重要的事情。这个博客网站将会主要更新这一类的文章。那些直接由AI生成或搬运的文章，我会放到其他地方。当然，这些东西也有价值。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;另一个期望是让它进行一些推文备份的管理。我会每隔几天把推文下载下来，然后用AI来进行整理。实际上是用这个网站来进行整理。我下载下来的是JSON格式的文档，它是一个格式非常严格的内容。我在几个月前曾尝试过把它转成Markdown格式，但这种格式的文件非常大，打开Markdown后基本上没办法进行任何操作。于是我就想到，为什么不直接把这些JSON原始数据放到一个文件夹里，然后通过编写程序让它直接生成网页内容。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;后来发现这条路非常可行且高效。我对推文页面进行了一些管控，增加了导航式功能，例如时间轴显示。在过去一段时间里，我每天都会更新推文，效果非常不错。当然，因为推文数量较多，可能有几千条，整个页面在加载过程中还是会比较卡，内存占用在加载较多内容时也非常高。不过，这项工作主要是自己使用，用于回顾或方便进行本地检索，以了解自己之前写的内容，觉得还是很有帮助。&lt;/p&gt;
-&lt;p&gt;这是我新建网站的两大功能。当然，在这3天的时间里，尤其是在今天，我又想到并增加了一些效果和美化的功能。例如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;对于文章目录，可以使用一些比较漂亮的效果来呈现。从效果上看，我还是比较满意的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;我还增加了一个&quot;topics&quot;模块，可以把自己想做的事情放到网站上。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最后还增加了RSS订阅功能。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这些是今天做的。在做这个网站的间隙，我从昨天下午到今天上午，也把我之前的那个&quot;linguista&quot;网站进行了一些更新。&lt;/p&gt;
-&lt;p&gt;重构的过程比较激进。因为我觉得代码还比较臃肿，于是就让AI提了一些建议。AI建议我把一些多余的、自己额外添加的CSS去掉。因为这些东西太多了，而且它们内部的逻辑存在很多冲突。于是我把所有的样式都改用了Tailwind，这样就可以更轻松、更高效地实现视觉效果。&lt;/p&gt;
-&lt;p&gt;这个做法确实非常有建设性。我昨天一晚上就基本上对这个博客网站进行了最初步的重构。当然，重构之后的结果是，网站很多之前堆砌出来的功能变得比较混乱了。于是，我把之前的网站备份了，然后在一个新的代码库中进行修改。&lt;/p&gt;
-&lt;p&gt;到了今天上午，我终于把这个网站实现了比较完善的重构。然后，我又用当前的这个新代码库替换掉了之前的库，以它作为网站的基础设施。&lt;/p&gt;
-&lt;p&gt;这个网站后续还需要迭代，要做的工作还挺多，我想我还需要花费很大的精力。但是，我不希望再进行这种非常专注的、集中的大修改了。我希望的策略是每天修复一两个bug，久而久之，逐渐迭代，逐渐地把这个网站做得比较完善。&lt;/p&gt;</content:encoded>
-        </item>
         <item>
             <title><![CDATA[网站重构过程中AI工具的体验]]></title>
             <description><![CDATA[分享在网站开发与重构过程中使用AI工具的实战经验，对比Gemini与GPT的差异，探讨大上下文窗口在复杂项目中的应用价值。]]></description>
@@ -207,6 +109,104 @@
 &lt;p&gt;现在我的感觉是，AI在这几个月的进步非常明显。我在一个多月之前搞过一个网站，但那个时候Gemini的稳定性还没有现在这么强。&lt;/p&gt;
 &lt;p&gt;有可能是 Windsurf 当时没有对 Gemini 有这么好的优化，但是现在它的优化已经非常好了。Gemini 的工作能够对一些问题具有非常坚韧的修复能力，能够把一些工作做得非常到位。当然 GPT 也是，只不过现在它已经不像之前对于 Gemini 有那么明显的优势优越感。它在修 Bug 上，我感觉进步已经非常可观了。这就给我的感觉是 AI 的迭代太快了。&lt;/p&gt;
 &lt;p&gt;这样的话，我对于一些网站，比如说我的网站，我希望能够持续进行更新。那我就不需要考虑很多问题，我只需要每一次有 AI 新模型迭代的时候，我就把我的网站进行一些重构。我觉得这样也是一件挺愉快的事情，而且工作量并不大。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[博客网站开发与重构回顾]]></title>
+            <description><![CDATA[回顾过去三天的网站重构工作，总结从雏形搭建到功能完善的完整过程，分享AI辅助开发的体验和未来渐进式迭代策略。]]></description>
+            <link>https://henripogatrain.github.io/alpacanotes/posts/website-refactor-2026</link>
+            <guid isPermaLink="false">https://henripogatrain.github.io/alpacanotes/posts/website-refactor-2026</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sat, 17 Jan 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;过去三天，我开发了一个极简的博客网站，并对之前的网站(Linguista.cn)集中进行了一次完整的博客网站重构工作。&lt;/p&gt;
+&lt;p&gt;博客网站的开发是受纳瓦尔博客启发，从开始搭建雏形，到逐步完善功能模块，再到最后的UI美化增强，整个过程充满了挑战与收获。&lt;/p&gt;
+&lt;p&gt;这次重构让我重新审视了网站的定位——轻量化、美观、高效，并探索出了一条以人为主导、AI辅助的开发模式。我计划通过渐进式迭代，不断地推进网站的完善。&lt;/p&gt;
+&lt;h2 id=&quot;博客网站开发与重构回顾要点总结&quot;&gt;《博客网站开发与重构回顾》要点总结&lt;/h2&gt;
+&lt;h3 id=&quot;时间线&quot;&gt;时间线&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;过去三天&lt;/strong&gt;集中进行网站重构工作&lt;/p&gt;
+&lt;h3 id=&quot;主要工作&quot;&gt;主要工作&lt;/h3&gt;
+&lt;h4 id=&quot;第一天网站雏形搭建&quot;&gt;第一天：网站雏形搭建&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;受纳瓦尔博客启发,决定复刻一个&lt;strong&gt;简洁的博客&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;期望对备份的推文有更好的管理体验&lt;/li&gt;
+&lt;li&gt;使用 &lt;strong&gt;Windsurf + Gemini 3 Pro&lt;/strong&gt; 开发&lt;/li&gt;
+&lt;li&gt;效果惊人,一次基本完成雏形&lt;/li&gt;
+&lt;li&gt;复用之前网站的配置,效率很高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;第二天功能完善&quot;&gt;第二天：功能完善&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;完善网站各功能模块&lt;/li&gt;
+&lt;li&gt;思考网站定位:&lt;strong&gt;轻量化、美观、高效&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;避免之前博客臃肿、维护困难的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;第三天美化增强&quot;&gt;第三天：美化增强&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;优化文章目录呈现效果&lt;/li&gt;
+&lt;li&gt;新增&lt;strong&gt;Topics&lt;/strong&gt;模块&lt;/li&gt;
+&lt;li&gt;添加&lt;strong&gt;RSS订阅功能&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;新网站核心功能&quot;&gt;新网站核心功能&lt;/h3&gt;
+&lt;h4 id=&quot;文章更新&quot;&gt;文章更新&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;以人为主导、AI辅助&lt;/strong&gt;的创作模式&lt;/li&gt;
+&lt;li&gt;区别于纯AI生成或搬运的内容&lt;/li&gt;
+&lt;li&gt;主要发布原创性文章&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;推文备份管理&quot;&gt;推文备份管理&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;下载推文JSON格式数据&lt;/li&gt;
+&lt;li&gt;通过程序直接生成网页(避免转Markdown的性能问题)&lt;/li&gt;
+&lt;li&gt;添加时间轴导航&lt;/li&gt;
+&lt;li&gt;用于&lt;strong&gt;回顾和本地检索&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;推文数量多(几千条)时有性能问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;并行重构项目&quot;&gt;并行重构项目&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Linguista网站重构&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;激进式重构:移除冗余CSS,改用&lt;strong&gt;Tailwind&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;备份原代码库,在新代码库中修改&lt;/li&gt;
+&lt;li&gt;完成后替换原基础设施&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;未来策略&quot;&gt;未来策略&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;渐进式迭代&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;避免集中大修改&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;每天修复1-2个bug&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;逐步完善,长期优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;核心理念&lt;/strong&gt;:轻量化、高效、AI辅助开发、渐进式演进&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;原文口述转录&quot;&gt;原文(口述转录)&lt;/h2&gt;
+&lt;p&gt;我现在需要回顾一下过去三天的时间，主要是对我的网站进行重构。&lt;/p&gt;
+&lt;p&gt;前天的下午，我在浏览纳瓦尔的博客后，决定复刻一下他的博客。不过，随后我去骑车了，回来的时候已经大概十点多。纳瓦尔的博客网站非常简洁，我也需要一个比较简洁的网站，于是我用 windsurf 进行了复刻。我调用了 Gemini 3 Pro，效果好得让我震惊，只花了一次就基本完成了网站雏形的搭建。当然，也不是完全一次完成的，因为我之前做过几个网站，我让 AI 直接把之前网站的一些配置搬过来，进行了重新整理，效率非常高。&lt;/p&gt;
+&lt;p&gt;做完这些事情后，接下来要做的就是丰富网站内容。这是第二天的工作。第二天，我基本上完善了网站的不同功能模块，整体做得比较完善。这个时候我开始思考网站的定位，主要是提升页面展示效果，让它看起来更好看，同时还需要保持轻量化。因为我之前有一个比较大的博客网站，那个网站非常臃肿，内容太多了。&lt;/p&gt;
+&lt;p&gt;一方面，另一方面是我实在没怎么维护它，它原来的性能也是越来越差。我希望这个新的网站能够比较高效。&lt;/p&gt;
+&lt;p&gt;对这个网站，我的期望是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先用来更新我的文章，我自己写的文章。现在很难不去用AI来写，但是以自己为主导、以AI为辅助的创作，可能也非常有价值，至少对自己来说这是非常重要的事情。这个博客网站将会主要更新这一类的文章。那些直接由AI生成或搬运的文章，我会放到其他地方。当然，这些东西也有价值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;另一个期望是让它进行一些推文备份的管理。我会每隔几天把推文下载下来，然后用AI来进行整理。实际上是用这个网站来进行整理。我下载下来的是JSON格式的文档，它是一个格式非常严格的内容。我在几个月前曾尝试过把它转成Markdown格式，但这种格式的文件非常大，打开Markdown后基本上没办法进行任何操作。于是我就想到，为什么不直接把这些JSON原始数据放到一个文件夹里，然后通过编写程序让它直接生成网页内容。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;后来发现这条路非常可行且高效。我对推文页面进行了一些管控，增加了导航式功能，例如时间轴显示。在过去一段时间里，我每天都会更新推文，效果非常不错。当然，因为推文数量较多，可能有几千条，整个页面在加载过程中还是会比较卡，内存占用在加载较多内容时也非常高。不过，这项工作主要是自己使用，用于回顾或方便进行本地检索，以了解自己之前写的内容，觉得还是很有帮助。&lt;/p&gt;
+&lt;p&gt;这是我新建网站的两大功能。当然，在这3天的时间里，尤其是在今天，我又想到并增加了一些效果和美化的功能。例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;对于文章目录，可以使用一些比较漂亮的效果来呈现。从效果上看，我还是比较满意的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我还增加了一个&quot;topics&quot;模块，可以把自己想做的事情放到网站上。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后还增加了RSS订阅功能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些是今天做的。在做这个网站的间隙，我从昨天下午到今天上午，也把我之前的那个&quot;linguista&quot;网站进行了一些更新。&lt;/p&gt;
+&lt;p&gt;重构的过程比较激进。因为我觉得代码还比较臃肿，于是就让AI提了一些建议。AI建议我把一些多余的、自己额外添加的CSS去掉。因为这些东西太多了，而且它们内部的逻辑存在很多冲突。于是我把所有的样式都改用了Tailwind，这样就可以更轻松、更高效地实现视觉效果。&lt;/p&gt;
+&lt;p&gt;这个做法确实非常有建设性。我昨天一晚上就基本上对这个博客网站进行了最初步的重构。当然，重构之后的结果是，网站很多之前堆砌出来的功能变得比较混乱了。于是，我把之前的网站备份了，然后在一个新的代码库中进行修改。&lt;/p&gt;
+&lt;p&gt;到了今天上午，我终于把这个网站实现了比较完善的重构。然后，我又用当前的这个新代码库替换掉了之前的库，以它作为网站的基础设施。&lt;/p&gt;
+&lt;p&gt;这个网站后续还需要迭代，要做的工作还挺多，我想我还需要花费很大的精力。但是，我不希望再进行这种非常专注的、集中的大修改了。我希望的策略是每天修复一两个bug，久而久之，逐渐迭代，逐渐地把这个网站做得比较完善。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[AI与医疗：效率与理解力的博弈]]></title>
@@ -478,34 +478,6 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
 &lt;/ul&gt;</content:encoded>
         </item>
         <item>
-            <title><![CDATA[《暗淡蓝点》读后记]]></title>
-            <description><![CDATA[在浩瀚宇宙中，地球只是微不足道的一粒尘埃。然而，正是这颗“暗淡蓝点”，承载了人类全部的历史与情感。]]></description>
-            <link>https://henripogatrain.github.io/alpacanotes/posts/pale-blue-dot-review</link>
-            <guid isPermaLink="false">https://henripogatrain.github.io/alpacanotes/posts/pale-blue-dot-review</guid>
-            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
-            <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
-            <content:encoded>&lt;p&gt;在浩瀚宇宙中，地球只是微不足道的一粒尘埃。然而，正是这颗“暗淡蓝点”，承载了人类全部的历史与情感。本文将从科学与人文的视角，分享我对卡尔·萨根《暗淡蓝点》一书的阅读体会，探讨我们在宇宙中的位置与意义。&lt;/p&gt;
-&lt;p&gt;卡尔·萨根去世于1996年，那时我还很小。几年后，在一本少儿科普读物中看到缅怀他的文章，于是他也成了我小学时记住的为数不多的几位外国科学家之一。&lt;/p&gt;
-&lt;p&gt;中学时读过《日本平家蟹》，当时阅读能力有限，没能理解文章背后的思想。不喜欢那种娓娓道来的叙述方式，更不喜欢那些虾啊蟹啊之类的事物。大学时，纪录片《宇宙》真正把我带进了科学殿堂，对“平家蟹”的疑惑也得以解开。&lt;/p&gt;
-&lt;p&gt;“平家蟹”揭示了一种造型上类似于日本武士的蟹类，被当地渔民认为是随平家沉入海底的武士们的化身。但卡尔·萨根告诉我们，当地渔民捞到长相与武士神似的螃蟹后会将其放生，以表达对平家武士的缅怀。久而久之，这类螃蟹的种群就繁衍壮大——本质上，这是一种“人工选择”（也可以说是经人之手的“自然选择”）。平家蟹的故事让我开始掌握用科学视角理解自然现象的技巧。&lt;/p&gt;
-&lt;p&gt;年轻时喜欢科学视角，却更沉迷于宏大叙事。毕竟，煌煌大国，数千年绵长文明，沧海横流与歌舞升平交织的历史，总让人热血澎湃。然而，后来发现，当宏大叙事照进日常生活时，总感觉有些不协调。这很正常，毕竟历史中最不起眼的人名，在当时恐怕都是显赫一时的人物，而我们在历史长河中不过是注定被遗忘的一颗水滴或一粒沙尘。&lt;/p&gt;
-&lt;p&gt;后来，在一个播客节目中，听到主播朗读《暗淡蓝点》中的那段文字，那种蓦然回首的动人瞬间在脑海中再也挥之不去：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“再看看那个光点，它就在这里。这是家园，这是我们。你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在它的上面度过他们的一生。我们的欢乐与痛苦聚集在一起。数以千计的自以为是的宗教、意识形态和经济学说，每一个猎人与采集者，每一个英雄与懦夫，每一个文明的缔造者与毁灭者，每一个国王与农夫，每一对年轻爱侣，每一个母亲和父亲，每一个满怀希望的孩子，每一个发明家和探险家，每一个德高望重的教师，每一个腐败的政客，每一个‘超级明星’，每一个‘最高领导者’，人类历史上的每一个圣人与罪犯，都生活在这里——一粒悬浮在太阳光中的细小尘埃。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这是“旅行者一号”的视角，也是科学探索者的视角。这个世界上，总有不少野心家吹嘘自己滔天的权势与不朽的功绩，但在宇宙之中，他所在乎的一切不过是某一尘埃之上瞬息之间的“自我感觉良好的错觉”。&lt;/p&gt;
-&lt;p&gt;我们绝大多数人，在这个充斥着拥堵与摩擦的人世间，也常感慨生活的乏味与人性的险恶。但在宇宙尺度下，这种体验既不见得比微生物的冲撞与摩擦更高级，也不见得比王侯将相的自我陶醉更卑微。在这个被假象与真实反复折叠的世界里，开心也好，压抑也罢，都不过是人在与自然互动中产生的生理反应。当我们代入“旅行者一号”的视角，这些纷繁复杂的情感体验与生理反应在空间上的局域性以及在时间上的有限性都不超过那个暗淡的蓝点。&lt;/p&gt;
-&lt;p&gt;自从人类发现了科学的用处，就再也无法压抑对太空的向往。齐奥尔科夫斯基说：“地球是人类的摇篮，但人类不可能永远生活在摇篮里。”然而，当人类终于能够跳出自己的摇篮，回望浩瀚星海中的暗淡蓝点时，又茫然发现这广袤宇宙中再也找不到另一个家园。或许这一百多年对宇宙的探索，最有价值的结论就是：“人类不可能永远生活在摇篮里，但是地球——那个人类的摇篮，是唯一一个能够长期包容人类的家园。”&lt;/p&gt;
-&lt;p&gt;就像每一个在悸动的青春时代勇敢离家出走的孩子，终究会发现故乡是唯一让自己牵肠挂肚的地方；就像每一个攒够了钱等到假期的城市居民，当他们终于抵达魂牵梦绕的旅游景点时，发现自己可能更想回家躺着。&lt;/p&gt;
-&lt;p&gt;一个人对社会了解越多，越感觉自己的有限；对世界了解得越多，越对自然存敬畏之心。科学的价值大抵如此——它可能没办法帮人类打造一个天堂，但它可以让人类更充分地认识自己。&lt;/p&gt;
-&lt;p&gt;当我们把视角从“旅行者一号”拉回到地球家园，会发现自己虽然渺小，但拥有丰富的感知能力。一草一木、一花一叶、一缕阳光、一口空气，都足以在某个微小瞬间滋养精神世界。地球虽不过是诸多星球中不算特别的一个，但却足以让数十亿人类倾其所有去感受其万千气象。&lt;/p&gt;
-&lt;p&gt;我们无需纠结于自己是否会青史留名，因为有些东西不过是某些特权群体为了塑造对自己有利的“共同意识”选择性编排的故事合集。我们可以在有限的认知范围内质疑其准确性，但终究没有解释权。&lt;/p&gt;
-&lt;p&gt;但我们每个人，在人类视角中伟大也好渺小也罢，都拥有一个更加鲜活、更有温度的小世界。我们经历的每个瞬间都是真实的，仔细品来也常能感受到其精彩。将这些真实与精彩进行抽象整理，或许就会发现科学蕴藏其中，或许生活中的真理远比宏大叙述中的要丰富得多。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本文写于2024年11月30日&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded>
-        </item>
-        <item>
             <title><![CDATA[《牛顿传》读后记]]></title>
             <description><![CDATA[在阅读《牛顿传》之前，我对牛顿的印象还停留在课本和科普故事中。带着对这位科学巨匠的好奇，我试图通过这本传记，重新认识牛顿的真实人生与复杂性格。]]></description>
             <link>https://henripogatrain.github.io/alpacanotes/posts/newton_biography_review</link>
@@ -540,6 +512,34 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
 &lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本文写于2025年1月17日&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[《暗淡蓝点》读后记]]></title>
+            <description><![CDATA[在浩瀚宇宙中，地球只是微不足道的一粒尘埃。然而，正是这颗“暗淡蓝点”，承载了人类全部的历史与情感。]]></description>
+            <link>https://henripogatrain.github.io/alpacanotes/posts/pale-blue-dot-review</link>
+            <guid isPermaLink="false">https://henripogatrain.github.io/alpacanotes/posts/pale-blue-dot-review</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;在浩瀚宇宙中，地球只是微不足道的一粒尘埃。然而，正是这颗“暗淡蓝点”，承载了人类全部的历史与情感。本文将从科学与人文的视角，分享我对卡尔·萨根《暗淡蓝点》一书的阅读体会，探讨我们在宇宙中的位置与意义。&lt;/p&gt;
+&lt;p&gt;卡尔·萨根去世于1996年，那时我还很小。几年后，在一本少儿科普读物中看到缅怀他的文章，于是他也成了我小学时记住的为数不多的几位外国科学家之一。&lt;/p&gt;
+&lt;p&gt;中学时读过《日本平家蟹》，当时阅读能力有限，没能理解文章背后的思想。不喜欢那种娓娓道来的叙述方式，更不喜欢那些虾啊蟹啊之类的事物。大学时，纪录片《宇宙》真正把我带进了科学殿堂，对“平家蟹”的疑惑也得以解开。&lt;/p&gt;
+&lt;p&gt;“平家蟹”揭示了一种造型上类似于日本武士的蟹类，被当地渔民认为是随平家沉入海底的武士们的化身。但卡尔·萨根告诉我们，当地渔民捞到长相与武士神似的螃蟹后会将其放生，以表达对平家武士的缅怀。久而久之，这类螃蟹的种群就繁衍壮大——本质上，这是一种“人工选择”（也可以说是经人之手的“自然选择”）。平家蟹的故事让我开始掌握用科学视角理解自然现象的技巧。&lt;/p&gt;
+&lt;p&gt;年轻时喜欢科学视角，却更沉迷于宏大叙事。毕竟，煌煌大国，数千年绵长文明，沧海横流与歌舞升平交织的历史，总让人热血澎湃。然而，后来发现，当宏大叙事照进日常生活时，总感觉有些不协调。这很正常，毕竟历史中最不起眼的人名，在当时恐怕都是显赫一时的人物，而我们在历史长河中不过是注定被遗忘的一颗水滴或一粒沙尘。&lt;/p&gt;
+&lt;p&gt;后来，在一个播客节目中，听到主播朗读《暗淡蓝点》中的那段文字，那种蓦然回首的动人瞬间在脑海中再也挥之不去：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“再看看那个光点，它就在这里。这是家园，这是我们。你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在它的上面度过他们的一生。我们的欢乐与痛苦聚集在一起。数以千计的自以为是的宗教、意识形态和经济学说，每一个猎人与采集者，每一个英雄与懦夫，每一个文明的缔造者与毁灭者，每一个国王与农夫，每一对年轻爱侣，每一个母亲和父亲，每一个满怀希望的孩子，每一个发明家和探险家，每一个德高望重的教师，每一个腐败的政客，每一个‘超级明星’，每一个‘最高领导者’，人类历史上的每一个圣人与罪犯，都生活在这里——一粒悬浮在太阳光中的细小尘埃。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是“旅行者一号”的视角，也是科学探索者的视角。这个世界上，总有不少野心家吹嘘自己滔天的权势与不朽的功绩，但在宇宙之中，他所在乎的一切不过是某一尘埃之上瞬息之间的“自我感觉良好的错觉”。&lt;/p&gt;
+&lt;p&gt;我们绝大多数人，在这个充斥着拥堵与摩擦的人世间，也常感慨生活的乏味与人性的险恶。但在宇宙尺度下，这种体验既不见得比微生物的冲撞与摩擦更高级，也不见得比王侯将相的自我陶醉更卑微。在这个被假象与真实反复折叠的世界里，开心也好，压抑也罢，都不过是人在与自然互动中产生的生理反应。当我们代入“旅行者一号”的视角，这些纷繁复杂的情感体验与生理反应在空间上的局域性以及在时间上的有限性都不超过那个暗淡的蓝点。&lt;/p&gt;
+&lt;p&gt;自从人类发现了科学的用处，就再也无法压抑对太空的向往。齐奥尔科夫斯基说：“地球是人类的摇篮，但人类不可能永远生活在摇篮里。”然而，当人类终于能够跳出自己的摇篮，回望浩瀚星海中的暗淡蓝点时，又茫然发现这广袤宇宙中再也找不到另一个家园。或许这一百多年对宇宙的探索，最有价值的结论就是：“人类不可能永远生活在摇篮里，但是地球——那个人类的摇篮，是唯一一个能够长期包容人类的家园。”&lt;/p&gt;
+&lt;p&gt;就像每一个在悸动的青春时代勇敢离家出走的孩子，终究会发现故乡是唯一让自己牵肠挂肚的地方；就像每一个攒够了钱等到假期的城市居民，当他们终于抵达魂牵梦绕的旅游景点时，发现自己可能更想回家躺着。&lt;/p&gt;
+&lt;p&gt;一个人对社会了解越多，越感觉自己的有限；对世界了解得越多，越对自然存敬畏之心。科学的价值大抵如此——它可能没办法帮人类打造一个天堂，但它可以让人类更充分地认识自己。&lt;/p&gt;
+&lt;p&gt;当我们把视角从“旅行者一号”拉回到地球家园，会发现自己虽然渺小，但拥有丰富的感知能力。一草一木、一花一叶、一缕阳光、一口空气，都足以在某个微小瞬间滋养精神世界。地球虽不过是诸多星球中不算特别的一个，但却足以让数十亿人类倾其所有去感受其万千气象。&lt;/p&gt;
+&lt;p&gt;我们无需纠结于自己是否会青史留名，因为有些东西不过是某些特权群体为了塑造对自己有利的“共同意识”选择性编排的故事合集。我们可以在有限的认知范围内质疑其准确性，但终究没有解释权。&lt;/p&gt;
+&lt;p&gt;但我们每个人，在人类视角中伟大也好渺小也罢，都拥有一个更加鲜活、更有温度的小世界。我们经历的每个瞬间都是真实的，仔细品来也常能感受到其精彩。将这些真实与精彩进行抽象整理，或许就会发现科学蕴藏其中，或许生活中的真理远比宏大叙述中的要丰富得多。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文写于2024年11月30日&lt;/p&gt;
 &lt;/blockquote&gt;</content:encoded>
         </item>
         <item>
