@@ -4,16 +4,16 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2026 10:09:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 11:27:43 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 21 Jan 2026 10:09:38 GMT</pubDate>
+        <pubDate>Wed, 21 Jan 2026 11:27:43 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
             <title><![CDATA[关于聂卫平]]></title>
             <description><![CDATA[聂卫平先生离世，我从一个完全不重要的个人视角，回顾一下这位围棋传奇在我心中的印记，借此表示缅怀。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/nie-weiping-from-my-view</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/nie-weiping-from-my-view</guid>
+            <guid isPermaLink="false">article:nie-weiping-from-my-view</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;“棋圣”聂卫平最近去世了。在1月18号举行的告别仪式上，他获得了至高的哀荣。习家和邓家这两个中国&quot;第一家庭&quot;都送来了花圈，社会各界名流人士前来悼念。&lt;/p&gt;
@@ -47,7 +47,7 @@
             <title><![CDATA[网站重构过程中AI工具的体验]]></title>
             <description><![CDATA[分享在网站开发与重构过程中使用AI工具的实战经验，对比Gemini与GPT的差异，探讨大上下文窗口在复杂项目中的应用价值。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/ai-tools-refactor-experience</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/ai-tools-refactor-experience</guid>
+            <guid isPermaLink="false">article:ai-tools-refactor-experience</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 17 Jan 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;在这几天的网站开发与重构过程中，我深度使用了各种AI工具，尤其是Windsurf配合Gemini 3 Pro的组合。这次实战让我对AI辅助开发有了全新的认识，也让我对不同AI模型的特性有了更深入的了解。&lt;/p&gt;
@@ -148,7 +148,7 @@
             <title><![CDATA[博客网站开发与重构回顾]]></title>
             <description><![CDATA[回顾过去三天的网站重构工作，总结从雏形搭建到功能完善的完整过程，分享AI辅助开发的体验和未来渐进式迭代策略。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/website-refactor-2026</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/website-refactor-2026</guid>
+            <guid isPermaLink="false">article:website-refactor-2026</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 17 Jan 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;过去三天，我开发了一个极简的博客网站，并对之前的网站(Linguista.cn)集中进行了一次完整的博客网站重构工作。&lt;/p&gt;
@@ -246,7 +246,7 @@
             <title><![CDATA[AI与医疗：效率与理解力的博弈]]></title>
             <description><![CDATA[在1月10日于香港举行的高山书院十周年论坛上，国家传染病医学中心（上海）主任张文宏教授就 AI 在医疗领域的应用分享了见解。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/AI-and-healthcare-2026-zhang</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/AI-and-healthcare-2026-zhang</guid>
+            <guid isPermaLink="false">article:AI-and-healthcare-2026-zhang</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;h1 id=&quot;ai与医疗效率与理解力的博弈&quot;&gt;AI与医疗：效率与理解力的博弈&lt;/h1&gt;
@@ -338,7 +338,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[为谁创作？——平台、读者or你自己？]]></title>
             <description><![CDATA[很多经验贴都喜欢给萌新创作者灌输一条所谓的金科玉律：'要为用户创造价值。'这句话听起来无可辩驳。然而，当我们深入剖析内容平台的运作机制，就会发现这句箴言不仅不准确——它更是一个陷阱。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/create-for-what</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/create-for-what</guid>
+            <guid isPermaLink="false">article:create-for-what</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;很多经验贴都喜欢给萌新创作者灌输一条所谓的金科玉律：“要为用户创造价值。”这句话听起来无可辩驳。然而，当我们深入剖析内容平台的运作机制，就会发现这句箴言不仅不准确——它更是一个陷阱。&lt;/p&gt;
@@ -363,7 +363,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[抱怨的哲学：当不公遭遇现实]]></title>
             <description><![CDATA[熊老板的观点：抱怨不公很难给自己带来实质性帮助。但抱怨真的毫无价值吗？本文从多个角度深入剖析抱怨的积极作用与社会意义，挑战传统认知。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/about-complain</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/about-complain</guid>
+            <guid isPermaLink="false">article:about-complain</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;&lt;em&gt;熊老板的观点：抱怨不公很难给自己带来实质性帮助&lt;/em&gt;&lt;/p&gt;
@@ -403,7 +403,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[“下沉贴”的爆火与“流量黑洞”中的自嗨]]></title>
             <description><![CDATA[反思X平台上低门槛教程（如注册美区Apple ID和Gmail）的病毒式成功，与高级科技内容的低互动对比，探讨算法陷阱与创作者的孤独感。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/low_tech_guide_post_boom</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/low_tech_guide_post_boom</guid>
+            <guid isPermaLink="false">article:low_tech_guide_post_boom</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/G7f2OVYboAAgLgH.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -436,7 +436,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[关于诺贝尔奖的感想（2025）]]></title>
             <description><![CDATA[一年一度的诺奖颁奖季过半，又是令国人失望的一年。作为一个打小热爱科学的人，我关注这个奖项十多次了，有那么几次挺开心的。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/about-nobel-prize-in-2025</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/about-nobel-prize-in-2025</guid>
+            <guid isPermaLink="false">article:about-nobel-prize-in-2025</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;一年一度的诺奖颁奖季过半，又是令国人失望的一年。作为一个打小热爱科学的人，我关注这个奖项十多次了，有那么几次挺开心的，比如钱永健、高锟、莫言、屠呦呦获奖，衷心地为他们高兴。但是其他年份，尤其是过去十年，心情越发不美丽。本文是我在当下的一些感想，其实也是我与朋友在失望之下的争吵中所达成的某种合理化解读。&lt;/p&gt;
@@ -488,7 +488,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[跑步的记忆]]></title>
             <description><![CDATA[回顾数年跑步训练的片段、节奏、节点与那些与里程绑定的个人记忆。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/memory-of-running</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/memory-of-running</guid>
+            <guid isPermaLink="false">article:memory-of-running</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;我不知道自己喜不喜欢运动，但是在2021年的时候，确实进入了一段跑步的高潮。我在那年的10月份跑了200多公里，一度以为自己要进化成了以为“严肃跑者”，但在月底，我的脚踝受伤了，歇了几个月之后，跑步的习惯没有继续维系下去...&lt;/p&gt;
@@ -498,7 +498,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[代码“劫后余生”:记一场Git灾难与抢救]]></title>
             <description><![CDATA[记一场Git灾难与抢救：代码回滚与 GPT-5-Codex 的救援行动。这次劫后余生的经历，让我深切体会到Git的强大与学习它的必要性。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/git-incident-2025-09-28</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/git-incident-2025-09-28</guid>
+            <guid isPermaLink="false">article:git-incident-2025-09-28</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;经过一天的工作，我昨天配置的博客评论区离奇消失，查找记录时发现更惊悚的事：我近几天的Git提交记录全部失踪，并因一个误操作导致代码回滚到三天前的基础版本，所有后期工作成果瞬间清零。我向 GPT-5-Codex 求救，它立即启动高级Git命令进行抢救。最终，在GPT的指导下，我执行了几行恢复命令，代码起死回生，成功回到了误操作前的状态。这次劫后余生的经历，让我深切体会到Git的强大与学习它的必要性。&lt;/p&gt;
@@ -522,7 +522,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[虽然有点卡，但我喜欢Liquid Glass]]></title>
             <description><![CDATA[更新了一下苹果的系统，先是手机，后是电脑，体验良好。不过接下来需要考虑的可能是更新一下设备，老旧的款式仿佛有点卡。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/Updates-APPLE-Tahoe</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/Updates-APPLE-Tahoe</guid>
+            <guid isPermaLink="false">article:Updates-APPLE-Tahoe</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Fri, 12 Sep 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;更新了一下苹果的系统，先是手机，后是电脑，体验良好。&lt;/p&gt;
@@ -540,7 +540,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[韩信评传：月光下的不世之功与宿命悲歌]]></title>
             <description><![CDATA[在中国历史的长廊中，有些名字的陨落，比其升起更加令人扼腕。韩信，便是其中最耀眼的一位。他的一生，是一场关于天才、机遇与宿命的宏大戏剧。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/the-fate-of-general-han-xin</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/the-fate-of-general-han-xin</guid>
+            <guid isPermaLink="false">article:the-fate-of-general-han-xin</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;在中国历史的长廊中，有些名字的陨落，比其升起更加令人扼腕。韩信，便是其中最耀眼的一位。他的一生，是一场关于天才、机遇与宿命的宏大戏剧，而贯穿始终的，是他那既能成就伟业、亦能招致杀身之祸的青春锋芒。&lt;/p&gt;
@@ -557,7 +557,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[R.I.P, Diogo!]]></title>
             <description><![CDATA[利物浦前锋迪奥戈·若塔（Diogo Jota）不幸逝世，享年28岁。在本博客中，我日常分享的第一篇就是类似于讣告的文章，这令人遗憾，但将其献给迪奥戈又是一种荣誉。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/jota-passed-away</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/jota-passed-away</guid>
+            <guid isPermaLink="false">article:jota-passed-away</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;利物浦前锋迪奥戈·若塔（Diogo Jota）不幸逝世，享年28岁。据传他因为做了气胸手术，无法乘坐飞机，于是驾驶自己的兰博基尼，在其兄弟安德烈的陪同下前往利物浦，但途径西班牙境内，路况糟糕，在试图超越一辆卡车时发生了爆胎事故，导致车辆失控，兄弟俩不幸遇难。&lt;/p&gt;
@@ -580,7 +580,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[《牛顿传》读后记]]></title>
             <description><![CDATA[在阅读《牛顿传》之前，我对牛顿的印象还停留在课本和科普故事中。带着对这位科学巨匠的好奇，我试图通过这本传记，重新认识牛顿的真实人生与复杂性格。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/newton_biography_review</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/newton_biography_review</guid>
+            <guid isPermaLink="false">article:newton_biography_review</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;在阅读《牛顿传》之前，我对牛顿的印象还停留在课本和科普故事中。带着对这位科学巨匠的好奇，我试图通过这本传记，重新认识牛顿的真实人生与复杂性格。以下是我的一些思考与感受。&lt;/p&gt;
@@ -617,7 +617,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[《暗淡蓝点》读后记]]></title>
             <description><![CDATA[在浩瀚宇宙中，地球只是微不足道的一粒尘埃。然而，正是这颗“暗淡蓝点”，承载了人类全部的历史与情感。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/pale-blue-dot-review</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/pale-blue-dot-review</guid>
+            <guid isPermaLink="false">article:pale-blue-dot-review</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;在浩瀚宇宙中，地球只是微不足道的一粒尘埃。然而，正是这颗“暗淡蓝点”，承载了人类全部的历史与情感。本文将从科学与人文的视角，分享我对卡尔·萨根《暗淡蓝点》一书的阅读体会，探讨我们在宇宙中的位置与意义。&lt;/p&gt;
@@ -645,7 +645,7 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
             <title><![CDATA[评论：《黑客与画家》]]></title>
             <description><![CDATA[本文将围绕Paul Graham的《黑客与画家》展开评论，探讨黑客与艺术家的共通之处，以及黑客在工程科学等领域中所面临的现实困境与生存之道。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/comment_hacker_painter</link>
-            <guid isPermaLink="false">https://linguista.cn/alpacanotes/articles/comment_hacker_painter</guid>
+            <guid isPermaLink="false">article:comment_hacker_painter</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;本文将围绕Paul Graham的《黑客与画家》展开评论，探讨黑客与艺术家的共通之处，以及黑客在工程科学等领域中所面临的现实困境与生存之道。&lt;/p&gt;
