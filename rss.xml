@@ -4,11 +4,85 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Jan 2026 16:09:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2026 16:20:53 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Jan 2026 16:09:30 GMT</pubDate>
+        <pubDate>Fri, 23 Jan 2026 16:20:53 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[Minimal Blog 集成 Telegram 自动推送实战]]></title>
+            <description><![CDATA[本文记录了如何通过 GitHub Actions 和 Telegram Bot API，实现博客新文章自动推送到 Telegram 频道的完整流程。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-integration</link>
+            <guid isPermaLink="false">article:telegram-integration</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;为了方便读者及时获取更新，我为 AlpacaNotes 博客增加了 Telegram 频道自动推送功能。每当有新文章发布时，GitHub Actions 会自动触发脚本，将文章标题和链接发送到订阅频道。以下是实现这一功能的简要流程。&lt;/p&gt;
+&lt;h2 id=&quot;1-申请-telegram-bot&quot;&gt;1. 申请 Telegram Bot&lt;/h2&gt;
+&lt;p&gt;首先，你需要拥有一个 Telegram 账号并申请一个机器人：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Telegram 中搜索 &lt;strong&gt;@BotFather&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;发送指令 &lt;code&gt;/newbot&lt;/code&gt; 创建新机器人。&lt;/li&gt;
+&lt;li&gt;按照提示设置机器人的名称（Name）和用户名（Username）。&lt;/li&gt;
+&lt;li&gt;创建成功后，BotFather 会给你一个 &lt;strong&gt;HTTP API Token&lt;/strong&gt;（类似 &lt;code&gt;123456789:ABCdef...&lt;/code&gt;），请妥善保管。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;2-设置频道并获取-chat-id&quot;&gt;2. 设置频道并获取 Chat ID&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;创建一个新的 Telegram Channel（频道），或者使用现有频道。&lt;/li&gt;
+&lt;li&gt;将你刚才创建的机器人添加为频道管理员（Administrator），赋予发送消息的权限。&lt;/li&gt;
+&lt;li&gt;为了获取频道的 &lt;code&gt;Chat ID&lt;/code&gt;，你可以先在频道里随便发一条消息，然后转发给 &lt;strong&gt;@getidsbot&lt;/strong&gt;（或其他类似 ID 查询机器人），它会返回以 &lt;code&gt;-100&lt;/code&gt; 开头的频道 ID（例如 &lt;code&gt;-1003229698152&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;3-配置-github-secrets&quot;&gt;3. 配置 GitHub Secrets&lt;/h2&gt;
+&lt;p&gt;为了安全起见，不要将 Token 直接硬编码在代码中。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入博客项目的 GitHub 仓库页面。&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;Settings&lt;/strong&gt; -&gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; -&gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;新建 Repository Secret：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;TELEGRAM_TOKEN&lt;/code&gt;: 填入 BotFather 给你的 Token。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;4-编写自动化脚本&quot;&gt;4. 编写自动化脚本&lt;/h2&gt;
+&lt;p&gt;在项目中编写一个 Node.js 脚本（&lt;code&gt;scripts/telegram-notify.js&lt;/code&gt;），用于检测变更并发送消息。&lt;/p&gt;
+&lt;p&gt;主要逻辑如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 &lt;code&gt;git diff&lt;/code&gt; 识别本次提交中&lt;strong&gt;新增&lt;/strong&gt;的 &lt;code&gt;.md&lt;/code&gt; 文件。&lt;/li&gt;
+&lt;li&gt;解析 Markdown 文件的 Frontmatter（元数据），提取标题和描述。&lt;/li&gt;
+&lt;li&gt;调用 Telegram 的 &lt;code&gt;sendMessage&lt;/code&gt; API，将文章标题、描述和链接格式化后发送到指定频道。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;5-配置-github-actions-工作流&quot;&gt;5. 配置 GitHub Actions 工作流&lt;/h2&gt;
+&lt;p&gt;最后，修改 &lt;code&gt;.github/workflows/deploy.yml&lt;/code&gt; 文件，在部署流程中加入通知步骤：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- name: Check for new content and notify
+  if: success()
+  env:
+    TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+    TELEGRAM_TO: &quot;-1003229698152&quot; # 你的频道 ID
+    SITE_URL: &quot;https://linguista.cn&quot;
+    BASE_PATH: &quot;/alpacanotes&quot;
+  run: node scripts/telegram-notify.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;6-静态站点部署配置&quot;&gt;6. 静态站点部署配置&lt;/h2&gt;
+&lt;p&gt;本博客使用 Next.js 构建，并托管在 GitHub Pages 上。为了确保静态资源加载正确（特别是当部署在子路径如 &lt;code&gt;/alpacanotes&lt;/code&gt; 下时），需要在 &lt;code&gt;next.config.ts&lt;/code&gt; 中进行特别配置：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-typescript&quot;&gt;const isProd = process.env.NODE_ENV === &quot;production&quot;;
+
+const nextConfig: NextConfig = {
+  // 启用静态导出模式，生成纯 HTML/CSS/JS 文件
+  output: isProd ? &quot;export&quot; : undefined,
+  
+  // 禁用 Next.js 自带的图片优化服务（GitHub Pages 不支持 Node.js 运行时）
+  images: {
+    unoptimized: true,
+  },
+  
+  // 设置子路径，匹配 GitHub Pages 的仓库名
+  basePath: isProd ? &quot;/alpacanotes&quot; : &quot;&quot;,
+  assetPrefix: isProd ? &quot;/alpacanotes/&quot; : &quot;&quot;,
+};
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此外，部署工作流使用了 &lt;code&gt;peaceiris/actions-gh-pages&lt;/code&gt; Action，它会将 &lt;code&gt;out&lt;/code&gt; 目录（Next.js &lt;code&gt;output: &apos;export&apos;&lt;/code&gt; 的产物）自动发布到 &lt;code&gt;gh-pages&lt;/code&gt; 分支。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;本文即为该功能的测试文章。如果你在 Telegram 频道看到了这条推送，说明自动化流程已配置成功！&lt;/em&gt;&lt;/p&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[关于聂卫平]]></title>
             <description><![CDATA[聂卫平先生离世，我从一个完全不重要的个人视角，回顾一下这位围棋传奇在我心中的印记，借此表示缅怀。]]></description>
