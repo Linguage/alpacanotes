@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Jan 2026 17:01:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 03:40:47 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Jan 2026 17:01:31 GMT</pubDate>
+        <pubDate>Sat, 24 Jan 2026 03:40:47 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -80,6 +80,43 @@ const nextConfig: NextConfig = {
 };
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;此外，部署工作流使用了 &lt;code&gt;peaceiris/actions-gh-pages&lt;/code&gt; Action，它会将 &lt;code&gt;out&lt;/code&gt; 目录（Next.js &lt;code&gt;output: &apos;export&apos;&lt;/code&gt; 的产物）自动发布到 &lt;code&gt;gh-pages&lt;/code&gt; 分支。&lt;/p&gt;
+&lt;h2 id=&quot;7-配置-telegram-instant-view-即时预览&quot;&gt;7. 配置 Telegram Instant View (即时预览)&lt;/h2&gt;
+&lt;p&gt;为了让用户在 Telegram 中获得更好的阅读体验（无需跳转浏览器即可秒开文章），我们配置了 Instant View。&lt;/p&gt;
+&lt;h3 id=&quot;71-创建-instant-view-模板&quot;&gt;7.1 创建 Instant View 模板&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;登录 &lt;a href=&quot;https://instantview.telegram.org/my/&quot;&gt;Telegram Instant View Editor&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;输入你的博客文章示例链接（例如 &lt;code&gt;https://linguista.cn/alpacanotes/articles/telegram-integration&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;编写提取规则。本项目使用的规则如下（已保存为 &lt;code&gt;instant-view-rules.txt&lt;/code&gt;）：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;~version: &quot;2.1&quot;
+
+# 1. Content Body
+body: //article
+
+# 2. Title
+title: //h1
+
+# 3. Subtitle (Articles only)
+subtitle: //article//header//p[contains(@class, &quot;text-xl&quot;)]
+
+# 4. Published Date (Articles: Header / Notes: Footer)
+published_date: //header//div[contains(@class, &quot;text-sm&quot;)] | //div[contains(@class, &quot;mt-4&quot;) and contains(@class, &quot;text-sm&quot;)]
+
+# 5. Cleanup
+# Fix: &amp;#x3C;img&gt; inside &amp;#x3C;p&gt; is not allowed
+@split_parent: //p/img
+@remove: //div[contains(@class, &quot;mt-16&quot;)]/a[contains(@href, &quot;/articles&quot;)]/..
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;点击 &lt;strong&gt;Mark as Published&lt;/strong&gt;，你将获得一个 &lt;strong&gt;rhash&lt;/strong&gt;（一串哈希值，例如 &lt;code&gt;d41d8cd98f00b204e980&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;72-配置-github-secrets&quot;&gt;7.2 配置 GitHub Secrets&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;回到 GitHub 仓库的 &lt;strong&gt;Settings&lt;/strong&gt; &gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; &gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;新建 Secret &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt;，填入刚才获得的 hash 值。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;73-脚本支持&quot;&gt;7.3 脚本支持&lt;/h3&gt;
+&lt;p&gt;我们在通知脚本中增加了逻辑：如果检测到 &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt; 环境变量，会自动将文章链接转换为 &lt;code&gt;https://t.me/iv?url={url}&amp;#x26;rhash={rhash}&lt;/code&gt; 格式。这样发送到频道的链接点击后将直接触发即时预览。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;本文即为该功能的测试文章。如果你在 Telegram 频道看到了这条推送，说明自动化流程已配置成功！&lt;/em&gt;&lt;/p&gt;</content:encoded>
         </item>
