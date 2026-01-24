@@ -4,16 +4,16 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2026 05:01:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 05:06:51 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Jan 2026 05:01:09 GMT</pubDate>
+        <pubDate>Sat, 24 Jan 2026 05:06:51 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
             <title><![CDATA[AlpacaNotes博客 集成 Telegram 自动推送实战]]></title>
             <description><![CDATA[本文记录了如何通过 GitHub Actions 和 Telegram Bot API，实现博客新文章自动推送到 Telegram 频道的完整流程。]]></description>
-            <link>https://linguista.cn/alpacanotes/articles/telegram-integration-v4</link>
-            <guid isPermaLink="false">article:telegram-integration-v4</guid>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-integration-v3</link>
+            <guid isPermaLink="false">article:telegram-integration-v3</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;为了方便读者及时获取更新，我为 AlpacaNotes 博客增加了 Telegram 频道自动推送功能。每当有新文章发布时，GitHub Actions 会自动触发脚本，将文章标题和链接发送到订阅频道。以下是实现这一功能的简要流程。&lt;/p&gt;
