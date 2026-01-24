@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2026 05:13:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 05:23:04 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Jan 2026 05:13:14 GMT</pubDate>
+        <pubDate>Sat, 24 Jan 2026 05:23:04 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -115,7 +115,7 @@ published_date: //header//div[contains(@class, &quot;text-sm&quot;)] | //div[con
 &lt;li&gt;回到 GitHub 仓库的 &lt;strong&gt;Settings&lt;/strong&gt; &gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; &gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
 &lt;li&gt;新建 Secret &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt;，填入刚才获得的 hash 值。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;73-脚本支持-2025-更新&quot;&gt;7.3 脚本支持 (2025 更新)&lt;/h3&gt;
+&lt;h3 id=&quot;73-脚本支持&quot;&gt;7.3 脚本支持&lt;/h3&gt;
 &lt;p&gt;我们采用了 Telegram Bot API 新版功能 &lt;code&gt;link_preview_options&lt;/code&gt; 来完美解决兼容性问题：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;显式指定预览链接&lt;/strong&gt;：我们在 API 调用中明确告诉 Telegram 使用 Instant View 链接 (&lt;code&gt;t.me/iv?...&lt;/code&gt;) 来生成预览卡片。&lt;/li&gt;
