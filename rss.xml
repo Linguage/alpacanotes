@@ -4,16 +4,16 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2026 04:43:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 05:01:09 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Jan 2026 04:43:26 GMT</pubDate>
+        <pubDate>Sat, 24 Jan 2026 05:01:09 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
             <title><![CDATA[AlpacaNotes博客 集成 Telegram 自动推送实战]]></title>
             <description><![CDATA[本文记录了如何通过 GitHub Actions 和 Telegram Bot API，实现博客新文章自动推送到 Telegram 频道的完整流程。]]></description>
-            <link>https://linguista.cn/alpacanotes/articles/telegram-integration-v3</link>
-            <guid isPermaLink="false">article:telegram-integration-v3</guid>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-integration-v4</link>
+            <guid isPermaLink="false">article:telegram-integration-v4</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;为了方便读者及时获取更新，我为 AlpacaNotes 博客增加了 Telegram 频道自动推送功能。每当有新文章发布时，GitHub Actions 会自动触发脚本，将文章标题和链接发送到订阅频道。以下是实现这一功能的简要流程。&lt;/p&gt;
@@ -115,16 +115,16 @@ published_date: //header//div[contains(@class, &quot;text-sm&quot;)] | //div[con
 &lt;li&gt;回到 GitHub 仓库的 &lt;strong&gt;Settings&lt;/strong&gt; &gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; &gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
 &lt;li&gt;新建 Secret &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt;，填入刚才获得的 hash 值。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;73-脚本支持&quot;&gt;7.3 脚本支持&lt;/h3&gt;
-&lt;p&gt;我们在通知脚本中增加了智能逻辑：&lt;/p&gt;
+&lt;h3 id=&quot;73-脚本支持-2025-更新&quot;&gt;7.3 脚本支持 (2025 更新)&lt;/h3&gt;
+&lt;p&gt;我们采用了 Telegram Bot API 新版功能 &lt;code&gt;link_preview_options&lt;/code&gt; 来完美解决兼容性问题：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;隐藏链接触发预览&lt;/strong&gt;：脚本会在消息开头插入一个不可见字符（零宽空格 &lt;code&gt;\u200B&lt;/code&gt;）链接到 Instant View URL (&lt;code&gt;t.me/iv?...&lt;/code&gt;)。这会强制 Telegram 生成带有“即时预览”按钮的卡片。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;保留原始链接&lt;/strong&gt;：消息底部的 &lt;code&gt;[Read More]&lt;/code&gt; 链接仍然指向博客原始网址。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;显式指定预览链接&lt;/strong&gt;：我们在 API 调用中明确告诉 Telegram 使用 Instant View 链接 (&lt;code&gt;t.me/iv?...&lt;/code&gt;) 来生成预览卡片。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保留正文原始链接&lt;/strong&gt;：消息正文中的 &lt;code&gt;[Read More]&lt;/code&gt; 保持指向博客原始网址。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;这样做的好处是&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;App 端&lt;/strong&gt;：用户点击卡片上的“Instant View”按钮即可秒开文章。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web 端&lt;/strong&gt;：由于 Web 版 Telegram 有时无法正确处理 &lt;code&gt;t.me/iv&lt;/code&gt; 跳转，用户直接点击 &lt;code&gt;[Read More]&lt;/code&gt; 会跳转到原始网页，避免链接失效的问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App 端&lt;/strong&gt;：用户看到的是带有 Instant View 按钮的卡片，点击即开。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web 端&lt;/strong&gt;：预览卡片可能不显示或显示为普通链接，但用户点击正文链接时，会直接跳转博客原站，不会出现无法打开的情况。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;本文即为该功能的测试文章。如果你在 Telegram 频道看到了这条推送，说明自动化流程已配置成功！&lt;/em&gt;&lt;/p&gt;</content:encoded>
