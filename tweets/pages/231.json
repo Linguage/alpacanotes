@@ -1,0 +1,662 @@
+[
+  {
+    "id": "1984936184909554033",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "还是要看激振频率（这方面我确实比较专业😎😎😎）",
+    "created_at": "2025-11-02T10:50:39.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 339,
+      "impression_count": 339
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984934031092564252",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@cellinlab @dingyi 像我这样喜欢两边找茬两边找怼的人不多了（可能主要还是流量低🥹🥹🥹）",
+    "created_at": "2025-11-02T10:42:05.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 48,
+      "impression_count": 48
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cellinlab"
+        },
+        {
+          "username": "dingyi"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984925423562809557",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh @coolzeromike yes。我估计openrouter绑定的其它厂的api也可以用",
+    "created_at": "2025-11-02T10:07:53.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 31,
+      "impression_count": 31
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        },
+        {
+          "username": "coolzeromike"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984925249977364745",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@coolzeromike @kevinma_dev_zh 我具体只是对比claude code估算的费用消耗（应该是用sonnet的参考价格估算的）和DeepSeek后台（我的cc绑定的ds)的消耗,当时感觉很震撼...\n\n不过api计价还是有点惊悚，能买套餐是最好的\n\n我最惊悚的是之前的codex上绑定了DeepSeek，结果它光思考，还没输出什么内容的情况下就花掉了几块钱",
+    "created_at": "2025-11-02T10:07:12.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 78,
+      "impression_count": 78
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "coolzeromike"
+        },
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984923360309231714",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@coolzeromike @kevinma_dev_zh 我之前估算过，可能claude sonnet的价格是DeepSeek的10~30倍的样子",
+    "created_at": "2025-11-02T09:59:41.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 36,
+      "impression_count": 36
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "coolzeromike"
+        },
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984923155207700735",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh @coolzeromike 学点文本内容应该不会太费钱。问题是，有没有不用美刀的渠道😂",
+    "created_at": "2025-11-02T09:58:52.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 56,
+      "impression_count": 56
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        },
+        {
+          "username": "coolzeromike"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984922728022040831",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "原文太长，可以阅读如下的\n\n中文概述版：https://t.co/RNLy4i8ISC",
+    "created_at": "2025-11-02T09:57:11.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 87,
+      "impression_count": 87
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/RNLy4i8ISC",
+          "indices": [
+            20,
+            43
+          ],
+          "display_url": "linguista.notion.site/Claude-Code-Sh…",
+          "expanded_url": "https://linguista.notion.site/Claude-Code-Shrivu-Shankar-29fd1a1385bf808d88c8f7719e991298"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984922725874651425",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "文章详细探讨了 Claude Code 的各种功能，包括其核心文件 CLAUDE[.]md、上下文管理、自定义命令、子代理、钩子、计划模式、技能（Skills）、模型上下文协议（MCP）以及 GitHub Actions 等。\n\nhttps://t.co/NSV5AFt9ZN",
+    "created_at": "2025-11-02T09:57:10.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 244,
+      "impression_count": 244
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/NSV5AFt9ZN",
+          "indices": [
+            115,
+            138
+          ],
+          "display_url": "blog.sshh.io/p/how-i-use-ev…",
+          "expanded_url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984920926664970679",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 @VentureEth80560 我感觉100万是个宏伟但很危险的目标😂😂😂\n\n立党那样玩得太过风骚，能把各种群体都给搞进来，也就勉强100多万。\n\n我感觉那种玩法，绝大部分人是很难拿捏得住尺度，搞不好就被封号了",
+    "created_at": "2025-11-02T09:50:01.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 55,
+      "impression_count": 55
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        },
+        {
+          "username": "VentureEth80560"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984919727941321050",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 Cursor和Windsurf推出的超快大模型据说都是套壳国产开源模型\n\n马斯克也吐槽，由于openai这种逼太closed，抠抠搜搜就开源出来一个垃圾，导致现在开源市场已经被中国垄断（放眼美利坚，唯有Grok才是高品质的真开源）",
+    "created_at": "2025-11-02T09:45:15.000Z",
+    "metrics": {
+      "like_count": 10,
+      "retweet_count": 0,
+      "reply_count": 2,
+      "quote_count": 0,
+      "view_count": 1207,
+      "impression_count": 1207
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1984917901229629509",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "中文语音克隆版\n\nhttps://t.co/Z9UQAiIM9s",
+    "created_at": "2025-11-02T09:38:00.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 121,
+      "impression_count": 121
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/Z9UQAiIM9s",
+          "indices": [
+            9,
+            32
+          ],
+          "display_url": "xiaoyuzhoufm.com/episode/69071e…",
+          "expanded_url": "https://www.xiaoyuzhoufm.com/episode/69071e5448dbe0eb56035365"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984912313078673868",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "https://t.co/9kxsQseXl5",
+    "created_at": "2025-11-02T09:15:47.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 160,
+      "impression_count": 160
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G4vTNo-a0AAHDHl.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G4vTNo-a0AAHDHl.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984908107391365500",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "我也收集了许多此类的站点，放在了我的导航站点中，可点击查看\n\nhttps://t.co/TReIomdbmP",
+    "created_at": "2025-11-02T08:59:05.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 193,
+      "impression_count": 193
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/TReIomdbmP",
+          "indices": [
+            31,
+            54
+          ],
+          "display_url": "linguista.cn/bookmarks/#%E5…",
+          "expanded_url": "https://linguista.cn/bookmarks/#%E5%86%85%E5%AE%B9%E8%81%9A%E5%90%88"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984908104556019718",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "总体体验非常好，提供了中文的摘要，感兴趣可以直接点击链接阅读原文。 https://t.co/1IAlVAiU4m",
+    "created_at": "2025-11-02T08:59:04.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 163,
+      "impression_count": 163
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G4vOyzAakAAEc6E.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G4vOyzAakAAEc6E.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984908102001635537",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "刚才怒刷了一波Hacker News, 用的是就是这个zeli",
+    "created_at": "2025-11-02T08:59:03.000Z",
+    "metrics": {
+      "like_count": 28,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 16777,
+      "impression_count": 16777
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984905710757638560",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "文章\n\nThis is your brain without sleep\n\nhttps://t.co/YWxsuJiFlT",
+    "created_at": "2025-11-02T08:49:33.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 46,
+      "impression_count": 46
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/YWxsuJiFlT",
+          "indices": [
+            38,
+            61
+          ],
+          "display_url": "news.mit.edu/2025/your-brai…",
+          "expanded_url": "https://news.mit.edu/2025/your-brain-without-sleep-1029"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984905708568293527",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "睡眠应当是健康生活的核心 https://t.co/MTTHXCu3nE",
+    "created_at": "2025-11-02T08:49:33.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 85,
+      "impression_count": 85
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G4vMpe_bMAEihdh.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G4vMpe_bMAEihdh.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984902979192033367",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "Summary in detail\n\nhttps://t.co/Bmhl6xIrvu",
+    "created_at": "2025-11-02T08:38:42.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 65,
+      "impression_count": 65
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/Bmhl6xIrvu",
+          "indices": [
+            19,
+            42
+          ],
+          "display_url": "linguista.notion.site/29fd1a1385bf80…",
+          "expanded_url": "https://linguista.notion.site/29fd1a1385bf80c78d41c3672c231a22"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984901653787709550",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "如何接受失败？\n\n1. 认识到自己的有限性并接受之\n\n首先，认识到所有人都处在无法完全掌控的现实之中（斯多葛主义的“爱命运”）。\n\n接着，筛选和区分：哪些事情可控、哪些不可控，把精力聚焦于前者，放弃对后者的执着和焦虑。\n\n在情绪管理层面，采取情境化自我询问：“当下这件事，我能影响到吗？如果不能，就安然接受其发生。”\n\n不断练习“顺其自然”，通过冥想、自省等方式提升自我承受力，减少对变化和失望的恐惧。\n\n你不需要对所有结果负责，但有责任正确面对自己的能力范围和有限性。\n\n2. 区别个体与集体的责任，积极地在集体组织中发挥作用\n\n认识到个人无力并不代表集体无能，当面临结构性困境时，要主动寻找和参与可以影响的小型行动或组织（如社区、志愿、倡议）。\n\n见识到积极思考和过度自信可能带来的负面后果后，转变为“找到能做的一步”、积累小胜，而不是只追求理想化的大目标。\n\n摒弃一切“提前投降式”思维，坚信“人造的困境仍可被人重塑”，不要用“接受不完美”掩盖本应承担的社会责任。\n\n把自我放到广阔的集体脉络中，既承认有限性，也寻找彼此间的支持和联合，实现正向循环。\n\n原文链接：\n\nhttps://t.co/OK76gI3vW8",
+    "created_at": "2025-11-02T08:33:26.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 81,
+      "impression_count": 81
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/OK76gI3vW8",
+          "indices": [
+            487,
+            510
+          ],
+          "display_url": "thedriftmag.com/how-i-learned-…",
+          "expanded_url": "https://www.thedriftmag.com/how-i-learned-to-stop-worrying-and-love-my-shitty-life/"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1984901650763690492",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "本文提到了特朗普的例子，主要表达了以下观点：\n\n虚无主义和人生的无意义\n文章引用了特朗普在不同场合的言论，凸显他对于人生成就和意义的虚无主义态度。比如在1990年接受《Playboy》采访时，特朗普说：“我们在这里，活个六七十岁，然后就消失了。你赢了又赢了，最后其实都没什么意义。”在2004年，他在Larry King的节目上表示：“没有什么真正重要。你做节目、做各种事，可印度就会发生地震，几十万人死去。说真的，这些都不重要。”\n\n个人逃避与自我放弃\n文章还提到2020年竞选期间，特朗普曾表达自己想“跳上一辆支持者的卡车，直接离开，一走了之”，体现了对现实的逃避和不愿面对问题的心态。\n\n这种观点对社会心态的影响\n作者认为，随着特朗普成为政治强人、“虚无主义”观点越来越流行，千禧一代和Z世代在面对持续混乱和无力改变现实时，普遍接受了类似的 fatalism（宿命论）。人们逐渐倾向于认为无论怎么努力，一切最终都无关紧要。\n\n对希望的否定\n在此氛围下，流行的自助哲学甚至提出：“希望本来就是错的”，“痛苦才是唯一恒常的”。这种观点通过特朗普的言论和态度得到了具体描绘，也成为许多自助畅销书的核心主题，即与其不断追求希望，不如接受现实的苦难和无力。\n\n本文通过引用特朗普的名言和态度，强调他以“虚无主义”为代表，直接影响了当代美国社会及年轻群体的生活哲学和主流思潮，即接受无力、接受痛苦，而不是积极改变。",
+    "created_at": "2025-11-02T08:33:25.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 125,
+      "impression_count": 125
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G4vIVqrbQAE7mWk.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G4vIVqrbQAE7mWk.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  }
+]

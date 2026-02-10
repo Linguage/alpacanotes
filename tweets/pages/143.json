@@ -1,22 +1,22 @@
 [
   {
-    "id": "1947607282260529158",
+    "id": "1999689660734537933",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "@JamesGoong 坚果和可乐，从营养价值上，没啥本质区别，都是适量即可",
-    "created_at": "2025-07-22T10:38:55.000Z",
+    "text": "@dotey 这个项目具备很多不错的要素, 满足一些基本需求。\n\n但对PPT进行可控的排版历来是个老大难问题。PPT是一坨代码与一坨素材打包而来的，但呈现出来是纯视觉的，这似乎很难形成有效的映射关系用于大模型的训练。\n\n会不会使用LaTeX（比如overleaf)做排版会更容易一些",
+    "created_at": "2025-12-13T03:55:42.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
       "reply_count": 0,
       "quote_count": 0,
-      "view_count": 356,
-      "impression_count": 356
+      "view_count": 72,
+      "impression_count": 72
     },
     "media": null,
     "entities": {
@@ -24,61 +24,73 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "JamesGoong"
+          "username": "dotey"
         }
       ]
     }
   },
   {
-    "id": "1947594782219637174",
+    "id": "1999685470364840161",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "@blackanger 一定要亲自指挥，亲自部署",
-    "created_at": "2025-07-22T09:49:15.000Z",
+    "text": "京都-抹茶\n\nhttps://t.co/JjbvoH73rC",
+    "created_at": "2025-12-13T03:39:03.000Z",
     "metrics": {
-      "like_count": 15,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
+      "reply_count": 1,
       "quote_count": 0,
-      "view_count": 492,
-      "impression_count": 492
+      "view_count": 2001,
+      "impression_count": 2001
     },
     "media": null,
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "blackanger"
+          "url": "https://t.co/JjbvoH73rC",
+          "indices": [
+            7,
+            30
+          ],
+          "display_url": "bananaprompts.fun/prompt/kyoto-m…",
+          "expanded_url": "https://bananaprompts.fun/prompt/kyoto-matcha-chawan-still-life-kru8ci?from=explore"
         }
-      ]
+      ],
+      "hashtags": [],
+      "mentions": []
     }
   },
   {
-    "id": "1947571053217386747",
+    "id": "1999683241155137640",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "目前应该去认真地读一些技术教程、课程以及论文，而不是天天刷推和读“震惊体”文章",
-    "created_at": "2025-07-22T08:14:57.000Z",
+    "text": "这个收录nano banana的网站做得挺不错 https://t.co/GyudK59Mei",
+    "created_at": "2025-12-13T03:30:11.000Z",
     "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 86,
-      "impression_count": 86
+      "like_count": 579,
+      "retweet_count": 108,
+      "reply_count": 9,
+      "quote_count": 1,
+      "view_count": 75831,
+      "impression_count": 75831
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8BNKN-bQAAcz7P.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8BNKN-bQAAcz7P.jpg"
+      }
+    ],
     "entities": {
       "urls": [],
       "hashtags": [],
@@ -86,23 +98,23 @@
     }
   },
   {
-    "id": "1947340882685923835",
+    "id": "1999682697774711071",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "@xyoerr @dotey 前两天看了一个扎克伯格的采访，他表示高价挖技术精英是因为他们能够把算力发挥出最大价值。有点“韩信点兵，多多益善”的意思。",
-    "created_at": "2025-07-21T17:00:20.000Z",
+    "text": "@Louis_Chenxf @dotey 如果是直接通过nano banana做成PPT图片，不光内容不能调整，而且体积太大了，日常使用有点划不来",
+    "created_at": "2025-12-13T03:28:02.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
+      "reply_count": 1,
       "quote_count": 0,
-      "view_count": 158,
-      "impression_count": 158
+      "view_count": 87,
+      "impression_count": 87
     },
     "media": null,
     "entities": {
@@ -110,7 +122,7 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "xyoerr"
+          "username": "Louis_Chenxf"
         },
         {
           "username": "dotey"
@@ -119,85 +131,23 @@
     }
   },
   {
-    "id": "1947296968839155959",
+    "id": "1999681232024797548",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "在基础教育上搞花里胡哨的创新，就是一种行为艺术",
-    "created_at": "2025-07-21T14:05:51.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 68,
-      "impression_count": 68
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1947294868868682160",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "Kiro的Spec模式采用了“规范驱动开发”流程，分为三个结构化步骤：\n需求收集：开发者首先描述项目需求，生成需求文档。\n设计文档：Kiro分析需求，生成详细的设计规范，这些文档为后续开发提供清晰指导。\n任务拆解：根据设计文档，Kiro自动生成具体的任务清单，便于开发实施。\n\nhttps://t.co/l6wnT5VJgX",
-    "created_at": "2025-07-21T13:57:30.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 70,
-      "impression_count": 70
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/l6wnT5VJgX",
-          "indices": [
-            139,
-            162
-          ],
-          "display_url": "perplexity.ai/page/kirode-sp…",
-          "expanded_url": "https://www.perplexity.ai/page/kirode-specmo-shi-gcEkJ8A4TGa.PyxVO50vBA"
-        }
-      ],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1947250157155721555",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@PandaTalk8 Python!!!!",
-    "created_at": "2025-07-21T10:59:50.000Z",
+    "text": "@iwangxing Thanks.\n\nBy the way, I love your website. It's beautiful!",
+    "created_at": "2025-12-13T03:22:12.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
       "reply_count": 0,
       "quote_count": 0,
-      "view_count": 142,
-      "impression_count": 142
+      "view_count": 84,
+      "impression_count": 84
     },
     "media": null,
     "entities": {
@@ -205,24 +155,247 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "PandaTalk8"
+          "username": "iwangxing"
         }
       ]
     }
   },
   {
-    "id": "1947196504898412774",
+    "id": "1999678609162928325",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "勇敢地向fomo说no！\n\n（先把话撂这里, 下一秒卸载X）",
-    "created_at": "2025-07-21T07:26:38.000Z",
+    "text": "@iwangxing That's great, but I would feel grateful if I am cited or mentioned in some way.",
+    "created_at": "2025-12-13T03:11:47.000Z",
     "metrics": {
       "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 2091,
+      "impression_count": 2091
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "iwangxing"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1999677258920001824",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "great!\n\n一个关键词生成一个图文并茂的ppt，算得上是搜索引擎的新玩法了😂 https://t.co/7r4qfNx956",
+    "created_at": "2025-12-13T03:06:25.000Z",
+    "metrics": {
+      "like_count": 30,
+      "retweet_count": 9,
+      "reply_count": 1,
+      "quote_count": 1,
+      "view_count": 16237,
+      "impression_count": 16237
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8BHcfKbcAA3Go_.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8BHcfKbcAA3Go_.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8BHi-lagAEYKfR.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8BHi-lagAEYKfR.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8BHm_tbsAAsvyt.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8BHm_tbsAAsvyt.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G8BHrv4bUAA3UOX.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8BHrv4bUAA3UOX.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1999672193454866797",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@aidavid125 肯定会几足鼎立的。\n\nAI的影响将会像电力一样，最终渗透到所有行业，各国都不可能允许一家独大。\n\n另外一家独大注定难以面面俱到，总会有更专注的竞争对手涌进来。",
+    "created_at": "2025-12-13T02:46:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 12,
+      "impression_count": 12
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "aidavid125"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1999648607528775949",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@ykszs017 这不是东西方差异，主要社群差异。中推是非常小的圈子，很多人出来就是为了搞钱的，所以与搞钱变现相关的能引起他们的兴趣。",
+    "created_at": "2025-12-13T01:12:34.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 59,
+      "impression_count": 59
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ykszs017"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1999631448106762616",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@zhiyebanzhuan so rainy！",
+    "created_at": "2025-12-13T00:04:23.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 72,
+      "impression_count": 72
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "zhiyebanzhuan"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1999526857339994314",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@feltanimalworld 封其他人，我还会试图想一想原因。到Rey老师，我就不知道该如何解释了...",
+    "created_at": "2025-12-12T17:08:46.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 117,
+      "impression_count": 117
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "feltanimalworld"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1999525139416006919",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "AI时代应该可以容得下多个王者，这些公司需要找到属于自己的赛道。现在更要紧的是将AI的应用场景进一步铺开，充分地挖掘其商业价值，还远未到进行零和博弈乃至火并的阶段。\n\n在这个阶段，Google与OpenAI，乃至与中国的友商，其实可以说是同盟关系，他们需要让更多的人接纳这个新事物，这条路还要走一段时间。\n\n我认为Google并没有在与OpenAI进行针尖对麦芒的竞争，虽然在某些资源上与OpenAI有争夺，但他们更多的还是专注搭建自己的生态。\n\nGoogle一直在做自己擅长的事情，而当前的AI恰恰是其中之一。\n\n一方面Google是发明transformer模型的公司，在这方面不缺人才储备。过去这三年Google在应对挑战过程中，也能看出来他们对人才是有着良好的整合能力的（比隔壁的meta不知道强到哪里去了）。\n\n另一方面使用Gemini的时候，我能强烈感觉到这像是一款升级版的搜索引擎。Google很早就立下的愿景：“整合全球信息，供大众使用，让人人受益。”到目前来看依然充满潜力，已经远超经典的搜索引擎的能力范围。",
+    "created_at": "2025-12-12T17:01:57.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 172,
+      "impression_count": 172
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1999518730179772853",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": true
+    },
+    "text": "@XUJWilliam 可以。宝玉老师留下的那个豁口和裂纹已经被玩出花来了😂😂😂",
+    "created_at": "2025-12-12T16:36:29.000Z",
+    "metrics": {
+      "like_count": 3,
       "retweet_count": 0,
       "reply_count": 0,
       "quote_count": 0,
@@ -233,359 +406,57 @@
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1947118019387478027",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@feltanimalworld @lidangzzz 物种多样性",
-    "created_at": "2025-07-21T02:14:46.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 3529,
-      "impression_count": 3529
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
       "mentions": [
         {
-          "username": "feltanimalworld"
-        },
-        {
-          "username": "lidangzzz"
+          "username": "XUJWilliam"
         }
       ]
     }
   },
   {
-    "id": "1946806316506472873",
+    "id": "1999516476999336290",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "@zhangjintao9020 会不会是因为AI编程用户普遍是个人用户，各个武德充沛，没一个善茬？\n\n如果是企业客户，一口气买若干个seat，那肯定会有大量闲置，这样就有盈利空间了。\n\n也就是说，现在还在培养市场阶段。当各企业把AI工具当成默认的生产力工具的时候，挣钱的空间就来了。",
-    "created_at": "2025-07-20T05:36:10.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 46,
-      "impression_count": 46
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhangjintao9020"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946786502782103961",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "我们只能在工作过程中去发现哪些需要自动化，然后把需要自动化的部分交给他，而不是默认一切都要自动化。\n\n人还是工作的发起点！",
-    "created_at": "2025-07-20T04:17:26.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 29,
-      "impression_count": 29
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946766446522175814",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "🤣🤣🤣",
-    "created_at": "2025-07-20T02:57:44.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 47,
-      "impression_count": 47
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946765856773668986",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "我应该把精力放在研读一些不好进行自动化的事情上。必要的时候研读一下偏理论和数学的内容。",
-    "created_at": "2025-07-20T02:55:24.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 80,
-      "impression_count": 80
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946765491223363700",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "放弃尝试，已将其列为新版大模型的测试基准。能够一口气画出来之前，不要夸自己牛逼🤣",
-    "created_at": "2025-07-20T02:53:56.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 25,
-      "impression_count": 25
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946752346916090063",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@zhangjintao9020 @AmpCode 昨天看Every的CEO访谈（lenny），他对AGI 的定义：“当人们可以无限期地运行 agent，并且这样做在经济上是有利可图的时候。也就是说，那个 agent 永远不关机，总是在做有价值的事，你宁愿让它一直开着，也不愿让它干等着你发号施令。这就是 AGI。”\n\n重要的是让AI运转起来，可能你就在这条路上吧☺️",
-    "created_at": "2025-07-20T02:01:43.000Z",
+    "text": "恐怕并不是。\n\n当面对代码的时候，程序员关注的并不只是代码本身，而是期望构建的东西。他会朝着那个方向努力，而非陶醉在当前的这坨垃圾中。品味这东西是被恶心出来的。\n\n当然，并非所有人都有这种意识，有很多人对代码的追求就是闭眼拉磨，埋头撞钟，这种人在任何时代都很难培养出品味。",
+    "created_at": "2025-12-12T16:27:31.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 126,
-      "impression_count": 126
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhangjintao9020"
-        },
-        {
-          "username": "AmpCode"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946748770563039732",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@Wonsin_Wang @hhmy27 城市先进与否体现的是上限，事关大家的想象与预期，但其基础是能够良好地运转。\n\n当城市陷入某种瘫痪，那就是看其下限的时候了，这时越复杂的系统问题越多。\n\n大城市里的人过不起“不繁荣”的日子。",
-    "created_at": "2025-07-20T01:47:30.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
       "reply_count": 0,
       "quote_count": 0,
-      "view_count": 28,
-      "impression_count": 28
+      "view_count": 193,
+      "impression_count": 193
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": [
-        {
-          "username": "Wonsin_Wang"
-        },
-        {
-          "username": "hhmy27"
-        }
-      ]
+      "mentions": []
     }
   },
   {
-    "id": "1946747569574674540",
+    "id": "1999511301274632269",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "@LiXiang1947 @xuruojing 他拥有稳固的基本盘，他只需要提供给韭菜们自我感动的素材即可",
-    "created_at": "2025-07-20T01:42:44.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 89,
-      "impression_count": 89
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "LiXiang1947"
-        },
-        {
-          "username": "xuruojing"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946746100121268401",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@LinearUncle @zzhirong 梭哈是一种智慧👊👊👊",
-    "created_at": "2025-07-20T01:36:53.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 32,
-      "impression_count": 32
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "LinearUncle"
-        },
-        {
-          "username": "zzhirong"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946744257794002992",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@LinearUncle @zzhirong yolo是个偏政治的口号，类似于maga，有很深的社会背景，是一种生活方式主张。\n\n计算机视觉的那个yolo是化用的版本。当然，理念差不多，直接梭哈的感觉🤣",
-    "created_at": "2025-07-20T01:29:34.000Z",
+    "text": "原来如此！\n\n品味是用屎山滋养出来的。知道什么是垃圾，才可能发现好东西...😂😂😂",
+    "created_at": "2025-12-12T16:06:58.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 335,
-      "impression_count": 335
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "LinearUncle"
-        },
-        {
-          "username": "zzhirong"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946740331132895701",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "靠AI“抽卡”能解决的问题很有限。AI第一次就做不好的事情，很可能再做十次都做不好，这是因为碰到了AI的“认知盲区”了。这个时候不是再进行盲目“抽卡”，而是下手去分析原因，把无法有效自动化的部分单独处理掉",
-    "created_at": "2025-07-20T01:13:58.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 39,
-      "impression_count": 39
+      "reply_count": 0,
+      "quote_count": 1,
+      "view_count": 1417,
+      "impression_count": 1417
     },
     "media": null,
     "entities": {
@@ -595,79 +466,23 @@
     }
   },
   {
-    "id": "1946739509791531179",
+    "id": "1999489545168101808",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "“什么可以自动化”、“什么不可以自动化”是同样重要的问题。\n\n如果需要重复100遍，直接编程来解决；需要重复10遍，直接交给AI来处理；只需要做一次，直接手动处理。\n\n此外，还有需要深思熟虑的工作，需要我们创造更适合思考的环境来斟酌。",
-    "created_at": "2025-07-20T01:10:42.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 32,
-      "impression_count": 32
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946736852381421643",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@ThinkWithSophie 他们的失误与任性的代价还是太低廉了。\n\n这件事情让人感觉官方的公关目标只有甩锅，懒得给大众提供逻辑链完整的回复，这应该是官僚的“技术含量”逐渐下降的结果。\n\n当然，网上太多“二极管”，理性的声音也没有什么存在空间。也算是一种“双向选择”了---“非理性的舆论”与“不负责的官方”匹配得很好",
-    "created_at": "2025-07-20T01:00:08.000Z",
+    "text": "12月12日，依然很快就用完了20张左右的画图额度。\n\n也还好，有一定的防沉迷效果。而且热度过了，也很难每天都画20幅图，时间久了也就适应了。",
+    "created_at": "2025-12-12T14:40:30.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
       "reply_count": 0,
       "quote_count": 0,
-      "view_count": 41,
-      "impression_count": 41
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "ThinkWithSophie"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946731038241353745",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "使用了Python，也搞不定，一样的龙飞凤舞。\n\n看来在这种“大是大非”问题上，同款大模型使用不同编程语言表现出的能力相差无几。当然，使用GPT和Gemini效果也差不多，其中Gemini还好一些，能把矩形搞对。\n\n这或许可以用来区别“语文”与“数学”，本以为在AI时代，二者的界限被淡化了（某种程度上）",
-    "created_at": "2025-07-20T00:37:02.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 49,
-      "impression_count": 49
+      "view_count": 75,
+      "impression_count": 75
     },
     "media": null,
     "entities": {
@@ -677,333 +492,20 @@
     }
   },
   {
-    "id": "1946729035440267563",
+    "id": "1999483365817450591",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "@zhangjintao9020 @AmpCode 看来你已经摆脱了“薅羊毛”的低级趣味了，羡慕🥹🥹🥹",
-    "created_at": "2025-07-20T00:29:05.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 52,
-      "impression_count": 52
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhangjintao9020"
-        },
-        {
-          "username": "AmpCode"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946727820958269749",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "上下文并不是单纯为了应付“复杂的”场合。类似的简单问题可能源自于大模型固有缺陷，甚至比一些“复杂场合”更需要手动应对",
-    "created_at": "2025-07-20T00:24:15.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 34,
-      "impression_count": 34
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946726348879204859",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@manateelazycat 这个人很奇怪，没有真正意义上的专业背景，完全是屁股导向",
-    "created_at": "2025-07-20T00:18:24.000Z",
-    "metrics": {
-      "like_count": 6,
-      "retweet_count": 0,
-      "reply_count": 3,
-      "quote_count": 0,
-      "view_count": 861,
-      "impression_count": 861
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "manateelazycat"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1946725892807430574",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "对这种“小问题”, 精细的上下文甚至手工编写代码可能是必要的。",
-    "created_at": "2025-07-20T00:16:35.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 30,
-      "impression_count": 30
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946612529813500289",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "对大模型来说，编写fibonacci螺旋线的程序还是有点太难了（sonnet 4, matlab)。可能这个需求虽然看起来简单，但是要求达到非常高的精确性，这一点是大模型很难做到的（类似于比较9.8与9.11的大小）\n\n(图片仅用来展示其拉胯效果，有些辣眼睛） https://t.co/OhA8E8EiN9",
-    "created_at": "2025-07-19T16:46:08.000Z",
+    "text": "@XianyuLi 终于因为自己的清高逃过一劫（虽然一点都不清高，我也是白嫖党，只是说不出口🤣）",
+    "created_at": "2025-12-12T14:15:57.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 3,
-      "quote_count": 0,
-      "view_count": 144,
-      "impression_count": 144
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GwPBTaUWEAAE3oK.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GwPBTaUWEAAE3oK.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GwPBX74a8AAbLT1.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GwPBX74a8AAbLT1.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GwPBbdfXQAAS1bF.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GwPBbdfXQAAS1bF.png"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590699513921566",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "施密特认为，未来AI领域将诞生10家类似谷歌、Meta规模的巨头公司，其核心竞争力在于“学习循环”——即产品能否通过用户反馈快速自我优化。硬件创新周期较慢，但软件和数据驱动的网络效应将决定市场格局。开源模型的扩散和资本投入的平衡也是行业关注的焦点。",
-    "created_at": "2025-07-19T15:19:23.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
       "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 44,
-      "impression_count": 44
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590697420972067",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "AI将极大降低内容创作门槛，个人有望凭借AI工具制作媲美好莱坞的电影或艺术作品。虽然大制作仍需团队协作，但AI会在剧本、特效、剪辑等环节提供强大支持。施密特认为，创意产业的分工将向更高层次的创造力和审美转移，重复性、低附加值的岗位将被自动化取代。",
-    "created_at": "2025-07-19T15:19:22.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 54,
-      "impression_count": 54
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590695336362411",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "施密特强调，AI的伦理问题在于如何平衡创新与责任。他担心，AI如果不加监管，可能逐步侵蚀人类的价值观、自主性和判断力，导致“虚拟牢笼”式的生活。真正的风险不是“终结者”式的毁灭，而是人类主动放弃挑战和成长的动力。他主张保护人类能动性，确保AI成为赋能工具而非替代品。",
-    "created_at": "2025-07-19T15:19:22.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 39,
-      "impression_count": 39
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590693201461431",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "教育系统应加快变革，利用AI为每个人提供个性化、游戏化的学习体验。年轻一代对AI和数字技术的适应能力极强，未来应鼓励他们将智能应用于各自感兴趣的领域，如气候、材料、能源等。AI将极大加速科学发现和跨学科创新，但目前模型尚未具备“跨领域迁移”能力，即将一种领域的知识应用到完全不同的领域。",
-    "created_at": "2025-07-19T15:19:21.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 28,
-      "impression_count": 28
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590687518224776",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "AI的快速发展带来生物、化学、网络攻击等新型威胁。超级AI可能带来人类难以预见的安全挑战，尤其在中美竞争、芯片管控、开源模型扩散等方面。如何平衡创新与安全、开放与管控，成为全球性难题。施密特提出“互保失灵”理论，大国间需建立类似核威慑的AI安全机制，并建议追踪所有高性能芯片的位置和用途。",
-    "created_at": "2025-07-19T15:19:20.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 26,
-      "impression_count": 26
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590685286781362",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "AI短期内将带来更多高薪工作，而非大规模失业。历史上，自动化首先取代危险、低技能岗位，随后提升整体生产力和工资。每个人都将拥有智能助手，普通人也能通过AI提升技能。尽管会有岗位流失，但新兴行业和岗位会不断涌现。经济扩张和人口结构变化将推动AI在全球范围内的应用，尤其是在劳动力短缺的国家",
-    "created_at": "2025-07-19T15:19:19.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 31,
-      "impression_count": 31
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590683143496074",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "AI的发展速度受限于能源而非芯片。施密特指出，AI革命将需要巨大的电力支持。虽然核能（被寄予厚望，但短期内难以满足需求。中国在电力储备上具有优势，如果获得足够芯片，将在AI竞赛中占据有利地位。数据中心的能耗和经济性尚未被充分验证，但资本正大量涌入能效更高的芯片和计算架构创新领域。",
-    "created_at": "2025-07-19T15:19:19.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
       "quote_count": 0,
       "view_count": 33,
       "impression_count": 33
@@ -1012,121 +514,31 @@
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590678571766192",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "标题：Ex-Google CEO: What Artificial Superintelligence Will Actually Look Like w/ Eric Schmidt &amp; Dave B\n链接：https://t.co/3wwdsNA7cm\n作者：Peter H. Diamandis\n日期：2025-07-17",
-    "created_at": "2025-07-19T15:19:18.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 39,
-      "impression_count": 39
-    },
-    "media": null,
-    "entities": {
-      "urls": [
+      "mentions": [
         {
-          "url": "https://t.co/3wwdsNA7cm",
-          "indices": [
-            108,
-            131
-          ],
-          "display_url": "youtube.com/watch?v=qaPHK1…",
-          "expanded_url": "https://www.youtube.com/watch?v=qaPHK1fJL5s"
+          "username": "XianyuLi"
         }
-      ],
-      "hashtags": [],
-      "mentions": []
+      ]
     }
   },
   {
-    "id": "1946590681012863074",
+    "id": "1999477789062504545",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "数字超级智能的到来与定义\n\n施密特认为，数字超级智能将在未来10年内实现。他预测，AI即将具备自我“脚手架”生成能力，这意味着AI能够自主设定和实现复杂目标。届时，每个人都将拥有类似“口袋里的爱因斯坦和达·芬奇”的多才多艺AI助手。这些AI代理将极大提升个人和企业的能力，但也带来正负两方面的影响",
-    "created_at": "2025-07-19T15:19:18.000Z",
+    "text": "@XianyuLi 而且Google 账号封禁、X推主封禁以及nano banana pro额度下调几乎是同步发生的🤣",
+    "created_at": "2025-12-12T13:53:48.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
       "reply_count": 1,
       "quote_count": 0,
-      "view_count": 33,
-      "impression_count": 33
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946590675530850586",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "数字超级智能的崛起：前谷歌CEO埃里克·施密特对未来AI的展望\n\n施密特乐观地认为，AI将带来前所未有的经济增长和社会繁荣，但前提是人类要主动适应、合理监管、持续创新。他强调，人的“目的感”不会消失，AI应成为提升人类能力和幸福感的工具，而非取代人类本身。 https://t.co/4JPFkXcHyV",
-    "created_at": "2025-07-19T15:19:17.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 63,
-      "impression_count": 63
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GwOt45EXYAAqloZ.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GwOt45EXYAAqloZ.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946508961475367289",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@op7418 Scott saying, “A founder goes down with the ship.”",
-    "created_at": "2025-07-19T09:54:35.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 647,
-      "impression_count": 647
+      "view_count": 68,
+      "impression_count": 68
     },
     "media": null,
     "entities": {
@@ -1134,297 +546,67 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "op7418"
+          "username": "XianyuLi"
         }
       ]
     }
   },
   {
-    "id": "1946411717644414996",
+    "id": "1999477509981942170",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "&gt; \"But by then, Scott was already in our conference room with physical papers to sign and was handing me a pen.\"",
-    "created_at": "2025-07-19T03:28:10.000Z",
+    "text": "@XianyuLi 估计是G老大怒了",
+    "created_at": "2025-12-12T13:52:41.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 0,
+      "reply_count": 1,
       "quote_count": 0,
-      "view_count": 86,
-      "impression_count": 86
+      "view_count": 120,
+      "impression_count": 120
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "XianyuLi"
+        }
+      ]
     }
   },
   {
-    "id": "1946404550694601049",
+    "id": "1999476786305101921",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼🦙",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
+      "verified": true
     },
-    "text": "最喜欢的一句话：\n\nI think there's an unspoken covenant that as a founder you go down with the ship, you know, and and I think that uh for for better, for worse.\n\nIt's changed a bit over the last year and I think it's a bit disappointing to be honest. https://t.co/mJZpO619el",
-    "created_at": "2025-07-19T02:59:41.000Z",
+    "text": "只能说，AI最不擅长的就是搞幽默。\n\n本来挺搞笑的视频，被它这么一分析，变得好尬🤣 https://t.co/ERSq8EVwv5",
+    "created_at": "2025-12-12T13:49:48.000Z",
     "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
+      "like_count": 3,
+      "retweet_count": 2,
       "reply_count": 0,
       "quote_count": 0,
-      "view_count": 44,
-      "impression_count": 44
+      "view_count": 1589,
+      "impression_count": 1589
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/GwMECNnXoAAI5u1.jpg",
+        "url": "https://pbs.twimg.com/media/G7-RQ4bagAQRH0J.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GwMECNnXoAAI5u1.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G7-RQ4bagAQRH0J.jpg"
       }
     ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400446064844804",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "9. AI 行业格局与未来展望\n\nScott 认为，未来基础模型公司最终会整合为 2-6 家主导者，但市场会呈现“幂律分布”，头部公司占据大部分份额。应用层公司同样会有巨大增长空间，未来几年行业整体市值将大幅提升。他强调，AI 领域的价值创造巨大，基础模型和应用层都会有多家赢家。",
-    "created_at": "2025-07-19T02:43:23.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 69,
-      "impression_count": 69
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400448526839910",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "10. 个人成长与品牌建设\n\nScott 分享，自己最自豪的特质是“情绪上的冷静”，能在高压环境下保持冷静和专注。他也接受主持人建议，未来会更主动地塑造个人和公司品牌，讲好 Cognition 的成长故事，吸引更多人才和资源。",
-    "created_at": "2025-07-19T02:43:23.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 47,
-      "impression_count": 47
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400443581837471",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "8. AI 领域的误区与 RL（强化学习）的突破\n\n外界低估了 RL在 AI 能力提升中的作用。过去几年，AI 主要依赖模仿学习（如 GPT-3），而 RL 能让模型在特定环境下通过反馈不断优化，几乎可以解决任何有明确评价标准的任务。未来，AI 在各垂直领域的突破将依赖于高质量、针对性的训练数据和 RL 技术。​⁠",
-    "created_at": "2025-07-19T02:43:22.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 61,
-      "impression_count": 61
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400437483307483",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "6. Cognition 的增长与市场定位\n\nScott 透露，Cognition 在过去 6-8 个月内（不含此次收购）已实现从 0 到 8000 万美元 ARR 的增长，增速与行业头部公司相当。Cognition 的产品 Devon 主要服务于工程团队，强调与团队协作工具（如 Slack、Linear、GitHub）深度集成，区别于更偏消费市场的同类产品。​⁠",
-    "created_at": "2025-07-19T02:43:21.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 72,
-      "impression_count": 72
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400439924339137",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "7. IDE 与智能代理的结合是未来趋势\n\n未来开发者的工作流将是 IDE（集成开发环境）与智能代理（Agent）的结合。开发者可在 IDE 中规划任务，利用智能代理完成大部分工作，再在本地 IDE 审查和微调代码。Cognition 计划在短期内保持 Devin 和 Windsurf 各自的产品哲学，但会探索两者结合带来的新体验⁠",
-    "created_at": "2025-07-19T02:43:21.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 47,
-      "impression_count": 47
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400431615402492",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "5. AI 代码生成的现状与未来\n\nScott 透露，目前约有 50% 的新代码由 AI 生成，但更重要的是工程师使用 AI 工具后效率提升了 1.5 到 2 倍。他预计三年后，这一效率提升可达 10 倍，且届时全球 3000 万软件工程师将能产出 10 倍的代码量。AI 代码工具将极大提升软件开发效率，推动更多创新。​⁠",
-    "created_at": "2025-07-19T02:43:19.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 35,
-      "impression_count": 35
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400428402557354",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "4. 应用层能否与模型巨头竞争？\n\nScott 认为，AI 价值的分布并不局限于芯片、基础模型或应用层，而是取决于谁能在各自领域建立真正的差异化。Cognition 专注于软件工程领域，致力于优化特定能力和用户体验。他认为基础模型公司和应用公司会在各自领域取得成功，未来会有更多合作和分工。​⁠",
-    "created_at": "2025-07-19T02:43:19.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 38,
-      "impression_count": 38
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400419435213082",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "2. Google 是否错失了 Windsurf 的价值？\n\nScott 认为，外界普遍认为顶尖研究人员离开后公司只剩“空壳”，但他不认同这种看法。Windsurf 拥有大量用户、完整的客户资源、代码、数据和专有 IP，以及一支优秀的团队，这些都是极具价值的资产。Cognition 与其结合正好互补，能够共同推动产品和业务发展。",
-    "created_at": "2025-07-19T02:43:17.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 49,
-      "impression_count": 49
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1946400422333444303",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "3. AI 未来由“百人”决定？\n\nScott 认为，真正推动 AI 发展的人其实非常少，可能只有 100 到 1000 人。AI 领域的竞争不仅仅在基础模型层，应用层的竞争同样激烈，甚至更甚。顶尖人才的争夺非常激烈，但这是合理的，因为 AI 正处于人类历史上最大的技术变革前夜，即使能力冻结，AI 也已足以改变世界。​⁠",
-    "created_at": "2025-07-19T02:43:17.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 39,
-      "impression_count": 39
-    },
-    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],

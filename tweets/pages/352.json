@@ -1,0 +1,630 @@
+[
+  {
+    "id": "1959802624154231104",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "对claude sonnet 4的使用过程，我的感觉就是，不同的AI编程工具（copilot、kiro、cursor等等）就是给它定制的各具特色的厕所。这货太能拉了，而且需要我们随时给它擦屁股。",
+    "created_at": "2025-08-25T02:18:51.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 315,
+      "impression_count": 315
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1959802620475760902",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "kiro的spec模式会拟定一个比较大的框架，然后在每个小课题下生成代码并测试，导致项目复杂度过高，以至于完全失控。\n\n我一开始踌躇满志，但现在已经摆烂了，根本不知道它在干嘛......不过有一点好，那就是我确实也不需要做什么，只需要确认就行了。",
+    "created_at": "2025-08-25T02:18:50.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 247,
+      "impression_count": 247
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1959802615602237678",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "最近用kiro做一个“纯vibe coding”项目，不指望能搞出什么飞机，只为了把他们送的限时额度用掉，顺便看一下在自己两眼一抹黑的情况下，它能写出什么乱七八糟的东西。\n\n我对它的期望是先把流程走通，然后研读一下，了解该想法的实现有哪些要提前准备的知识与方法。 https://t.co/pycFTfOEbM",
+    "created_at": "2025-08-25T02:18:49.000Z",
+    "metrics": {
+      "like_count": 18,
+      "retweet_count": 0,
+      "reply_count": 4,
+      "quote_count": 1,
+      "view_count": 13963,
+      "impression_count": 13963
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GzKazp8aQAEOa_M.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GzKazp8aQAEOa_M.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1959798018095616312",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@tangjinzhou @LiXiang1947 有钱出钱，有力出力 https://t.co/2kkPtmtH9P",
+    "created_at": "2025-08-25T02:00:33.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 81,
+      "impression_count": 81
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/GzKZ522bkAA4pGk.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GzKZ522bkAA4pGk.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "tangjinzhou"
+        },
+        {
+          "username": "LiXiang1947"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959792653970940240",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 在中国，体育一开始就是用来为国争光的，这本质上是一种特权。足球需要庞大的群众基础，但他们又不愿意给这么多老百姓这种特权。\n\n所以足球没办法为国争光，还是下放给老百姓自娱自乐好了。体育本来就应该这样 https://t.co/gOOvN2nDTz",
+    "created_at": "2025-08-25T01:39:14.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 271,
+      "impression_count": 271
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/GzKVBgfaUAAs4nr.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GzKVBgfaUAAs4nr.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959781978657730648",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 那你有了小孩之后的欠债有点多了",
+    "created_at": "2025-08-25T00:56:49.000Z",
+    "metrics": {
+      "like_count": 5,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 6711,
+      "impression_count": 6711
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LiXiang1947"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959775044319756327",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "体面与自由似乎并不那么兼容。\n\n无形的锁链束缚着每个人，无论是否“成功”，自由永远是最珍贵的。",
+    "created_at": "2025-08-25T00:29:16.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 117,
+      "impression_count": 117
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1959773371056742819",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "“嘉道中落”的即视感😂😂😂",
+    "created_at": "2025-08-25T00:22:37.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 91,
+      "impression_count": 91
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1959771398672712121",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@ThinkWithSophie 可能内地也一样吧。\n\n我感觉在18年之前大家对辛苦工作的抱怨还不多，突然就开始敌视996与内卷了。摆烂与躺平从一种被受鄙视的状态变成了大家的自嘲，进而逐渐成为了某种“正义”......\n\n发展阶段对百姓，尤其是年轻人的精神面貌影响太大了。不知道这种转变是一种成熟还是一种衰老",
+    "created_at": "2025-08-25T00:14:46.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 22,
+      "impression_count": 22
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ThinkWithSophie"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959769685324615806",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@interjc But both are hard for me.\n\nTo write English is fucking unpleasant!",
+    "created_at": "2025-08-25T00:07:58.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 131,
+      "impression_count": 131
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "interjc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959768173659758864",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@cellinlab 在推上灌水半年，越发感觉不好做，至少时间成本很高，非常辛苦。\n\n如果没有特殊背景和“网感”，如果在所有领域都尚未出名，在自媒体上起步是很困难的。\n\n自媒体不适合作为赚钱养家的主力，更适合，作为一种补充，一种储蓄。在不那么紧急的时候慢慢经营，时间久了可能会发现已经初具规模",
+    "created_at": "2025-08-25T00:01:57.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 179,
+      "impression_count": 179
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cellinlab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959654811152121871",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "I love Claude Code, even just powered by deepseek-v3.1\n\nhttps://t.co/sAig50vIzt",
+    "created_at": "2025-08-24T16:31:30.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 95,
+      "impression_count": 95
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/sAig50vIzt",
+          "indices": [
+            56,
+            79
+          ],
+          "display_url": "Claude.md",
+          "expanded_url": "http://Claude.md"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1959653062710108234",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@SeanQ81715949 看来做主播，形象很重要啊",
+    "created_at": "2025-08-24T16:24:33.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 131,
+      "impression_count": 131
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "SeanQ81715949"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959638063165878619",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@feltanimalworld @HappyQQ_AI 王健林：不怕孩子花天酒地，就怕孩子踌躇满志",
+    "created_at": "2025-08-24T15:24:57.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 216,
+      "impression_count": 216
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "HappyQQ_AI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959636452981297181",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 很有启发，就是信息量有点大 https://t.co/9sqhmvOXVF",
+    "created_at": "2025-08-24T15:18:33.000Z",
+    "metrics": {
+      "like_count": 25,
+      "retweet_count": 0,
+      "reply_count": 2,
+      "quote_count": 0,
+      "view_count": 16714,
+      "impression_count": 16714
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/GzIG9WabsAAX5Mx.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GzIG9WabsAAX5Mx.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LiXiang1947"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959632926766932322",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 @hhmy27 主要还是AI开发还没有在爱好者圈子外产生明显效益。\n\n只是吸引了很多焦虑的喜欢买课的爱好者...\n\n所以一方面，独立搞开发的很难获利，而反观那些以割韭菜为目的的卖课工作者，却赚得很爽。",
+    "created_at": "2025-08-24T15:04:32.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 59,
+      "impression_count": 59
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LiXiang1947"
+        },
+        {
+          "username": "hhmy27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959628338982781162",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@cellinlab 唉 美团 😮‍💨",
+    "created_at": "2025-08-24T14:46:18.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 31,
+      "impression_count": 31
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cellinlab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959627898521801148",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@cellinlab 笑贫不笑娼，历来如此……\n\n这年头当道多都是想吃皇粮骗经费的。你们这群穷逼，能靠谁呢？不骂你们，难道骂官老爷不成 https://t.co/jhU7XlTEjE",
+    "created_at": "2025-08-24T14:44:33.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 99,
+      "impression_count": 99
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/GzH_LmzbQAAMGOG.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GzH_LmzbQAAMGOG.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cellinlab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959625577511743822",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@cellinlab 学没上够的人太多了，总想接受更多更深刻的教育",
+    "created_at": "2025-08-24T14:35:20.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 84,
+      "impression_count": 84
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cellinlab"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1959624724562297180",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 @cellinlab 好像去年也有过这种加班请大家开户的事情，后面并没有严重的割韭菜行为。\n\n可能3800具预期的融资目标还差点距离……毕竟这年头要填的亏空比较多",
+    "created_at": "2025-08-24T14:31:57.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 48,
+      "impression_count": 48
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LiXiang1947"
+        },
+        {
+          "username": "cellinlab"
+        }
+      ]
+    }
+  }
+]

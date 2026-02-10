@@ -1,0 +1,636 @@
+[
+  {
+    "id": "1935326868825325834",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Nominatiivi Pro可以在网页版使用Opus，但在Claude code上不可以使用，正如这个文档所说。\n\nClaude Code对模型的消耗应该比正常聊天大很多，Pro那点额度根本就没办法展开使用。",
+    "created_at": "2025-06-18T13:20:56.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 80,
+      "impression_count": 80
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Nominatiivi"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935280371068977215",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "不过以上至少还是比较友好的使用渠道。\n\n对于我最爱的windsurf，事情则更加糟糕。他们被Anthropic拉黑之后，费了很大力气终于可以让用户通过曲折的渠道用上Claude，只不过具体操作非常繁琐。 https://t.co/L2Iwb3GFPS",
+    "created_at": "2025-06-18T10:16:10.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 157,
+      "impression_count": 157
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtt-BpaWQAA5KqF.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt-BpaWQAA5KqF.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtt-ktLXEAAK_8i.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt-ktLXEAAK_8i.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935280360180547666",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "在Github Copilot中也可以使用Opus 4, 然而也不是可以随便使用的：\n1. 首先需要订阅pro+会员，每月39.9；\n2. 会消耗较多的高级请求额度，一次调用消耗10个额度，一个月最多只能调用150次（与GPT 4.5一次消耗50个相比，还算性价比不错）。 https://t.co/rKyLX0Op2q",
+    "created_at": "2025-06-18T10:16:08.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 244,
+      "impression_count": 244
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtt6SDLWIAAsnmo.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt6SDLWIAAsnmo.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtt6XvZWgAAGr8K.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt6XvZWgAAGr8K.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtt6Z3xbkAAfkhf.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt6Z3xbkAAfkhf.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtt6dhbW8AADIlG.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt6dhbW8AADIlG.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935280355315204243",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "鉴于Claude喜欢对中国用户封号，使用其它AI编程工具调用或许是更优的选择。\n\nCursor Pro会员可以使用opus，但是需要通过max模式（根据使用的token额外计价，不算在会员费中）。当然，现在Cursor 现在提供了Ultra 会员，一个月200刀，或许可以实现“Opus自由”。 https://t.co/hUNDjp0X0r",
+    "created_at": "2025-06-18T10:16:07.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 478,
+      "impression_count": 478
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtt5ssxaQAArEs2.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt5ssxaQAArEs2.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtt9N5JXgAArsqU.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt9N5JXgAArsqU.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935280349480894689",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "Claude在很多AI编程工具中都可以直接调用，但是调用Claude Opus 4则是一件奢侈的事情。\n\n首先，最好的方式还是使用Claude Code中直接调用，但需要订阅每月100刀的max会员。20刀的pro可以使用opus, 但经常还没开始就提醒你额度用完，五个小时之后见。 https://t.co/UZt9v9l9Jf",
+    "created_at": "2025-06-18T10:16:05.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 3,
+      "quote_count": 0,
+      "view_count": 281,
+      "impression_count": 281
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtt8b90XoAAiPgA.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt8b90XoAAiPgA.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935280344716165203",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "关于Claude Opus 4的使用渠道\n\nClaude 是最受程序员欢迎的大语言模型，但它又让很多人又爱又恨，尤其是对中国用户而言。无论如何，首先需要祈祷一下自己的Claude不被封号。 https://t.co/RYBgwQtX7n",
+    "created_at": "2025-06-18T10:16:04.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 326,
+      "impression_count": 326
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtt4DVEWQAAzQkN.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtt4DVEWQAAzQkN.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935268512005767252",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶认为，菲尔兹奖让获奖者成为“体制内”的一部分，获得更多关注和责任。但他也尊重佩雷尔曼这样坚持原则、批判奖项的人。能坚持自我原则，是令人敬佩的品质。奖项确实能激励年轻人，但也不能让奖项主导人生，数学界需要各种风格的人才，而不是只关注那些完成“最后一步”的人。",
+    "created_at": "2025-06-18T09:29:03.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 20,
+      "impression_count": 20
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935268506481856651",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "数学界传奇格里戈里·佩雷尔曼曾拒绝菲尔兹奖和百万美元奖金。他说：“我对金钱或名声不感兴趣。如果证明是正确的，就不需要其他认可。”他的选择让整个学术界震惊。",
+    "created_at": "2025-06-18T09:29:02.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 146,
+      "impression_count": 146
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935268508839064032",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶哲轩表示，佩雷尔曼即使在理想主义者众多的数学家中，也是极为特别的存在。他并非完全与世隔绝，但后来选择退出学界，过上更隐居的生活，比如在圣彼得堡采蘑菇。",
+    "created_at": "2025-06-18T09:29:02.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 26,
+      "impression_count": 26
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935268498357502293",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶哲轩访谈——关于佩雷尔曼以及菲尔兹奖\n\n#LexFridman \nhttps://t.co/rh305IGS87",
+    "created_at": "2025-06-18T09:29:00.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 53,
+      "impression_count": 53
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/rh305IGS87",
+          "indices": [
+            34,
+            57
+          ],
+          "display_url": "youtube.com/watch?v=LkbhfH…",
+          "expanded_url": "https://www.youtube.com/watch?v=LkbhfH4SW4M"
+        }
+      ],
+      "hashtags": [
+        "LexFridman"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935244468317544499",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶还提到，目前有一个项目正在用Lean形式化怀尔斯的证明。虽然相关的数学对象已经被定义，但许多基础事实分散在几十年的论文中，需要逐步形式化​⁠。项目的目标是把证明形式化到只需依赖1980年前数论界已知的“黑箱”结果​⁠。",
+    "created_at": "2025-06-18T07:53:31.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 34,
+      "impression_count": 34
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935244465851310288",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶认为怀尔斯的坚持和独立攻关的风格非常浪漫，符合人们对数学家的“隐士”印象。他自己更喜欢合作和灵活转移课题，但也很佩服怀尔斯那种持之以恒、无所畏惧的精神​⁠。",
+    "created_at": "2025-06-18T07:53:30.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 12,
+      "impression_count": 12
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935244462860771746",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶哲轩当时还是一名研究生，记得怀尔斯的邮箱突然被信件塞满，这成为了一个衡量影响力的有趣指标​⁠。大家在茶歇时都在讨论这件事，但大多数人其实并不真正理解证明的细节，只能了解一些高层次的内容​⁠。",
+    "created_at": "2025-06-18T07:53:29.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 6,
+      "impression_count": 6
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935244460490961331",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "陶哲轩口述：关于怀尔斯证明费马大定理。\n\nhttps://t.co/aswb2lSuaZ",
+    "created_at": "2025-06-18T07:53:29.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 39,
+      "impression_count": 39
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/aswb2lSuaZ",
+          "indices": [
+            21,
+            44
+          ],
+          "display_url": "youtube.com/watch?v=YfWikl…",
+          "expanded_url": "https://www.youtube.com/watch?v=YfWiklTpPqE"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935244032059576476",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "访谈要点 https://t.co/q9kZkhi62J",
+    "created_at": "2025-06-18T07:51:46.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 11,
+      "impression_count": 11
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GtteA-dWkAABDl0.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtteA-dWkAABDl0.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935244027865219531",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "OpenAI CEO Sam Altman做客Uncapped，畅聊AI的未来：AI如何推动科学发现、超级智能的风险、人类与AI的关系、OpenAI的最新进展，以及产业格局的变化。\n\nhttps://t.co/la7q8R6HNl",
+    "created_at": "2025-06-18T07:51:45.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 36,
+      "impression_count": 36
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/la7q8R6HNl",
+          "indices": [
+            92,
+            115
+          ],
+          "display_url": "youtube.com/watch?v=mZUG0p…",
+          "expanded_url": "https://www.youtube.com/watch?v=mZUG0pr5hBo&t=23s"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1925834165842260318",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "@USA_China_Talk @DHSgov King Trump is the guy to make China great again！",
+    "created_at": "2025-05-23T08:40:20.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 283,
+      "impression_count": 283
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "USA_China_Talk"
+        },
+        {
+          "username": "DHSgov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1925417313479926023",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "Happy Ending",
+    "created_at": "2025-05-22T05:03:54.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 106,
+      "impression_count": 106
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1925414030501654566",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "在过去这几年，尤其是2022年底chat GPT出现之后，Google在AI方面发生了那些故事？他们在一开始非常狼狈，那么他们是如何一步步决心all in AI并逐渐降低对搜索引擎的依赖的？这前前后后有哪些故事？\n\n谷歌 AI 转型之路\n https://t.co/oDXduIkqSm",
+    "created_at": "2025-05-22T04:50:51.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 19,
+      "impression_count": 19
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/oDXduIkqSm",
+          "indices": [
+            120,
+            143
+          ],
+          "display_url": "g.co/gemini/share/9…",
+          "expanded_url": "https://g.co/gemini/share/9d1c6aa9ef74"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1925227132424421482",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "尝试了一下，很有深度，甚至有点胡搅蛮缠...",
+    "created_at": "2025-05-21T16:28:12.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 8,
+      "impression_count": 8
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  }
+]

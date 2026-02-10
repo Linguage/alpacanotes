@@ -1,0 +1,575 @@
+[
+  {
+    "id": "1964883058278178979",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "以上内容的创作基于Gemini对原推文进行提炼生成。🤣\n\n提示词见（感谢宝玉老师，很好用）：https://t.co/9htRqPFYgo",
+    "created_at": "2025-09-08T02:46:41.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 68,
+      "impression_count": 68
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/9htRqPFYgo",
+          "indices": [
+            46,
+            69
+          ],
+          "display_url": "x.com/dotey/status/1…",
+          "expanded_url": "https://x.com/dotey/status/1964162024100749395"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964883055929380938",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "这宣告了我们与知识关系的一次重构。我们正从信息的“搬运工”，转变为知识的“架构师”。这篇文章所描绘的，并非遥远的科幻，而是正在叩门而入的未来。它邀请我们一同思考：当下一代文明的“学生”是硅基智能时，我们该如何为它们编纂这个时代的“新华字典”与“理想国”？",
+    "created_at": "2025-09-08T02:46:40.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 47,
+      "impression_count": 47
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964883053601546746",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "这一切努力的最终目的，是让一个大语言模型能像人类学生一样真正地“上一门课”，只不过，它所面对的是一个为其精心设计、内容丰富得多的可读、可用信息源。",
+    "created_at": "2025-09-08T02:46:40.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 20,
+      "impression_count": 20
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964883051051360326",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "真正优雅的方案，是一种被他称为“大模型化”（LLMification）的精妙改造。想象一下，一本物理教科书不再是扁平的文字流，而是被精心拆解为：用 Markdown 承载的理论阐述、作为监督式微调（SFT）范例的例题解析、可供强化学习（RL）探索的课后习题环境，甚至是能无限生成同类型变体的“问题生成器”。",
+    "created_at": "2025-09-08T02:46:39.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 47,
+      "impression_count": 47
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964883048840958032",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "他以我们最熟悉的“教科书”为例，犀利地指出了现有方法的笨拙。我们当下的主流做法，不过是把PDF转换成纯文本，让模型像一个耐心的学童，逐字逐句地预测整本教材的内容。这种 brute-force 的学习，在作者看来，实在有些“乏味”。",
+    "created_at": "2025-09-08T02:46:39.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 24,
+      "impression_count": 24
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964883046513205456",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "Andrej Karathy为我们揭示了这层被海量数据所遮蔽的深远洞见。他认为，我们正站在一个关键的岔路口，真正的机遇并非无休止地堆砌信息，而是要开启一场深刻的范式转移——将人类的知识、传感器和执行器，从“人类优先、人类可读”转变为“大模型优先、大模型可读”。他断言，这是一个充满无限潜力的美妙领域。",
+    "created_at": "2025-09-08T02:46:38.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 27,
+      "impression_count": 27
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964883044059545679",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "我们似乎正处在一个用数据“投喂”人工智能的军备竞赛中，参数规模与数据量的比拼定义了这场竞赛的胜负。但我们或许忽略了一个更根本的问题：当学习者不再是人类时，知识本身，是否还应保持它为人类习惯所设计的形态？",
+    "created_at": "2025-09-08T02:46:38.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 133,
+      "impression_count": 133
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964870345716105671",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@feltanimalworld @LiXiang1947 主要是他们的资历可能不值钱。\n\n一个攒了三十多年的资历，可能过于陈旧，不足以支撑创业，除非他一直搞创投。。。\n\n这个年龄，更可能是白嫖惯了，一路都在享受后辈内卷带来的红利🤪\n\n如果不能为自己的理念保驾护航，那他们胡扯的那些东西可靠性也就是村口老大爷的水平 https://t.co/O8wb7juQ7H",
+    "created_at": "2025-09-08T01:56:10.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 44,
+      "impression_count": 44
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G0SfKE9a8AAVurv.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/G0SfKE9a8AAVurv.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "LiXiang1947"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1964867994330513527",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "结婚生子应当被当成目的，但却被这个社会改造成了收刮钱财的工具。\n\n然后就有了厌男、厌女、厌小、厌老，社会不光在物质上原子化，在精神上更甚... 你确实可以讨厌所有人，但也会逐渐失去所有友善与温馨\n\n当社会选择了挣这种不义之财的时候，它也就选择了自我堕落乃至自我毁灭。",
+    "created_at": "2025-09-08T01:46:49.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 750,
+      "impression_count": 750
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964863279878353150",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "当我vibe coding时，好像我的重点都是在vibe，因为我确实不太擅长coding。\n\n娱乐大于工作。往往容易因为过于娱乐，把本来的工作的焦点给忘掉了",
+    "created_at": "2025-09-08T01:28:05.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 37,
+      "impression_count": 37
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964862778168230021",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "这是对我经验的最佳总结🥹 https://t.co/s7FfdYgvpz",
+    "created_at": "2025-09-08T01:26:06.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 385,
+      "impression_count": 385
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0SYSJPa4AELIjq.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0SYSJPa4AELIjq.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964861635178483794",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 我还有点怕出名呢...\n\n偶尔写点自己想写的东西, 被围观了反而感觉怪怪的。当然，写了很多东西没人看，也感觉怪怪的。\n\n没事给你们点点赞也挺好，本来也是潜水多年😂😂😂",
+    "created_at": "2025-09-08T01:21:33.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 23,
+      "impression_count": 23
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LiXiang1947"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1964860532135268741",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "我这边的AI宫斗也要进入大逃杀模式了，朕宠幸（白嫖）不过来了。\n\n再过一周，下列中只有一两个会被保留：cursor、windsurf、kiro、zed、warp、qoder...\n\n比较常用的还是perplexity、copilot、Claude+GLM。钱还是要花的，但大额美刀就算了...",
+    "created_at": "2025-09-08T01:17:10.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 226,
+      "impression_count": 226
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964857585275937119",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "近来用AI来辅助阅读。\n\n用AI辅助的时候很刺激，感觉自己在统治世界...\n\n至于阅读？只有把那一坨汇总的“摘要”放到我面前，我才发现我根本不喜欢阅读。",
+    "created_at": "2025-09-08T01:05:28.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 95,
+      "impression_count": 95
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964857061701009472",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "跨越200。\n\n在196-198的范围拉扯了一周了...我人都麻了，突然通畅了。\n\n不过明显到了九月份，发推的热情没那么狂热，心理波动不太大。 https://t.co/prICQoXvLk",
+    "created_at": "2025-09-08T01:03:23.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 1,
+      "view_count": 832,
+      "impression_count": 832
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0STFadbsAEcOkO.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0STFadbsAEcOkO.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964739218464469271",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "这些工具，尤其是新工具，仿佛就是糖衣。\n\n糖衣很甜蜜，但是糖衣包裹的那些内在的工作却总让我感到苦涩。",
+    "created_at": "2025-09-07T17:15:07.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 1,
+      "view_count": 155,
+      "impression_count": 155
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964662675788763507",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dongxi_nlp 啧啧啧... https://t.co/NRYRe8A4zS",
+    "created_at": "2025-09-07T12:10:58.000Z",
+    "metrics": {
+      "like_count": 7,
+      "retweet_count": 0,
+      "reply_count": 2,
+      "quote_count": 0,
+      "view_count": 1505,
+      "impression_count": 1505
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0PiSqFa8AELm9a.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0PiSqFa8AELm9a.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dongxi_nlp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1964641459065495589",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "Anthropic的“反华声明”的一个可能的效果就是：很多中国用户开始反思Claude是不是最优的大模型。\n\n有时人对产品的感知会受某种情感因素影响，一开始被震撼之后，可能会变成“恋爱脑”，但恶心人的事情发生之后，就会突然清醒下来，然后看它哪哪都不对...\n\n这种“用户心智”, 一旦被破坏，就很难再回来。",
+    "created_at": "2025-09-07T10:46:39.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 109,
+      "impression_count": 109
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1964624849089015814",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "@karminski3 gold！",
+    "created_at": "2025-09-07T09:40:39.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 529,
+      "impression_count": 529
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "karminski3"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1964624659116339463",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼🦙",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "verified": false
+    },
+    "text": "有时候感觉读书的意义不在于学到什么新东西，而是通常书是比较可靠的信息源，读了之后可以节省很多精力，避免将其浪费在各种“衍生品”上...",
+    "created_at": "2025-09-07T09:39:54.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 409,
+      "impression_count": 409
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  }
+]
