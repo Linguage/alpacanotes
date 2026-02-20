@@ -4,11 +4,71 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2026 11:54:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2026 12:17:18 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Feb 2026 11:54:42 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 12:17:18 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[从一个念头到自动化链路：Telegram 碎碎念入站记]]></title>
+            <description><![CDATA[记录把 Telegram 随手笔记自动汇总到博客 Notes 页面的全过程，包括方案选型、逐步落地和一路踩过的坑。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-notes-journey-2026-02-20</link>
+            <guid isPermaLink="false">article:telegram-notes-journey-2026-02-20</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;事情的起因很简单：我想要一个&quot;随手记&quot;的地方。&lt;/p&gt;
+&lt;p&gt;平时看到什么、想到什么，顺手发一条消息就完事了。但这些零碎的想法散落在聊天记录里或者仅存在与脑海之中，过几天就沉没了。我希望它们能自动汇集到博客的 Notes 页面上——每天的消息归到同一篇，标题就是当天日期，像一份&quot;碎碎念合集&quot;。&lt;/p&gt;
+&lt;p&gt;需求说起来就一句话，但真正动手做的时候，发现牵扯的东西远比想象中多，不过好在，基于Codex的给力输出，一下午就把基本功能搞定了。&lt;/p&gt;
+&lt;h2 id=&quot;选方案为什么是-telegram-bot-webhook&quot;&gt;选方案：为什么是 Telegram Bot Webhook&lt;/h2&gt;
+&lt;p&gt;一开始摆在面前的核心问题是：怎么把 Telegram 里的消息送到 GitHub 仓库？&lt;/p&gt;
+&lt;p&gt;最终选定的方案是 Telegram Bot Webhook。简单说，Webhook 就是&quot;你给我一个网址，有事我主动来敲门&quot;——Telegram 每次收到消息，会主动把内容 POST 到我指定的地址，而不是我反复去轮询&quot;有没有新消息&quot;。&lt;/p&gt;
+&lt;p&gt;思路是这样的：我建一个 Bot，私聊发文本给它，Telegram 会把消息推送到 Webhook 地址。Webhook 收到消息后，调用 GitHub API 触发一个 &lt;code&gt;repository_dispatch&lt;/code&gt; 事件（可以理解为&quot;远程拍一下 GitHub 的肩膀，告诉它该干活了&quot;），然后 GitHub Actions 接手，把消息内容写入当天的 Markdown 文件，提交到仓库。最后靠现有的部署流程自动发布到站点。&lt;/p&gt;
+&lt;p&gt;整条链路画出来大概是这样的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Telegram 私聊 → Bot Webhook → Cloudflare Worker → GitHub repository_dispatch → Actions 脚本写入 notes → commit &amp;#x26; push → 定时部署到 Pages&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;看起来环节不少，但每一环的职责都很清晰。Webhook 只做&quot;接收和转发&quot;，Actions 脚本只做&quot;写文件&quot;，部署还是复用原来的流程。&lt;/p&gt;
+&lt;h2 id=&quot;关于-cloudflare-workers一个意外的知识盲区&quot;&gt;关于 Cloudflare Workers：一个意外的知识盲区&lt;/h2&gt;
+&lt;p&gt;说来有点惭愧，一开始我甚至不太清楚 Cloudflare Workers 是什么。我的第一反应是：能不能直接用我现有的 GitHub Pages 域名来接 Webhook？&lt;/p&gt;
+&lt;p&gt;答案当然是不行——GitHub Pages 是纯静态托管，只能返回 HTML/CSS/JS 文件，没法处理 POST 请求和执行业务逻辑。打个比方，静态托管就像一个只会发传单的展位，你递给它一封信（POST 请求），它不知道怎么拆开、怎么处理。所以还是需要一个真正的&quot;后端入口&quot;，哪怕它只有几十行代码。&lt;/p&gt;
+&lt;p&gt;Cloudflare Workers 本质上就是一个托管在云端的小型后端函数——你可以把它想象成一个 24 小时在线的小助手，有人敲门（收到请求）它就按你写好的逻辑去办事，办完就休息，不用你租一台一直开着的服务器。免费额度对我这个场景绰绰有余，部署也就是把代码粘进去点一下的事。唯一需要配置的是五个环境变量：Telegram 的 secret token（用来验证请求确实来自 Telegram）、我的聊天 ID 白名单（只接受我自己发的消息）、GitHub 仓库信息和一个最小权限的 PAT（Personal Access Token，相当于 GitHub 的&quot;临时通行证&quot;，只给它读写仓库文件的权限）。&lt;/p&gt;
+&lt;h2 id=&quot;第一个坑worker-还是默认模板&quot;&gt;第一个坑：Worker 还是默认模板&lt;/h2&gt;
+&lt;p&gt;所有代码写好、环境变量配好之后，我兴冲冲地给 Bot 发了第一条消息。&lt;/p&gt;
+&lt;p&gt;Cloudflare 的日志确实收到了请求——但 GitHub Actions 毫无动静。&lt;/p&gt;
+&lt;p&gt;我去看 Worker 的日志，发现一行非常眼熟的输出：&lt;code&gt;Hello World Worker received a request!&lt;/code&gt;。原来我在 Cloudflare 的编辑器里创建 Worker 之后，忘了把默认模板替换成真正的 webhook 代码。它确实收到了 Telegram 的请求，但只是礼貌地回了一句&quot;Hello World&quot;，根本没有调用 GitHub API。&lt;/p&gt;
+&lt;p&gt;把代码替换上去、重新部署之后，这一环就通了。&lt;/p&gt;
+&lt;h2 id=&quot;第二个坑并发推送导致-non-fast-forward&quot;&gt;第二个坑：并发推送导致 non-fast-forward&lt;/h2&gt;
+&lt;p&gt;消息终于能写入仓库了，但新的问题很快出现。&lt;/p&gt;
+&lt;p&gt;当我短时间内连发几条消息时，GitHub Actions 的 ingest workflow（负责把消息写入文件的自动化流程）会多次并行运行。每个 run 都是拉取 main 分支最新代码、修改文件、提交、推送——但如果前一个 run 已经推送成功，后一个 run 手里的代码就&quot;过时&quot;了，&lt;code&gt;git push&lt;/code&gt; 直接被拒绝，报错信息是 &lt;code&gt;non-fast-forward&lt;/code&gt;（直译就是&quot;你的版本不是最新的，不能直接往前推&quot;）。&lt;/p&gt;
+&lt;p&gt;解决办法不复杂：在 workflow 里给 push 加了重试逻辑，失败时自动拉取远端最新代码、把自己的改动接在后面（&lt;code&gt;git pull --rebase&lt;/code&gt;），然后重新推送，最多重试四次。同时也加了空变更保护——如果这条消息已经被前一个 run 写入了（也就是做了&lt;strong&gt;幂等去重&lt;/strong&gt;，下面会解释），就不做无意义的提交。&lt;/p&gt;
+&lt;h2 id=&quot;第三个坑时间显示错乱&quot;&gt;第三个坑：时间显示错乱&lt;/h2&gt;
+&lt;p&gt;写入链路稳定之后，我打开网页一看——时间不对。&lt;/p&gt;
+&lt;p&gt;我发的消息明明是北京时间下午 6 点，页面上却显示成了上午 10 点。原因也不难猜：ingest 脚本在 &lt;code&gt;date&lt;/code&gt; 字段里写入了带 &lt;code&gt;+08:00&lt;/code&gt; 时区后缀的 ISO 格式（比如 &lt;code&gt;2026-02-20T18:02:51+08:00&lt;/code&gt;），但站点的构建服务器在 UTC 时区（比北京时间慢 8 小时），渲染的时候直接按 UTC 解读，6 点减 8 小时就变成了上午 10 点。&lt;/p&gt;
+&lt;p&gt;第一次修复的思路是&quot;在前端强制按 Asia/Shanghai 时区格式化&quot;。写了几个工具函数，改了列表页、详情页和首页组件。改完确实对了——但我随即意识到一个问题：之前所有手写的文章都用的是不带时区的日期格式（比如 &lt;code&gt;&quot;Jan 17 2026&quot;&lt;/code&gt; 或 &lt;code&gt;&quot;2026-01-24&quot;&lt;/code&gt;），这套新逻辑会不会影响旧文章的显示？&lt;/p&gt;
+&lt;p&gt;最终的决策是&quot;以旧规则为准&quot;：前端的时间展示逻辑全部恢复原样，ingest 脚本那边改成写入不带时区后缀的格式，和旧文章保持一致。&lt;/p&gt;
+&lt;h2 id=&quot;第四个坑定时部署不触发&quot;&gt;第四个坑：定时部署不触发&lt;/h2&gt;
+&lt;p&gt;GitHub 有一个防循环机制：由自动化流程（&lt;code&gt;GITHUB_TOKEN&lt;/code&gt;）推送的代码变更，不会再触发其他由 push 事件启动的 workflow。这是为了防止&quot;A 触发 B，B 又触发 A&quot;的无限循环。但副作用是：ingest workflow 写完 notes 文件并 push 之后，deploy workflow 压根不知道有新内容，不会自动启动部署。&lt;/p&gt;
+&lt;p&gt;我先是加了 &lt;code&gt;workflow_run&lt;/code&gt; 触发，让 deploy 监听 ingest 完成后自动运行。但这样每条消息都会触发一次完整构建，太频繁了。&lt;/p&gt;
+&lt;p&gt;后来改成了&quot;双通道&quot;策略：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我自己手动 push 到 main → 立即部署&lt;/li&gt;
+&lt;li&gt;Bot 自动写入 → 不立即部署，靠每 30 分钟一次的定时任务检查是否有新变更，有就部署，没有就跳过&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个策略本身没问题，但实际跑起来又碰到了新状况：定时任务的&quot;是否需要部署&quot;检查逻辑有 bug。它去查&quot;最近一次成功的 deploy run&quot;，结果把 bot push 触发但被 &lt;code&gt;if&lt;/code&gt; 条件跳过的 run 也算进去了——那个 run 的 &lt;code&gt;head_sha&lt;/code&gt; 恰好就是最新的，于是检查结论永远是&quot;不需要部署&quot;。&lt;/p&gt;
+&lt;p&gt;修复方式是把并发组按事件类型拆分，同时让 schedule-check 只认&quot;真正执行过构建的成功 run&quot;，排除掉被跳过的那些。&lt;/p&gt;
+&lt;h2 id=&quot;一个小插曲dependabot-带来的分支爆炸&quot;&gt;一个小插曲：Dependabot 带来的分支爆炸&lt;/h2&gt;
+&lt;p&gt;在处理主线功能的间隙，我顺手给仓库加了 Dependabot 来自动更新依赖——毕竟 &lt;code&gt;npm audit&lt;/code&gt; 报了一堆告警，其中 Next.js 还有个 critical。&lt;/p&gt;
+&lt;p&gt;结果push一波之后发现，仓库多出了十几个 &lt;code&gt;dependabot/...&lt;/code&gt; 分支，每个依赖包一个 PR。虽然是正常行为，但对于一个人维护的小项目来说，这些 PR 看着就让人焦虑。&lt;/p&gt;
+&lt;p&gt;先是改成了分组更新模式（npm 一组、actions 一组），后来想了想，干脆关掉了——对我来说，偶尔手动跑一次 &lt;code&gt;npm update&lt;/code&gt; 比每周审核一堆自动 PR 更省心。&lt;/p&gt;
+&lt;h2 id=&quot;回过头来看&quot;&gt;回过头来看&lt;/h2&gt;
+&lt;p&gt;这半天下来，从萌生&quot;随手记&quot;的念头到整条链路基本跑通，中间经历了方案评估、代码实现、环境配置、五六轮问题排查和策略调整。真正写代码的时间可能并不算多，大部分精力花在了&quot;让各个环节正确地衔接起来&quot;上。&lt;/p&gt;
+&lt;p&gt;有几个收获值得记下来：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写入和发布应该解耦。&lt;/strong&gt; &quot;解耦&quot;说白了就是把两件事拆开、各管各的。一开始我本能地觉得&quot;消息写进去就应该立刻发布&quot;，但实际上对于碎碎念这种内容，延迟几十分钟完全可以接受。把&quot;写入仓库&quot;和&quot;构建发布网站&quot;拆成两个独立的步骤之后，构建频率降下来了，并发冲突也少了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;幂等性不是可选项。&lt;/strong&gt; 所谓&quot;幂等&quot;，就是&quot;同一个操作执行一次和执行一百次，结果都一样&quot;。在这个场景里，Telegram 会重试、Actions 会并发、网络会抖动，同一条消息可能被投递多次。如果 ingest 脚本不按 &lt;code&gt;message_id&lt;/code&gt; 做去重——也就是&quot;这条消息已经写过了，再来一次我就跳过&quot;——那同一条碎碎念可能会在页面上出现好几遍。这种&quot;不管来多少次都只生效一次&quot;的防御性设计，在一开始就该想到。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;尊重已有的约定。&lt;/strong&gt; 时区格式的问题本质上就是&quot;新代码没有遵循旧约定&quot;。与其让新功能强推一套新格式，不如让它适配已有的规则，哪怕那个规则不是最&quot;正确&quot;的。&lt;/p&gt;
+&lt;p&gt;现在这套东西已经能用了：给 Bot 发条消息，等半小时，网站上就能看到。后续要做的事情不多——观察定时部署的稳定性、找时间升级一下 Next.js 版本、可能的话给 ingest 加几条日志方便排查。&lt;/p&gt;
+&lt;p&gt;总之，它从一个&quot;要是能这样就好了&quot;的念头，变成了一条真正可用的自动化链路。这大概就是折腾的乐趣所在。&lt;/p&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[当AI配额用不完：一种新型焦虑]]></title>
             <description><![CDATA[订阅了太多AI工具却用不完配额，焦虑的不是钱，而是发现自己成了瓶颈。这篇文章记录了我与AI的一次对话，以及从中得到的一些想法。]]></description>
