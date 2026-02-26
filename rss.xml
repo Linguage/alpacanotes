@@ -4,11 +4,68 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Feb 2026 10:12:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2026 17:31:55 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 26 Feb 2026 10:12:39 GMT</pubDate>
+        <pubDate>Thu, 26 Feb 2026 17:31:55 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[从极简到报纸：一次博客改版的经验与反思]]></title>
+            <description><![CDATA[把博客从现代极简风格迁移到复古报纸排版的过程中，踩了不少坑。这篇文章聊聊改版背后的设计理念，以及几个印象最深的困境和思考。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/theme-migration-experience-2026</link>
+            <guid isPermaLink="false">article:theme-migration-experience-2026</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;偶然看到一个叫 Amp Chronicle 的设计风格——紧凑的多列排版、复古米色底、衬线标题、细实线分割——像一份印刷精良的老报纸。当时就想：我的博客能不能也变成这样？&lt;/p&gt;
+&lt;p&gt;一开始以为只是换个色调、调个字体的事。结果几乎每一个页面都被翻了个底朝天。&lt;/p&gt;
+&lt;h2 id=&quot;改一个颜色牵动所有设计&quot;&gt;改一个颜色，牵动所有设计&lt;/h2&gt;
+&lt;p&gt;改版的第一件事是换色调和字体。背景从冷白色换成米黄色，标题从无衬线体换成衬线体。就这两步，整个站的气质瞬间从&quot;科技产品&quot;变成了&quot;羊皮纸手稿&quot;。&lt;/p&gt;
+&lt;p&gt;但紧接着就出了问题——原先看着挺和谐的圆角卡片和半透明阴影，在暖色调的底色上突然变得格格不入。就像你把一套宜家的北欧家具搬进了一间中式书房，每一件单看都没问题，放在一起就哪哪都别扭。&lt;/p&gt;
+&lt;p&gt;于是圆角全部改成直角，阴影全部换成细实线边框，元数据区全部统一成小号大写字母——一环扣一环地调，最后几乎所有组件都重新过了一遍。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这件事让我意识到：设计系统是牵一发动全身的。&lt;/strong&gt; 你以为只是换了个底色，其实是换了一整套视觉语言。不要指望只改一层就能停下来。&lt;/p&gt;
+&lt;h2 id=&quot;多列排版选错工具多走的弯路&quot;&gt;多列排版：选错工具多走的弯路&lt;/h2&gt;
+&lt;p&gt;报纸风格最核心的视觉特征是多列排版。最直觉的实现方式是用网格布局——把页面切成三列四列，内容往里填就好了。&lt;/p&gt;
+&lt;p&gt;但实践中马上碰到一个问题：&lt;strong&gt;网格布局要求同一行的所有卡片等高。&lt;/strong&gt; 我的内容长短差异很大——一条碎碎念可能就两行字，一篇长文能撑满半屏。它们被放在同一行里时，短卡片下方就会出现大块空白，像报纸排版时忘了填广告的版面。&lt;/p&gt;
+&lt;p&gt;后来换了一种&quot;瀑布流&quot;的方案。它的工作方式更像真正的报纸排版——内容从上往下自然流动，填满一栏再流入下一栏，每张卡片紧挨着前一张，不会有空白浪费。这正是我想要的效果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;选错工具的代价远不止&quot;写几行代码&quot;——而是在错误方向上反复调试、打补丁，最终还是得推翻重来。&lt;/strong&gt; 有时候退一步想想问题的本质是什么，比埋头写代码更有价值。&lt;/p&gt;
+&lt;h2 id=&quot;侧边栏的三次翻车&quot;&gt;侧边栏的三次翻车&lt;/h2&gt;
+&lt;p&gt;日历组件是整个改版中被翻新次数最多的部分，前后试了三种方案，每一种都有各自&quot;理论上没问题但实际不行&quot;的故事。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一次&lt;/strong&gt;，把日历固定在屏幕右侧，滚动时始终可见。在普通屏幕上很完美，但在超宽屏幕上，日历和主内容之间的距离会随屏幕变宽而无限拉大。两边各自为政，像两个毫无关系的页面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二次&lt;/strong&gt;，为了让日历紧贴内容区域，用了一种嵌套定位的技巧——外层把日历锚定到内容区右侧，内层让它跟随滚动。听起来很巧妙，但内层的滚动跟随机制直接失灵了。原因是外层的锚定方式破坏了内层所需要的前提条件。日历直接从页面上&quot;消失&quot;了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三次&lt;/strong&gt;，不再耍花招。页面分成两栏——左边放内容，右边放日历。日历就老老实实跟着页面走。没有什么高级技巧，但它就是稳稳当当地工作着。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有时候最朴素的方案就是最好的方案。&lt;/strong&gt; 技巧越多，隐含的前提条件就越多，翻车的概率也越大。&lt;/p&gt;
+&lt;h2 id=&quot;手机和电脑不必一套方案走天下&quot;&gt;手机和电脑：不必一套方案走天下&lt;/h2&gt;
+&lt;p&gt;一个有意思的发现：最终日历在电脑端和手机端用的是完全不同的方案。&lt;/p&gt;
+&lt;p&gt;电脑端是前面说的两栏布局+侧边栏。手机端则完全不同——底部放一个浮动按钮，点击后弹出一个半透明面板。两套方案在代码中并存，根据屏幕宽度自动切换。&lt;/p&gt;
+&lt;p&gt;这让我意识到&lt;strong&gt;响应式设计不一定非得是&quot;同一套布局在不同屏幕上缩放&quot;&lt;/strong&gt;。有时候，大屏和小屏的最优交互方式本身就不同，硬用同一套方案去适配两端，反而会两头不讨好。允许为不同场景设计不同的方案，反而更简洁。&lt;/p&gt;
+&lt;h2 id=&quot;列表页该展示多少内容&quot;&gt;列表页该展示多少内容？&lt;/h2&gt;
+&lt;p&gt;还有一个需要平衡的问题：列表页应该展示摘要还是全文？&lt;/p&gt;
+&lt;p&gt;我的笔记类型很杂——有几十字的随想，也有带图片和代码的技术笔记。如果全部截断成两三行摘要，短随想刚好合适，但长文会丢失太多信息。如果全部展开全文，首页会被长篇内容撑得无法浏览。&lt;/p&gt;
+&lt;p&gt;最终方案是&lt;strong&gt;分层&lt;/strong&gt;：首页作为入口，统一截断成简短的摘要，保持浏览效率；而笔记专属页面面向的是已经明确想看内容的读者，全文展开。同一个组件通过一个开关控制两种模式，不需要写两套代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不同页面承担不同职责，不需要用同一种方式展示内容。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;最后-10-的细节&quot;&gt;最后 10% 的细节&lt;/h2&gt;
+&lt;p&gt;收尾阶段都是些不起眼的小修补——清理布局迁移遗留的多余线条、修复标签文字过长时溢出卡片边界、让手机端的标题和按钮排在同一行……&lt;/p&gt;
+&lt;p&gt;单独看每一条都微不足道。但这些细节叠加起来，就是&quot;大致完成&quot;和&quot;真正完成&quot;之间的差距。&lt;/p&gt;
+&lt;p&gt;我越来越觉得，做前端最耗时间的从来不是搭主体框架，而是追平最后 10% 的视觉一致性。偏偏这 10% 才是用户能直接感知到的品质。&lt;/p&gt;
+&lt;h2 id=&quot;几条带走的感悟&quot;&gt;几条带走的感悟&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;设计是牵一发动全身的。&lt;/strong&gt; 改了一个底层配色，所有组件的风格都得跟着重新审视。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;选对工具比埋头调试重要。&lt;/strong&gt; 在错误的方案上反复打补丁，不如退一步想清楚问题本质后重新选型。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;朴素的方案往往最稳。&lt;/strong&gt; 越是花哨的技巧，隐含前提越多，越容易在边缘情况下翻车。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;响应式不等于缩放。&lt;/strong&gt; 不同设备的最优体验可能需要完全不同的实现方案，允许它们并存。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;最后 10% 的细节占了一半的时间，但正是它决定了用户感知到的品质。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[从一个念头到自动化链路：Telegram 碎碎念入站记]]></title>
             <description><![CDATA[记录把 Telegram 随手笔记自动汇总到博客 Notes 页面的全过程，包括方案选型、逐步落地和一路踩过的坑。]]></description>
