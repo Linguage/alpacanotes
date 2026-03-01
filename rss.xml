@@ -4,11 +4,39 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 01 Mar 2026 10:26:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Mar 2026 16:06:46 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 01 Mar 2026 10:26:09 GMT</pubDate>
+        <pubDate>Sun, 01 Mar 2026 16:06:46 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[独立开发近况与 AI 编程心得]]></title>
+            <description><![CDATA[回顾近期的独立开发项目——网站升级、网页简历、流量监控面板和 DoneList，分享高强度使用 AI 辅助编程的体验与思考。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/indie-dev-and-ai-coding-review</link>
+            <guid isPermaLink="false">article:indie-dev-and-ai-coding-review</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;最近密集地做了好几个开发项目。二月底手头额度充裕，我索性把 GitHub Copilot 和 Windsurf 直接当 Agent 深度使用，开发效率拉满。不过进入三月，额度重新计算，得稳着点用了。&lt;/p&gt;
+&lt;p&gt;趁此机会，回顾一下近期做的几件事，以及在这个过程中对 AI 辅助编程的一些新认识。&lt;/p&gt;
+&lt;h2 id=&quot;近期项目回顾&quot;&gt;近期项目回顾&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;网站升级&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;给个人网站加了一个新功能：在 Telegram 输入信息后自动同步到网页上。从家里回来之后，又参考了 AMP 的网页设计风格，把页面美化了一番，看起来精致多了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;网页版简历&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;帮一个朋友把 CV 做成了网页版并进行了优化。不过他更希望自己来搞，婉拒了我的好意——只能说很遗憾。但我还是把成品挂在了自己的站点上，没事翻看一下，颇有成就感。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;流量监控面板&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;做了一个用来查看 VPN 流量记录的 Dashboard。以前主要写前端，很少碰后端，这次终于把后端数据处理的功能加上了，还修复了一些 bug、提升了性能。这次尝试让我对前后端的交互有了更完整的了解。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;重启 DoneList 项目&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;把之前搁置的 DoneList 项目重新捡起来开发了一波。虽然雏形已出，但感觉偏离了初衷——本来是为了逃离传统的 Todo list 软件，结果做出来越来越像市面上常见的笔记应用。后续可能还得深度结合 AI 技术，赋予它全新的体验，继续打磨。&lt;/p&gt;
+&lt;h2 id=&quot;未来规划&quot;&gt;未来规划&lt;/h2&gt;
+&lt;p&gt;做独立开发，我需要一个能让自己持续投入精力、不断迭代、且有足够发挥空间的项目。以前做网站能让我兴奋好几个月，不断积累新经验，但现在网站开发带来的兴奋感已经没那么强了。&lt;/p&gt;
+&lt;p&gt;接下来计划把重心更多地转移到 &lt;strong&gt;App 开发&lt;/strong&gt; 上，目标是把自己的作品上架到 App Store 等平台。这算是一个初步计划，具体落实时间待定。&lt;/p&gt;
+&lt;h2 id=&quot;ai-编程使用心得&quot;&gt;AI 编程使用心得&lt;/h2&gt;
+&lt;p&gt;这段时间高强度使用 AI 辅助编程，积累了不少经验。之前以写前端为主，接下来打算慢慢加入后端，再结合以前常做的数据处理和深度建模工作，把它们全都融合起来。这种不断探索新领域的感觉非常美妙。&lt;/p&gt;
+&lt;p&gt;在这个过程中，AI 起到了决定性的作用。现在不仅仅是让它直接写代码，我也开始越来越多地和它探讨&lt;strong&gt;方案设计、架构理念和修改计划&lt;/strong&gt;。这种反复讨论让我对项目的认知更清晰，对下一步的把控也更精准。使用习惯上的进化让我很满意，开发过程也非常顺畅。&lt;/p&gt;
+&lt;p&gt;未来 AI 肯定会越来越强大，真的很值得期待。&lt;/p&gt;
+&lt;h2 id=&quot;windsurf-的额度消耗&quot;&gt;Windsurf 的额度消耗&lt;/h2&gt;
+&lt;p&gt;最后吐槽一下 Windsurf 的额度策略。每当有新模型发布时，Windsurf 都会给点促销折扣，比如 Claude Opus 刚发布的时候每次请求只扣 2 个点数，现在直接涨到了 6 到 10 个点——太恐怖了。不过也没办法，慢慢接受吧，毕竟不可能永远都是促销价。&lt;/p&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[从极简到报纸：一次博客改版的经验与反思]]></title>
             <description><![CDATA[把博客从现代极简风格迁移到复古报纸排版的过程中，踩了不少坑。这篇文章聊聊改版背后的设计理念，以及几个印象最深的困境和思考。]]></description>
