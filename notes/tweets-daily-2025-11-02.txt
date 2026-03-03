@@ -10,30 +10,95 @@ e:I[6213,[],"ViewportBoundary"]
 1:HL["/alpacanotes/_next/static/media/eaead17c7dbfcd5d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/alpacanotes/_next/static/css/cc2b58cedd75d3de.css","style"]
 3:HL["/alpacanotes/_next/static/css/8a81f3c2b2afb0ea.css","style"]
-0:{"P":null,"b":"thKCrpK29JklW7v3HFnWu","p":"/alpacanotes","c":["","notes","tweets-daily-2025-11-02"],"i":false,"f":[[["",{"children":["notes",{"children":[["id","tweets-daily-2025-11-02","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/cc2b58cedd75d3de.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/8a81f3c2b2afb0ea.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_60ddcb","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]}]]}],{"children":["notes",["$","$4","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","notes","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["id","tweets-daily-2025-11-02","c"],["$","$4","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","notes","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":["$L9",null,["$","$La",null,{"children":"$Lb"}]]}],{},null]},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","1DJQUrqbg33wQuHSd12zF",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","$Le",null,{"children":"$Lf"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
-11:I[2647,["935","static/chunks/935-c3c4a42486495e3b.js","213","static/chunks/213-c664f9c913758318.js","568","static/chunks/app/notes/page-f0c2d2a3311bf8d5.js"],"default"]
-12:I[4839,["935","static/chunks/935-c3c4a42486495e3b.js","213","static/chunks/213-c664f9c913758318.js","568","static/chunks/app/notes/page-f0c2d2a3311bf8d5.js"],""]
-13:T864,<h3 id="1">1.</h3>
+0:{"P":null,"b":"aXN55uatEKl8PoJlRHPdu","p":"/alpacanotes","c":["","notes","tweets-daily-2025-11-02"],"i":false,"f":[[["",{"children":["notes",{"children":[["id","tweets-daily-2025-11-02","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/cc2b58cedd75d3de.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/8a81f3c2b2afb0ea.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_60ddcb","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]}]]}],{"children":["notes",["$","$4","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","notes","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["id","tweets-daily-2025-11-02","c"],["$","$4","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","notes","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":["$L9",null,["$","$La",null,{"children":"$Lb"}]]}],{},null]},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","rgHcXwYiBhw6Y4hfpgKlh",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","$Le",null,{"children":"$Lf"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+11:I[2647,["935","static/chunks/935-c3c4a42486495e3b.js","213","static/chunks/213-b34b62ed50876cd6.js","568","static/chunks/app/notes/page-f0c2d2a3311bf8d5.js"],"default"]
+12:I[4839,["935","static/chunks/935-c3c4a42486495e3b.js","213","static/chunks/213-b34b62ed50876cd6.js","568","static/chunks/app/notes/page-f0c2d2a3311bf8d5.js"],""]
+13:T21a2,<h3 id="1">1.</h3>
+<p>Warp与Terminal结合起来使用就显得太丝滑了。</p>
+<p>刚装了使用新的方法（brew)装了一个claude code导致之前npm版本的环境变量失效，于是直接让warp帮忙搞定</p>
+<p>(问题就是，现在被惯坏了，甚至懒得多动几下手指😂😂😂） <a href="https://t.co/LIDfkIlnNj">https://t.co/LIDfkIlnNj</a></p>
+<p><img src="https://pbs.twimg.com/media/G4txQe5aUAAnplz.jpg" alt=""></p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984805351968113024">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="2">2.</h3>
+<p>@ReynoldDai 人人都说“费曼学习法”。但是方法简单，做到很难。</p>
+<p>任何武功秘籍都需要配有对应的内功心法，不然难免走火入魔。</p>
+<p>“费曼学习法”那一套绝非什么学习的捷径，而是需要为学习准备更多的空间与时间</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984813580584436106">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="3">3.</h3>
+<p>首次听这首歌的时候，我们的女足还是世界一流。</p>
+<p>恍然间，二十多年过去了，梦想的路总是充满曲折与坎坷。那个目的地本以为触手可及，却百转千回。</p>
+<p>不变的是，歌曲依然鼓舞人心...</p>
+<p>怀念那个懵懂无知但斗志昂扬的少年时代！</p>
+<p>田震《风雨彩虹，铿锵玫瑰》</p>
+<p><a href="https://t.co/J9zGMUhSty">https://t.co/J9zGMUhSty</a></p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984818713447841831">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="4">4.</h3>
+<p>@Jason_Young1231 @wey_gu 在我心中，这首歌无论怎么改编，都难以消除这个旋律的痕迹：“悠悠的户晨风，替美人揍警车...”</p>
+<p>【《悠悠的户晨风》】 <a href="https://t.co/4WC5b93OnZ">https://t.co/4WC5b93OnZ</a></p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984825676051202563">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="5">5.</h3>
+<p>@Jason_Young1231 @wey_gu 原歌曲的精神内核，我认为最搭配的是《长安三万里》。尤其是高适的视角，特别贴合。</p>
+<p>【海伦热门歌曲《游京》DJ完整版音乐MV】 <a href="https://t.co/6UgfcvAxVl">https://t.co/6UgfcvAxVl</a></p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984827721218998766">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="6">6.</h3>
+<p>@kevinma_dev_zh @interjc 这就是我比较拧巴的地方，有点微妙。</p>
+<p>有时候本来是想偷偷写，写完之后又想贴在一个别人也能看到的地方。贴出来之后，别人看得多了会有点羞涩，看得少了又会失落...</p>
+<p>非常bitch 😂😂😂</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984838585896616376">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="7">7.</h3>
+<p>@PandaTalk8 Cursor和Windsurf推出的超快大模型据说都是套壳国产开源模型</p>
+<p>马斯克也吐槽，由于openai这种逼太closed，抠抠搜搜就开源出来一个垃圾，导致现在开源市场已经被中国垄断（放眼美利坚，唯有Grok才是高品质的真开源）</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984919727941321050">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="8">8.</h3>
+<p>@PandaTalk8 @VentureEth80560 我感觉100万是个宏伟但很危险的目标😂😂😂</p>
+<p>立党那样玩得太过风骚，能把各种群体都给搞进来，也就勉强100多万。</p>
+<p>我感觉那种玩法，绝大部分人是很难拿捏得住尺度，搞不好就被封号了</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984920926664970679">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="9">9.</h3>
+<p>文章详细探讨了 Claude Code 的各种功能，包括其核心文件 CLAUDE[.]md、上下文管理、自定义命令、子代理、钩子、计划模式、技能（Skills）、模型上下文协议（MCP）以及 GitHub Actions 等。</p>
+<p><a href="https://t.co/NSV5AFt9ZN">https://t.co/NSV5AFt9ZN</a></p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984922725874651425">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="10">10.</h3>
+<p>基于PPT的展示，主打视觉轰炸。PPT会利用很多视觉上的偏差来突出或掩盖某些细节，特别适合吹牛逼。</p>
+<p>这种模式被诟病很多。包括很多企业，尤其是内部是非常抵触PPT这种东西的（比如贝佐斯）。在国内，过去这些年，像小米那种“大字吹牛，小字免责”的玩法现在也多被公众唾弃。</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984988521724318137">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="11">11.</h3>
+<p>@0xdeusyu 软件自身会因为分化为严肃性的和娱乐性的。</p>
+<p>前者继承传统软件的衣钵，作为软件世界的基石。</p>
+<p>后者则脱胎于以前的小工具、小游戏之类的，必然会迎来大爆发，只是不确定会不会成为短视频之类的媒介。</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1984998162600497257">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="12">12.</h3>
 <p>体会到中推下沉性的问题，涨粉什么的也就变得索然无味了（尤其是考虑现在马斯克低保也没得挣了）。</p>
 <p>出了技术区的小圈子，推特的质量可能连小红书都比不上。（别再提什么信息排泄链了，有些推特爆火贴在小红书上都显low)</p>
 <p>我经常刷到一些大v小v的起号行为，很少有什么高价值内容，更多的就是在挑逗下沉的推友或者煽动fomo情绪来引其上钩。</p>
 <p>现在觉得当前关注我的推友就很好，不嫌少。Love you！</p>
 <p><img src="https://pbs.twimg.com/media/G4ws9LRaMAAoGZi.jpg" alt=""></p>
 <p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1985011621450912203">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
-<h3 id="2">2.</h3>
+<h3 id="13">13.</h3>
 <p>美好的推特生活需要精心打理。</p>
 <p>要经常清理一些垃圾，而不是随波逐流。</p>
 <p>这个地方绝对不值得当成一个名利场。做自己就好，如能结交几个相互认可的好友是最大的馈赠。</p>
 <p>不要期望成为名人。人红是非多，推上红人是非格外多（不可能不多）</p>
 <p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1985013275394986186">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
-<h3 id="3">3.</h3>
+<h3 id="14">14.</h3>
 <p>“认为上帝是一个身材魁梧、留着飘逸胡须的白人男性，高高坐在天上，清点每一只麻雀的坠落，这种想法十分荒谬。但如果‘上帝,'指的是支配宇宙的物理定律，那么显然存在这样一位上帝。”</p>
 <p>--卡尔·萨根</p>
 <p>类似的观点：</p>
 <p>“如果你问我说是有没有上帝呢？那么，如果你所谓的上帝是一个人形状的，那我想没有。你如果问说是有没有一个造物者，那我想是有的，因为整个世界的结构不是偶然的。”</p>
 <p>—— 杨振宁</p>
 <p><img src="https://pbs.twimg.com/media/G4w37gWaQAATGAm.jpg" alt=""></p>
-<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1985023042595246104">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>9:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L11",null,{}],["$","div",null,{"className":"container-custom","children":[["$","$L12",null,{"href":"/","className":"inline-flex items-center text-muted hover:text-accent transition-colors mb-8 font-medium text-sm group","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}]," Back to Home"]}],["$","article",null,{"className":"max-w-none","children":[["$","h1",null,{"className":"text-3xl font-bold mb-6","children":"Nov 2, 2025"}],["$","div",null,{"className":"prose prose-lg dark:prose-invert max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-img:rounded-xl prose-pre:bg-surface-soft prose-pre:border prose-pre:border-border-subtle","dangerouslySetInnerHTML":{"__html":"$13"}}],["$","div",null,{"className":"mt-4 text-sm text-muted flex flex-wrap gap-2 items-center","children":[["$","span",null,{"className":"text-accent","children":"#"}],["$","span",null,{"children":"11:50 pm"}],[["$","span",null,{"children":"/"}],[["$","span","推文整理",{"children":["推文整理",", "]}],["$","span","按日汇总",{"children":["按日汇总",""]}]]]]}]]}]]}]]}]
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1985023042595246104">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="15">15.</h3>
+<p>很多人说读书没用。</p>
+<p>我认为读书最大的作用不是去获得什么实操指南，而是获得对知识的品味能力和鉴别意识。</p>
+<p>“通过读书而发现读书没用”和“因为不读书而认为读书没用”是两回事。前者是反省，后者是无知带来的傲慢。</p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1985026238826815600">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>
+<h3 id="16">16.</h3>
+<p>这是伪造名人名言的经典方式。</p>
+<p>至于内容一定是假恐怕也难说，但99%的是假的应该跑不掉。</p>
+<p>我看到过同样的一段话，配的马斯克的衣服和背景都不一样</p>
+<p><a href="https://t.co/NvOk3bFM7P">https://t.co/NvOk3bFM7P</a></p>
+<p><strong>原帖链接：</strong> <a href="https://x.com/AztecaAlpaca/status/1985035206383038708">阿兹特克小羊驼🦙 (@AztecaAlpaca)</a></p>9:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L11",null,{}],["$","div",null,{"className":"container-custom","children":[["$","$L12",null,{"href":"/","className":"inline-flex items-center text-muted hover:text-accent transition-colors mb-8 font-medium text-sm group","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}]," Back to Home"]}],["$","article",null,{"className":"max-w-none","children":[["$","h1",null,{"className":"text-3xl font-bold mb-6","children":"Nov 2, 2025"}],["$","div",null,{"className":"prose prose-lg dark:prose-invert max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-img:rounded-xl prose-pre:bg-surface-soft prose-pre:border prose-pre:border-border-subtle","dangerouslySetInnerHTML":{"__html":"$13"}}],["$","div",null,{"className":"mt-4 text-sm text-muted flex flex-wrap gap-2 items-center","children":[["$","span",null,{"className":"text-accent","children":"#"}],["$","span",null,{"children":"10:10 am"}],[["$","span",null,{"children":"/"}],[["$","span","推文整理",{"children":["推文整理",", "]}],["$","span","按日汇总",{"children":["按日汇总",""]}]]]]}]]}]]}]]}]
 f:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-d:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Note from Nov 2, 2025 - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"Note posted on Nov 2, 2025"}],["$","meta","3",{"property":"og:title","content":"Note from Nov 2, 2025 - AlpacaNotes"}],["$","meta","4",{"property":"og:description","content":"Note posted on Nov 2, 2025"}],["$","meta","5",{"property":"og:url","content":"https://linguista.cn/alpacanotes/notes/tweets-daily-2025-11-02"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2025-11-02T23:50:24"}],["$","meta","8",{"property":"article:author","content":"@linguista2025"}],["$","meta","9",{"property":"article:tag","content":"推文整理"}],["$","meta","10",{"property":"article:tag","content":"按日汇总"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Note from Nov 2, 2025 - AlpacaNotes"}],["$","meta","13",{"name":"twitter:description","content":"Note posted on Nov 2, 2025"}],["$","link","14",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Note from Nov 2, 2025 - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"Note posted on Nov 2, 2025"}],["$","meta","3",{"property":"og:title","content":"Note from Nov 2, 2025 - AlpacaNotes"}],["$","meta","4",{"property":"og:description","content":"Note posted on Nov 2, 2025"}],["$","meta","5",{"property":"og:url","content":"https://linguista.cn/alpacanotes/notes/tweets-daily-2025-11-02"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2025-11-02T10:10:46"}],["$","meta","8",{"property":"article:author","content":"@linguista2025"}],["$","meta","9",{"property":"article:tag","content":"推文整理"}],["$","meta","10",{"property":"article:tag","content":"按日汇总"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Note from Nov 2, 2025 - AlpacaNotes"}],["$","meta","13",{"name":"twitter:description","content":"Note posted on Nov 2, 2025"}],["$","link","14",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
 b:null
