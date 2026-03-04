@@ -1,145 +1,328 @@
 [
   {
-    "id": "1959264571946144244",
+    "id": "1976991698049024422",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@hhmy27 I don't know what happened! https://t.co/ip77IwPzjI",
-    "created_at": "2025-08-23T14:40:49.000Z",
+    "text": "@SamTalkWeb3 当然可以。\n\n只是体验一下SDK的功能，发现很好用（这个程序利用了SDK的连续对话的功能）",
+    "created_at": "2025-10-11T12:42:06.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1976987090140479704",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@frxiaobei app的优惠好像大一些🤣",
+    "created_at": "2025-10-11T12:23:47.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 19,
-      "impression_count": 19
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GzC0ryCacAAn3PM.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzC0ryCacAAn3PM.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
       "mentions": [
         {
-          "username": "hhmy27"
+          "username": "frxiaobei"
         }
       ]
     }
   },
   {
-    "id": "1959260331467034820",
+    "id": "1976983528517910682",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@imwsl90 https://t.co/G22Swqv5LS",
-    "created_at": "2025-08-23T14:23:58.000Z",
+    "text": "@stillwaters15 @dotey 是这种吗？\n\nhttps://t.co/qZsUZPfwee",
+    "created_at": "2025-10-11T12:09:38.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 2139,
-      "impression_count": 2139
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/tweet_video_thumb/GzCw3jkbwAAwZ0A.jpg",
-        "type": "video",
-        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GzCw3jkbwAAwZ0A.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "imwsl90"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1959247629709410690",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@LiXiang1947 @yinmin1987 我还在考虑。虽然这款产品的体验非常好，但我在用的竞品太多了 https://t.co/WVxcQutwrj",
-    "created_at": "2025-08-23T13:33:30.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 9,
-      "impression_count": 9
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/tweet_video_thumb/GzClVCvaIAAR7T2.jpg",
-        "type": "video",
-        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GzClVCvaIAAR7T2.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "LiXiang1947"
-        },
-        {
-          "username": "yinmin1987"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1959244353274335422",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "https://t.co/HoEwUFnCAy",
-    "created_at": "2025-08-23T13:20:29.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 137,
-      "impression_count": 137
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/HoEwUFnCAy",
+          "url": "https://t.co/qZsUZPfwee",
           "indices": [
-            0,
-            23
+            29,
+            52
           ],
-          "display_url": "x.com/i/grok/share/U…",
-          "expanded_url": "https://x.com/i/grok/share/UQTaHFOSDlDAbwwAPi53lDcpK"
+          "display_url": "x.com/shao__meng/sta…",
+          "expanded_url": "https://x.com/shao__meng/status/1958758580347445703?t=DihaXWiyGMvv-6mxLVAajA&s=19"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "stillwaters15"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976979318523019508",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@xingkaixin @dotey 我配置过，感觉体验不佳...",
+    "created_at": "2025-10-11T11:52:54.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "xingkaixin"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976969907897352335",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@ThinkWithSophie ♥️♥️♥️",
+    "created_at": "2025-10-11T11:15:31.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ThinkWithSophie"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976965550606893566",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Jason_Young1231 但是这次他们想给钱啊😆",
+    "created_at": "2025-10-11T10:58:12.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Jason_Young1231"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976959047413936554",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@ThinkWithSophie 当我们回看历史的时候，重要的不是看历史上发生过哪些悲剧，也不是为了翻出来指责谁谁谁犯下了罪行，更重要的是对自己内心反省。\n\n每个人心中都住着一个恶魔，他们会在特定环境中被集体释放出来，酿造罪恶与灾难。\n\n可悲的是，很多人只说要铭记历史，但从来不去阅读历史，更不去思考与审视自己。",
+    "created_at": "2025-10-11T10:32:21.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ThinkWithSophie"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976955975686144096",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@missinglosses @dotey 主要是国内的开发者与Anthropic的关系太搞笑了。一边天天拉黑，另一边天天骂，但是死活做不到绝交，剪不断理还乱🤣🤣🤣",
+    "created_at": "2025-10-11T10:20:09.000Z",
+    "metrics": {
+      "like_count": 5,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "missinglosses"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976954317082181958",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@cholf5 @__Ellien__ @bearbig 这个世界似乎就是打补丁打出来的。\n\n后面的发明都是为了解决前面的问题而修修补补，这些发明在解决之前问题的同时也会带来新问题，只能继续寻求更新的发明来进行修补，不可能推倒重来。",
+    "created_at": "2025-10-11T10:13:33.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "cholf5"
+        },
+        {
+          "username": "__Ellien__"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976952400021012583",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "有了SDK，对文章进行批量整理的工作比之前直接使用claude code更加有条不紊。\n\n大模型终究是概率模型，让它们进行进度控制总会犯一些错误，但是直接使用编程来进行这种控制就好了许多。\n\n之前就像是刘邦带兵，有战斗力，但是一旦上规模就开始出乱子。现在则是韩信带兵，多多益善！ https://t.co/KHOyljjN07 https://t.co/FFqqD1738p",
+    "created_at": "2025-10-11T10:05:56.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G2-LRZ1bwAIqOUG.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G2-LRZ1bwAIqOUG.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/KHOyljjN07",
+          "indices": [
+            140,
+            163
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1976944010339209371"
         }
       ],
       "hashtags": [],
@@ -147,171 +330,62 @@
     }
   },
   {
-    "id": "1959243714808717339",
+    "id": "1976948539646525539",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "中美“七大恨”的共性与差异 https://t.co/FRFE6XaP0O",
-    "created_at": "2025-08-23T13:17:57.000Z",
+    "text": "@berryxia_ai @kevinma_dev_zh 还可以搞一个星巴克模拟器，看大模型能不能把人搞疯😅 https://t.co/tJLsskcouq",
+    "created_at": "2025-10-11T09:50:36.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 51,
-      "impression_count": 51
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/GzChpO9bAAAVpXx.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzChpO9bAAAVpXx.jpg"
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G2-INnmbIAApLv9.jpg",
+        "type": "animated_gif",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/G2-INnmbIAApLv9.jpg"
       }
     ],
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "berryxia_ai"
+        },
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
     }
   },
   {
-    "id": "1959243710665007290",
+    "id": "1976944010339209371",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "美国普通人“七大恨” https://t.co/6Y1CMqh0Bm",
-    "created_at": "2025-08-23T13:17:56.000Z",
+    "text": "@kevinma_dev_zh Rather cool！\n\n这个sdk可以很好地发挥claude code在工具调用方面的长处。\n\n同时，调用大模型的事情就不需要有大模型自身来协调了，可以自己编码对大模型进行更有效的调用，从而降低大模型随机性带来的不稳定体验（比如我之前翻译Paul Graham的文章，让大模型自身控制进度简直令人崩溃）",
+    "created_at": "2025-10-11T09:32:36.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 9,
-      "impression_count": 9
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GzChZ7qbgAAJjCr.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzChZ7qbgAAJjCr.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959243706147410063",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "中国普通人“七大恨” https://t.co/mShoTxFnTL",
-    "created_at": "2025-08-23T13:17:55.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 94,
-      "impression_count": 94
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GzChN4sa8AAx-9Z.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzChN4sa8AAx-9Z.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959238993390002259",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "他不光躲闪敏捷，甚至还面带微笑......",
-    "created_at": "2025-08-23T12:59:11.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 105,
-      "impression_count": 105
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959221828833943786",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "&gt;  美国的所有事都在其他地方发生，其他地方的所有戏也都会在美国上演。从红公鸡到好莱坞，世界舞台上的演员换了一茬又一茬，但草台班子的性质从来没变过。这个世界上根本没有特殊的国家，有的只是无耻的双标和廉价的虚荣。可是就连双标和虚荣也不特殊，因为这些玩意儿从古至今，满地都是。&lt;",
-    "created_at": "2025-08-23T11:50:59.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 91,
-      "impression_count": 91
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959219996607049865",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@BadUncleX 你越急，他们越觉着自己赢了🤣",
-    "created_at": "2025-08-23T11:43:42.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 35,
-      "impression_count": 35
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -319,177 +393,101 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "BadUncleX"
+          "username": "kevinma_dev_zh"
         }
       ]
     }
   },
   {
-    "id": "1959217452576825606",
+    "id": "1976936405453750351",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "beautiful girl in the library https://t.co/agB4DIn1ne",
-    "created_at": "2025-08-23T11:33:35.000Z",
+    "text": "@Yangzi812 起！！！",
+    "created_at": "2025-10-11T09:02:23.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 78,
-      "impression_count": 78
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GzCJ47aakAAjtZ6.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzCJ47aakAAjtZ6.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959215998193881216",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "3. 贸易限制：英国切断美国与英属加勒比的传统贸易联系，导致美国失去重要市场。\n\n4. 内战期间的态度：美国内战期间，英国社会上层普遍支持南方邦联，给予南方实际支持。",
-    "created_at": "2025-08-23T11:27:49.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 46,
-      "impression_count": 46
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "Yangzi812"
+        }
+      ]
     }
   },
   {
-    "id": "1959216000353947806",
+    "id": "1976918576486555861",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "这种敏感在文化领域表现得尤为明显，如阿斯特剧场骚乱（1849年）就是因为英国演员麦克雷迪在纽约演出，引发了美国人对\"英国戏子\"的强烈反感，最终导致骚乱。\n\n美国的这种\"破防\"心态与其作为后殖民国家的身份密切相关，直到美国实力超越英国，成为新帝国，英美矛盾才逐渐化解。",
-    "created_at": "2025-08-23T11:27:49.000Z",
+    "text": "@imvihv 总感觉，Google做研究是一流，做产品是二三流的🤣🤣🤣",
+    "created_at": "2025-10-11T07:51:32.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 85,
-      "impression_count": 85
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "imvihv"
+        }
+      ]
     }
   },
   {
-    "id": "1959215995916341265",
+    "id": "1976918171488821563",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "共和国早期（1776-1861年），美国人对英国有着强烈的敌意和敏感，主要原因包括：\n\n1. 经济依赖：美国独立后仍是个农业国，高度依赖英国市场和投资，处于世界经济的边缘地位。\n\n2. 政治军事冲突：英国以边界纠纷为借口长期驻军俄亥俄，策动印第安部族抗美；1812年战争中英军攻入华盛顿，火烧白宫等。",
-    "created_at": "2025-08-23T11:27:48.000Z",
+    "text": "关于GLM的幻觉问题，我感觉得给它足够的上下文，并安排难度适中的任务，不然它会为了交差而瞎搞。\n\n我之前让它读一堆PDF提炼内容，它哗哗哗很快完工，快得不像是大模型。仔细一看全是胡扯的，我才意识到它并不能直接读PDF。\n\n我给它编了个Python代码用来调用以来解析PDF之后，事情就回归正轨。 https://t.co/ojHQOss1zQ",
+    "created_at": "2025-10-11T07:49:56.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 4,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 102,
-      "impression_count": 102
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959215993919770848",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "20世纪初，美国对法国电影的影响非常敏感。\n\n当时法国电影在美国市场占据主导地位，引发了美国人对外来文化的焦虑，认为法国电影过于\"阴柔\"，会侵蚀\"在西部拓荒运动中形成的伟大美国精神\"。1909年，美国成立了国家审查协会，对电影实施审查，法国电影被拒审、要求删减或修改的频率明显高于美国本土电影",
-    "created_at": "2025-08-23T11:27:48.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 36,
-      "impression_count": 36
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1959215991675932886",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "来源：B站，河畔的伯爵\n\nhttps://t.co/2NyvSlK0Lx",
-    "created_at": "2025-08-23T11:27:47.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 32,
-      "impression_count": 32
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/2NyvSlK0Lx",
+          "url": "https://t.co/ojHQOss1zQ",
           "indices": [
-            13,
-            36
+            148,
+            171
           ],
-          "display_url": "bilibili.com/video/BV1VH4y1…",
-          "expanded_url": "https://www.bilibili.com/video/BV1VH4y1k7qb/?spm_id_from=333.788.recommend_more_video.-1&vd_source=21d5c0d62cc18856d1c7f9cbb0935230"
+          "display_url": "x.com/imvihv/status/…",
+          "expanded_url": "https://x.com/imvihv/status/1976913939780059243"
         }
       ],
       "hashtags": [],
@@ -497,49 +495,98 @@
     }
   },
   {
-    "id": "1959215989671006577",
+    "id": "1976914541415219316",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "刷到一个视频，其核心议题为：美国曾经为何而破防？\n\n- 不够男子汉的法国的电影\n- 来自英国的“国外势力”\n\n（实力是自信的基础，谁还没有过玻璃心呢？）",
-    "created_at": "2025-08-23T11:27:47.000Z",
+    "text": "@ken_xu @dotey openai：摔杯为号 https://t.co/EbBEtcWV6I",
+    "created_at": "2025-10-11T07:35:30.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 1,
-      "view_count": 160,
-      "impression_count": 160
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G29pShjbwAQJQjb.jpg",
+        "type": "animated_gif",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/G29pShjbwAQJQjb.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ken_xu"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1976914038228652068",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "LLM+Agent的组合就像计算机时代的CPU+应用软件的组合一样。\n\n电脑的硬件能力很重要，但电脑的强大还是需要需要软件来挖掘。\n\nLLM的能力当然具有决定性，但是它需要agent来将其能力分配到可施展的地方。\n\n二者虽需要适配，但其开发还是相互独立的，即便大模型很强，也并不意味着其他人没啥活干了。 https://t.co/hVDiFuu2yi",
+    "created_at": "2025-10-11T07:33:30.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [],
+      "urls": [
+        {
+          "url": "https://t.co/hVDiFuu2yi",
+          "indices": [
+            152,
+            175
+          ],
+          "display_url": "x.com/dotey/status/1…",
+          "expanded_url": "https://x.com/dotey/status/1976905741576683717"
+        }
+      ],
       "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "1959207724711018860",
+    "id": "1976906944549179847",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@zhangjintao9020 看起来可以搞一个vibe coding 奥运会了，设置28个大项，300个小项,对应不同的工具🤪",
-    "created_at": "2025-08-23T10:54:56.000Z",
+    "text": "@dotey 在我心中，Anthropic就像李莫愁一样。虽然脾气很不好，有时候还很危险，但确实是个美女，而且总让人感觉她有些一言难尽的故事🤣",
+    "created_at": "2025-10-11T07:05:19.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 4,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 61,
-      "impression_count": 61
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -547,29 +594,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "zhangjintao9020"
+          "username": "dotey"
         }
       ]
     }
   },
   {
-    "id": "1959200017501360245",
+    "id": "1976904710717337713",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@0x_Cryptoyang @LiXiang1947 我越发感觉大模型就是一种搜索模型。\n\n搜索的目的在于把最合适的信息呈现给用户。但是决策这个环节是交给用户的。如果用户无法甄别信息真伪，也就是说他们没有这个决策能力，那就存在很大风险。\n\n大模型可以用来指导做菜，可以指导修电脑，但看病这种事情，一般的感冒发烧可以，复杂的还是要专业人士",
-    "created_at": "2025-08-23T10:24:19.000Z",
+    "text": "@dotey 似乎可以使用国产大模型已经成了Claude的一条护城河😂😂😂",
+    "created_at": "2025-10-11T06:56:26.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 3,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 21,
-      "impression_count": 21
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -577,32 +624,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "0x_Cryptoyang"
-        },
-        {
-          "username": "LiXiang1947"
+          "username": "dotey"
         }
       ]
     }
   },
   {
-    "id": "1959198074599043453",
+    "id": "1976896535138124205",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@LiXiang1947 话说回来，刘邦也算是这一类。吕家真的很猛，可能很多吕家的记载被销毁了。",
-    "created_at": "2025-08-23T10:16:35.000Z",
+    "text": "@qmtdlt1 从自己的利益出发，很难不去追热点。\n\n我也不是想嘲讽，只是很无奈。不是说具体某个推友或博主做得不对，只是风气推着大家这么做，其实难很受",
+    "created_at": "2025-10-11T06:23:57.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 58,
-      "impression_count": 58
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -610,7 +654,7 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "LiXiang1947"
+          "username": "qmtdlt1"
         }
       ]
     }

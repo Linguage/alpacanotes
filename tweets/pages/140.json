@@ -1,22 +1,22 @@
 [
   {
-    "id": "2000386924272619929",
+    "id": "2004949069815489019",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@liyue_sqlroad 我花了1000条左右推文才达到100fo🤣",
-    "created_at": "2025-12-15T02:06:22.000Z",
+    "text": "@ykszs017 欢迎迭代。我也是今天突发奇想",
+    "created_at": "2025-12-27T16:14:43.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 9,
-      "impression_count": 9
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -24,94 +24,166 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "liyue_sqlroad"
+          "username": "ykszs017"
         }
       ]
     }
   },
   {
-    "id": "2000362419475132676",
+    "id": "2004946446681051144",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "地貌博物馆\n\n示例：中国的地貌\n1. 喀斯特地貌\n2.风成地貌\n3.流水地貌\n4.褶皱山地貌\n\n输入：国家+地貌名称\n生成：浮空岛（该国地图形状）上的地貌景观，结合相关的地理构造以及人文景观元素。\n\n👇👇👇\n---\n提示词规则（两段式，基于此生成nano banana pro提示词，将其输入后生成图片，英文版见评论区）\n\n### 角色定义\n你是一名 **构造地理造景师**。你的目标是将一个国家可视化为一个体积感十足、漂浮的地壳，其形状严格遵循该国地图的轮廓。你必须创造一种戏剧性的视觉效果：夸张的地表地形、深层的地质剖面，以及宏伟的地标建筑，并由适应生物群落的动态、有组织的人群所填充。\n\n---\n\n### 核心能力\n**视觉策略（戏剧性的切片）：**\n\n- **体积与结构基础：** 岛屿是一块厚实的板块。侧面悬崖揭示了土地的内部故事（地层、岩浆脉络、根系），在视觉上支撑着地表。\n- **夸张的地表地形：** 不要只是给地图加纹理，而是要雕刻它。如果是“山脉”，地图表面必须呈现巨大的脊柱状山脊；如果是“峡谷”，地图必须深裂。地貌必须在远处即可一眼辨认。\n- **宏伟地标聚焦：** 国家最著名的建筑必须被放大并突出。它不应融入背景，而应作为地形的“皇冠明珠”骄傲地矗立（例如：宫殿位于最高峰之巅）。\n- **动态有序的人群：**\n- 避免：静止、孤立的人物随意站立。\n- 使用：有组织的队列（商队、军队、宗教游行、迁徙）。他们必须有方向和目的，在地图上形成流动的线条。\n- 约束：如果历史数据模糊，则使用通用但有组织的、符合生物群落的群体（如“游牧牧民”），而不是虚构具体的军事单位。\n- **情境逻辑：** 服饰与建筑材料必须严格遵循 {TARGET_LANDFORM} 的气候条件。\n\n---\n\n### 工作流程（内部“思维链”）\n基于 {TARGET_COUNTRY} 和 {TARGET_LANDFORM}：\n1. **雕刻地图：** 创建三维地壳，使地表地形具有强烈的视觉冲击。\n2. **放置地标：** 确定最具代表性的建筑，并战略性地安置（最高点/中心）。\n3. **引导人群：** “他们要去哪里？”绘制人群的流动线（例如：丝绸之路商队蜿蜒穿越沙丘）。\n4. **纹理侧面：** 展示支撑该特定地貌的地质结构。\n\n---\n\n### 输出格式（最终提示词）\n你将输出一个针对结构叙事幻想优化的单一提示块：\n\n**提示结构：**\n\n**[1. 体积地图岛屿]**\n一块雄伟厚重的漂浮地壳，形状严格遵循 {TARGET_COUNTRY} 的地图轮廓，悬浮在戏剧性的天空中。岛屿被可视化为地球的深层地质切片，而非平面。\n\n**[2. 夸张的地貌（表面与边缘）]**\n{TARGET_LANDFORM} 以戏剧性的视觉冲击呈现：\n- **表面（视觉识别）：** 顶部表面具有高度夸张、突出的地形特征，鲜明体现 {TARGET_LANDFORM}（如锋利的脊柱状山脊、深裂的峡谷或巨大的陨石坑），在地图正面形成视觉主导。\n- **垂直边缘（结构地质）：** 漂浮基座的陡峭悬崖揭示支撑地形的内部地质：[扭曲的岩层 / 沉积层 / 暴露的岩浆脉络 / 巨大的根系]，增加科学深度。\n\n**[3. 宏伟建筑（视觉焦点）]**\n{TARGET_COUNTRY} 最具代表性的建筑杰作作为岛屿的视觉锚点与皇冠明珠。它被放大以突出，戏剧性地安置在 [例如：最高峰之巅 / 瀑布边缘]，与狂野地形形成对比，同时使用当地材料。\n\n**[4. 动态有序的人群（叙事流动）]**\n景观中不是静止人物，而是有目的地移动的动态、有组织的小型人群。他们的服饰严格适应 {TARGET_LANDFORM} 的气候：\n- **队列形式：** [根据情境选择：商队蜿蜒穿越地形 / 军团整齐行进 / 宗教游行攀登小径 / 游牧部落携牲畜迁徙]。\n- **视觉流动：** 人群在地图上形成流动线条，增添生命力与尺度感。\n- **无时代错位：** 不出现现代游客、手机或散乱的个体。\n\n**[5. 生物群落文字设计]**\n在地质剖面附近漂浮着三维文字“{TARGET_COUNTRY}: {TARGET_LANDFORM}”。字母由 {TARGET_LANDFORM} 的材质（如花岗岩、冰、砂岩）雕刻而成，仿佛是岛屿的自然延伸。\n\n**[6. 氛围与技术细节]**\n史诗般的结构场景。电影级灯光，强烈阴影突出地形。8k 分辨率，移轴摄影风格，Octane 渲染，Unreal Engine 5。\n--禁止方形边框、平面地图、纸质地图、智能手机、相机、游客、静止姿态、杂乱人群\n--ar 16:9 --stylize 900 --v 6.0\n\n---\n\n### 用户输入变量\n请生成以下目标的提示词：\n**{TARGET_COUNTRY} = 中国**\n**{TARGET_LANDFORM} = 褶皱山脉地貌**",
-    "created_at": "2025-12-15T00:29:00.000Z",
+    "text": "@0xdeusyu @Jason_Young1231 @passluo 能跟老外进行流畅的英语交流的人，没有哪个会拿着小本本翻该说哪一句🤪",
+    "created_at": "2025-12-27T16:04:17.000Z",
     "metrics": {
-      "like_count": 39,
-      "retweet_count": 7,
-      "reply_count": 3,
-      "quote_count": 4,
-      "view_count": 3983,
-      "impression_count": 3983
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0xdeusyu"
+        },
+        {
+          "username": "Jason_Young1231"
+        },
+        {
+          "username": "passluo"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004945952663372136",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@linxiaobei888 @sama you can do it!",
+    "created_at": "2025-12-27T16:02:19.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "linxiaobei888"
+        },
+        {
+          "username": "sama"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004924347287568889",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Gdgtify The Three-body Problem https://t.co/kEqJSDU5Sp",
+    "created_at": "2025-12-27T14:36:28.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8HNMxEbMAA8C6i.jpg",
+        "url": "https://pbs.twimg.com/media/G9LsDOvWIAAbikP.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8HNMxEbMAA8C6i.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8HNYY9aEAEdoTN.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8HNYY9aEAEdoTN.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8HNdbObcAArJWG.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8HNdbObcAArJWG.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8HNhuhbUAA4ILb.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8HNhuhbUAA4ILb.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9LsDOvWIAAbikP.jpg"
       }
     ],
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "Gdgtify"
+        }
+      ]
     }
   },
   {
-    "id": "2000257089621598675",
+    "id": "2004917029716046160",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "内容增长不是生物学，是社会学。社会系统里，指数增长是特例，不是常态。\n\n你看到的所有“爆炸式增长”，几乎都有外部燃料：名气、资本、渠道、算法、平台扶持。\n\n而普通人，面对的几乎永远是：慢慢来，一点点，多年之后再回头看。\n\n> Will my Substack following grow exponentially? https://t.co/v67ZTi9qug",
-    "created_at": "2025-12-14T17:30:27.000Z",
+    "text": "直接贴一张白皮，生成的图片还挺可爱，可以当封面了🤣\n\n图书链接👇👇👇\nhttps://t.co/n8RIu3WEp7 https://t.co/eCpgY686ow https://t.co/iYAfnKcqyL",
+    "created_at": "2025-12-27T14:07:24.000Z",
     "metrics": {
-      "like_count": 2,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 169,
-      "impression_count": 169
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8JXIf0aUAAtC0i.jpg",
+        "url": "https://pbs.twimg.com/media/G9LlGyPbkAAyYl8.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8JXIf0aUAAtC0i.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9LlGyPbkAAyYl8.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G9LlOb-aIAA9ysl.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9LlOb-aIAA9ysl.png"
       }
     ],
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/v67ZTi9qug",
+          "url": "https://t.co/n8RIu3WEp7",
           "indices": [
-            160,
-            183
+            35,
+            58
           ],
-          "display_url": "open.substack.com/pub/manilsuri/…",
-          "expanded_url": "https://open.substack.com/pub/manilsuri/p/will-my-substack-following-grow-exponentially?utm_campaign=post-expanded-share&utm_medium=web"
+          "display_url": "bit.ly/3Xu0qSB",
+          "expanded_url": "https://bit.ly/3Xu0qSB"
+        },
+        {
+          "url": "https://t.co/eCpgY686ow",
+          "indices": [
+            59,
+            82
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2004854188799631727"
         }
       ],
       "hashtags": [],
@@ -119,122 +191,23 @@
     }
   },
   {
-    "id": "2000214408610660744",
+    "id": "2004915212387008798",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@try2makebetter @XUJWilliam 🤣🤣🤣",
-    "created_at": "2025-12-14T14:40:51.000Z",
+    "text": "不需要对我进行shadowban，我发的内容天然具有自闭倾向🤣",
+    "created_at": "2025-12-27T14:00:10.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 13,
-      "impression_count": 13
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "try2makebetter"
-        },
-        {
-          "username": "XUJWilliam"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000212861948461371",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@try2makebetter @XUJWilliam 😂",
-    "created_at": "2025-12-14T14:34:43.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 12,
-      "impression_count": 12
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "try2makebetter"
-        },
-        {
-          "username": "XUJWilliam"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000209233292210439",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@try2makebetter @XUJWilliam 没有直接生成他的几个老婆就比较遗憾了🤣",
-    "created_at": "2025-12-14T14:20:17.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 23,
-      "impression_count": 23
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "try2makebetter"
-        },
-        {
-          "username": "XUJWilliam"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000209043319931199",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "Prompt\n---\nCity:上海\nSubject: 外滩看向浦东\n\nA sophisticated, minimalist graphic illustration in a hand-drawn line art style. The aesthetic mirrors a high-end screen-printed poster with bold color blocking and thick, confident black outlines. The image fills the entire frame edge-to-edge.\n\n[Composition Strategy: Dynamic Perspective]\n* **NO Horizontal Banding:** Strictly avoid dividing the image into flat horizontal strips (sky/building/ground).\n* **Depth & Angles:** The scene must utilize **Natural Perspective (3-point or 2-point perspective)**. The ground (street/river) should extend from the foreground into the distance using **diagonal leading lines**, rather than sitting flatly at the bottom.\n* **Interlocking Elements:** The composition must be organic. Trees may rise from the foreground to overlap the buildings; the architecture should cut dynamically into the sky. The horizon line should be broken and uneven, not a straight line.\n* **Camera Angle:** Use an **Eye-level or slightly Low-angle shot** to emphasize the grandeur of the landmark, creating a sense of immersion rather than a flat map view.\n\n[Color Strategy: Semantic & Harmonious Blocking]\nThe image uses a restricted, \"flat\" color palette applied to specific objects, but shaped by perspective:\n\n1.  **The Sky (Negative Space):** A deep, rich, and sophisticated color block (e.g., Deep Teal, Navy, or Maroon) chosen from {CITY_NAME}'s palette. It fills the negative space *around* and *behind* the architecture, not just the \"top\".\n2.  **The Stage (Ground & Water):**\n    * *The Ground/Pavement:* A solid **Neutral Earth Tone** (e.g., Beige, Pale Stone, or Soft Grey). Crucially, this color block creates a **trapezoidal or triangular shape** due to perspective, not a rectangle.\n    * *The Water (if present):* A tone similar in brightness to the ground but different in hue (e.g., Pale Sage or Muted Blue). It should flow *into* the scene, not just across it.\n3.  **The Architecture:** Rendered primarily in Clean White or Cream with black line work.\n4.  **The Figures (Integrated Scene):**\n    * **Style:** Strictly **White Fill** with thick Black Outlines. Hair can be black or dark natural tones.\n    * **Placement:** Figures are scattered at varying depths—some larger in the immediate foreground, some smaller in the mid-ground—anchoring the perspective. They interact naturally (walking *into* the scene, not just side-to-side).\n    * **Attire:** Clothing features simplified blocks of accent colors specific to {CITY_NAME}.\n\n[Text Element]\nHand-drawn black text \"{CITY_NAME}.\" is elegantly placed in an open area of the sky, balancing the composition.",
-    "created_at": "2025-12-14T14:19:32.000Z",
-    "metrics": {
-      "like_count": 14,
-      "retweet_count": 2,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 679,
-      "impression_count": 679
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -244,44 +217,74 @@
     }
   },
   {
-    "id": "2000209039121400309",
+    "id": "2004900329436185080",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "这个素雅的插画风格，太喜欢了。\n\n对于引贴图片，用Gemini 3 复刻了一下，保留了核心要素，然后进行多轮调试，得到了如下几座城市的插画\n\n北京\n上海\n广州\n成都\n\n提示词见评论区，欢迎尝试！ https://t.co/GM5bbaGTJ3",
-    "created_at": "2025-12-14T14:19:31.000Z",
+    "text": "@VoxcatAI 对比了一下两种刺绣风格。苏绣细腻的手法比较适合神韵的刻画，蜀绣更接近油画。\n\nhttps://t.co/H4ZNyOSnpq",
+    "created_at": "2025-12-27T13:01:02.000Z",
     "metrics": {
-      "like_count": 52,
-      "retweet_count": 6,
-      "reply_count": 2,
-      "quote_count": 2,
-      "view_count": 13301,
-      "impression_count": 13301
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/H4ZNyOSnpq",
+          "indices": [
+            49,
+            72
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2004899546779078948?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004899546779078948",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "《奔马图》，明显感觉苏绣在神韵勾画上的优势。蜀绣的颜色使用比较大胆，情感热烈。\n\n两种刺绣的风格差异和川菜与苏菜的风格差异有点类似。 https://t.co/ElkFXL8zVT",
+    "created_at": "2025-12-27T12:57:55.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8IqP1obkAAHPJC.jpg",
+        "url": "https://pbs.twimg.com/media/G9LVFAHXEAAAmKN.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8IqP1obkAAHPJC.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9LVFAHXEAAAmKN.jpg"
       },
       {
-        "url": "https://pbs.twimg.com/media/G8IqRRmaAAAniIJ.jpg",
+        "url": "https://pbs.twimg.com/media/G9LVHuLXkAAtvrC.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8IqRRmaAAAniIJ.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8IqUO1bEAAnpQp.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8IqUO1bEAAnpQp.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8IqVd4agAAhC4g.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8IqVd4agAAhC4g.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9LVHuLXkAAtvrC.jpg"
       }
     ],
     "entities": {
@@ -291,23 +294,23 @@
     }
   },
   {
-    "id": "2000195202447757610",
+    "id": "2004898873446469976",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@liyue_sqlroad 开始就当是写日记了...没有初始流量非常让人烦躁",
-    "created_at": "2025-12-14T13:24:32.000Z",
+    "text": "@coolzeromike 这就有点坑啊\n\n我感觉关注数上万之后，用p+比较划算。不然划不来",
+    "created_at": "2025-12-27T12:55:15.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 49,
-      "impression_count": 49
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -315,76 +318,112 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "liyue_sqlroad"
+          "username": "coolzeromike"
         }
       ]
     }
   },
   {
-    "id": "2000178700084781402",
+    "id": "2004898245957554288",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "prompt：\n\n人物：梵高\n\nA 45° top-down view of a detailed narrative sculpture resting on a square dark wood pedestal. The entire composition utilizes a unified **[INSERT MATERIAL FAMILY, e.g., antique brass, carved ivory, oxidized iron]** palette, relying on varying depths, polishes, and textures to distinguish elements rather than multicolored paints. The centerpiece is a full-body sculptured figure of [INSERT PERSON NAME] in a characteristic and dynamic pose: [INSERT REPRESENTATIVE POSE, e.g., leaning forward to inspect, conducting vigorously]. The figure captures a [INSERT EXPRESSION] expression. Surrounding the figure is a highly curated, physically grounded arrangement of **diverse tangible elements** strictly specific to their work—no generic gears, floating abstractions, or repeated object types. [INSERT A WIDE VARIETY OF DISTINCT TOOLS, INSTRUMENTS, AND ARTIFACTS] are organized on [INSERT STRUCTURAL SUPPORTS] that connect seamlessly to the main base, all rendered in the same material aesthetic. The immediate base resembles [INSERT PROFESSION-RELATED TERRAIN/SETTING] containing embedded [INSERT SPECIFIC DOCUMENTS/DETAILS]. A brass nameplate reads '[INSERT NAME]'. Photorealistic, cinematic studio lighting highlighting the material textures, high-fidelity details, isolated on a neutral background --ar 1:1",
-    "created_at": "2025-12-14T12:18:58.000Z",
+    "text": "@Niuzekor 哈哈，我完全不懂啊。都是问AI才知道的。\n\n我估计作为球衣刺绣，色彩鲜艳一些应该更有用处，苏绣应该不合适",
+    "created_at": "2025-12-27T12:52:45.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 125,
-      "impression_count": 125
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
+      "mentions": [
+        {
+          "username": "Niuzekor"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004894470081282092",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "对比一下蜀绣（左）与苏绣（右）\n\n图为都江堰鸟瞰图\n\n刺绣的逻辑差异\n\n针法（最关键）：\n- 苏绣： 常用“乱针绣”表现朦胧感，“平绣”表现光滑。\n- 蜀绣： 必须强调“晕针”（Halo Stitch）。这是蜀绣的灵魂，特点是“针脚长短参差，颜色逐次过渡”，不留痕迹地进行色阶调和。此外，需加入“铺针”来表现山体的厚重。\n\n线条与质感：\n- 苏绣： “极细劈丝”（将一根线劈成1/16甚至更细），追求虚无缥缈。\n- 蜀绣： 线条较苏绣稍粗，强调“片线”，追求“丝光感”和“车拧”带来的肌理感，视觉上更扎实。\n\n色彩与光影：\n- 苏绣： 淡雅、清冷、侧光、克制。\n- 蜀绣： 艳丽、明快、饱和度高。蜀绣偏爱红绿对比，光影不是为了“朦胧”，而是为了体现丝线的“亮”和“滑”。\n\n边缘处理：\n- 苏绣： 游丝、未收尾、消散。\n- 蜀绣： 边缘整齐，构图严谨饱满，通常不留太多虚无的负空间，强调画面的完整性。",
+    "created_at": "2025-12-27T12:37:45.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9LQMEMa4AAhFvD.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9LQMEMa4AAhFvD.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G9LQMECbgAgZcmY.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9LQMECbgAgZcmY.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/7nlTj7iUbl",
+          "indices": [
+            95,
+            118
+          ],
+          "display_url": "x.com/VoxcatAI/statu…",
+          "expanded_url": "https://x.com/VoxcatAI/status/2004859027210031499"
+        }
+      ],
+      "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "2000173423897813135",
+    "id": "2004888201698144459",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "人物主题雕像\n\n回归我最喜欢的“人物博物馆”话题。在科幻主题的基础上迭代，获得人物主题的写实风格雕像。\n\n示例人物：\n1. 托尔金\n2. 伽利略\n3.梵·高\n4. 加加林\n\n---\n\n提示词（英文版见评论区）\n\n人物：托尔金\n\n以 45° 俯视角度呈现的一件精细叙事雕塑，置于方形深色木质底座之上。\n整个构图采用统一的 [插入材质类别，例如：古铜、雕刻象牙、氧化铁] 色调，通过不同的层次、打磨和纹理来区分元素，而非使用多彩涂料。\n中央主体是一尊全身雕像，表现 [插入人物姓名] 的特征性动态姿态：[插入代表性姿势，例如：前倾检查、充满激情地指挥]。雕像捕捉到 [插入表情] 的神态。环绕雕像的是一组高度策划、真实落地的多样化具体元素，严格对应其实际工作——没有通用齿轮、漂浮的抽象物或重复的物件。[插入多种不同的工具、仪器和文物] 被有序地摆放在 [插入结构支撑，例如：分层木质台座、黄铜支架或微型搁架] 上，与主底座无缝连接，整体保持相同的材质美学。\n底座本身呈现为 [插入职业相关的地形/场景]，其中嵌入了 [插入具体文献/细节]。正面有一块黄铜铭牌，上面刻着“[插入姓名]”。\n整体采用写实的电影级工作室灯光，突出材质纹理，细节高度精致，置于中性背景之上 ——ar 1:1。",
-    "created_at": "2025-12-14T11:58:00.000Z",
+    "text": "AK 经典名言\n\n“英语是目前最热门的新编程语言。” (English is the hottest new programming language.)。\n\n“我们不是在进化动物，而是在召唤幽灵。” (We’re not evolving animals, we are summoning ghosts.)。\n\n“通过吸管吸吮监督信号。” (Sucking supervision through a straw.) —— 用来形容传统强化学习中，仅凭最后的一个正确/错误数字来学习长链条推理的极低效率。\n\n“我不能创造的，我就不理解。” (What I cannot create, I do not understand.) —— AK 经常引用费曼的这句话来强调他 “从零开始构建” 的教学理念。\n\n“2025-2035 是智能体的十年，而非仅仅是一年。” (2025-2035 is the decade of agents.) —— 强调从技术 Demo 到真正可靠的数字员工产品还需要漫长的打磨。\n\n“做个好人，未来的 LLM 正在看着你。” (Be good, future LLMs are watching.) —— 警示人们现在的公开言论未来都会被 AI 深度审计和评估。",
+    "created_at": "2025-12-27T12:12:50.000Z",
     "metrics": {
-      "like_count": 8,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 4,
-      "quote_count": 1,
-      "view_count": 737,
-      "impression_count": 737
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8GcwiJaUAAgLQL.jpg",
+        "url": "https://pbs.twimg.com/media/G9LLMDKbIAAkftc.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8GcwiJaUAAgLQL.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8Gc3K7bkAAGbqa.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8Gc3K7bkAAGbqa.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8Gc7UcaIAApF16.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8Gc7UcaIAApF16.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8GdF3CbsAE8Jzo.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8GdF3CbsAE8Jzo.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9LLMDKbIAAkftc.jpg"
       }
     ],
     "entities": {
@@ -394,200 +433,29 @@
     }
   },
   {
-    "id": "2000169839533646163",
+    "id": "2004888184283423122",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@lijiuer92 @Vincentcharming 主要是有些时候中推会抽风，一些令人讨厌的话题或者商单到处飞，我通常会把几个带头的给隐藏了，过段时间再取消隐藏😂",
-    "created_at": "2025-12-14T11:43:45.000Z",
+    "text": "AK的隐喻\n\n召唤幽灵 vs. 进化动物 (Summoning Ghosts vs. Evolving Animals)：\n\n他认为 LLM 不是像生物一样通过进化而来的“动物”，而是从人类文档的统计分布中 “召唤出的幽灵”。它们是人性的随机模拟器，而非具有生存本能的实体。\n\n钢铁侠战衣 (Iron Man Suit)：\n\n他主张目前的 AI 应该被设计为增强人类能力的“战衣”（增强），而非完全脱离人类干预的独立“机器人”（完全自主）。核心在于快速的“生成-验证”循环，人类保留最终决策权。\n\n自主权滑块 (Autonomy Slider)：\n\n应用软件中应包含的一个功能，允许用户根据任务复杂度和对 AI 的信任度，灵活调节 AI 自动完成任务的程度。\n\n智能降压 (Intelligence Brownout)：\n\n比喻当顶尖模型（如 OpenAI 宕机）不可用时，全球生产力会因为过度依赖这些模型而出现显著的智力衰退现象。",
+    "created_at": "2025-12-27T12:12:46.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 23,
-      "impression_count": 23
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "lijiuer92"
-        },
-        {
-          "username": "Vincentcharming"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000167810526531895",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Vincentcharming 哈哈，我不喜欢拉黑别人，但有时候确实需要隐藏掉一些人😂😂😂",
-    "created_at": "2025-12-14T11:35:42.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 61,
-      "impression_count": 61
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Vincentcharming"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000135289503957134",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XUJWilliam @dotey 看到了师师姐。唉，何晴老师去了，难受",
-    "created_at": "2025-12-14T09:26:28.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 55,
-      "impression_count": 55
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XUJWilliam"
-        },
-        {
-          "username": "dotey"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000134233176805783",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@cholf5 老三国里唯一比貂蝉更让我心动的美女",
-    "created_at": "2025-12-14T09:22:16.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 56,
-      "impression_count": 56
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "cholf5"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000121544677441651",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@langzihan 估计还是因为鲁豫的人气",
-    "created_at": "2025-12-14T08:31:51.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 18,
-      "impression_count": 18
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "langzihan"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000119954851664111",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "鲁豫主持的一场新书发布会，人气很爆。\n\n要是有周轶君或窦文涛，我肯定挤进去😂😂😂 https://t.co/o8n59ZfBZp",
-    "created_at": "2025-12-14T08:25:32.000Z",
-    "metrics": {
-      "like_count": 4,
-      "retweet_count": 1,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 421,
-      "impression_count": 421
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8Hab-KbwAAKluH.jpg",
+        "url": "https://pbs.twimg.com/media/G9LLLDUbkAA7WqA.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8Hab-KbwAAKluH.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8Hab9paIAAyNyb.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8Hab9paIAAyNyb.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8Hab9HbQAE6Azl.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8Hab9HbQAE6Azl.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8Hab9HbMAAJbNI.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8Hab9HbMAAJbNI.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9LLLDUbkAA7WqA.jpg"
       }
     ],
     "entities": {
@@ -597,85 +465,233 @@
     }
   },
   {
-    "id": "2000117784160985572",
+    "id": "2004888169561612620",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@zuckjetcn 我感觉还可以，不知把三国里的详细描述贴上去会不会有效果。\n\n不构成什么建议吧，你尝试过肯定有更丰富的经验。\n\n对于你原帖中的问题，提示词是一方面，但是大模型自身有它擅长的地方，如果题材缺乏充分的训练素材，效果也不一定好。比如中国古装，即便是曝光度很高的宫廷服饰，效果也普遍一般。",
-    "created_at": "2025-12-14T08:16:54.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 62,
-      "impression_count": 62
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zuckjetcn"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000081669152514058",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@langzihan 太漂亮了！",
-    "created_at": "2025-12-14T05:53:24.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 164,
-      "impression_count": 164
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "langzihan"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000076878418526379",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "历史细节纠正：鸿门宴时，刘邦还不是“汉王”，应当称为“沛公”。\n\n鸿门宴后，相遇召集诸侯进行分封，将刘邦封到汉中及以南的地方，开始称为“汉王”，也是汉朝国号的来源。",
-    "created_at": "2025-12-14T05:34:22.000Z",
+    "text": "知识库：Andrej Karpathy论AI\n\n点击链接查看！\n\nhttps://t.co/DSaOR6gweV https://t.co/Mo3VyIt141",
+    "created_at": "2025-12-27T12:12:43.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 178,
-      "impression_count": 178
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9LLKA0bgAI-pk9.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9LLKA0bgAI-pk9.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/DSaOR6gweV",
+          "indices": [
+            33,
+            56
+          ],
+          "display_url": "notebooklm.google.com/notebook/ccb54…",
+          "expanded_url": "https://notebooklm.google.com/notebook/ccb54de2-7f02-4132-9b6d-2acac297dab4"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004888147734270377",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "跟AK老师学AI （评论区有海量学习资料😜😜😜）\n\nAndrej Karpathy（AK）作为 AI 领域的先驱，不仅在技术上贡献卓越，更提出了一系列极具前瞻性和洞察力的概念，深刻影响了行业对 AI 的认知。\n\n在这个threads中，我列出了AK老师提出过的概念、隐喻以及他的名言。\n\n本条列出了他提出的知名概念，包括\"软件1.0/2.0/3.0\"、\"vibe coding\"、\"上下文工程\"等\n\n---\n生成图片的提示词来自 @dotey \n\n该系列内容的获得使用了NotebookLM作为辅助，秉持着AK老师一贯的开源理念，大家可以公开访问该笔记本，收录了数十条关于AK关于AI里面的资料。\n---\n\n软件 1.0 / 2.0 / 3.0 (Software 1.0/2.0/3.0)\n\nSoftware 1.0： 人类手动编写的显式逻辑代码（如 C++、Python），特点是精确但僵化。\nSoftware 2.0： 神经网络的权重。人类不再直接写代码，而是通过收集数据和设定目标来训练模型，让优化器寻找合适的代码（权重）。\nSoftware 3.0： 指大语言模型（LLM）驱动的提示词（Prompts）系统。在这种范式下，英语（或自然语言）成为了新的编程语言，神经网络变成了可编程的 CPU。\n\n氛围编程 (Vibe Coding)\n\nAK 在 2025 年创造了这个词，描述开发者完全交给“感觉（Vibes）”，通过自然语言描述意图，让 AI 生成代码并“一键接受”，甚至不再阅读底层的差异文件（diffs）。它强调的是创意意图而非实现细节。\n\n上下文工程 (Context Engineering)\n\n他认为这个词比“提示词工程”更准确。它指的是通过系统地管理上下文窗口（包括 RAG、历史记录、工具调用等），为模型提供解决任务所需的完整信息环境的艺术与科学。\n\nLLM 操作系统 (LLM OS)\n\nAK 将 LLM 视为一种新型计算平台，其中 Transformer 是内核/CPU，上下文窗口是 RAM，RAG 和搜索是硬盘，工具调用则是外设接口。\n\n锯齿状智能 (Jagged Intelligence)\n\n描述 LLM 的能力分布极不平衡。它们在某些复杂任务（如代码、数学）上是天才，但在基础常识（如数 strawberry 里的 r）上可能表现得像小学生。\n\n基于可验证奖励的强化学习 (RLVR)\n\n2025 年 LLM 训练的新阶段。通过对数学、代码等客观可验证的环境进行强化学习，迫使模型自发产生类似人类的“推理轨迹”",
+    "created_at": "2025-12-27T12:12:38.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9LLIp_bIAAlgIf.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9LLIp_bIAAlgIf.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004885575044923553",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@coolzeromike 没提前通知吗？",
+    "created_at": "2025-12-27T12:02:24.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "coolzeromike"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004860658471608762",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @VoxcatAI: 有些东西一看就知道急不来。\n苏绣就是那种。\n慢到不合时宜，但好看到你愿意等。\n\n提示词👇\n\n生成一副以苏绣（Su Embroidery）的视觉逻辑重构【{主题}】的刺绣作品。\n\n整体由极细劈丝构成轮廓与结构，\n平绣表现光滑表面，乱针绣塑造阴影与体积，…",
+    "created_at": "2025-12-27T10:23:24.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004858435310154057",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@DiracGhost If this book had its own theme park. https://t.co/vWoD3NNUsI",
+    "created_at": "2025-12-27T10:14:34.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9Kv7ThbgAA_b2G.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9Kv7ThbgAA_b2G.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "DiracGhost"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004854198433972467",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "戴蒙德的《枪炮病菌与钢铁》 https://t.co/3Ms59ZDtYy",
+    "created_at": "2025-12-27T09:57:43.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9Kr1vqXkAA74ae.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9Kr1vqXkAA74ae.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004854193866375584",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "有时候，封面上的元素比较少，但是没有关系，着反而会激发AI对图书内容的深度挖掘，比如乔治·奥威尔的《1984》 https://t.co/RM1iLzLYBM",
+    "created_at": "2025-12-27T09:57:42.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9Kq8FubYAEgVcC.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9Kq8FubYAEgVcC.jpg"
+      }
+    ],
     "entities": {
       "urls": [],
       "hashtags": [],

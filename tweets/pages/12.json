@@ -1,94 +1,33 @@
 [
   {
-    "id": "2017918106786754906",
+    "id": "2026862575154245654",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@kevinma_dev_zh 技术本来就不是用来搞钱的啊🐶",
-    "created_at": "2026-02-01T11:09:02.000Z",
+    "text": "今天逛了一下，发现OpenClaw的作者Peter Steinberger在最近几个月参与的访谈堪称“浩如烟海”，诸如YC、LexFridman、Peter Yang等人都对他进行了长篇专访。\n\n我把这些访谈整合了一下，做了个NotebookLM知识库，方便了解Peter Steinberger的观点以及OpenClaw的设计理念。（见评论区的链接)\n\nSteinberger分享了从创办 PSPDFKit 到因职业倦怠退休，再到被 AI 浪潮吸引而“复出”的职业历程。\n\nOpenClaw 被描述为一个能通过 WhatsApp 等社交软件操作计算机、调用 CLI 工具并具备“个性”的自主助手。文本深入探讨了该项目在 GitHub 上的病毒式传播、因名称争议引发的更名风波，以及对安全性和加密货币骚扰的应对。\n\nSteinberger 强调，未来的软件将以 AI 代理为中心，这可能会导致大量传统应用程序消失。他通过自己的实践展示了如何利用 AI 提升开发效率，并鼓励开发者通过“玩乐”和“共情”来掌握这一全新的技术范式。",
+    "created_at": "2026-02-26T03:31:09.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 7,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 316,
-      "impression_count": 316
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "kevinma_dev_zh"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017908153908879670",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@0xdeusyu 政客眼中的科学家往往很幼稚。\n\n当然，正常人眼中的政客是... https://t.co/yuxfM9drua",
-    "created_at": "2026-02-01T10:29:29.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 29,
-      "impression_count": 29
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/HAEMxZ-aAAA6ME5.jpg",
+        "url": "https://pbs.twimg.com/media/HCDcO9VagAACte0.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/HAEMxZ-aAAA6ME5.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "0xdeusyu"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017907013729300831",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "戴妃不光长得美，而且看问题也是入木三分\n\n（很适合评价某皇室和那个名单中的人物） https://t.co/cXipZ9MbxQ",
-    "created_at": "2026-02-01T10:24:57.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 190,
-      "impression_count": 190
-    },
-    "media": [
+        "preview_image_url": "https://pbs.twimg.com/media/HCDcO9VagAACte0.jpg"
+      },
       {
-        "url": "https://pbs.twimg.com/media/HAELvEjacAAR3YN.jpg",
+        "url": "https://pbs.twimg.com/media/HCDccbGasAAzbmN.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/HAELvEjacAAR3YN.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/HCDccbGasAAzbmN.jpg"
       }
     ],
     "entities": {
@@ -98,109 +37,211 @@
     }
   },
   {
-    "id": "2017897795383148910",
+    "id": "2026855824635867458",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@dingyi 为了戒掉微信，我甚至不惜戒掉社交。不要问我为何自闭...😅",
-    "created_at": "2026-02-01T09:48:19.000Z",
+    "text": "关于AlexNet的传奇故事，可以翻看宝玉老师的这个thread\n\nhttps://t.co/q1mRnYRSn5",
+    "created_at": "2026-02-26T03:04:20.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 1510,
-      "impression_count": 1510
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/q1mRnYRSn5",
+          "indices": [
+            34,
+            57
+          ],
+          "display_url": "x.com/dotey/status/2…",
+          "expanded_url": "https://x.com/dotey/status/2005052784647795023?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2026855822526197813",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "硅谷101的这期播客中提到了哈萨比斯当年在AlexNet拍卖过程中充当“搅屎棍”的往事😅\n\n---\n\n哈萨比斯（及其公司DeepMind）在杰弗里·辛顿师生三人团队（即开发了AlexNet的团队）的收购事件中，一开始参与竞购，然后在出局后暗中鼓动杰弗里·辛顿抬价，当然这背后也有他自己的一套价值观念以及商业谈判策略。…",
+    "created_at": "2026-02-26T03:04:19.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": [
-        {
-          "username": "dingyi"
-        }
-      ]
+      "mentions": []
     }
   },
   {
-    "id": "2017891264889598457",
+    "id": "2026854406831092012",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@XianyuLi 大可不必那么着急，AI会逐渐铺开，最后一个都逃不掉。",
-    "created_at": "2026-02-01T09:22:22.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 136,
-      "impression_count": 136
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XianyuLi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017879206223581629",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "搞竞赛确实要把出题范围收窄，不然我也不知道该如何评价谁更好...我感觉都不错",
-    "created_at": "2026-02-01T08:34:27.000Z",
+    "text": "@PandaTalk8 但是搬的砖对每个搬砖人来说还是挺重要的😅",
+    "created_at": "2026-02-26T02:58:42.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 69,
-      "impression_count": 69
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026852092481257866",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 但是环境还是很重要的，微积分、计算机事实上都是那个时代自然孕育出来的，只不过有几个顶尖人物留下了名字而已。这并不意味着剩下的人都不重要。",
+    "created_at": "2026-02-26T02:49:30.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026850477909143588",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 10%的就顶尖了吗？这个标准恐怕太低了🤪\n\n另外，transformer不是有8个作者吗🤪",
+    "created_at": "2026-02-26T02:43:05.000Z",
+    "metrics": {
+      "like_count": 5,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026836120517083472",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "该文章主要介绍了著名数学家、菲尔兹奖得主陶哲轩 对生成式AI在数学领域应用的前沿看法。\n\n总结来说，陶哲轩认为 AI 正在改变数学研究的规模和速度。虽然它还缺乏顶尖的创造力，但它已经成为一种不可或缺的协作工具。\n\n核心观点（由AI整理）：\n\n1. AI 擅长“扫尾”而非“开创”\n\n廉价的胜利： 陶哲轩指出，AI 目前在解决埃尔德什问题 (Erdős Problems)中表现出色，但它主要是在“扫尾”——即利用标准技巧解决大量简单、冷门的遗留问题，而非攻克人类梦寐以求的核心难题。\n\n直升机 vs. 徒步： 他形象地比喻，AI 就像直升机直接把人丢在山顶，虽然到达了目的地，但人类失去了“徒步过程”中积累的洞察力、标记和地图。\n\n2. 数学研究范式的转型\n\n从个案研究到群体研究： AI 能够处理极其繁琐的计算。陶哲轩认为，数学将从目前的“手工作坊”模式（花数年时间死磕一两个问题）转向“群体调查”模式（利用 AI 快速处理数千个案例或进行大规模统计分析）。\n\n可靠的“初级合作者”： 他曾在 2023 年预测 AI 到 2026 年将成为值得信赖的论文共同作者。目前看来，AI 的表现正符合他的预期，扮演着一个“乐于做繁琐枯燥工作的初级合伙人”角色。\n\n3. 对 AI 发展的建议与诉求\n\n陶哲轩对当前的 AI 开发方向提出了几点建设性的批评：\n\n拒绝“黑盒”式交互： AI 公司执着于“一键式”自动化（用户喝咖啡，AI 吐答案），但数学家更需要的是互动式协作，即人机对话。\n\n呼吁“更诚实”的 AI： 目前的 AI 往往表现出过度自信，即便在胡说八道时也坚称自己是对的。数学家需要 AI 能准确评估并告知其答案的置信度。",
+    "created_at": "2026-02-26T01:46:02.000Z",
+    "metrics": {
+      "like_count": 7,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/FHHsEn4yur",
+          "indices": [
+            149,
+            172
+          ],
+          "display_url": "x.com/stevenstrogatz…",
+          "expanded_url": "https://x.com/stevenstrogatz/status/2026330118184903164"
+        }
+      ],
       "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "2017878086034026637",
+    "id": "2026835153037963655",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@kevinma_dev_zh 写代码这种事情，对多数人来说，交给AI还是更靠谱一些...\n\n我现在已经接受了自己只会耍嘴皮子的现实，也不是不能写，就是确实写不过人家😅",
-    "created_at": "2026-02-01T08:30:00.000Z",
+    "text": "@KKaWSB 毕竟是自己曾经工作过的地方，也算是“忆苦思甜饭”了。",
+    "created_at": "2026-02-26T01:42:11.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 94,
-      "impression_count": 94
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -208,279 +249,65 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "kevinma_dev_zh"
+          "username": "KKaWSB"
         }
       ]
     }
   },
   {
-    "id": "2017877562769490374",
+    "id": "2026833486607503742",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@XianyuLi @zzksc 老冯啊，听说这鸡汤有毒...",
-    "created_at": "2026-02-01T08:27:55.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 18,
-      "impression_count": 18
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XianyuLi"
-        },
-        {
-          "username": "zzksc"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017875495032091081",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@0xdeusyu 奥本海默的那本传记中有一个细节：\n\n原子弹爆炸之后，总统杜鲁门接见他。奥本海默为自己打开了潘多拉魔盒陷入了深深自责，向总统表达了自己的担忧，并感觉自己罪孽深重。\n\n他离开总统办公室之后，杜鲁门忍不住吐槽：屁大点事。要是手上沾血，那也是我的手更血腥...（大意）",
-    "created_at": "2026-02-01T08:19:42.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 140,
-      "impression_count": 140
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "0xdeusyu"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017874583479849292",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@0xdeusyu 我已经放弃了想法。最近真是一点流量都没有。",
-    "created_at": "2026-02-01T08:16:05.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 59,
-      "impression_count": 59
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "0xdeusyu"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017874373143925132",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Fenng 电子邮件比互联网要早很多，他们年轻时（比如20多岁）应该是有条件接触的",
-    "created_at": "2026-02-01T08:15:15.000Z",
+    "text": "Lee Robinson的核心观点是 “为每个 AI Agent 提供一台云端电脑” 将彻底改变软件开发范式，开发者将从“代码编写者”转变为更高维度的“构建者”。\n\n---\n\n要点如下（如下内容由AI总结）：\n\n1. 为什么“云端开发”以前没能成功？\n\n尽管在云端构建软件（如 GitHub Codespaces）具有安全性高、环境稳定、硬件强大等优势，但大多数开发者仍坚持使用 localhost。\n\nLee 认为这是因为之前的方案虽然解决了环境问题，但没能真正改变开发者的工作模式，且缺乏足够的爆发力来克服习惯惯性。\n\n2. 现在的转折点：AI Agent 与工具调用\n\n现在的局限性正在被打破，主要归功于三个因素：\n\n更好的模型： 特别是像 Claude 3.5 Sonnet 这样的模型，在“工具调用”（Tool Calling）方面表现卓越。\n\n新的交互能力： AI 现在可以像人类一样操作电脑（点击、导航、自主运行）。\n\n云端沙盒： Agent 需要一个 24 小时运行、安全且具备高性能的云端环境。\n\n3. 效率的飞跃\n\n一个令人震惊的数据：在 Cursor 内部，通过引入云端 Agent，PR（拉取请求）的合并率从 8% 激增到了 30%。\n\nAgent 不仅能写代码，还能在云端环境中测试自己的工作。\n\nAgent 甚至能自动录制 Demo 视频来证明代码运行正确。\n\n4. 未来展望\n\n未来的软件工程将拥有更好的抽象层。虽然架构设计和深度思考仍需人类完成，但 AI 将承担起那些乏味、机械的构建过程。开发者将从“代码编写者”转变为更高维度的“构建者”。",
+    "created_at": "2026-02-26T01:35:34.000Z",
     "metrics": {
       "like_count": 4,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 2110,
-      "impression_count": 2110
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "Fenng"
+          "url": "https://t.co/9ZKstkWLZW",
+          "indices": [
+            147,
+            170
+          ],
+          "display_url": "x.com/leerob/status/…",
+          "expanded_url": "https://x.com/leerob/status/2026738994084565137"
         }
-      ]
-    }
-  },
-  {
-    "id": "2017873980393459730",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@zzksc @XianyuLi 你已经暴露了，告诉我们你的真实身份吧",
-    "created_at": "2026-02-01T08:13:41.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 206,
-      "impression_count": 206
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zzksc"
-        },
-        {
-          "username": "XianyuLi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017867798421377467",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "朱丽叶与罗密欧正在pk，而此时的我正在听Taylor Swift的《罗密欧与朱丽叶》😆 https://t.co/6MIV3QQLC8",
-    "created_at": "2026-02-01T07:49:07.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 102,
-      "impression_count": 102
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/HADn5eGbEAI5agz.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/HADn5eGbEAI5agz.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
+      ],
       "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "2017866904116068625",
+    "id": "2026811441052004841",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "开始测试一下windsurf的竞技场模式。非常有趣。\n\n安排一个任务，然后windsurf调用两个模型进行同时匿名回答，给出选择之后显示模型名称。\n\n第一回合，不是编程任务，K2.5明显比sonnet正常一些...😅 https://t.co/9dnr0oWm9l",
-    "created_at": "2026-02-01T07:45:34.000Z",
+    "text": "@dotey 之前的招聘数的下跌应该只是周期性的调整。不过能否继续繁荣，还是得看AI带来的变革是不是真的（大概率是真的）。",
+    "created_at": "2026-02-26T00:07:58.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 5,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 173,
-      "impression_count": 173
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/HADm0hybMAAF6vV.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/HADm0hybMAAF6vV.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "2017857279157305553",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@ninezi2049 我不宽容的。在claw系变得真正安全之前，我是不会安装它们的",
-    "created_at": "2026-02-01T07:07:19.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 21,
-      "impression_count": 21
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "ninezi2049"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2017843745165840541",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@dotey 应当对内容设置不同权限的分层，为某个项目设置局部交流平台。这样可以让这些AI协同工作，完成任务。",
-    "created_at": "2026-02-01T06:13:33.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 333,
-      "impression_count": 333
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -494,129 +321,324 @@
     }
   },
   {
-    "id": "2017839680235143625",
+    "id": "2026809385100709942",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "openclaw是目前我感觉最接近AI时代操作系统的形态。\n\n至于安全问题，在技术上大概是小事，很容易解决。",
-    "created_at": "2026-02-01T05:57:24.000Z",
+    "text": "@geniusvczh 学得很快！股市反腐，从国会做起！",
+    "created_at": "2026-02-25T23:59:48.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 174,
-      "impression_count": 174
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "geniusvczh"
+        }
+      ]
     }
   },
   {
-    "id": "2017497344384930058",
+    "id": "2026699358050333117",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "正义必胜！\n\n---\n\n核心裁决\n排除死刑： 一位纽约联邦法官（Margaret Garnett）于 2026 年 1 月 30 日裁定，曼吉恩将不会面临死刑。法官撤销了联邦起诉中涉及死刑的谋杀和武器指控。\n\n裁决背景： 这一决定挫败了特朗普政府寻求对其执行死刑的努力。法官是由前总统拜登任命的。\n\n案件现状与后续\n\n联邦指控： 尽管死刑被排除，曼吉恩仍面临两项联邦跟踪指控，最高可判处终身监禁。联邦案件的陪审团选拔定于 9 月 8 日开始。\n\n州级指控： 曼吉恩在曼哈顿州法院还面临单独的二级谋杀指控。曼哈顿检察官办公室已建议将州级审判日期定在 7 月 1 日。\n\n被告态度： 27 岁的曼吉恩此前对所有联邦和州级指控均表示不认罪。\n\n案件背景回顾\n\n事件经过： 2024 年 12 月，布莱恩·汤普森在前往曼哈顿参加投资者会议途中遭蒙面枪手杀害。\n\n关键证据： 警方在作案弹壳上发现了“延迟 (delay)”、“拒绝 (deny)”和“废黜 (depose)”等字样，这些词通常被用来批评保险公司逃避理赔的行为。\n\n👇\nhttps://t.co/ghES5xaqNL",
-    "created_at": "2026-01-31T07:17:04.000Z",
+    "text": "@KKaWSB 一天到晚就想搞个大新闻。\n\n我军指挥部都快被自爆完了，还打什么打？打飞机吗？",
+    "created_at": "2026-02-25T16:42:35.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "KKaWSB"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026698461450748195",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@hugo99 其实我不是，我只是vibe coding🤪",
+    "created_at": "2026-02-25T16:39:02.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 192,
-      "impression_count": 192
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G_-WiRJaQAAaoJZ.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G_-WiRJaQAAaoJZ.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/ghES5xaqNL",
-          "indices": [
-            462,
-            485
-          ],
-          "display_url": "aljazeera.com/news/2026/1/30…",
-          "expanded_url": "https://www.aljazeera.com/news/2026/1/30/us-judge-rules-mangione-will-not-face-death-penalty-for-ceo-murder"
-        }
-      ],
+      "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "hugo99"
+        }
+      ]
     }
   },
   {
-    "id": "2017490895701238137",
+    "id": "2026698116519563336",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "又是正确的一天 https://t.co/PR6I0P20By",
-    "created_at": "2026-01-31T06:51:27.000Z",
+    "text": "@Jason_Young1231 @vista8 反正我观察过某些被称为“高手”的人，不知道你比他们高明到哪里去了。  \n\n能跟你谈笑风生，我感觉很有面子 https://t.co/Me4GQxv1Ky",
+    "created_at": "2026-02-25T16:37:39.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 55,
-      "impression_count": 55
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G_-RQSWbEAA1EFm.jpg",
+        "url": "https://pbs.twimg.com/media/HCBHId-aMAYokdf.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G_-RQSWbEAA1EFm.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/HCBHId-aMAYokdf.jpg"
       }
     ],
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "Jason_Young1231"
+        },
+        {
+          "username": "vista8"
+        }
+      ]
     }
   },
   {
-    "id": "2017490331772850530",
+    "id": "2026691090322174192",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "《达•芬奇传》很值得一读。\n\n达•芬奇的拖延症臭名昭著。但另一个角度，他就没把自己当成一个打工人，去无休止地完成一副又一副订单...\n\n他到了晚年，甚至懒得拿起画笔，虽然没有人比他更擅长绘画。\n\n他一直在探索新事物，他是画家，也是科学家，一位探索者。绘画只是他的探索方式之一 https://t.co/z8M9YtLYOX",
-    "created_at": "2026-01-31T06:49:12.000Z",
+    "text": "@frxiaobei 到时候摸着你们过河，反正我也没有特别需求😂",
+    "created_at": "2026-02-25T16:09:44.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 143,
-      "impression_count": 143
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "frxiaobei"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026686588890263847",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Jason_Young1231 @vista8 不，你不需要装，你就是😅",
+    "created_at": "2026-02-25T15:51:51.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Jason_Young1231"
+        },
+        {
+          "username": "vista8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026684181045194942",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @vista8: 这周六晚上8点《未来硅世界》新年第一期。\n\n邀请玩Claude Code必备工具CC Switch作者  @Jason_Young1231 一起聊聊工具开发背后的故事。\n\n直到今天才知道他竟然不是程序员，只是喜欢编程，从外贸转到做编程开发。\n\n果然热爱是…",
+    "created_at": "2026-02-25T15:42:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "vista8"
+        },
+        {
+          "username": "Jason_Young1231"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026676139364847786",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Eejoylove 是有潜质的，我感觉小孩子比大人更容易保持专注，但人的专注力是有限的，需要训练。\n\n但这一个房间的大概率都练不成爱读书的习惯😅",
+    "created_at": "2026-02-25T15:10:20.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Eejoylove"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026674110278127665",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "你真是太实用了 @grok https://t.co/GAD6FB3ihs",
+    "created_at": "2026-02-25T15:02:16.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/GAD6FB3ihs",
+          "indices": [
+            14,
+            37
+          ],
+          "display_url": "x.com/grok/status/20…",
+          "expanded_url": "https://x.com/grok/status/2026656631119827109"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "grok"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026673408315109758",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "终于能看懂这种洗涤建议了 https://t.co/63LJg712vo",
+    "created_at": "2026-02-25T14:59:28.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G_-Qw9vbEAMA8im.jpg",
+        "url": "https://pbs.twimg.com/media/HCAwuDLbwAAAnQP.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G_-Qw9vbEAMA8im.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/HCAwuDLbwAAAnQP.jpg"
       }
     ],
     "entities": {

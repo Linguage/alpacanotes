@@ -1,95 +1,22 @@
 [
   {
-    "id": "1961437233279651979",
+    "id": "1979386309786636531",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "好像这个刻板印象也不是很错误...... https://t.co/D1IehGc09t",
-    "created_at": "2025-08-29T14:34:12.000Z",
+    "text": "@youcc @0xdeusyu 还可以接受。我更想知道现在Ilya怎么样了🤣",
+    "created_at": "2025-10-18T03:17:26.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 56,
-      "impression_count": 56
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GzhsuCObkAIm9fD.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzhsuCObkAIm9fD.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GzhswfMbkAQpIhi.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzhswfMbkAQpIhi.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GzhswmAaIAAQq4Z.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzhswmAaIAAQq4Z.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GzhsxLIaQAAloDN.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GzhsxLIaQAAloDN.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961436022061113549",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "可能是我对程序员的错误刻板印象：他们很多在表达时一开口就好像在给你建思维模型，没说两句话就甩出一大堆看起来很专业的词汇......\n\n通常一大段表述听完了之后，我没觉得他讲得有道理（模型太复杂，get不到），只觉着他好装逼，我自己也很懵逼。\n\n但是，他们谈的也不是技术问题啊...",
-    "created_at": "2025-08-29T14:29:24.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 1,
-      "view_count": 220,
-      "impression_count": 220
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961433325052334286",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@dontbesilent12 youmind",
-    "created_at": "2025-08-29T14:18:41.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 119,
-      "impression_count": 119
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -97,29 +24,32 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dontbesilent12"
+          "username": "youcc"
+        },
+        {
+          "username": "0xdeusyu"
         }
       ]
     }
   },
   {
-    "id": "1961426185272819988",
+    "id": "1979385847150711202",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@feltanimalworld 什么是严肃内容呢？什么样的媒介适合严肃内容呢？",
-    "created_at": "2025-08-29T13:50:18.000Z",
+    "text": "@feltanimalworld 图1画得已经非常棒了，如果我有这水平，我会很喜欢画画😂\n\n这个玩法很有趣，大模型太有潜力了！",
+    "created_at": "2025-10-18T03:15:35.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 249,
-      "impression_count": 249
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -133,49 +63,23 @@
     }
   },
   {
-    "id": "1961417752964731370",
+    "id": "1979383886846279919",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "唉，我需要加把劲把我的推文推送洗回技术区。\n\n最近老给我推键政的。",
-    "created_at": "2025-08-29T13:16:48.000Z",
+    "text": "@dotey 雷军这个时候说着这些话，似乎不太合适",
+    "created_at": "2025-10-18T03:07:48.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 42,
-      "impression_count": 42
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961404868545142986",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@LaurenceMister @Yangzi812 我也经常碰到不知道如何理解的评论，他们似乎不会写完整的句子......",
-    "created_at": "2025-08-29T12:25:36.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 37,
-      "impression_count": 37
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -183,32 +87,104 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "LaurenceMister"
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1979382093403820401",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@gkxspace 我不认为算法在压榨的时候能做到“平等”🤣🤣🤣",
+    "created_at": "2025-10-18T03:00:40.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "gkxspace"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1979380583320162415",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@easyopss @dotey @PandaTalk8 @LiXiang1947 @kevinma_dev_zh @feltanimalworld @Jason_Young1231 我相信做自己熟悉的擅长的和关心的，早晚有一天会写出好的内容，也会在某天被读者发现。一直朝那个方向努力...",
+    "created_at": "2025-10-18T02:54:40.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "easyopss"
         },
         {
-          "username": "Yangzi812"
+          "username": "dotey"
+        },
+        {
+          "username": "PandaTalk8"
+        },
+        {
+          "username": "kevinma_dev_zh"
+        },
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "Jason_Young1231"
         }
       ]
     }
   },
   {
-    "id": "1961404507247841730",
+    "id": "1979379787820077171",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@LaurenceMister 乐极生悲",
-    "created_at": "2025-08-29T12:24:10.000Z",
+    "text": "@easyopss @dotey @PandaTalk8 @LiXiang1947 @kevinma_dev_zh @feltanimalworld @Jason_Young1231 太需要运气了。对我来说已经很不容易了。\n\n祝大白早日fo数暴涨！",
+    "created_at": "2025-10-18T02:51:31.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 64,
-      "impression_count": 64
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -216,145 +192,116 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "LaurenceMister"
+          "username": "easyopss"
+        },
+        {
+          "username": "dotey"
+        },
+        {
+          "username": "PandaTalk8"
+        },
+        {
+          "username": "kevinma_dev_zh"
+        },
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "Jason_Young1231"
         }
       ]
     }
   },
   {
-    "id": "1961393842676175289",
+    "id": "1979379454708531236",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "在社交媒体上还是要调整注意力。\n\n如果不想刷到某类型的东西，就不要去与相关的话题纠缠。",
-    "created_at": "2025-08-29T11:41:47.000Z",
+    "text": "视频概要：Andrej Karpathy 论人工智能的下一个十年\n\nhttps://t.co/rjz4zxceQU",
+    "created_at": "2025-10-18T02:50:11.000Z",
     "metrics": {
-      "like_count": 2,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 101,
-      "impression_count": 101
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [],
+      "urls": [
+        {
+          "url": "https://t.co/rjz4zxceQU",
+          "indices": [
+            34,
+            57
+          ],
+          "display_url": "linguista.notion.site/Andrej-Karpath…",
+          "expanded_url": "https://linguista.notion.site/Andrej-Karpathy-290d1a1385bf80dcb675ecc567a8e34a"
+        }
+      ],
       "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "1961392831261757582",
+    "id": "1979379450841288900",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@AutoJunjie2023 现在不太喜欢vibe coding了。😂😂😂\n\n还是想自己多写一些，vibe来vibe去都搞不清楚自己在干嘛。\n\nkiro的spec模式会把程序的框架搭得太大，会生成很多我不好理解的代码，很快就失控了。\n\nClaude code体验更好一些，它会把工作过程呈现得更有条理，比较舒心。",
-    "created_at": "2025-08-29T11:37:46.000Z",
+    "text": "Karpathy 将人工智能视为计算技术和自动化的延续，而非一个会引发经济增长率突变的离散事件。\n\n他预测超级智能带来的最可能风险是人类对复杂系统“逐步失去控制和理解”。为应对这一挑战，他将当前的重心转向教育，旨在通过其新项目“Eureka”建立一个“星际舰队学院”，通过创造高效的“知识坡道”来赋能人类 https://t.co/VKmBiu4fPM",
+    "created_at": "2025-10-18T02:50:10.000Z",
     "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 43,
-      "impression_count": 43
+      "like_count": 5,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "AutoJunjie2023"
+          "url": "https://t.co/VKmBiu4fPM",
+          "indices": [
+            153,
+            176
+          ],
+          "display_url": "x.com/dwarkesh_sp/st…",
+          "expanded_url": "https://x.com/dwarkesh_sp/status/1979234976777539987"
         }
-      ]
+      ],
+      "hashtags": [],
+      "mentions": []
     }
   },
   {
-    "id": "1961390101172539522",
+    "id": "1979378498470056423",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@AutoJunjie2023 感觉不适合我",
-    "created_at": "2025-08-29T11:26:55.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 15,
-      "impression_count": 15
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "AutoJunjie2023"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1961388430597730695",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@xicilion 用我对付老板的那一套来对付我",
-    "created_at": "2025-08-29T11:20:17.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 40,
-      "impression_count": 40
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "xicilion"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1961388150129148133",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@xicilion 都是工贼🥹🥹🥹",
-    "created_at": "2025-08-29T11:19:10.000Z",
+    "text": "@frxiaobei 🤣🤣🤣\n\n忆苦思甜的夜晚",
+    "created_at": "2025-10-18T02:46:23.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 44,
-      "impression_count": 44
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -362,81 +309,224 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "xicilion"
+          "username": "frxiaobei"
         }
       ]
     }
   },
   {
-    "id": "1961384424697684223",
+    "id": "1979375473986802034",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "地狱通常是伪装成天堂的样子。\n\n没有人需要别人去拯救，也不可能被别人拯救。每个人都有自己的命运，也只有自己能对自己更负责一些。\n\n那些虚妄之人只是通过制造焦虑营造幻觉而招摇撞骗而已。这又何尝不是一种“知识付费”呢？",
-    "created_at": "2025-08-29T11:04:22.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 77,
-      "impression_count": 77
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961382850386956752",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "那些在国外的，他们的“建设性”提议通常挺虚妄的。他们不会带来任何变革，他们那些理念即便天花烂醉也不可能在另一片土地上落地。\n\n所有的变局都在一个个有问题的细节上，进步与衰退都依托于对这些问题和细节的处理。当远离一个地方，就会逐渐失去对那个地方的感知渠道。",
-    "created_at": "2025-08-29T10:58:06.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 85,
-      "impression_count": 85
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961382848239472994",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "偶尔刷到了一些键政圈的“反贼贴”，普遍感觉鬼扯。\n\n键政的东西，我看过好多。我的看法就是：不在其位不谋其政。如果提出主张却无法实践，其实意义不大。\n\n作为无权无势的老百姓，属于我们的“政”就是过好自己的日子，表达自己对具体生活的看法，支持对自己和社会有利的提案（虽然后面两条很奢侈）",
-    "created_at": "2025-08-29T10:58:06.000Z",
+    "text": "费曼学习法最重要的一环是“分享并获得反馈”。\n\n在大模型出现之后，我意识到之前很多难以获得的知识，在渠道上都变得门槛很低，重要的是搞清楚“你想知道什么”。\n\n在分享的过程中，在别人的反馈中，我们会逐渐把自己真正关心的问题提出来，这时候大模型等工具可以更好地发挥作用 https://t.co/EKVkVNw2ne",
+    "created_at": "2025-10-18T02:34:22.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 859,
-      "impression_count": 859
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/EKVkVNw2ne",
+          "indices": [
+            133,
+            156
+          ],
+          "display_url": "x.com/PandaTalk8/sta…",
+          "expanded_url": "https://x.com/PandaTalk8/status/1978706873730605405"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1979373972799263101",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 @lim_sure 你干嘛在乎别人怎么想？😅",
+    "created_at": "2025-10-18T02:28:24.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        },
+        {
+          "username": "lim_sure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1979373333541196054",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@0xdeusyu 完了，发现AK也渐露沧桑...\n\n（他是不是染发了？）",
+    "created_at": "2025-10-18T02:25:52.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "0xdeusyu"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1979372736297472294",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 我比较赞同在搞清楚之前免费交流，毕竟费曼学习法的需要听众，听众在为学习提供帮助，他们不见得是最大受益者，甚至可能是受害者😅",
+    "created_at": "2025-10-18T02:23:29.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1979372107286089839",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "然而很多时候，我们容易被困在“不知道自己不知道的”的处境中，这种状态可能是最不适合教导别人的。反倒是“知道自己不知道”的状态更合适做教育。  \n\n做好一门课，需要多轮迭代。获得足够的反馈，为自己的知识体系打上必要的补丁，之后才能说做得到位了。  \n\n最大的问题不在教与学，而在贩卖残次品以牟利 https://t.co/duqsDJHBtj",
+    "created_at": "2025-10-18T02:20:59.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/duqsDJHBtj",
+          "indices": [
+            147,
+            170
+          ],
+          "display_url": "x.com/PandaTalk8/sta…",
+          "expanded_url": "https://x.com/PandaTalk8/status/1979369718319583655"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1979369957671735724",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PandaTalk8 闭环了属于是🤣🤣🤣",
+    "created_at": "2025-10-18T02:12:27.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1979368581411541396",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "应该是“教育家”...至于“教育学家”, 费曼应该会矢口否认😂😂😂",
+    "created_at": "2025-10-18T02:06:59.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -446,111 +536,137 @@
     }
   },
   {
-    "id": "1961376500713673086",
+    "id": "1979368067839987753",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "1.85G空间？我没存什么东西啊...... https://t.co/t0D6fXuvG0",
-    "created_at": "2025-08-29T10:32:53.000Z",
+    "text": "https://t.co/egnHrW1FXx",
+    "created_at": "2025-10-18T02:04:56.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 75,
-      "impression_count": 75
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/egnHrW1FXx",
+          "indices": [
+            0,
+            23
+          ],
+          "display_url": "perplexity.ai/search/fei-man…",
+          "expanded_url": "https://www.perplexity.ai/search/fei-man-ti-chu-guo-fei-man-xue-dJDslmTCT9WD5IlR89Qcfw"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1979368063616324036",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "我很赞同费曼学习法, 但明显这个词被滥用了（首先，这个学习方法不是费曼提出来的）\n\n比较糟糕的是，现在很多人搞课程，内核就是“费曼学习法”---他们自己现学现卖，很多要点也理解得不透彻---这不是误人子弟吗？\n\n费曼是一位伟大的教育学家，写出过最著名的物理学教材，他当时可不是这么对待教学的 https://t.co/EKVkVNw2ne https://t.co/MZz5oFzUjX",
+    "created_at": "2025-10-18T02:04:55.000Z",
+    "metrics": {
+      "like_count": 6,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/Gzg1hzHbsAAopm7.jpg",
+        "url": "https://pbs.twimg.com/media/G3ggwjRXYAA5kE1.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gzg1hzHbsAAopm7.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G3ggwjRXYAA5kE1.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/EKVkVNw2ne",
+          "indices": [
+            146,
+            169
+          ],
+          "display_url": "x.com/PandaTalk8/sta…",
+          "expanded_url": "https://x.com/PandaTalk8/status/1978706873730605405"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1979361996232696112",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 @bozhou_ai 先帮你预定上 https://t.co/BgxC306fMz",
+    "created_at": "2025-10-18T01:40:49.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G3gbPYNWwAE2tnn.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G3gbPYNWwAE2tnn.jpg"
       }
     ],
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961370033629856067",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "逛了一下小红书，感受就是：\n\n中国人好不好战不好说，但中国的的网友是真好（骂）战",
-    "created_at": "2025-08-29T10:07:11.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 80,
-      "impression_count": 80
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1961366587103174829",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@cyrilxuq 一个构建叙事，一个拆解叙事？",
-    "created_at": "2025-08-29T09:53:29.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 580,
-      "impression_count": 580
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
       "mentions": [
         {
-          "username": "cyrilxuq"
+          "username": "bozhou_ai"
         }
       ]
     }
   },
   {
-    "id": "1961361400951181338",
+    "id": "1979354136236941753",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@dontbesilent12 给你一个梦想",
-    "created_at": "2025-08-29T09:32:52.000Z",
+    "text": "@dotey 我向那些搞科研的同学推荐AI编程。他们说AI对他们写代码的工作帮助不大。（一副很抵触的样子，但这种对AI的无知在传统领域的科研圈普遍得令人吃惊）\n\n我就说：那些在算法上有点精细复杂的，可能没办法帮你直接搞定，但让AI帮你写一些数据处理的程序总可以了吧, 这样你至少省下不少时间去写复杂的代码",
+    "created_at": "2025-10-18T01:09:35.000Z",
     "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 3531,
-      "impression_count": 3531
+      "like_count": 5,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -558,37 +674,7 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dontbesilent12"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1961357987832107471",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@itsandrewgao cool dream!",
-    "created_at": "2025-08-29T09:19:19.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 14,
-      "impression_count": 14
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "itsandrewgao"
+          "username": "dotey"
         }
       ]
     }

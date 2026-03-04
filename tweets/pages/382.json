@@ -1,95 +1,22 @@
 [
   {
-    "id": "1944304923367313578",
+    "id": "1970450880429474021",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "1/8\nLex Fridman和DHH在播客中就“Vibe coding”展开了深入讨论。\n\n “Vibe coding”是指开发者用AI生成代码，再通过自然语言和手动修正完善程序。它让新手可以快速产出，但是否真的能学会编程？",
-    "created_at": "2025-07-13T07:56:31.000Z",
+    "text": "@gkxspace @xiongchun007 多少岁（提前）退休是个很虚假的念想。有些人身居高位，七老八十了都不想退休...\n\n财务自由也是个伪概念，有些人容易满足，有些人不容易满足。有些人自以为容易满足，但做到一定程度野心也在膨胀。\n\n找到自己喜欢，然后做好预期管理，比瞎想着啥时候退休有意义",
+    "created_at": "2025-09-23T11:31:13.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 67,
-      "impression_count": 67
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1944006088522715577",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "只有使用了k2模型的kimi准确地发现了问题 https://t.co/GYRIdR45uv",
-    "created_at": "2025-07-12T12:09:04.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 75,
-      "impression_count": 75
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gvp_OQCXgAAu8tm.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gvp_OQCXgAAu8tm.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/Gvp_OPWWkAA3_YJ.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gvp_OPWWkAA3_YJ.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/Gvp_ORYXUAATli5.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gvp_ORYXUAATli5.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/Gvp_OPWWoAAutBK.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gvp_OPWWoAAutBK.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1943980812812398659",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@zhangjintao9020 可能最终算下来，真正的受害者是windsurf死忠用户，他们大概率会被抛弃掉。他们需要的服务应该会后面由Google提供类似的，windsurf则将逐渐从江湖上消失。",
-    "created_at": "2025-07-12T10:28:37.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 84,
-      "impression_count": 84
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -97,222 +24,65 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "zhangjintao9020"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1943980117945913748",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@zhangjintao9020 Google给了windsurf24亿刀，这部分应该足够回报投资者和补偿员工。\n\n很有意思的另一件事情是，windsurf官方表示后续将重心放在企业业务上，估计是创始人把更有前景的vibe coding业务带到Google了。\n\nG厂这种玩法有点像“金蝉脱壳”, 很接近于收购了。正常收购可能面临反垄断调查。",
-    "created_at": "2025-07-12T10:25:52.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 566,
-      "impression_count": 566
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhangjintao9020"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1943979140367233154",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@_yuchanns_ @zhangjintao9020 哥哥去东京潇洒去了...",
-    "created_at": "2025-07-12T10:21:59.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 26,
-      "impression_count": 26
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "_yuchanns_"
+          "username": "gkxspace"
         },
         {
-          "username": "zhangjintao9020"
+          "username": "xiongchun007"
         }
       ]
     }
   },
   {
-    "id": "1943943266363486341",
+    "id": "1970450073843834923",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "https://t.co/5a2kduHYTz",
-    "created_at": "2025-07-12T07:59:26.000Z",
+    "text": "@kisyphut @LaurenceMister 预制菜是一个光谱性质的概念，有很多层次。应该像美国的电影分级一样对菜品进行标记，不然对消费者与商家都不好，容易造成误会。",
+    "created_at": "2025-09-23T11:28:01.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 16,
-      "impression_count": 16
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/5a2kduHYTz",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "reuters.com/business/googl…",
-          "expanded_url": "https://www.reuters.com/business/google-hires-windsurf-ceo-researchers-advance-ai-ambitions-2025-07-11/"
-        }
-      ],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1943943263196786901",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "似乎有一种金蝉脱壳的意思 https://t.co/w91R6TPRmu",
-    "created_at": "2025-07-12T07:59:25.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 25,
-      "impression_count": 25
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GvpGB6ZbsAA9RiM.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GvpGB6ZbsAA9RiM.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1943925247507673439",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "所以个体用户将不再是Windsurf服务的重点对象？\n\n唉。错付了🥲",
-    "created_at": "2025-07-12T06:47:50.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 26,
-      "impression_count": 26
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1943925245012050007",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "官方公告中明确提到，随着市场上出现了更多不同的软件开发解决方案，创新速度加快，Windsurf 认为专注于企业级问题具有明显优势。这种专注一直是 Windsurf 的主要方向，公司将继续投入资源，把更广泛市场中的各种产品创新应用于企业工作负载，尤其是那些对社会影响最大的领域\n\nhttps://t.co/mQihTHfHJk",
-    "created_at": "2025-07-12T06:47:49.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 28,
-      "impression_count": 28
-    },
-    "media": null,
-    "entities": {
-      "urls": [
+      "mentions": [
         {
-          "url": "https://t.co/mQihTHfHJk",
-          "indices": [
-            139,
-            162
-          ],
-          "display_url": "windsurf.com/blog/windsurfs…",
-          "expanded_url": "https://windsurf.com/blog/windsurfs-next-stage"
+          "username": "kisyphut"
+        },
+        {
+          "username": "LaurenceMister"
         }
-      ],
-      "hashtags": [],
-      "mentions": []
+      ]
     }
   },
   {
-    "id": "1943898777837826202",
+    "id": "1970440086396485804",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@zhangjintao9020 感觉和manus的玩法有点像。搞出点名堂，拿到融资，然后核心团队润了，其他人自生自灭",
-    "created_at": "2025-07-12T05:02:39.000Z",
+    "text": "@LaurenceMister 知情权的要求很高吗？",
+    "created_at": "2025-09-23T10:48:20.000Z",
     "metrics": {
       "like_count": 3,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 366,
-      "impression_count": 366
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -320,137 +90,140 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "zhangjintao9020"
+          "username": "LaurenceMister"
         }
       ]
     }
   },
   {
-    "id": "1943891505350934714",
+    "id": "1970439267039260940",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "这是一个属于超级个体的时代，那些AI初创公司，可能就是超级个体的“套壳”。 https://t.co/gjH3BU0H0i",
-    "created_at": "2025-07-12T04:33:45.000Z",
+    "text": "@gkxspace @xiongchun007 祝你成功吧。\n\n我认识的所有搞计算机的在25岁之前都有一个35岁退休的梦想。\n\n但是他们后来都会为35岁这个“退休年纪”感到焦虑",
+    "created_at": "2025-09-23T10:45:04.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 25,
-      "impression_count": 25
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GvoXBRRXAAEDu4l.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GvoXBRRXAAEDu4l.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "gkxspace"
+        },
+        {
+          "username": "xiongchun007"
+        }
+      ]
     }
   },
   {
-    "id": "1943891484568068170",
+    "id": "1970437786571563394",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "Google涉及Windsurf的战略举措被广泛描述为“反向人才收购”。这一新兴趋势在科技行业中涉及大型科技公司吸收顶尖人才并获得知识产权（IP）权利，而无需对目标公司进行全面收购 https://t.co/SYDjZ3AY78",
-    "created_at": "2025-07-12T04:33:40.000Z",
+    "text": "@Jason_Young1231 @lxfater 特别适合对任何大模型不忠诚，喜欢来回更换口味的时间管理大师",
+    "created_at": "2025-09-23T10:39:11.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 61,
-      "impression_count": 61
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GvoXAKPWEAA3SMX.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GvoXAKPWEAA3SMX.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "Jason_Young1231"
+        },
+        {
+          "username": "lxfater"
+        }
+      ]
     }
   },
   {
-    "id": "1943891473281196432",
+    "id": "1970437491498065990",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "OpenAI高达30亿美元的收购要约在排他期结束后正式破裂，这是并购谈判中的一个关键节点。导致交易失败的一个关键且广为人知的因素是OpenAI最大、最重要的支持者微软内部的严重摩擦。 https://t.co/1khlAx0Bv4",
-    "created_at": "2025-07-12T04:33:37.000Z",
+    "text": "@Jason_Young1231 @lxfater 已经更新, 并充值了DeepSeek的api...🤣",
+    "created_at": "2025-09-23T10:38:01.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 26,
-      "impression_count": 26
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GvoW_i1W8AAvcHE.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GvoW_i1W8AAvcHE.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "Jason_Young1231"
+        },
+        {
+          "username": "lxfater"
+        }
+      ]
     }
   },
   {
-    "id": "1943891427232006395",
+    "id": "1970418878309441854",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "https://t.co/VVyNFW98RC",
-    "created_at": "2025-07-12T04:33:26.000Z",
+    "text": "川普：我们这边的中国人比你们那边的中国人更优秀...🤣🤣🤣 https://t.co/mOKiFPrkoS",
+    "created_at": "2025-09-23T09:24:03.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 9,
-      "impression_count": 9
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/VVyNFW98RC",
+          "url": "https://t.co/mOKiFPrkoS",
           "indices": [
-            0,
-            23
+            30,
+            53
           ],
-          "display_url": "linguista.bearblog.dev/windsurf-found…",
-          "expanded_url": "https://linguista.bearblog.dev/windsurf-founder-join-google-events-and-effects/"
+          "display_url": "x.com/caiziboshi/sta…",
+          "expanded_url": "https://x.com/caiziboshi/status/1970317678331207971"
         }
       ],
       "hashtags": [],
@@ -458,55 +231,23 @@
     }
   },
   {
-    "id": "1943891420433068060",
+    "id": "1970396109723050261",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "《华尔街日报》消息：谷歌已同意支付约24亿美元，与AI编程初创公司Windsurf达成协议，获得其技术授权，并聘用该公司CEO及部分员工。据知情人士透露，此前Windsurf与OpenAI的收购谈判陷入僵局，最终促成了谷歌的这一交易。 https://t.co/QsWHzP6orc",
-    "created_at": "2025-07-12T04:33:25.000Z",
+    "text": "@iamcheyan so talented!",
+    "created_at": "2025-09-23T07:53:35.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 217,
-      "impression_count": 217
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GvoW8e_XsAAvlFA.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GvoW8e_XsAAvlFA.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1943879861484826954",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@peterjin1028 @hylarucoder @laike9m_ 少废话，给她AI",
-    "created_at": "2025-07-12T03:47:29.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 70,
-      "impression_count": 70
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -514,35 +255,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "peterjin1028"
-        },
-        {
-          "username": "hylarucoder"
-        },
-        {
-          "username": "laike9m_"
+          "username": "iamcheyan"
         }
       ]
     }
   },
   {
-    "id": "1943878064380785054",
+    "id": "1970376974163157077",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@Jiaxi_Cui 所以这些AI公司都是“超级个体套壳”......",
-    "created_at": "2025-07-12T03:40:20.000Z",
+    "text": "@kevinma_dev_zh 这暴风眼看起来惊悚",
+    "created_at": "2025-09-23T06:37:33.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 1399,
-      "impression_count": 1399
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -550,29 +285,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "Jiaxi_Cui"
+          "username": "kevinma_dev_zh"
         }
       ]
     }
   },
   {
-    "id": "1943826738867232807",
+    "id": "1970339349490475433",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@dotey 只买人不买公司？",
-    "created_at": "2025-07-12T00:16:23.000Z",
+    "text": "@dotey 率先服务于泄压场景...😅",
+    "created_at": "2025-09-23T04:08:02.000Z",
     "metrics": {
-      "like_count": 2,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 1561,
-      "impression_count": 1561
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -586,23 +321,23 @@
     }
   },
   {
-    "id": "1943644876253315399",
+    "id": "1970184303104663712",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@hylarucoder @laike9m_ 既然如此，这个对话本身就不是以讲道理为目的。那么为何要思考得那么认真来内耗自己呢？",
-    "created_at": "2025-07-11T12:13:44.000Z",
+    "text": "@Jiaxi_Cui 能解决贫富差异的手段，只有战争瘟疫之类的...\n\n稳定的社会结构几乎注定了“马太效应”持续发作",
+    "created_at": "2025-09-22T17:51:56.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 75,
-      "impression_count": 75
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -610,32 +345,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "hylarucoder"
-        },
-        {
-          "username": "laike9m_"
+          "username": "Jiaxi_Cui"
         }
       ]
     }
   },
   {
-    "id": "1943591728205685113",
+    "id": "1970179250335686791",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@hhmy27 这么说，确实性价比蛮高的，情绪价值拉满",
-    "created_at": "2025-07-11T08:42:32.000Z",
+    "text": "@kevinma_dev_zh @seekjourney “持续占据用户心智”这种说法挺让人不适的, 营造出了一种“总有刁民想害朕”的氛围...",
+    "created_at": "2025-09-22T17:31:52.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 72,
-      "impression_count": 72
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -643,7 +375,266 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "hhmy27"
+          "username": "kevinma_dev_zh"
+        },
+        {
+          "username": "seekjourney"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970177974684262848",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Jason_Young1231 强大！！！",
+    "created_at": "2025-09-22T17:26:47.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Jason_Young1231"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970146406213304373",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh 外面的都是follow\n\n可能新浪微博的恶臭文化从一开始就注定了，关键是，他们成功了...",
+    "created_at": "2025-09-22T15:21:21.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970145102086779078",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh 粉丝的来源是fans，比微博要久远。\n\n我是看《百家讲坛》听说的这个词...",
+    "created_at": "2025-09-22T15:16:10.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970130673215455299",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@gkxspace 现在都这么玩了吗🤣",
+    "created_at": "2025-09-22T14:18:50.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "gkxspace"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970113791712243959",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "护城河属于成熟产业的优势企业。小企业更需要开放的市场，需要菜市场那样的热闹与繁荣。\n\n城市才会有城墙，才需要有护城河。作为个体户，搞点篱笆就差不多，实在不放心，拿砖垒个墙也凑活着过了。 https://t.co/8APFrSEhix",
+    "created_at": "2025-09-22T13:11:45.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/8APFrSEhix",
+          "indices": [
+            93,
+            116
+          ],
+          "display_url": "x.com/gkxspace/statu…",
+          "expanded_url": "https://x.com/gkxspace/status/1970105455319072779"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1970111809140199756",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 @HomuHomu_Themis 你不抽象，你讲的故事都很具体...",
+    "created_at": "2025-09-22T13:03:52.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "HomuHomu_Themis"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970105367335153716",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@geniusvczh 有了预制菜之后依然自己做菜？（滑稽",
+    "created_at": "2025-09-22T12:38:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "geniusvczh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1970091819271967202",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@lxfater @Yangyixxxx https://t.co/7whYRQShvT",
+    "created_at": "2025-09-22T11:44:26.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/7whYRQShvT",
+          "indices": [
+            21,
+            44
+          ],
+          "display_url": "x.com/knowledgefxg/s…",
+          "expanded_url": "https://x.com/knowledgefxg/status/1716931246071460000?t=8wPzQYejgbIgRvOwr9FKgQ&s=09"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "lxfater"
         }
       ]
     }

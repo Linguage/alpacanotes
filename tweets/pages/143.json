@@ -1,22 +1,22 @@
 [
   {
-    "id": "1999689660734537933",
+    "id": "2004517699003859322",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@dotey 这个项目具备很多不错的要素, 满足一些基本需求。\n\n但对PPT进行可控的排版历来是个老大难问题。PPT是一坨代码与一坨素材打包而来的，但呈现出来是纯视觉的，这似乎很难形成有效的映射关系用于大模型的训练。\n\n会不会使用LaTeX（比如overleaf)做排版会更容易一些",
-    "created_at": "2025-12-13T03:55:42.000Z",
+    "text": "@langzihan 🤣🤣🤣 这张马斯克有点“贪天之功为己有”啊",
+    "created_at": "2025-12-26T11:40:36.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 72,
-      "impression_count": 72
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -24,41 +24,52 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dotey"
+          "username": "langzihan"
         }
       ]
     }
   },
   {
-    "id": "1999685470364840161",
+    "id": "2004512892482433398",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "京都-抹茶\n\nhttps://t.co/JjbvoH73rC",
-    "created_at": "2025-12-13T03:39:03.000Z",
+    "text": "体育人物：梅西&amp;C罗 https://t.co/ZPRHH09mNy https://t.co/owpE38lod7",
+    "created_at": "2025-12-26T11:21:30.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 2001,
-      "impression_count": 2001
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9EVtugb0AQC0bi.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9EVtugb0AQC0bi.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G9EVwNVb0AATuln.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9EVwNVb0AATuln.jpg"
+      }
+    ],
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/JjbvoH73rC",
+          "url": "https://t.co/ZPRHH09mNy",
           "indices": [
-            7,
-            30
+            15,
+            38
           ],
-          "display_url": "bananaprompts.fun/prompt/kyoto-m…",
-          "expanded_url": "https://bananaprompts.fun/prompt/kyoto-matcha-chawan-still-life-kru8ci?from=explore"
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2004398711007551663"
         }
       ],
       "hashtags": [],
@@ -66,55 +77,23 @@
     }
   },
   {
-    "id": "1999683241155137640",
+    "id": "2004482284368593020",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "这个收录nano banana的网站做得挺不错 https://t.co/GyudK59Mei",
-    "created_at": "2025-12-13T03:30:11.000Z",
+    "text": "@VoxcatAI 换一个呢？\n\n内置浏览器，是Edge吗？还是一些IDE上内置的？",
+    "created_at": "2025-12-26T09:19:52.000Z",
     "metrics": {
-      "like_count": 579,
-      "retweet_count": 108,
-      "reply_count": 9,
-      "quote_count": 1,
-      "view_count": 75831,
-      "impression_count": 75831
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G8BNKN-bQAAcz7P.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8BNKN-bQAAcz7P.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1999682697774711071",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Louis_Chenxf @dotey 如果是直接通过nano banana做成PPT图片，不光内容不能调整，而且体积太大了，日常使用有点划不来",
-    "created_at": "2025-12-13T03:28:02.000Z",
-    "metrics": {
-      "like_count": 1,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 87,
-      "impression_count": 87
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -122,285 +101,599 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "Louis_Chenxf"
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004481367569252442",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@VoxcatAI 这什么鬼？",
+    "created_at": "2025-12-26T09:16:14.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004480620479844851",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "MIT Slon 2025热门文章（含知识库链接）\n\n麻省理工学院斯隆管理学院的文章汇总了2025年最受关注的科技趋势，重点探讨了人工智能对职业生态与经济发展的深远影响。\n\n知识库链接👇👇👇\nhttps://t.co/66BDQJOZIC\n\n这些文章内容丰富，涵盖了AI对GDP的微小推动，企业如何评估自身的AI成熟度阶段，以及在复杂任务中人机协作的最佳模式等话题。\n\n除了关注生产力的提升，专家们还特别强调了AI带来的环境挑战，并提出了减少数据中心能耗的绿色方案。\n\n此外，报告指出了共情力与伦理判断等人类特质在自动化浪潮中的不可替代性，体现了技术进步中的人文视角。\n\n最后，文章还提及了量子计算领域的最新进展，展示了未来科技版图的多样性。（仅有的一篇与AI关系不大的🤣🤣🤣）",
+    "created_at": "2025-12-26T09:13:16.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9FXCSXaAAA94Mg.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9FXCSXaAAA94Mg.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/1uPMORto1E",
+          "indices": [
+            96,
+            119
+          ],
+          "display_url": "notebooklm.google.com/notebook/877d2…",
+          "expanded_url": "https://notebooklm.google.com/notebook/877d2b43-41e1-4ac2-9314-742ff776e3b7"
         },
         {
-          "username": "dotey"
+          "url": "https://t.co/apWPHwJrD2",
+          "indices": [
+            121,
+            144
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2004465740251005026"
         }
-      ]
-    }
-  },
-  {
-    "id": "1999681232024797548",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@iwangxing Thanks.\n\nBy the way, I love your website. It's beautiful!",
-    "created_at": "2025-12-13T03:22:12.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 84,
-      "impression_count": 84
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
+      ],
       "hashtags": [],
-      "mentions": [
-        {
-          "username": "iwangxing"
-        }
-      ]
+      "mentions": []
     }
   },
   {
-    "id": "1999678609162928325",
+    "id": "2004480372453880015",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@iwangxing That's great, but I would feel grateful if I am cited or mentioned in some way.",
-    "created_at": "2025-12-13T03:11:47.000Z",
+    "text": "MIT Slon 2025热门文章（含知识库链接）\n\n麻省理工学院斯隆管理学院的文章汇总了2025年最受关注的科技趋势，重点探讨了人工智能对职业生态与经济发展的深远影响。\n\n这些文章内容丰富，涵盖了AI对GDP的微小推动，企业如何评估自身的AI成熟度阶段，以及在复杂任务中人机协作的最佳模式等话题。\n\n除了关注生产力的提升，专家们还特别强调了AI带来的环境挑战，并提出了减少数据中心能耗的绿色方案。\n\n此外，报告指出了共情力与伦理判断等人类特质在自动化浪潮中的不可替代性，体现了技术进步中的人文视角。\n\n最后，文章还提及了量子计算领域的最新进展，展示了未来科技版图的多样性。（仅有的一篇与AI关系不大的🤣🤣🤣）\n\nhttps://t.co/66BDQJOZIC",
+    "created_at": "2025-12-26T09:12:16.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 2091,
-      "impression_count": 2091
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "iwangxing"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1999677258920001824",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "great!\n\n一个关键词生成一个图文并茂的ppt，算得上是搜索引擎的新玩法了😂 https://t.co/7r4qfNx956",
-    "created_at": "2025-12-13T03:06:25.000Z",
-    "metrics": {
-      "like_count": 30,
-      "retweet_count": 9,
-      "reply_count": 1,
-      "quote_count": 1,
-      "view_count": 16237,
-      "impression_count": 16237
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8BHcfKbcAA3Go_.jpg",
+        "url": "https://pbs.twimg.com/media/G9FXCSXaAAA94Mg.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8BHcfKbcAA3Go_.jpg"
-      },
+        "preview_image_url": "https://pbs.twimg.com/media/G9FXCSXaAAA94Mg.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/apWPHwJrD2",
+          "indices": [
+            151,
+            174
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2004465740251005026"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004479767479750791",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "麻省理工学院斯隆管理学院的文章汇总了2025年最受关注的科技趋势，重点探讨了人工智能对职业生态与经济发展的深远影响。\n\n这些文章内容丰富，涵盖了AI对GDP的微小推动，企业如何评估自身的AI成熟度阶段，以及在复杂任务中人机协作的最佳模式等话题。\n\n除了关注生产力的提升，专家们还特别强调了AI带来的环境挑战，并提出了减少数据中心能耗的绿色方案。\n\n此外，报告指出了共情力与伦理判断等人类特质在自动化浪潮中的不可替代性，体现了技术进步中的人文视角。\n\n最后，文章还提及了量子计算领域的最新进展，展示了未来科技版图的多样性。（仅有的一篇与AI关系不大的🤣🤣🤣）",
+    "created_at": "2025-12-26T09:09:52.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8BHi-lagAEYKfR.jpg",
+        "url": "https://pbs.twimg.com/media/G9FXCSXaAAA94Mg.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8BHi-lagAEYKfR.jpg"
-      },
+        "preview_image_url": "https://pbs.twimg.com/media/G9FXCSXaAAA94Mg.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/apWPHwITNu",
+          "indices": [
+            124,
+            147
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2004465740251005026"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004478805650571368",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "乌鲁木齐\n\nhttps://t.co/a9NN9vr8gq",
+    "created_at": "2025-12-26T09:06:03.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/a9NN9vr8gq",
+          "indices": [
+            6,
+            29
+          ],
+          "display_url": "x.com/Kenndy_Niko/st…",
+          "expanded_url": "https://x.com/Kenndy_Niko/status/2004477992362541269?s=20"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004478689036435525",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Kenndy_Niko Yes!",
+    "created_at": "2025-12-26T09:05:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Kenndy_Niko"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004475093632905232",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @sundyme: 结合这个高级刺绣风格和之前分享的像素画风格，创作了一组城市卡牌海报，生成时先让 AI 检索相关城市的街景地图等信息再创作还能提高最终生成画面的准确性。 https://t.co/LfkZ6bcsJy",
+    "created_at": "2025-12-26T08:51:18.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "sundyme"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004465740251005026",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "MIT斯隆管理学院的杂志上，2025年阅读量最高的十篇文章，九篇是关于AI的🤣🤣🤣 https://t.co/4anlRQduWS https://t.co/OmkUovzQ7I",
+    "created_at": "2025-12-26T08:14:08.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8BHm_tbsAAsvyt.jpg",
+        "url": "https://pbs.twimg.com/media/G9FKyOKaYAApaDd.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8BHm_tbsAAsvyt.jpg"
-      },
+        "preview_image_url": "https://pbs.twimg.com/media/G9FKyOKaYAApaDd.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/4anlRQduWS",
+          "indices": [
+            42,
+            65
+          ],
+          "display_url": "x.com/MITSloan/statu…",
+          "expanded_url": "https://x.com/MITSloan/status/2003875570682126823"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004457002035192019",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "艾萨克·牛顿，圣诞节降生，\n林肯郡荒原的孩子，\n瘟疫年代的隐士，\n苹果坠地的目击者，\n引力法则的命名人，\n微积分的密室作者，\n白光的分解者与光谱的裁判，\n行星运行的立法权威，\n时间与空间的测量官，\n经典力学的奠基石，\nPrincipia的挥墨者，\n上帝钟表的解读人，\n炼金炉前的夜行客，\n神学手稿的秘密书写者，\n皇家学会的统帅，\n英格兰造币厂的铁腕守门人，\n伪币者的终审法官，\n卢卡斯讲席上的孤王，\n欧几里得之后的秩序继承人，\n笛卡尔体系的终结句号，\n胡克一生的阴影，\n莱布尼茨无法绕开的对岸，\n自然法则的持印人，\n天穹与尘埃之间的裁决者，\n沉默、冷酷、不可回避的思想之力。",
+    "created_at": "2025-12-26T07:39:24.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8BHrv4bUAA3UOX.jpg",
+        "url": "https://pbs.twimg.com/media/G9FB1Sfb0AIJMRZ.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8BHrv4bUAA3UOX.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9FB1Sfb0AIJMRZ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/mqWirImY4D",
+          "indices": [
+            145,
+            168
+          ],
+          "display_url": "x.com/MIT/status/200…",
+          "expanded_url": "https://x.com/MIT/status/2004209319521177928"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004453724786512132",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@sidona @XUJWilliam @GeminiApp @NanoBanana 看来古代女性盘起来的头发可以大做文章啊",
+    "created_at": "2025-12-26T07:26:23.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "sidona"
+        },
+        {
+          "username": "XUJWilliam"
+        },
+        {
+          "username": "GeminiApp"
+        },
+        {
+          "username": "NanoBanana"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004452872680100004",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Vincentcharming 这个premium太真实了😂",
+    "created_at": "2025-12-26T07:23:00.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Vincentcharming"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004445110000669026",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @ProfFeynman: If you think you can, you may. \nIf you think you can't, you're right. https://t.co/1e1tDjmac6",
+    "created_at": "2025-12-26T06:52:09.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G87Ze3YWYAAeicr.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G87Ze3YWYAAeicr.jpg"
       }
     ],
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "ProfFeynman"
+        }
+      ]
     }
   },
   {
-    "id": "1999672193454866797",
+    "id": "2004436572289355911",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@aidavid125 肯定会几足鼎立的。\n\nAI的影响将会像电力一样，最终渗透到所有行业，各国都不可能允许一家独大。\n\n另外一家独大注定难以面面俱到，总会有更专注的竞争对手涌进来。",
-    "created_at": "2025-12-13T02:46:17.000Z",
+    "text": "罗塞塔石碑，一块本来不算特别的破石头，最终成了一个古老文明的密钥。文物的价值，在于被呈现，从而与观众对话。\n\n让文物得意留存并说话，是收藏者存在的首要意义。当然，现实并非如此，因为某些人只是利用自己手头的资源剥夺文物的“话语权”！\n\n我喜欢逛博物馆，就仅仅是喜欢，我也不知道它能够给我带来什么。这是一种原始的纯粹的感觉，置身其中，会不自主地被带入那个历史情境中，感受时间掩没的文化脉搏。\n\n最近我使用nanobanana所做的大部分工作都是一次次博物馆的经历带来的启发，我非常感谢这些宝贵的公共资源。所以我使用AI的创作（搬运）思路基本上都是建立博物馆与我的关注者之间的桥梁。这是完全独立于流量激励的内在动力，而且是一种激情澎湃的力量。\n\n最近南京博物院的时候引发了激烈的讨论。相关的话题无疑是令人激愤的，宝物承载着不可估量的价值，也自然地激活了许多权力最虚假丑恶的秉性：强取豪夺、偷梁换柱、监守自盗、以权谋私...\n\n对此不想说很多，很愤怒，但又很难受，因为事情不会因为大家的愤怒而解决。",
+    "created_at": "2025-12-26T06:18:14.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 12,
-      "impression_count": 12
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9ErdpebsAAsb6o.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9ErdpebsAAsb6o.jpg"
+      }
+    ],
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "aidavid125"
+          "url": "https://t.co/MOChpD3W9p",
+          "indices": [
+            117,
+            140
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1999408553409573195"
         }
-      ]
-    }
-  },
-  {
-    "id": "1999648607528775949",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@ykszs017 这不是东西方差异，主要社群差异。中推是非常小的圈子，很多人出来就是为了搞钱的，所以与搞钱变现相关的能引起他们的兴趣。",
-    "created_at": "2025-12-13T01:12:34.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 59,
-      "impression_count": 59
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "ykszs017"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1999631448106762616",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@zhiyebanzhuan so rainy！",
-    "created_at": "2025-12-13T00:04:23.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 72,
-      "impression_count": 72
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhiyebanzhuan"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1999526857339994314",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@feltanimalworld 封其他人，我还会试图想一想原因。到Rey老师，我就不知道该如何解释了...",
-    "created_at": "2025-12-12T17:08:46.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 117,
-      "impression_count": 117
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "feltanimalworld"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1999525139416006919",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "AI时代应该可以容得下多个王者，这些公司需要找到属于自己的赛道。现在更要紧的是将AI的应用场景进一步铺开，充分地挖掘其商业价值，还远未到进行零和博弈乃至火并的阶段。\n\n在这个阶段，Google与OpenAI，乃至与中国的友商，其实可以说是同盟关系，他们需要让更多的人接纳这个新事物，这条路还要走一段时间。\n\n我认为Google并没有在与OpenAI进行针尖对麦芒的竞争，虽然在某些资源上与OpenAI有争夺，但他们更多的还是专注搭建自己的生态。\n\nGoogle一直在做自己擅长的事情，而当前的AI恰恰是其中之一。\n\n一方面Google是发明transformer模型的公司，在这方面不缺人才储备。过去这三年Google在应对挑战过程中，也能看出来他们对人才是有着良好的整合能力的（比隔壁的meta不知道强到哪里去了）。\n\n另一方面使用Gemini的时候，我能强烈感觉到这像是一款升级版的搜索引擎。Google很早就立下的愿景：“整合全球信息，供大众使用，让人人受益。”到目前来看依然充满潜力，已经远超经典的搜索引擎的能力范围。",
-    "created_at": "2025-12-12T17:01:57.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 172,
-      "impression_count": 172
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
+      ],
       "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "1999518730179772853",
+    "id": "2004436295519699310",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@XUJWilliam 可以。宝玉老师留下的那个豁口和裂纹已经被玩出花来了😂😂😂",
-    "created_at": "2025-12-12T16:36:29.000Z",
+    "text": "罗塞塔石碑，一块本来不算特别的破石头，最终成了一个古老文明的密钥。文物的价值，在于被呈现，从而与观众对话。囤积在墓穴和库房的文物毫无价值。\n\n让文物得意留存并说话，是收藏者存在的首要意义。当然，现实并非如此，因为某些人只是利用自己手头的资源剥夺文物的“话语权”！\n\n我喜欢逛博物馆，就仅仅是喜欢，我也不知道它能够给我带来什么。这是一种原始的纯粹的感觉，置身其中，会不自主地被带入那个历史情境中，感受时间掩没的文化脉搏。\n\n最近我使用nanobanana所做的大部分工作都是一次次博物馆的经历带来的启发，我非常感谢这些宝贵的公共资源。所以我使用AI的创作（搬运）思路基本上都是建立博物馆与我的关注者之间的桥梁。这是完全独立于流量激励的内在动力，而且是一种激情澎湃的力量。\n\n最近南京博物院的时候引发了激烈的讨论。相关的话题无疑是令人激愤的，宝物承载着不可估量的价值，也自然地激活了许多权力最虚假丑恶的秉性：强取豪夺、偷梁换柱、监守自盗、以权谋私...\n\n对此不想说很多，很愤怒，但又很难受，因为事情不会因为大家的愤怒而解决。",
+    "created_at": "2025-12-26T06:17:08.000Z",
     "metrics": {
-      "like_count": 3,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 43,
-      "impression_count": 43
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G9ErdpebsAAsb6o.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G9ErdpebsAAsb6o.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/MOChpD3W9p",
+          "indices": [
+            133,
+            156
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1999408553409573195"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2004432810040574233",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@sidona @GeminiApp @NanoBanana 明显是个现代女性😅\n\n古典美女还是停留在想象中吧。\n\n另外四大美女都有不少政治背景，是用来渲染历史的，这是件挺糟糕的事实。不过没有吕布和董卓的元素，也干净不少🤣",
+    "created_at": "2025-12-26T06:03:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "sidona"
+        },
+        {
+          "username": "GeminiApp"
+        },
+        {
+          "username": "NanoBanana"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2004430356972507422",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@XUJWilliam 就是项羽头上带点绿有点怪怪的。话说有点绿的是刘邦吧",
+    "created_at": "2025-12-26T05:53:32.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -414,203 +707,43 @@
     }
   },
   {
-    "id": "1999516476999336290",
+    "id": "2004429515209204139",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "恐怕并不是。\n\n当面对代码的时候，程序员关注的并不只是代码本身，而是期望构建的东西。他会朝着那个方向努力，而非陶醉在当前的这坨垃圾中。品味这东西是被恶心出来的。\n\n当然，并非所有人都有这种意识，有很多人对代码的追求就是闭眼拉磨，埋头撞钟，这种人在任何时代都很难培养出品味。",
-    "created_at": "2025-12-12T16:27:31.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 193,
-      "impression_count": 193
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1999511301274632269",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "原来如此！\n\n品味是用屎山滋养出来的。知道什么是垃圾，才可能发现好东西...😂😂😂",
-    "created_at": "2025-12-12T16:06:58.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 1417,
-      "impression_count": 1417
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1999489545168101808",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "12月12日，依然很快就用完了20张左右的画图额度。\n\n也还好，有一定的防沉迷效果。而且热度过了，也很难每天都画20幅图，时间久了也就适应了。",
-    "created_at": "2025-12-12T14:40:30.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 75,
-      "impression_count": 75
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1999483365817450591",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XianyuLi 终于因为自己的清高逃过一劫（虽然一点都不清高，我也是白嫖党，只是说不出口🤣）",
-    "created_at": "2025-12-12T14:15:57.000Z",
+    "text": "@elonmusk 刘邦与项羽\n\nhttps://t.co/JyGEvLJgbx",
+    "created_at": "2025-12-26T05:50:11.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 33,
-      "impression_count": 33
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [],
+      "urls": [
+        {
+          "url": "https://t.co/JyGEvLJgbx",
+          "indices": [
+            17,
+            40
+          ],
+          "display_url": "x.com/XUJWilliam/sta…",
+          "expanded_url": "https://x.com/XUJWilliam/status/2004428717737615580?s=20"
+        }
+      ],
       "hashtags": [],
       "mentions": [
         {
-          "username": "XianyuLi"
+          "username": "elonmusk"
         }
       ]
-    }
-  },
-  {
-    "id": "1999477789062504545",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XianyuLi 而且Google 账号封禁、X推主封禁以及nano banana pro额度下调几乎是同步发生的🤣",
-    "created_at": "2025-12-12T13:53:48.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 68,
-      "impression_count": 68
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XianyuLi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1999477509981942170",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XianyuLi 估计是G老大怒了",
-    "created_at": "2025-12-12T13:52:41.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 120,
-      "impression_count": 120
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XianyuLi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1999476786305101921",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "只能说，AI最不擅长的就是搞幽默。\n\n本来挺搞笑的视频，被它这么一分析，变得好尬🤣 https://t.co/ERSq8EVwv5",
-    "created_at": "2025-12-12T13:49:48.000Z",
-    "metrics": {
-      "like_count": 3,
-      "retweet_count": 2,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 1589,
-      "impression_count": 1589
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7-RQ4bagAQRH0J.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7-RQ4bagAQRH0J.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
     }
   }
 ]

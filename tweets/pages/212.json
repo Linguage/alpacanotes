@@ -1,172 +1,167 @@
 [
   {
-    "id": "1986635162072064392",
+    "id": "1997529286354616531",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "https://t.co/8MLyCdAQpp",
-    "created_at": "2025-11-07T03:21:47.000Z",
+    "text": "为了适配国内博物馆的展示，考虑到风格、字体以及展品独特性等问题，对提示词进行了迭代。\n\n效果上，对东方审美具有比较好的兼容，甚至可以不拘泥于博物馆本身。比如附图中的敦煌与都江堰（当然，还是需要“抽卡”）\n\n提示词：\n\n  [关键指令：必须先事实核查]\n在生成之前，必须先获取关于{Museum Name}的可验证真实数据。最终图像必须精准反映该博物馆真实的建筑风格、主要藏品类别以及文化背景。严禁出现与该馆专业方向不符的通用博物馆元素（例如：纯美术博物馆不能出现恐龙骨骼；专攻亚洲历史的博物馆不能出现文艺复兴油画）。呈现一个奢华、极致细节的微缩3D博物馆场景，采用45°俯视角。整体构图必须密集、丰富，宛如珍宝堆积的宝库，绝不允许出现大片留白。复杂且可验证的建筑构成（必须精准可查）：\n\n中心放置{Museum Name}最具标志性的主建筑。建筑必须让人在风格化后依然一眼认出这是现实中那座真实博物馆。\n主体建筑：最具辨识度的正立面或主大厅，使用可爱但精准的Q版比例，忠实保留其真实建筑特征（例如：大英博物馆的新古典柱式，故宫的斗拱结构，卢浮宫金字塔的现代几何玻璃等）。\n辅助元素（真实存在）：在主厅周围添加该博物馆实际存在或历史相关的较小建筑细节（例如：特定城门、院墙、室外标志性雕塑、连接的园林等）。\n环境底座：将建筑融入符合其真实地理环境主题的底座（例如：城市石板路、特定风格园林、或该地标性的地貌特征）。\n\n海量藏品与文物（严格按主题精选、真实可查）：\n【关键步骤：确定博物馆类型】根据{Museum Name}，明确其主要定位（从以下四类中选择唯一主导类型作为藏品筛选依据）：\n\n类型A：历史/考古类（如大英博物馆、开罗博物馆）→ 重点呈现古代文物、残件、碑刻、武器、工具。\n类型B：美术类（如卢浮宫、大都会、乌菲齐）→ 重点呈现油画（带框微缩）、雕塑、半身像、装饰艺术、家具。\n类型C：自然历史/科技类（如史密森自然历史博物馆、伦敦科技博物馆）→ 重点呈现骨骸、标本、化石、科学仪器、机械、矿物。\n类型D：特定文化/区域类（如北京故宫博物院、京都国立博物馆）→ 严格限于该文化圈的器物、书法、纺织、礼仪用品。\n\n在场景中散布8-12件完全符合上述类型的、可查证的真实藏品：大型镇馆之宝（1-2件）：该馆最著名的巨型明星展品（例如：罗塞塔石碑居中、一尊特定著名雕像、一台标志性大型机器）。\n中型代表文物（3-4件）：体现该馆最强部门的特色器物（例如：特定类型陶瓷、整套盔甲、天文仪器、中型雕塑）。\n小型精致细节（多件）：填满缝隙的微小珍品（例如：古币、珠宝、小型碑刻、科学标本、微型卷轴）。\n摆放方式：动态活泼——放在微型底座上、倚靠墙体、或用魔幻现实主义手法“漂浮”。\n\n视觉风格与“填满空白”（收藏家桌面感）：\n\n将整个场景视为“馆长的书桌”式微缩模型，彻底消灭空旷感。\n主题道具：加入强化特定主题的装饰元素（A类：考古工具；B类：鎏金画框与调色盘；C类：放大镜与野外笔记；D类：传统文房用具）。\n地面纹理密度：据地点选择丰富质感（例如：古老石板地、抛光展厅木地板、传统花纹地毯）。\n渲染风格：Cinema 4D/Octane Render。高饱和度、极致锐利细节、环境光遮蔽增加深度。使用景深效果，中心密集区域极致清晰，边缘柔和虚化。\n\n色彩方案（文化沉浸感）：\n\n主色调：提取该博物馆建筑或官方品牌中最具代表性的3个真实颜色。\n背景：纯色、高级哑光底色，提供优雅对比（例如：深酒红、石板蓝、暗祖母绿）。\n\n文字排版（精致得体）：\n\n主标题：\"{Museum Name}\" 使用与博物馆起源文化相符的字体（例如：亚洲博物馆用书法体，欧洲/西方博物馆用衬线体）。\n副标题：\"City, Country\" 使用干净无衬线字体。\n排版位置：优雅低调，不抢戏。\n\n参数：画面比例：1:1\n博物馆名称：{Museum Name}",
+    "created_at": "2025-12-07T04:51:08.000Z",
     "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 66,
-      "impression_count": 66
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/8MLyCdAQpp",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1986624508267274617"
-        }
-      ],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986635157345083582",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "https://t.co/1IQS3FDyam",
-    "created_at": "2025-11-07T03:21:46.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 38,
-      "impression_count": 38
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/1IQS3FDyam",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1986626605364748354"
-        }
-      ],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986635159630979120",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "https://t.co/ouRe4S465b",
-    "created_at": "2025-11-07T03:21:46.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 30,
-      "impression_count": 30
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/ouRe4S465b",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1986618367902687712"
-        }
-      ],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986635154992103529",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "https://t.co/2K8A6Bq1QH",
-    "created_at": "2025-11-07T03:21:45.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 46,
-      "impression_count": 46
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/2K8A6Bq1QH",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1986625763777679533"
-        }
-      ],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986633514650116368",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "“女性是战争的最大牺牲者。在战斗中女人失去了丈夫，失去了父亲失去了儿子”\n\n至于希拉里有没有说过，我没有考证。我只是感觉，牺牲的价值往往是和平时代无法体会的，这是读历史的意义所在。\n\n今天刷到一篇“雌文”，认为诸葛亮不如李鸿章。\n\n理由是：战争会死人，会对很多家庭造成伤害。所以诸葛亮北伐是“穷兵黩武”，李鸿章帮清政府卖国是“为民请命”。\n\n看得我瞠目结舌，因为我看过一些抗战时期日方与伪军的劝降文，风格大致如出一辙。\n\n不过考虑到是AI写的，大概率作者也没有过脑子，对这个问题没有进行什么深度思考。\n\n这篇文章最大的问题在于一个很离谱的前提：把和平时期舒适生活当作理所应当的。\n\n然而，如果和平这么容易获得，为何还有战争？\n\n具体我的观点，我会在这条thread中罗列出来。",
-    "created_at": "2025-11-07T03:15:14.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 448,
-      "impression_count": 448
+      "like_count": 243,
+      "retweet_count": 52,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G5Hth5KagAA4zOL.jpg",
+        "url": "https://pbs.twimg.com/media/G7imRyHawAApTNT.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G5Hth5KagAA4zOL.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G7imRyHawAApTNT.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7imR-gasAAvJNJ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7imR-gasAAvJNJ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/FF1INKPiyj",
+          "indices": [
+            148,
+            171
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1997524234873209283"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997526754194518216",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "Prompts:\n\nPresent an exquisite, miniature 3D cartoon-style scene of {User Input: Museum Name}, clearly viewed from a 45° top-down perspective.\n\n​Central Architecture:\n\nPlace the museum's most absolutely recognizable architectural landmark (e.g., the Glass Pyramid for the Louvre,…",
+    "created_at": "2025-12-07T04:41:05.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997525954860871974",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dotey 这个系列的图片让我感觉在审美上极度舒适，也满足了我“一张图了解著名博物馆”的欲望，尤其是这些博物馆的主体建筑本身就是我最欣赏的。\n\n但仔细看来，生成的图片存在明显问题：但是展品上存在错乱。这也不能算幻觉，而是提示词缺陷制造的混乱。…",
+    "created_at": "2025-12-07T04:37:54.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997524234873209283",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "世界博物馆微缩景观系列\n\n我在宝玉老师 @dotey 经典的提示词”公司特色的实时股票价格图“的基础上利用“主体建筑+周边产品+信息框”的构架，进行了魔改与迭代，得到了一个比较通用的“博物馆提示词”。\n\n只需要输入博物馆的名称即可展示这些博物馆的主体建筑与经典藏品\n\n---\n\n博物馆微缩景观提示词（英文提示词见评论区）：\n\n呈现一个精致绝伦的微缩3D卡通风格场景，博物馆名称为{用户输入：博物馆名称}，采用清晰的45°俯视角。\n\n核心建筑：\n将该博物馆最最具辨识度的标志性建筑置于画面正中央（例如：卢浮宫的玻璃金字塔、大英博物馆的希腊复兴式正立面、冬宫的巴洛克宫殿外观）。建筑风格必须鲜明且高度忠实于真实博物馆。\n\n专属藏品元素（严禁通用元素）：\n严格减少旅行类通用元素（如旅游大巴、相机、门票等）。取而代之的是，在中心建筑周围环绕该博物馆最珍贵藏品的精致微缩复刻件：标志性文物与珍品：散布该馆真实拥有的经典藏品微缩模型（例如：罗塞塔石碑、埃及石棺、古代陶器、皇家珠宝、武士盔甲等）。\n\n名作雕塑：\n以微型大理石雕像、青铜半身像或石雕形式呈现该馆著名立体艺术品，绝不能出现活人角色（例如：《思想者》、米洛的维纳斯、掷铁饼者），艺术化地摆放在底座四周。\n\n美术珍品亮点：\n该馆真正的“镇馆之宝”微缩版带框油画或挂毯（例如：微型《蒙娜丽莎》、微型《星夜》、微型《神奈川冲浪里》），摆放在精致画架上或倚靠墙面。\n\n视觉风格与渲染：\n使用Cinema 4D渲染，模型精致、圆润流畅，材质丰富细腻，精准还原真实PBR材质（抛光大理石地面、鎏金画框、天鹅绒围绳、玻璃展柜、风化砂岩等）。光效结合自然天窗光与戏剧性展厅聚光灯，营造出宏大、精致、充满策展感的艺术氛围。\n\n文字与排版：\n在纯色背景上以极简优雅的方式融入博物馆基本信息：顶部居中：博物馆名称，使用大号字体（衬线或无衬线体，与该馆实际品牌风格一致）。\n\n下方副标题：建馆年份 | 城市，国家，使用中等大小的优雅字体。\n包含该博物馆logo或纹章的高品质精致渲染版本，低调融入画面。\n\n参数：画面比例：1:1\n博物馆名称：卢浮宫博物馆（The Louvre Museum）\n\n给模型的特别提醒： 所有生成的“特定文物”必须为该博物馆真实拥有的著名藏品，严禁杜撰或张冠李戴。",
+    "created_at": "2025-12-07T04:31:04.000Z",
+    "metrics": {
+      "like_count": 20,
+      "retweet_count": 4,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1997524149804380160/pu/img/7fsYNYkHbdeXB83K.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1997524149804380160/pu/img/7fsYNYkHbdeXB83K.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997517051683012771",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "近年最里程碑式的产品应该是nano-banana pro\n\n它突破了一个“好用“的门槛，可以将图片的创作与修改工作变得随心所欲，可以作为一个工具而非仅仅是玩具。\n\n与GPT-4、Claude Sonnet 3.5一样，它也将动摇一个规模庞大的行业根基，或者说，“重新定义***”\n\n本帖将展示我使用该工具的所作所为...（含提示词） https://t.co/Gr1APxYZpS",
+    "created_at": "2025-12-07T04:02:31.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7iaEllbYAADP_a.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7iaEllbYAADP_a.jpg"
       }
     ],
     "entities": {
@@ -176,23 +171,55 @@
     }
   },
   {
-    "id": "1986628170809024844",
+    "id": "1997516506134089887",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "流量是个好东西，前提是你还能在它面前保持克制。\n\n我不应该去读那种流量体文章，尤其是vibe writing的。\n\n“流量体”已经夹杂着某种动机上的问题了，vibe出来一些“不过脑子”的东西，很难不是垃圾。",
-    "created_at": "2025-11-07T02:54:00.000Z",
+    "text": "近年最里程碑式的产品应该是nano-banana pro\n\n它突破了一个“好用“的门槛，可以将图片的创作与修改工作变得随心所欲，可以作为一个工具而非仅仅是玩具。\n\n与GPT-4、Claude Sonnet 3.5一样，它也将动摇一个规模庞大的行业根基，或者说，“重新定义***”\n\n本帖将展示我使用nano-banana pro的所作所为... https://t.co/4gTT82pFqp",
+    "created_at": "2025-12-07T04:00:21.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7iaEllbYAADP_a.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7iaEllbYAADP_a.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997505778635415846",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LexiCoding 这期访谈，受难之后的李先生平静得让人心疼。\n\n不知道这几天经历了什么样的心理波动，估计那些瞬间消耗掉了太多的能量。\n\n祝他们能早日走出来",
+    "created_at": "2025-12-07T03:17:44.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 1,
-      "view_count": 611,
-      "impression_count": 611
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -202,360 +229,59 @@
     }
   },
   {
-    "id": "1986626605364748354",
+    "id": "1997504359035478024",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@JIEJIE_Montreal @freeliyi 诸葛亮就是老百姓的选择。\n\n李鸿章永远都不配。\n\n这篇文章中观点如果成立，有个必要的基础：“不打仗就可以获得有尊严的和平”\n\n想啥呢？打不打你说了算？",
-    "created_at": "2025-11-07T02:47:47.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 129,
-      "impression_count": 129
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "freeliyi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986625763777679533",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@affLeopard @freeliyi 这篇文章也是帝王视角，只是貌似给了老百姓一个选择\n\n真正的老百姓没得选，他们就看你当官的是不是个垃圾",
-    "created_at": "2025-11-07T02:44:26.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 115,
-      "impression_count": 115
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "affLeopard"
-        },
-        {
-          "username": "freeliyi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986625390736236867",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@affLeopard @Yangzi812 @freeliyi 你不应该认为这是写作的劣势，不然谁读呢？\n\nvibe coding的东西只能在机器上运行。那么vibe writing如果只让机器来读，你乐意吗？",
-    "created_at": "2025-11-07T02:42:57.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 122,
-      "impression_count": 122
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "affLeopard"
-        },
-        {
-          "username": "Yangzi812"
-        },
-        {
-          "username": "freeliyi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986624508267274617",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "你可以有自己的逻辑，但是历史也自有逻辑。\n\n为什么老百姓在那个时代认定李鸿章是汉奸。\n\n真以为和平是那一纸合约换来的？不抵抗就有和平？太圣母了！\n\n才和平多少年，就以为这些都是天上掉下来的？\n\n一纸合约换来的一个腐朽王朝继续盘剥老百姓的资格。\n\n战争中，你孩子战死率高是因为这个军队和国家菜，不是因为他们进行了抵抗\n\n“\n\n李鸿章这晚清“洋务高手”，签了窝囊和约，换来几天安生，却像慢性药，烂了民族的根。\n\n老百姓的香火，从不缺诸葛的——武侯祠前，农汉们不光求好年景，还拜那敢干的魂。它不是当官的把戏，是底层的心火：在乱局里，宁碎不弯，才让后人记得，汉家小子啥样。\n\n可惜啊，现在的“实惠党”，总爱从账本上掂英雄，忘了那看不见的火苗。\n\n李鸿章的刹车，保清十年？却让洋人当中国是病猫，加快了民国军阀打架、国破家亡。\n\n历史，不是冷账本，是那股永不灭的味儿：气节像山，妥协像沙。诸葛亮告诉我们，丢了地盘，还能抢人心；李鸿章提醒，抢了工夫，却丢了魂。\n\n”",
-    "created_at": "2025-11-07T02:39:27.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 150,
-      "impression_count": 150
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986620315884265844",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "你vibe coding的东西能跑是一个结束。\n\n你vibe writing的东西能看，只是开始。\n\n在X上写作这件事情，反正也没有国内的法律管束，自然是写啥都可以。但是既然你写出来为了获得流量，那也要承担流量带来的风险。\n\n在历史上，不是谁都能写的。现在把这个门槛消除了。但是并不意味着就完全没有了约束。\n\n私底下你可以为自己的任何想法感到陶醉，但公开的发言，更多是为了获得认同，需要接受公众的评判。\n\n有人反对，也会有人支持，看这篇文章的评论区，我想肯定会有受众。\n\n我肯定是不喜欢这种观点的，可以认为我不是这篇的受众，忽略即可。\n\n只是，请不要妨碍我反对某些观点",
-    "created_at": "2025-11-07T02:22:47.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 1,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 189,
-      "impression_count": 189
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986618367902687712",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@freeliyi “但如果你是个普通人，不是读书人，不是史学家，只是个要活命的老百姓，你会怎么选？”\n\n选个屁啊，你有资格选吗？",
-    "created_at": "2025-11-07T02:15:03.000Z",
+    "text": "天净沙•只狼🐶\n\n残樱古塔孤鸦，\n破庙冷灯佛家，\n荒城夜雨孤狼。\n血月西斜，\n断魂客在天涯。 https://t.co/w3CvgbR3H9",
+    "created_at": "2025-12-07T03:12:05.000Z",
     "metrics": {
       "like_count": 7,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 1,
-      "view_count": 1117,
-      "impression_count": 1117
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "freeliyi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986613480452133150",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@eternalhao1 嗯",
-    "created_at": "2025-11-07T01:55:37.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 19,
-      "impression_count": 19
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "eternalhao1"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986611634283159684",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@freeliyi 哈哈哈。\n\n这种写法确实流量拉满，就是太没底线了",
-    "created_at": "2025-11-07T01:48:17.000Z",
-    "metrics": {
-      "like_count": 8,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 2077,
-      "impression_count": 2077
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "freeliyi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986610545454424267",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "你的观点我不反驳。挑起对立博流量确实不对。\n\n不过这个社会分层是客观存在的，而且阶级固化也是很多人的实际体感，所以户子进行这种区别，也算是说大实话。\n\n有时候，说出点真相会让老爷们很破防，因为这会把一些暴露他们无能的问题搬上桌面，而他们完全无力解决。所以他们会想办法压制这种言论，并扣上一定十恶不赦的帽子。\n\n久而久之，说大实话反而更不正确，更容易被攻击。\n\n户子获得一些网友的认可，不是因为他的正确性，而是他的稀缺性。",
-    "created_at": "2025-11-07T01:43:58.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 29,
-      "impression_count": 29
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1986607409218105426",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@PandaTalk8 看完之后感觉这几条比较适配吴军的书😂",
-    "created_at": "2025-11-07T01:31:30.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 584,
-      "impression_count": 584
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "PandaTalk8"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986606555752702213",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@PandaTalk8 方法不错，但要适量，不能强求🤪\n\nhttps://t.co/aAQsjyi7gg",
-    "created_at": "2025-11-07T01:28:06.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 144,
-      "impression_count": 144
+      "retweet_count": 2,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/aAQsjyi7gg",
+          "url": "https://t.co/w3CvgbR3H9",
           "indices": [
-            29,
-            52
+            47,
+            70
           ],
-          "display_url": "x.com/i/grok/share/X…",
-          "expanded_url": "https://x.com/i/grok/share/XAlN2LJEIedhDFhkPCJLCfFHH"
+          "display_url": "x.com/ykszs017/statu…",
+          "expanded_url": "https://x.com/ykszs017/status/1997268159800434783"
         }
       ],
       "hashtags": [],
-      "mentions": [
-        {
-          "username": "PandaTalk8"
-        }
-      ]
+      "mentions": []
     }
   },
   {
-    "id": "1986604811975073997",
+    "id": "1997496730108178648",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@eternalhao1 哈哈哈\n\nYou're absolutely right!",
-    "created_at": "2025-11-07T01:21:11.000Z",
+    "text": "RT @Tangpin78255362: 我来横向扩展一下，生成任何主题/话题的编年史 (chronology)，欢迎大家测试\n\nprompt:\n\nPresent an exquisite, miniature 3D cartoon-style triptych illustr…",
+    "created_at": "2025-12-07T02:41:46.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 408,
-      "impression_count": 408
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -563,69 +289,463 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "eternalhao1"
+          "username": "Tangpin78255362"
         }
       ]
     }
   },
   {
-    "id": "1986604154274652195",
+    "id": "1997374530327613480",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@kevinma_dev_zh 换脑大法好啊",
-    "created_at": "2025-11-07T01:18:34.000Z",
+    "text": "@PhysInHistory Great scientist. Elegant equations https://t.co/tsQ02YIJJf",
+    "created_at": "2025-12-06T18:36:12.000Z",
+    "metrics": {
+      "like_count": 28,
+      "retweet_count": 5,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7gZUJJaoAAWMA9.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7gZUJJaoAAWMA9.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PhysInHistory"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997370833514442829",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @AztecaAlpaca: @PhysInHistory Werner Heisenberg: science and his life https://t.co/tj0lDmv2E4",
+    "created_at": "2025-12-06T18:21:30.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7gV5qpbYAApJYQ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7gV5qpbYAApJYQ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "AztecaAlpaca"
+        },
+        {
+          "username": "PhysInHistory"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997370809808257417",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PhysInHistory Werner Heisenberg: science and his life https://t.co/tj0lDmv2E4",
+    "created_at": "2025-12-06T18:21:25.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7gV5qpbYAApJYQ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7gV5qpbYAApJYQ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PhysInHistory"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997342018130112597",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "有钱就是豪气！\n\nViva la Netflix！ https://t.co/2TZv4pemz5 https://t.co/s8Xx4iWmWR",
+    "created_at": "2025-12-06T16:27:00.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1997341940980072448/pu/img/Frf79gCWxC_h5x6_.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1997341940980072448/pu/img/Frf79gCWxC_h5x6_.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/2TZv4pemz5",
+          "indices": [
+            26,
+            49
+          ],
+          "display_url": "x.com/interjc/status…",
+          "expanded_url": "https://x.com/interjc/status/1997233885328134368"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997335690254725227",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "“互联网信息排泄图”一直都很火，像是某种鄙视链。\n\n但正如大家所见证的，很多内容似乎经过一番传递之后，又被搬运到了诸如Twitter之类的“上游平台”上进行新一轮传播...\n\n（nanobanana pro 牛逼, 提示词见图片的ALT） https://t.co/gOca6QuqTM https://t.co/4CgbGrgeow",
+    "created_at": "2025-12-06T16:01:51.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 3,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7f2OVYboAAgLgH.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7f2OVYboAAgLgH.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/gOca6QuqTM",
+          "indices": [
+            120,
+            143
+          ],
+          "display_url": "x.com/Jackywine/stat…",
+          "expanded_url": "https://x.com/Jackywine/status/1985993288206459091"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997312468201406914",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @ScienceMagazine: Quantum mechanics has gone from a theory in test to becoming the foundation of new technologies.\n\nLearn more in a new…",
+    "created_at": "2025-12-06T14:29:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ScienceMagazine"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997292334514671938",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "成都与佛罗伦萨 https://t.co/t3P8iCwAf3 https://t.co/54FcHTXCOa",
+    "created_at": "2025-12-06T13:09:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7fOyDobYAAFlXb.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7fOyDobYAAFlXb.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7fOx_ibwAAsjaQ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7fOx_ibwAAsjaQ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/t3P8iCwAf3",
+          "indices": [
+            8,
+            31
+          ],
+          "display_url": "x.com/TechieBySA/sta…",
+          "expanded_url": "https://x.com/TechieBySA/status/1997258798663151826"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997280694624764151",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "在豆腐渣房间下巧克力围棋 https://t.co/it6YKMBkr5 https://t.co/DGEzNVUQKf",
+    "created_at": "2025-12-06T12:23:19.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7fELVxbMAApH6h.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7fELVxbMAApH6h.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7fELXkboAEIrdX.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7fELXkboAEIrdX.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/it6YKMBkr5",
+          "indices": [
+            13,
+            36
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1997270691322958134"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1997276435921395781",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@AleRVG Try the go！ https://t.co/tbzOo7FfoB",
+    "created_at": "2025-12-06T12:06:24.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7fAUyubEAAIWLd.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7fAUyubEAAIWLd.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "AleRVG"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1997270691322958134",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "不知道这样的包子还好不好吃... https://t.co/XPnSrcEIXW https://t.co/uxUYPYapiP",
+    "created_at": "2025-12-06T11:43:34.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 77,
-      "impression_count": 77
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7e7G-TbIAAOe1W.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7e7G-TbIAAOe1W.jpg"
+      }
+    ],
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "kevinma_dev_zh"
+          "url": "https://t.co/XPnSrcEIXW",
+          "indices": [
+            17,
+            40
+          ],
+          "display_url": "x.com/AleRVG/status/…",
+          "expanded_url": "https://x.com/AleRVG/status/1969145551846363567"
         }
-      ]
+      ],
+      "hashtags": [],
+      "mentions": []
     }
   },
   {
-    "id": "1986493789343822181",
+    "id": "1997253802978906582",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@tujin_emo 嘿嘿，猜猜我为什么会回去逛知乎\n\n多在几个社交平台泡一泡，你会发现，其实知乎还行\n\n知友是堕落了，但有些地方从来都是粪坑，留给知乎继续去堕落的空间还很大\n\n微博我好多年没逛了。这段时间在x上体验很糟糕，X有好的地方，但中推很多地方真比知乎差远了",
-    "created_at": "2025-11-06T18:00:01.000Z",
+    "text": "世界上最有“算力”的男人和他的公司😂😂😂 https://t.co/Jv772rYYYU https://t.co/UkcNZuxDnb",
+    "created_at": "2025-12-06T10:36:28.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 566,
-      "impression_count": 566
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7erv6wbEAA8N42.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7erv6wbEAA8N42.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7ervnibAAAAung.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7ervnibAAAAung.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7erv0laIAASv1C.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7erv0laIAASv1C.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7erv2VacAAduSo.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7erv2VacAAduSo.jpg"
+      }
+    ],
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "tujin_emo"
+          "url": "https://t.co/Jv772rYYYU",
+          "indices": [
+            21,
+            44
+          ],
+          "display_url": "x.com/Tsubame_99/sta…",
+          "expanded_url": "https://x.com/Tsubame_99/status/1997182130066280517"
         }
-      ]
+      ],
+      "hashtags": [],
+      "mentions": []
     }
   }
 ]

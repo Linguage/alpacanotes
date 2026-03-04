@@ -1,54 +1,22 @@
 [
   {
-    "id": "2000911997089808484",
+    "id": "2005568587566862382",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "Good. Love it! https://t.co/GwAQnRtZSP",
-    "created_at": "2025-12-16T12:52:49.000Z",
+    "text": "@dotey 这类东西应该还是根据自己的习惯搞几个就差不多了。\n\n感觉有点像宏，又有点像类似于notion模板之类的...估计会有人挂出来卖，但这一类东西，别人搞的我都没用顺手过。\n\n我还听说有人直接使用别人的，结果被植入了恶意指令，怪惊悚的😅",
+    "created_at": "2025-12-29T09:16:27.000Z",
     "metrics": {
-      "like_count": 10,
-      "retweet_count": 1,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 655,
-      "impression_count": 655
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G8SqyoYbsAAG_d7.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SqyoYbsAAG_d7.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "2000910757370974282",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@DavisNc9527 @dotey 这什么鬼😂",
-    "created_at": "2025-12-16T12:47:54.000Z",
-    "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 365,
-      "impression_count": 365
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -56,7 +24,216 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "DavisNc9527"
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005564754639933460",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dotey 本来还想试试skill怎么玩，发现都在吹这个，立刻没了欲望。我还是继续画图吧😅",
+    "created_at": "2025-12-29T09:01:13.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005563801425555625",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@CuiMao @xushiwei 通常这样排版的都是大佬🤪",
+    "created_at": "2025-12-29T08:57:26.000Z",
+    "metrics": {
+      "like_count": 9,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "CuiMao"
+        },
+        {
+          "username": "xushiwei"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005558401640833272",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@WangYiNotes 昨天看熊老板的分享，感觉不管做到什么程度，都会焦虑的。系统的算法就非常搞心态。\n\n还是不能太在意这些掌控不了的...",
+    "created_at": "2025-12-29T08:35:59.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2005557643084189939",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@xDinoDeer 那其它的，非技术团队呢？🤪🤪🤪\n\n恐怕各种工作的价值都需要重估，都会在某种意义上成为负债吧，这背后是组织需要变得轻量化。\n\nAI的影响应该是系统性的，绝不会单干技术团队。",
+    "created_at": "2025-12-29T08:32:58.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "xDinoDeer"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005554223744962641",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@liyue_ai 不可能没有信息茧房。\n\n人一直都生活在自己的信息茧房里，只不过互联网信息比较多，让人觉察到了这一点🤪",
+    "created_at": "2025-12-29T08:19:22.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "liyue_ai"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005553146123411673",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@liyue_ai 我的时间线已经被训练成画廊了😅\n\n其实这样蛮好，算法总体上很顺从，没有那么强的侵略性，这样可以有意识地去调教算法。",
+    "created_at": "2025-12-29T08:15:06.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "liyue_ai"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005552519842521439",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@smithandai @dotey 18年model3产量爬坡的那一波太燃了，之前看过一个视频，很刺激😎",
+    "created_at": "2025-12-29T08:12:36.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "smithandai"
         },
         {
           "username": "dotey"
@@ -65,23 +242,23 @@
     }
   },
   {
-    "id": "2000900530667970998",
+    "id": "2005552189146857586",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@swizardlv 哈哈，嗨起来！",
-    "created_at": "2025-12-16T12:07:16.000Z",
+    "text": "RT @smithandai: 宝玉老师真的是创意无限!\n我也来讲下马斯克与特斯拉的故事,这个是我给了主题给gemini,然后gemini按照 @dotey 大佬的流程先写故事,再做分镜,给出漫画分镜词.可能还有很多需要微调的地方.… https://t.co/YdvwQ2rG…",
+    "created_at": "2025-12-29T08:11:17.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 7,
-      "impression_count": 7
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -89,169 +266,7 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "swizardlv"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000897813547507820",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@langzihan 我的目的很单纯啊。可惜啊，只能看史前画质了",
-    "created_at": "2025-12-16T11:56:28.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 507,
-      "impression_count": 507
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "langzihan"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000895816576450736",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "Gemini，你这是自毁长城！ https://t.co/feCOQAEO15",
-    "created_at": "2025-12-16T11:48:32.000Z",
-    "metrics": {
-      "like_count": 35,
-      "retweet_count": 4,
-      "reply_count": 14,
-      "quote_count": 2,
-      "view_count": 16944,
-      "impression_count": 16944
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G8ScEr7bwAAlbzR.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8ScEr7bwAAlbzR.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "2000886781768818987",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@swizardlv 可是，这...",
-    "created_at": "2025-12-16T11:12:38.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 4,
-      "impression_count": 4
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "swizardlv"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000886462049607878",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Adam38363368936 我今天找了许多美女的照片，也包括画像中的四大美女。\n\n我感觉神仙姐姐是独一档的！\n\nhttps://t.co/qlzlPfPbCu",
-    "created_at": "2025-12-16T11:11:21.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 29,
-      "impression_count": 29
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/qlzlPfPbCu",
-          "indices": [
-            59,
-            82
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/2000881948991107421?s=20"
-        }
-      ],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Adam38363368936"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000885554926502372",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@linxiaobei888 @dotey 其实这两个老男人，我也是捏着鼻子贴上去的。主要因为历史意义（我还尝试过复原南京条约的合影，考虑到话题的性质，就算了）😂😂😂\n\n我还发了一帖，主角是四位美女，欢迎查看。\n\n这个提示词非常有实用价值！",
-    "created_at": "2025-12-16T11:07:45.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 1,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 590,
-      "impression_count": 590
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "linxiaobei888"
+          "username": "smithandai"
         },
         {
           "username": "dotey"
@@ -260,119 +275,25 @@
     }
   },
   {
-    "id": "2000883765472846261",
+    "id": "2005547444088852911",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "这里再贴一遍提示词吧：\n\n对提供的照片，根据提示词生成图片，对其头部进行高清摄影式修复，补充更多摄影能够捕捉到肌肤纹理等的细节。\n\n{\n\n  \"type\": \"augmented_reality_filter_synthesis\",\n\n  \"aspect_ratio\": 16:9,\n\n  \"instruction\": \"CRITICAL: This is an IMAGE-TO-IMAGE task, not a text-to-image generation. You must strictly preserve the pixels of the {{UPLOADED_IMAGE_FILE}} as the background. Do not generate a new scene based on description. Only the area INSIDE the glass filter is allowed to change.\",\n\n  \"global_constraints\": {\n\n    \"source_fidelity\": \"The background outside the filter must be an EXACT pixel-match to {{UPLOADED_IMAGE_FILE}}. Do not alter, crop, expand, or 'reimagine' the background context.\",\n\n    \"context_isolation\": \"Ignore all previous images or conversation topics. Focus EXCLUSIVELY on the current uploaded file.\",\n\n    \"modification_scope\": \"modifications are STRICTLY limited to the area inside the glass filter lens.\"\n\n  },\n\n  \"dynamic_analysis_module\": {\n\n    \"step_1_focal_point_extraction\": {\n\n      \"task\": \"Identify the coordinates of the main subject (Face/Object) in the current file to position the filter.\",\n\n      \"output_variable\": \"[TARGET_COORDINATES]\",\n\n      \"logic\": \"Find the center of interest solely within the provided image.\"\n\n    },\n\n    \"step_2_filter_specs\": {\n\n      \"task\": \"Determine filter parameters based on the subject.\",\n\n      \"output_variable_shape\": \"[FILTER_SHAPE]\",\n\n      \"output_variable_style\": \"[HD_RESTORATION_STYLE]\",\n\n      \"logic\": \"Face -> Circular/Oval + Skin Restoration. Building -> Rectangular + Structure Sharpening.\"\n\n    }\n\n  },\n\n  \"system_prompt_logic\": {\n\n    \"main_premise\": \"A first-person view of a hand holding a [FILTER_SHAPE] glass lens over the actual physical print of {{UPLOADED_IMAGE_FILE}}.\",\n\n    \"layer_definition_logic\": {\n\n      \"layer_1_background_immutable\": {\n\n        \"z_index\": \"Background (The Original Image)\",\n\n        \"content\": \"The original {{UPLOADED_IMAGE_FILE}} displayed as a large physical print or wall projection.\",\n\n        \"strict_rules\": {\n\n          \"NO_GENERATION\": \"Do not generate new scenery. Use the uploaded image as a fixed texture map.\",\n\n          \"NO_EXPANSION\": \"Do not attempt to extend the image borders. Show the image exactly as provided, framing it to fill the background.\",\n\n          \"visual_state\": \"Must retain all original artifacts: noise, blur, scratches, B&W tone, and low resolution. This is the 'Before' state.\"\n\n        }\n\n      },\n\n      \"layer_2_foreground_hand\": {\n\n        \"z_index\": \"Foreground (Overlay)\",\n\n        \"content\": \"A realistic human hand holding a [FILTER_SHAPE] optical glass lens.\",\n\n        \"positioning\": \"The hand enters from the edge (unobtrusive). The glass lens is positioned directly over [TARGET_COORDINATES].\",\n\n        \"lighting\": \"The hand casts a subtle shadow onto the background print to create depth.\"\n\n      },\n\n      \"layer_3_filter_throughput\": {\n\n        \"z_index\": \"Lens Interior (The Transformation)\",\n\n        \"content\": \"The specific pixels visible *through* the glass lens.\",\n\n        \"visual_transformation\": {\n\n          \"action\": \"Upscale and colorize ONLY the pixels inside the lens boundary.\",\n\n          \"style\": \"[HD_RESTORATION_STYLE] (4K resolution, realistic textures, vibrant lighting).\",\n\n          \"contrast_lock\": \"The separation is absolute. Outside the line = Old/Blurry. Inside the line = New/Sharp. No fading gradients.\"\n\n        }\n\n      }\n\n    }\n\n  }\n\n}",
-    "created_at": "2025-12-16T11:00:38.000Z",
+    "text": "@dotey 做软件应该会想盖房子一样，分为建筑设计师与土木工程师两种职业。\n\n一个负责拉，爽就是了；一个负责擦, 边擦边骂",
+    "created_at": "2025-12-29T07:52:26.000Z",
     "metrics": {
-      "like_count": 4,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 522,
-      "impression_count": 522
+      "like_count": 1,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "2000882465792254100",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "我使用的原图（画质普遍感人） https://t.co/tizBxu6NVi",
-    "created_at": "2025-12-16T10:55:29.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 552,
-      "impression_count": 552
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G8SP1k2aMAArNFn.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SP1k2aMAArNFn.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8SP4m_a4Agk2R2.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SP4m_a4Agk2R2.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8SP7aNa4AMb3qw.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SP7aNa4AMb3qw.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8SP_B7a4F8BZbH.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SP_B7a4F8BZbH.png"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "2000881948991107421",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "穿越时空的滤镜——老照片里的美艳动人\n\n在老照片上使用神奇的滤镜一键复原她们曾经的容颜：\n\n1. 林徽因\n2. 夏梦\n3. 茜茜公主\n4. 奥黛丽·赫本\n\n该提示词表现稳定，可引贴查看使用。\n\n我本以为会获得认可，但我失算了——把两个老登搬上来当样板，大大降低了观感，真是太对不起家人们了！\n\n再次感谢宝玉老师@dotey 的建议！",
-    "created_at": "2025-12-16T10:53:25.000Z",
-    "metrics": {
-      "like_count": 11,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 2,
-      "view_count": 19667,
-      "impression_count": 19667
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G8SPGtxbAAAi2K8.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SPGtxbAAAi2K8.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8SPKnTa4AAEIwR.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SPKnTa4AAEIwR.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8SPP7Ya4Ake9A1.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SPP7Ya4Ake9A1.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8SPUaWa4AAfmRO.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8SPUaWa4AAfmRO.jpg"
-      }
-    ],
     "entities": {
       "urls": [],
       "hashtags": [],
@@ -384,53 +305,23 @@
     }
   },
   {
-    "id": "2000871433262764166",
+    "id": "2005535178945651102",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@Adam38363368936 神仙姐姐不再眷顾你了吗？",
-    "created_at": "2025-12-16T10:11:38.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 24,
-      "impression_count": 24
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Adam38363368936"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2000859577966059790",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Adam38363368936 你这几天没涨粉吗？",
-    "created_at": "2025-12-16T09:24:32.000Z",
+    "text": "@XiaoKooeye 看来你还是喜欢金光闪闪的感觉😂",
+    "created_at": "2025-12-29T07:03:42.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 68,
-      "impression_count": 68
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -438,112 +329,111 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "Adam38363368936"
+          "username": "XiaoKooeye"
         }
       ]
     }
   },
   {
-    "id": "2000857899539775721",
+    "id": "2005535022313611484",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "归根结底还是这句话\n\nhttps://t.co/gJp426doBb",
-    "created_at": "2025-12-16T09:17:52.000Z",
+    "text": "@6CNO9pLZ2RNU7mf @NanoBanana 看我引用的帖子，他提供了很好的提示词。我在他的基础上修改的。\n\n其实修改的工作也是交给AI做的，只是在这个过程中提出了自己的想法😅\n\n可以去看一下宝玉老师的一片文章，写得非常好。我的套路基本上都没有超出这篇文章的范畴。剩下的关键就看你想要什么。\n\nhttps://t.co/VcQ5x3BoLL",
+    "created_at": "2025-12-29T07:03:05.000Z",
     "metrics": {
-      "like_count": 2,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 161,
-      "impression_count": 161
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/gJp426doBb",
+          "url": "https://t.co/VcQ5x3BoLL",
           "indices": [
-            11,
-            34
+            153,
+            176
           ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/2000522340464054294?s=20"
+          "display_url": "x.com/i/status/19989…",
+          "expanded_url": "https://x.com/i/status/1998998337018851340"
         }
       ],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "6CNO9pLZ2RNU7mf"
+        },
+        {
+          "username": "NanoBanana"
+        }
+      ]
     }
   },
   {
-    "id": "2000854143074705474",
+    "id": "2005533868913279196",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "Prompts\n\n对提供的照片，根据提示词生成图片，滤镜采用大滤镜，使用彩色呈现。\n{\n  \"type\": \"augmented_reality_filter_synthesis\",\n  \"aspect_ratio\": \"16:9\",\n  \"instruction\": \"CRITICAL: This is an IMAGE-TO-IMAGE task, not a text-to-image generation. You must strictly preserve the pixels of the {{UPLOADED_IMAGE_FILE}} as the background. Do not generate a new scene based on description. Only the area INSIDE the glass filter is allowed to change.\",\n\n  \"global_constraints\": {\n    \"source_fidelity\": \"The background outside the filter must be an EXACT pixel-match to {{UPLOADED_IMAGE_FILE}}. Do not alter, crop, expand, or 'reimagine' the background context.\",\n    \"context_isolation\": \"Ignore all previous images or conversation topics. Focus EXCLUSIVELY on the current uploaded file.\",\n    \"modification_scope\": \"modifications are STRICTLY limited to the area inside the glass filter lens.\"\n  },\n\n  \"dynamic_analysis_module\": {\n    \"step_1_focal_point_extraction\": {\n      \"task\": \"Identify the coordinates of the main subject (Face/Object) in the current file to position the filter.\",\n      \"output_variable\": \"[TARGET_COORDINATES]\",\n      \"logic\": \"Find the center of interest solely within the provided image.\"\n    },\n    \"step_2_filter_specs\": {\n      \"task\": \"Determine filter parameters based on the subject.\",\n      \"output_variable_shape\": \"[FILTER_SHAPE]\",\n      \"output_variable_style\": \"[HD_RESTORATION_STYLE]\",\n      \"logic\": \"Face -> Circular/Oval + Skin Restoration. Building -> Rectangular + Structure Sharpening.\"\n    }\n  },\n\n  \"system_prompt_logic\": {\n    \"main_premise\": \"A first-person view of a hand holding a [FILTER_SHAPE] glass lens over the actual physical print of {{UPLOADED_IMAGE_FILE}}.\",\n\n    \"layer_definition_logic\": {\n      \"layer_1_background_immutable\": {\n        \"z_index\": \"Background (The Original Image)\",\n        \"content\": \"The original {{UPLOADED_IMAGE_FILE}} displayed as a large physical print or wall projection.\",\n        \"strict_rules\": {\n          \"NO_GENERATION\": \"Do not generate new scenery. Use the uploaded image as a fixed texture map.\",\n          \"NO_EXPANSION\": \"Do not attempt to extend the image borders. Show the image exactly as provided, framing it to fill the background.\",\n          \"visual_state\": \"Must retain all original artifacts: noise, blur, scratches, B&W tone, and low resolution. This is the 'Before' state.\"\n        }\n      },\n      \n      \"layer_2_foreground_hand\": {\n        \"z_index\": \"Foreground (Overlay)\",\n        \"content\": \"A realistic human hand holding a [FILTER_SHAPE] optical glass lens.\",\n        \"positioning\": \"The hand enters from the edge (unobtrusive). The glass lens is positioned directly over [TARGET_COORDINATES].\",\n        \"lighting\": \"The hand casts a subtle shadow onto the background print to create depth.\"\n      },\n\n      \"layer_3_filter_throughput\": {\n        \"z_index\": \"Lens Interior (The Transformation)\",\n        \"content\": \"The specific pixels visible *through* the glass lens.\",\n        \"visual_transformation\": {\n          \"action\": \"Upscale and colorize ONLY the pixels inside the lens boundary.\",\n          \"style\": \"[HD_RESTORATION_STYLE] (4K resolution, realistic textures, vibrant lighting).\",\n          \"contrast_lock\": \"The separation is absolute. Outside the line = Old/Blurry. Inside the line = New/Sharp. No fading gradients.\"\n        }\n      }\n    }\n  }\n}",
-    "created_at": "2025-12-16T09:02:56.000Z",
+    "text": "@TanShilong @NanoBanana my honor😍",
+    "created_at": "2025-12-29T06:58:30.000Z",
     "metrics": {
-      "like_count": 32,
-      "retweet_count": 3,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 1766,
-      "impression_count": 1766
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "TanShilong"
+        },
+        {
+          "username": "NanoBanana"
+        }
+      ]
     }
   },
   {
-    "id": "2000853838073618726",
+    "id": "2005529102842012015",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "穿越时空的滤镜——老照片修复\n\n感谢宝玉老师的建议。多次尝试之后决定使用玻璃滤镜实现对老照片核心部分的“修复”。\n\n效果图包括：\n\n1. 清华二校门老照片（被毁之前）\n2. 恭亲王照片（大概是中国人最早的相片）\n3. 老登李鸿章\n4. 20元钞票中的风景（漓江）\n\n提示词见评论区，欢迎尝试与分享\n\n@dotey https://t.co/0KDbX4W4nl",
-    "created_at": "2025-12-16T09:01:43.000Z",
+    "text": "RT @lovelyshuimao: 能拍照的手机是否应该禁止使用 https://t.co/bQMpS6TOfR",
+    "created_at": "2025-12-29T06:39:33.000Z",
     "metrics": {
-      "like_count": 235,
-      "retweet_count": 50,
-      "reply_count": 10,
-      "quote_count": 2,
-      "view_count": 44667,
-      "impression_count": 44667
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G8R19F4bUAAGbFd.jpg",
+        "url": "https://pbs.twimg.com/media/G9QzWNlbkAALehA.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8R19F4bUAAGbFd.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8R19F2aIAACNs9.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8R19F2aIAACNs9.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8R19F1bcAABew7.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8R19F1bcAABew7.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G8R19Fya4AAZBEQ.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8R19Fya4AAZBEQ.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G9QzWNlbkAALehA.jpg"
       }
     ],
     "entities": {
@@ -551,29 +441,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dotey"
+          "username": "lovelyshuimao"
         }
       ]
     }
   },
   {
-    "id": "2000853238502056240",
+    "id": "2005522699859402953",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@ykszs017 超不过东契奇很正常吧，想啥呢🤣🤣🤣",
-    "created_at": "2025-12-16T08:59:20.000Z",
+    "text": "@Yangzi812 @oops073111 可以试一下，祝你能读完第一页",
+    "created_at": "2025-12-29T06:14:07.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 6,
-      "impression_count": 6
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -581,73 +471,64 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "ykszs017"
+          "username": "Yangzi812"
+        },
+        {
+          "username": "oops073111"
         }
       ]
     }
   },
   {
-    "id": "2000851518178951450",
+    "id": "2005519029105291332",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "https://t.co/35gm1mGU9x",
-    "created_at": "2025-12-16T08:52:30.000Z",
+    "text": "@AlivePicture_ ♥️♥️♥️",
+    "created_at": "2025-12-29T05:59:31.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 131,
-      "impression_count": 131
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/35gm1mGU9x",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "x.com/i/grok/share/K…",
-          "expanded_url": "https://x.com/i/grok/share/KJ6x9ETlk2Kt51sd0i7o93Z1B"
-        }
-      ],
+      "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "AlivePicture_"
+        }
+      ]
     }
   },
   {
-    "id": "2000851514907353195",
+    "id": "2005516531250422157",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "早上的这个帖子，一度带来了不错的流量，但是过了几个小时之后突然接近归零。\n\n我问了一下Grok，它说帖子发出后有6h的时间平台会推流。这个帖子虽然点赞收藏表现不错，但评论太少，平台认定它缺乏话题度。等到这个新手保护期过了，就开始砍流量了\n\n看来营造并维持评论区热度是每一个博主的必修课啊 https://t.co/IEvadqoABt",
-    "created_at": "2025-12-16T08:52:29.000Z",
+    "text": "@WangYiNotes 想放弃是正常的，放弃其实也没有关系。当前阶段主要看除了流量之外还能获得啥😂😂😂",
+    "created_at": "2025-12-29T05:49:36.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 4,
-      "quote_count": 0,
-      "view_count": 357,
-      "impression_count": 357
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G8RzjAVa4AU4hlH.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G8RzjAVa4AU4hlH.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
@@ -655,41 +536,87 @@
     }
   },
   {
-    "id": "2000841008003866692",
+    "id": "2005515193363956074",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@geekbb 一切都在循环中\n\nhttps://t.co/FHMeF9Gfvl",
-    "created_at": "2025-12-16T08:10:44.000Z",
+    "text": "@hsn8086xe 帮他上岸比愚公移个山还难😂",
+    "created_at": "2025-12-29T05:44:17.000Z",
     "metrics": {
-      "like_count": 5,
+      "like_count": 7,
       "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 1244,
-      "impression_count": 1244
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/FHMeF9Gfvl",
-          "indices": [
-            17,
-            40
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1997335690254725227?s=20"
-        }
-      ],
+      "urls": [],
       "hashtags": [],
       "mentions": [
         {
-          "username": "geekbb"
+          "username": "hsn8086xe"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2005508765957902792",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@WangYiNotes 恭喜！\n\n过来人都知道，这段不容易😅",
+    "created_at": "2025-12-29T05:18:45.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2005508176213619092",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@xushiwei 人家做数学的，就算连AI都没听说过，也不影响当院士。\n\n而且他在院士中也算是实力派，他的工作目前交给AI搞，还差得远。",
+    "created_at": "2025-12-29T05:16:24.000Z",
+    "metrics": {
+      "like_count": 56,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "xushiwei"
         }
       ]
     }

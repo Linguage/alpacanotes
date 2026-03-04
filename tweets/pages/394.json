@@ -1,611 +1,70 @@
 [
   {
-    "id": "1935542219391516746",
+    "id": "1965253324913217849",
     "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "7/8 最优的人机协作是“AI 生成-人类验证”模式。通过可视化界面加快验证，避免 AI 输出过多导致难以审核。任务要拆分为小块，保持聚焦，防止“AI 迷路”。",
-    "created_at": "2025-06-19T03:36:40.000Z",
+    "text": "@dotey 这个“有效利他主义”社群简直就是个邪教... \n\n他们的理念充满了偏执与傲慢，他们所谓的“利他”很难抵抗人性的贪婪与无知，更谈不上“有效”",
+    "created_at": "2025-09-09T03:17:59.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 32,
-      "impression_count": 32
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935542215784415246",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "6/8 他主张“部分自治”是最佳实践：如 Cursor、Perplexity 等产品，将 LLM 融入传统界面，配合自定义 GUI 和“自治滑块”，让用户决定 AI 的自主程度。#AI #人机协作 https://t.co/LY6oTpezKy",
-    "created_at": "2025-06-19T03:36:39.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 48,
-      "impression_count": 48
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtxqz-GboAAwOJr.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtxqz-GboAAwOJr.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/Gtxq4hYW0AADIh6.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtxq4hYW0AADIh6.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/Gtxq9OCXcAEBoyl.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtxq9OCXcAEBoyl.png"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GtxrCpiWUAAVLtb.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtxrCpiWUAAVLtb.png"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "AI",
-        "人机协作"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935542211397173704",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "5/8 Karpathy 认为 LLM 是“人类精神的随机模拟”，拥有超强知识与记忆力，但也有幻觉、缺乏自知之明、智能分布不均等明显缺陷。用好它们，要懂得扬长避短。#AI #认知 https://t.co/R6pnRTNFfI",
-    "created_at": "2025-06-19T03:36:38.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 35,
-      "impression_count": 35
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GtxqbJBW8AEWUE8.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtxqbJBW8AEWUE8.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/GtxqgRjaQAQR6zf.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtxqgRjaQAQR6zf.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "AI",
-        "认知"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935542207576240448",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "4/8 现阶段 LLM 计算像 1960 年代的大型机：计算集中、成本高、用户远程访问。个人本地 LLM 还没普及，但趋势已现。技术扩散也首次由消费者端率先推动，企业和政府反而落后。#AI",
-    "created_at": "2025-06-19T03:36:37.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 41,
-      "impression_count": 41
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "AI"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935542203537117373",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "3/8 Karpathy 把大模型（LLM）比作“操作系统”：有闭源阵营（像 Windows/macOS），也有开源生态（LLAMA 类似 Linux）。未来，LLM 就是新一代计算平台。#AI #操作系统 https://t.co/vtpRJCyzVc",
-    "created_at": "2025-06-19T03:36:36.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 35,
-      "impression_count": 35
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GtxqCcLWAAAVdmG.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtxqCcLWAAAVdmG.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "AI",
-        "操作系统"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935542197287534627",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "2/8 Software 1.0 是人类写代码，2.0 是通过数据训练神经网络，3.0 则是用自然语言 prompt 直接“编程”大模型。GitHub 上已经充满了英文与代码混合的内容，这就是新范式的到来。#AI #LLM https://t.co/V9DqCNwu5j",
-    "created_at": "2025-06-19T03:36:35.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 54,
-      "impression_count": 54
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtxp4yoWsAABXyC.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtxp4yoWsAABXyC.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "AI",
-        "LLM"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935542192636051597",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "@karpathy  提供的官方资料\n\nhttps://t.co/wmuOIRJxIV",
-    "created_at": "2025-06-19T03:36:34.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 40,
-      "impression_count": 40
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/wmuOIRJxIV",
-          "indices": [
-            20,
-            43
-          ],
-          "display_url": "x.com/karpathy/statu…",
-          "expanded_url": "https://x.com/karpathy/status/1935518272667217925"
-        }
-      ],
       "hashtags": [],
       "mentions": [
         {
-          "username": "karpathy"
+          "username": "dotey"
         }
       ]
     }
   },
   {
-    "id": "1935542189276450830",
+    "id": "1965252891444470258",
     "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "1/8 Andrej Karpathy 在 YC AI Startup School 的演讲提出了软件发展的三大范式：Software 1.0（传统代码）、2.0（神经网络权重）、3.0（用英文 prompt 控制大模型）。每一次范式转变都在重塑软件世界。#AI #软件进化 #LLM https://t.co/47VctJl04I",
-    "created_at": "2025-06-19T03:36:33.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 1,
-      "reply_count": 1,
-      "quote_count": 1,
-      "view_count": 608,
-      "impression_count": 608
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtxr1rEWQAAzHNL.png",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtxr1rEWQAAzHNL.png"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "AI",
-        "软件进化",
-        "LLM"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935361911820009603",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "整理了一下Claude code套餐的要点，来自于官方文档，包含费用、套餐容量以及模型选择依据",
-    "created_at": "2025-06-18T15:40:11.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 117,
-      "impression_count": 117
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935353066112565335",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "PS5在过去几年的表现算得上中规中矩，但是Xbox的表现简直惨不忍睹。强势统治了八年之后，Switch的第一代有机会冲击历时总销量第一的王座。 https://t.co/JXlx8N3jLQ",
-    "created_at": "2025-06-18T15:05:02.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 39,
-      "impression_count": 39
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtu97WmXEAAgFBJ.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtu97WmXEAAgFBJ.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935353061075206265",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "自从索尼与微软新品在2020年发布之后，并没有很快阻止Switch热销的趋势。在随后的两年时间里，switch依旧保持领先，直到2023年PS5才终于反超“风烛残年”的Switch。 https://t.co/pZJdwln3NJ",
-    "created_at": "2025-06-18T15:05:01.000Z",
+    "text": "Scott Wu: “与AI共舞”的团队协作方法论 https://t.co/HHmrGeTuB1 https://t.co/pAHy8KWRck",
+    "created_at": "2025-09-09T03:16:16.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 38,
-      "impression_count": 38
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/Gtu9yS8WcAAiHVn.jpg",
+        "url": "https://pbs.twimg.com/media/G0X63qCaEAA-1qZ.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtu9yS8WcAAiHVn.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G0X63qCaEAA-1qZ.jpg"
       }
     ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935353054578229359",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "进入2025年，Switch第一代终于在自己的第8年迎来了继任者。此时，PS 5与Xbox Series也进入了自己的第5年，曾经被寄予厚望的竞争对手竟然被“廉颇老矣”的switch硬生生地耗到了寿命的尾声。此时回顾各家累计销量，差距惊人。 https://t.co/ggfkW4veVM",
-    "created_at": "2025-06-18T15:04:59.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 18,
-      "impression_count": 18
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtu9nkWa8AA37AQ.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtu9nkWa8AA37AQ.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935353049398264082",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "御三家游戏主机销量对比\n\n任天堂Switch 2代发布前4天销量350万台，据传PS6也要发布。此时是时候复盘一下过去的这一个世代游戏主机御三家的表现了。\n\n#游戏主机 #Switch  #PS5 #Xbox https://t.co/OXp3uydGbw",
-    "created_at": "2025-06-18T15:04:58.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 76,
-      "impression_count": 76
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtu-V8VWsAAgcPo.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtu-V8VWsAAgcPo.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [
-        "游戏主机",
-        "Switch",
-        "PS5",
-        "Xbox"
-      ],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935339676946366912",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "需要 Opus 4 的强大能力（如复杂项目、AI 代理、长时间任务），建议选择 Max 计划。\n\n仅做简单开发或小项目，Pro 计划的 Sonnet 4 已足够。\n\nMax 计划支持更高用量和更强模型，适合重度开发者。 https://t.co/RbvjDBMaYI",
-    "created_at": "2025-06-18T14:11:50.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 97,
-      "impression_count": 97
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/Gtuz21QWAAAfKwv.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/Gtuz21QWAAAfKwv.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935339672550653995",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "Opus 4：在复杂、长时间、多步骤的编程任务上表现突出，能更好地理解和重构大型代码库，推理和规划能力更强，适合高阶开发者和 AI 代理场景。\n\nSonnet 4：速度快、成本低，适合日常开发、代码审查、修复 bug、实现新功能等高频但不极端复杂的任务。​⁠ https://t.co/VcA5WrNgaT",
-    "created_at": "2025-06-18T14:11:49.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 114,
-      "impression_count": 114
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GtuzvELbkAA_gfR.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtuzvELbkAA_gfR.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935339667442020414",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "Max 计划用户可在 Claude Code 中体验自动模型切换与更高限额，适合需要持续开发和复杂任务的高级用户。\n\nClaude Code 的用量限制与订阅等级相关：Pro 每 5 小时约 10-40 次调用，Max 则高达 800 次。官方建议根据项目复杂度选择合适方案。 https://t.co/q25387GAoz",
-    "created_at": "2025-06-18T14:11:48.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 323,
-      "impression_count": 323
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GtuzoBdXYAAK7Sq.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtuzoBdXYAAK7Sq.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935339660043239523",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "Pro 仅支持 Sonnet 4，Max 可切换到更强的 Opus 4，适合不同规模和复杂度的开发需求。 https://t.co/1DW4AHBAxM",
-    "created_at": "2025-06-18T14:11:46.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 79,
-      "impression_count": 79
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/GtuzFvqaQAEuHlS.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtuzFvqaQAEuHlS.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1935339655890878540",
-    "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
-      "verified": false
-    },
-    "text": "本帖来自于Anthropic的官方文档\n\nhttps://t.co/TDpgk1a8Op",
-    "created_at": "2025-06-18T14:11:45.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 64,
-      "impression_count": 64
-    },
-    "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/TDpgk1a8Op",
+          "url": "https://t.co/HHmrGeTuB1",
           "indices": [
-            21,
-            44
+            26,
+            49
           ],
-          "display_url": "support.anthropic.com/en/articles/11…",
-          "expanded_url": "https://support.anthropic.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan"
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1965252541924638978"
         }
       ],
       "hashtags": [],
@@ -613,64 +72,582 @@
     }
   },
   {
-    "id": "1935339652518658400",
+    "id": "1965252558630645871",
     "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "Claude Code 套餐对比（Pro vs Max, Sonnet vs Opus)\n\n#AI开发 #ClaudeCode https://t.co/rr92P0FTuj",
-    "created_at": "2025-06-18T14:11:44.000Z",
+    "text": "这种心智的转变带来了前所未有的效率飞跃。Scott展示了一个令人兴奋的协作模式：\n\n一个开发者可同时分派多项任务，让AI分别并行推进，既减轻人力压力，也实现了高效分工协作的会议+产出并行模式。 人类不必再陷于繁琐的依赖升级、文档编写和前端微调中，而是可以放心地将这些任务异步交付给AI。 https://t.co/cuTDrn1rip",
+    "created_at": "2025-09-09T03:14:57.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 1,
-      "view_count": 433,
-      "impression_count": 433
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/GtuynTGW8AAldf6.jpg",
+        "url": "https://pbs.twimg.com/media/G0X5_pwbgAEpkhZ.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/GtuynTGW8AAldf6.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G0X5_pwbgAEpkhZ.jpg"
       }
     ],
     "entities": {
       "urls": [],
-      "hashtags": [
-        "AI开发",
-        "ClaudeCode"
-      ],
+      "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "1935327329213145107",
+    "id": "1965252561688297605",
     "author": {
-      "id": "1495931005857046528",
-      "username": "Linguista2025",
-      "name": "Linguista",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "应该是我没有写清楚，有点歧义。",
-    "created_at": "2025-06-18T13:22:46.000Z",
+    "text": "当AI遇到瓶颈时，人类再介入补足信息，形成一种“人机伴生式”的调试闭环。这种高效协作不仅提高了企业的整体吞吐量，更将人类的创造力与问题解决能力解放出来，聚焦于更具挑战性和价值的核心工作。",
+    "created_at": "2025-09-09T03:14:57.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 21,
-      "impression_count": 21
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
       "mentions": []
+    }
+  },
+  {
+    "id": "1965252554037887247",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "它将AI从一个被动执行指令的工具，升华为一个拥有主动性、能独立承接任务的“实习生”。这要求我们重新思考分工，从“问题（Problem）”导向转向“任务（Task）”导向。 AI不擅长需要深度推理和综合判断的复杂问题，但它能完美地完成那些精准、明确的操作型任务。 https://t.co/m587dtAm2q",
+    "created_at": "2025-09-09T03:14:56.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0X5x8paYAAiMsR.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0X5x8paYAAiMsR.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965252549671616838",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "Devin的价值并不在于它能像一个全能的“超级工程师”那样解决所有难题。相反，它不是传统的AI代码助手，更类似一位可委派具体事项、能独立开展工作的团队成员。 这一定位至关重要。 https://t.co/IahGfvlHRm",
+    "created_at": "2025-09-09T03:14:55.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0X51R0a0AIqjXh.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0X51R0a0AIqjXh.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965252545389232393",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "Cognition Labs的CEO Scott Wu的这篇访谈中没有描绘一个遥不可及的未来，而是手把手教我们如何拥抱当下。\n\n与AI共舞不是一场取代与被取代的零和博弈，而是一场关于分工、协作和成长的全新探索。当我们将AI视为团队中永不疲惫的实习生时，我们将获得无限的生产力与创造力。\n\nhttps://t.co/svE5XiitT1",
+    "created_at": "2025-09-09T03:14:54.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/svE5XiitT1",
+          "indices": [
+            144,
+            167
+          ],
+          "display_url": "youtube.com/watch?v=7m_xKF…",
+          "expanded_url": "https://www.youtube.com/watch?v=7m_xKFqSxTo"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965252541924638978",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "当我们在谈论AI将如何重塑未来工作时，最普遍的想象莫过于它以某种终极形态取代人类，成为那个无所不能的“超级大脑”。\n\n然而，这种宏大叙事常常掩盖了真正正在发生的革命性变化：AI正以一种更微小、更务实的方式，静静融入我们的团队，改变我们协作的底层逻辑。 https://t.co/BQu8PkG4Lh https://t.co/5t4a78UpUd",
+    "created_at": "2025-09-09T03:14:53.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0X6ovnbgAM-y0h.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0X6ovnbgAM-y0h.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/BQu8PkG4Lh",
+          "indices": [
+            126,
+            149
+          ],
+          "display_url": "x.com/clairevo/statu…",
+          "expanded_url": "https://x.com/clairevo/status/1965074038092607686"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965247514397003888",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Limichange2 无论如何，便宜, 一不小心就回本的感觉...🤣",
+    "created_at": "2025-09-09T02:54:54.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Limichange2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1965247366946324834",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Limichange2 我感觉在CC下体验不错，但比DeepSeek要弱一些。代码能力一般，但是自动化搞一些文档整理工作很不错",
+    "created_at": "2025-09-09T02:54:19.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Limichange2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1965246643596579089",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 做科研，就得大气🤣🤣🤣\n\nHe那一波一定在大气层",
+    "created_at": "2025-09-09T02:51:27.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965243451655815431",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "Cognition的关键数据 https://t.co/fVWqohdq6d",
+    "created_at": "2025-09-09T02:38:45.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0XyYAwbgAQ19vT.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0XyYAwbgAQ19vT.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965243447138488693",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "快速变革时代的产品哲学：最初看似边缘的理论很快就成为显而易见的现实 https://t.co/NjuZW9RHVy",
+    "created_at": "2025-09-09T02:38:44.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0XyBovbgAQr9vR.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0XyBovbgAQr9vR.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965243442604507142",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "对Windsurf的收购：高互补性带来的业绩增长 https://t.co/JJVAVB6Nwm",
+    "created_at": "2025-09-09T02:38:43.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0Xx0fgaYAAX2d8.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0Xx0fgaYAAX2d8.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965243438066270359",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "收入增长：从$1M到$73M\n\n与产品发展: Devin从“初级工程师”到承担实际工作的AI代理\n\n效率增长：总净烧钱不到2000万刀 https://t.co/pSRJOf04yN",
+    "created_at": "2025-09-09T02:38:42.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0XxGQiaoAEhl2i.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0XxGQiaoAEhl2i.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965243432806633958",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "Cognition成功完成超过4亿美金的融资轮，投后估值达到102亿美金，由Founders Fund领投。 https://t.co/AXeTLiqxUU https://t.co/J1DXECOitr",
+    "created_at": "2025-09-09T02:38:41.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G0Xw7BQaEAA-YZt.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G0Xw7BQaEAA-YZt.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/AXeTLiqxUU",
+          "indices": [
+            55,
+            78
+          ],
+          "display_url": "x.com/cognition/stat…",
+          "expanded_url": "https://x.com/cognition/status/1965086655821525280"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1965213384246436125",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dlnh1900 @lidangzzz 立党百年之后，有些感觉变得不太一样啊😂",
+    "created_at": "2025-09-09T00:39:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dlnh1900"
+        },
+        {
+          "username": "lidangzzz"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1965207912974045671",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dotey 柯洁有几个切片让我感触特别深。\n\n一个是他说：自从AI出来之后，平时训练就不再跟人下了，只有比赛的时候才与人下。以前在训练过程中还有些人气和乐趣，现在的训练纯受虐，毫无乐趣可言。\n\n另一个说：与AI下，需要被让三个子才可能赢。而且必须第一盘就赢，因为不然越往后越累，越没信心🤣",
+    "created_at": "2025-09-09T00:17:32.000Z",
+    "metrics": {
+      "like_count": 5,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1965082589095715294",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@soongsoul 但是体验实在是太差，可能是glm还没跟codex适配。我的5M token几乎没有任何有效产出就浪费完了。",
+    "created_at": "2025-09-08T15:59:33.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "soongsoul"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1965082357658235219",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@soongsoul 我直接在.bashrc中写了个环境变量",
+    "created_at": "2025-09-08T15:58:38.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "soongsoul"
+        }
+      ]
     }
   }
 ]

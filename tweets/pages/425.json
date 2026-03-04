@@ -1,0 +1,665 @@
+[
+  {
+    "id": "1958729563212849297",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "搜了一下玉伯老师，发现了一期播客，他分享了很多关于笔记软件的看法。\n\n他自身经历了多种笔记工具的切换，从印象笔记、有道云笔记，到 Notion、Obsidian、flomo 等。尽管这些工具功能丰富，但在内容创作闭环上存在明显短板。",
+    "created_at": "2025-08-22T03:14:53.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1958717990406590581",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@YanyuRensheng 软件开发的模式应该会分化。就像蒸汽机时代的交通机械是火车，有了内燃机之后，就有了汽车。\n\n并不意味着火车会被替代，甚至不意味着火车会变得弱势，火车也会接受内燃机的改造，进入新的时代。\n\n二者各有优劣，这使得他们在未来发展中会各自拥有广阔的生态位，并深刻地改变社会。\n\n问题是谁被革掉了？",
+    "created_at": "2025-08-22T02:28:54.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "YanyuRensheng"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958715715005161885",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@feltanimalworld @YouTube 一个地方的最大杀器往往就是这么朴实无华，还便宜......",
+    "created_at": "2025-08-22T02:19:52.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "YouTube"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958713906219929980",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@zhangjintao9020 @SaitoWu 当然，我只是没钱和渠道使用他们的AI功能，这是我的问题。改日富贵了，一定充点钱爽一把。\n\n之前Zed上使用copilot，感觉很鸡肋，比不上vs code上的原生体验，所以索性都关掉吧。 https://t.co/PzYp76c3Fx",
+    "created_at": "2025-08-22T02:12:41.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gy6_mToboAI1JcS.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gy6_mToboAI1JcS.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "zhangjintao9020"
+        },
+        {
+          "username": "SaitoWu"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958712321016308180",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@zhangjintao9020 @SaitoWu Zed太快了。\n\n我直接把它的AI功能关了，当代码查看器和md阅读器使用（Warp也是），非常丝滑。🤣",
+    "created_at": "2025-08-22T02:06:23.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "zhangjintao9020"
+        },
+        {
+          "username": "SaitoWu"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958707662105059430",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@beihuo 非常赞同。虽然我只是个半吊子，但也经历了许多。\n\n我个人在使用AI的过程中，经常感受到很多困惑。一开始以为它们无限可能，但把AI与自己之前那一套整合的过程有时候非常操蛋，有什甚至怀疑人生。\n\n不过最后依然感觉是值得的。每过段时间对AI的认识都会刷新一下，没有了早期的狂热，也不可能回到过去了",
+    "created_at": "2025-08-22T01:47:52.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "beihuo"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958704190315971000",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@liuzhikun @dotey 我们四年都会目睹一场关于国足的“全民算分运动”--国足要怎么踢才能晋级？--结果就是，每一次都没晋级。\n\n不把基础的工作做好，到了顶层的竞争，算得再精细，赢不了的还是赢不了。\n\n大家都想押对宝，但问题是每隔几年就会有一次新机会，但仓促押宝的基本上都是韭菜；即便押对了，那点本钱也难有很高回报",
+    "created_at": "2025-08-22T01:34:04.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "liuzhikun"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958696459877949886",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@liuzhikun @dotey 我们很容易过分强调技能的工具属性，因为能挣钱。但却忽视了它是很多事情的载体，包括情感、社交以及思维习惯之类的。\n\nAI确实在语言这些技能的工具属性上对工具的显性价值造成冲击，但是它是是否会对其隐性的价值造成打击呢？\n\n退一万步讲，说话是人最基本的需求，总不能因为AI就不学了吧。",
+    "created_at": "2025-08-22T01:03:21.000Z",
+    "metrics": {
+      "like_count": 5,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "liuzhikun"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958694071951856061",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "以分（.01 RMB）计算的API消耗，真是太美好了。",
+    "created_at": "2025-08-22T00:53:52.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1958692550522675566",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dotey 新技术虽然不断地在迭代，但对于入门的人是越来越友好的。现在的AI甚至比十几年前的智能机还好上手。\n\n这可能是在给那些乐意适应和改变的人留了个机会。有这个机会，我们可以更从容一些，在当下把自己需要做的事情做好，积累一些独属于自己的经验心得。",
+    "created_at": "2025-08-22T00:47:49.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958687826666824107",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "DeepSeek的这个编程能力可能还是差一些。",
+    "created_at": "2025-08-22T00:29:03.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1958686305103356069",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "不用担心被封杀的日子太好过了！\n\nhttps://t.co/bs1gJe8zKh https://t.co/Ny1zOjaRQc",
+    "created_at": "2025-08-22T00:23:00.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gy6mwQUboAET4NX.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gy6mwQUboAET4NX.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/bs1gJe8zKh",
+          "indices": [
+            17,
+            40
+          ],
+          "display_url": "api-docs.deepseek.com/guides/anthrop…",
+          "expanded_url": "https://api-docs.deepseek.com/guides/anthropic_api"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1958686301273956486",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "用CC+DS写了篇小作文，花了一分钱。\n\n之于是不是耐用不好说，但好像比Gemini cli要靠谱一些。 https://t.co/Z1jbZpwivL",
+    "created_at": "2025-08-22T00:22:59.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gy6mZVwboAESWdl.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gy6mZVwboAESWdl.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gy6mcFXboAAjGQR.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gy6mcFXboAAjGQR.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1958686297461334375",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "感谢DeepSeek，让贫穷的我用上了Claude Code。 https://t.co/cPrFr8B1Oy",
+    "created_at": "2025-08-22T00:22:58.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gy6mMXsboAEtRw-.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gy6mMXsboAEtRw-.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1958681501060800732",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dotey 与其天天躲着被AI追杀，不如喜欢啥就做点啥。把时间浪费在担惊受怕上，有没有未来不好说，但肯定没有当下。\n\n种种经验表明，大家都很短视，可能对明天有些靠谱预估，但难以算准后天会发生什么。\n\n人有很强的适应力，可对现实做出调整。而越是那些对自己的技能库有热情的人，调整的意愿越强烈",
+    "created_at": "2025-08-22T00:03:55.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958581691079172243",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LiXiang1947 @lidangzzz 聪明人的钱不好挣，所以还是把他们屏蔽掉吧 https://t.co/YUCnCLuW7m",
+    "created_at": "2025-08-21T17:27:18.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/tweet_video_thumb/Gy5HqO1boAE1bsE.jpg",
+        "type": "animated_gif",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/Gy5HqO1boAE1bsE.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "lidangzzz"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958581417291751439",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@lidangzzz 我反复看了几遍，为什么没有8848？",
+    "created_at": "2025-08-21T17:26:13.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "lidangzzz"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958580741748482418",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@VIAGlobalII @feltanimalworld @interjc 应该是维特根斯坦的这个观点吧：语言的边界就是世界的边界 https://t.co/46LjCux8gY",
+    "created_at": "2025-08-21T17:23:32.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gy5GzfLboAM4hs4.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gy5GzfLboAM4hs4.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VIAGlobalII"
+        },
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "interjc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958579460980302312",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@eraera @dotey 别开枪，是我！ https://t.co/e3D7GEf8eD",
+    "created_at": "2025-08-21T17:18:26.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1958579447814397952/pu/img/H0jXD_IG4k9MojAA.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1958579447814397952/pu/img/H0jXD_IG4k9MojAA.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "eraera"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1958577276301582625",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@VIAGlobalII @feltanimalworld @interjc 也不至于。\n\n韩白卫霍也是青史留名的。还有一些奸臣、盗贼，也都有留在史书的，他们都很实干，不过形式多样。\n\n想留在历史长河中，需文字记载，文字工作者自然会占些便宜。\n\n但互联网之后，信息已经不再稀缺，我们多少都会在历史上留点痕迹。当然，牛人才会在后世被经常提及，但他们应该不光靠吹牛吧。",
+    "created_at": "2025-08-21T17:09:45.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VIAGlobalII"
+        },
+        {
+          "username": "feltanimalworld"
+        },
+        {
+          "username": "interjc"
+        }
+      ]
+    }
+  }
+]

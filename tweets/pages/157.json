@@ -1,22 +1,333 @@
 [
   {
-    "id": "1997645733785108617",
+    "id": "2003064506264805728",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "Prompt (More Stable & Accurate)\n[CRITICAL INSTRUCTION: Fact-Check First]\nBefore generating, fetch verifiable data about {Museum Name}. The resulting image must accurately reflect the actual architectural style, primary collection categories, and cultural context of this specific institution. Do not include generic museum items if they do not belong to this museum's specialization (e.g., no dinosaur bones in a dedicated Fine Art museum; no Renaissance paintings in a dedicated Asian History museum).\nPresent a lavish, highly detailed miniature 3D scene of {Museum Name}, viewed from a 45° top-down perspective. The composition should feel dense, rich, and like a treasure trove, avoiding empty spaces.\n1. Complex Architectural Composition (Verifiable & Specific):\nCentrally place the iconic master building of {Museum Name}. The architecture must be recognizable as that specific real-world location, even in stylized form.\nMain Structure: The most recognizable facade or main hall, rendered with cute but precise Q-version proportions capturing its real architectural identity (e.g., Neo-Classical columns for British Museum, traditional Dougong brackets for Palace Museum, modern geometric glass for Louvre Pyramid).\nSecondary Elements (Contextual): Surrounding the main hall, add smaller, verifiable architectural details actually present at or historically associated with the site (e.g., specific gates, courtyard walls, iconic statues located outside the building, connected gardens).\nEnvironment Base: Integrate the building into a thematic base that accurately reflects its real-world setting (e.g., city pavement, specific garden style, or a stylized geographical feature associated with its location).\n2. Abundant Collection & Artifacts (Curated & Thematically Accurate):\n[CRITICAL STEP: Determine Museum Type] Based on {Museum Name}, identify its primary focus (Choose ONE dominant category below to guide artifact selection):\nType A: History/Archaeology (e.g., British Museum, Cairo Museum) -> Focus on ancient artifacts, ruins, tablets, weaponry, tools.\nType B: Fine Art (e.g., Louvre, Met, Uffizi) -> Focus on paintings (framed miniatures), sculptures, busts, decorative arts, furniture.\nType C: Natural History/Science (e.g., Smithsonian NMNH, London Science Museum) -> Focus on skeletons, taxidermy, fossils, scientific instruments, machines, minerals.\nType D: Specific Culture/Region (e.g., Palace Museum Beijing, Kyoto National Museum) -> Focus strictly on culturally specific wares, calligraphy, textiles, ceremonial items of that region.\nScatter a profusion of 8-12 distinct, verifiable artifacts relevant ONLY to the determined Museum Type:\nLarge Treasures (1-2 items): Massive, iconic items famous within that specific museum's collection (e.g., The Rosetta Stone centered, a specific famous statue, a large recognizable machine).\nMedium Artifacts (3-4 items): Distinct wares representative of the museum's strongest departments (e.g., specific types of ceramics, armor suits, astronomical instruments, medium sculptures).\nSmall Details (Multiple items): Tiny, exquisite items filling the gaps (e.g., coins, jewelry pieces, small tablets, scientific samples, miniature scrolls).\nPlacement: Arrange dynamically—on tiny pedestals, leaning against walls, \"floating\" with magical realism.\n3. Visual Styling & \"Filling the Void\" (The Collector's Vibe):\nTreat the scene as a \"Curator's Desk\" diorama to eliminate emptiness:\nThematic Props: Add decorative elements that enhance the specific theme (e.g., Archaeologist tools for Type A; gilded frames and palettes for Type B; magnifying loupes and field notebooks for Type C; traditional scholar items for Type D).\nTexture Density: The ground/base must have rich texture appropriate to the location (e.g., ancient stone pavers, polished gallery wood floor, patterned carpet).\nRendering: Cinema 4D/Octane render. High saturation, sharp details, ambient occlusion for depth. Use \"Depth of Field\" to focus tight on the dense center, blurring far edges.\n4. Color Palette (Cultural Immersion):\nTheme Colors: Extract the 3 most representative colors actually derived from the museum's architecture or primary branding.\nBackground: A solid, premium matte color that provides elegant contrast (deep maroon, slate blue, dark emerald).\n5. Typography (Refined):\nTitle: \"{Museum Name}\" in a font style culturally appropriate to the museum's origin (e.g., Calligraphy style for Asian museums, Serif for European/Western).\nSubtitle: \"City, Country\" in a clean sans-serif.\nLayout: Elegant and unobtrusive placement.\nParameters:\nAspect Ratio: 1:1\nMuseum Name:  苏州博物馆 (中国苏州，2006年) 贝聿铭",
-    "created_at": "2025-12-07T12:33:52.000Z",
+    "text": "@langzihan 目前还好，起点低。估计下周开始全面飘红🤣",
+    "created_at": "2025-12-22T11:26:08.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 111,
-      "impression_count": 111
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "langzihan"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003060142406041954",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@langzihan 不是针对你体的这种事情。而是那一类现象，也就是有时候需要一些花言巧语，太老实了别人根本不上钩🤣🤣🤣",
+    "created_at": "2025-12-22T11:08:47.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "langzihan"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003057845009588585",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@langzihan 虽然说人们都讨厌被忽悠，但那主要是他们抵挡不住那种诱惑。有种试图坐怀不乱结果没忍住，最终气急败坏的意思🤣",
+    "created_at": "2025-12-22T10:59:39.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "langzihan"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003055247733002341",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "好书！\n\n推荐卡尔•萨根的一切著作🤓🤓🤓 https://t.co/7vzaCjGKp7",
+    "created_at": "2025-12-22T10:49:20.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/7vzaCjGKp7",
+          "indices": [
+            21,
+            44
+          ],
+          "display_url": "x.com/howie_serious/…",
+          "expanded_url": "https://x.com/howie_serious/status/2003048295812493820"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2003053213688467850",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Nohomework0 cool！",
+    "created_at": "2025-12-22T10:41:15.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "Nohomework0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003051093140664562",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @VoxcatAI: 这套黑绘风格是公元前 7 世纪阿提卡那一套。\n说白了它不是“画”，是“剪影 + 划痕”在讲故事。\n黑漆一整块封死，细节全靠在上面刻出来。\n肌肉、衣褶、甚至机械零件，都用细到发脆的刻线刮出陶土底色。\n仪式感强到离谱：任何现代东西扔进去，立刻变成神话。…",
+    "created_at": "2025-12-22T10:32:50.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003050954107859370",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @VoxcatAI: 蓝晒法真的像在“晒时间”。\n不用快门不用镜头，只靠阳光把东西压成普鲁士蓝的灵魂剪影。\n越现代越硬的主题，晒出来反而越像自然标本。\n我这版强制把“科技结构”叠上蕨类/野花的植物剪影纹样，\n让人工和自然在同一张蓝晒纸上重合。\n\n提示词👇\n生成一幅具有 1…",
+    "created_at": "2025-12-22T10:32:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "VoxcatAI"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003050339633910170",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@XUJWilliam @art_muse 好酷的猫咪",
+    "created_at": "2025-12-22T10:29:50.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "XUJWilliam"
+        },
+        {
+          "username": "art_muse"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003049836128694326",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "这一周的新增关注数变化。\n\n本来还挺惆怅的，结果点开一看乐了\n\n这是手机信号吗？太整齐了🤣🤣🤣 https://t.co/6PxLTTBM8R",
+    "created_at": "2025-12-22T10:27:50.000Z",
+    "metrics": {
+      "like_count": 4,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G8xDNgpaAAAJGVO.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G8xDNgpaAAAJGVO.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2003048913419600067",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@langzihan all bitches🐶🐶🐶",
+    "created_at": "2025-12-22T10:24:10.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "langzihan"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003046085015863405",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "在推上发了许多创意性的内容之后，它好像真把我当成搞艺术的了。\n\n现在我的时间线上全是各种艺术类的内容，包括但不局限于插画、古典美术、现代抽象画、字体设计...\n\n不过其中明显的AI绘画内容（比如最近流行过的那些主题）似乎并不多🤣",
+    "created_at": "2025-12-22T10:12:56.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -26,156 +337,83 @@
     }
   },
   {
-    "id": "1997644519257337877",
+    "id": "2003039979291984114",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "香港中国银行大厦 (中国香港，1989年): 这座摩天大楼以其锋利的棱角和结构主义设计而著称，是香港天际线的重要组成部分，也是当时亚洲最高的建筑之一。 https://t.co/Kxq5hMWPSP",
-    "created_at": "2025-12-07T12:29:02.000Z",
+    "text": "RT @azed_ai: Midjourney + Grok imagine https://t.co/PV2WB6dMJH",
+    "created_at": "2025-12-22T09:48:40.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 259,
-      "impression_count": 259
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7kPFXQaEAExmxj.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7kPFXQaEAExmxj.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "azed_ai"
+        }
+      ]
     }
   },
   {
-    "id": "1997644474931904996",
+    "id": "2003037268572069941",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "美国国家美术馆东馆 (美国华盛顿特区，1978年): 该建筑以其独特的几何造型（由三角形和菱形构成）和采光设计赢得了广泛赞誉，并为贝聿铭赢得了1983年的普利兹克建筑奖。 https://t.co/RDaYd1s03j",
-    "created_at": "2025-12-07T12:28:51.000Z",
+    "text": "@PandaTalk8 什么是优质？🤪🤪🤪",
+    "created_at": "2025-12-22T09:37:54.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 103,
-      "impression_count": 103
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7kPDMPawAANWnv.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7kPDMPawAANWnv.jpg"
-      }
-    ],
+    "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "PandaTalk8"
+        }
+      ]
     }
   },
   {
-    "id": "1997644449988423921",
+    "id": "2003018464483844096",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "卢浮宫玻璃金字塔 (法国巴黎，1989年): 这是贝聿铭最负盛名的作品之一，位于拿破仑广场中心，将现代玻璃结构与古老的宫殿建筑群完美融合，已成为巴黎的城市地标。 https://t.co/2pbSNl5FLy",
-    "created_at": "2025-12-07T12:28:45.000Z",
+    "text": "@Adam38363368936 我使用全红婵跳水照片，可能经常因为她太小了（东京奥运会的比赛）, 经常被拒绝使用🤣",
+    "created_at": "2025-12-22T08:23:10.000Z",
     "metrics": {
-      "like_count": 3,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 2,
-      "view_count": 415,
-      "impression_count": 415
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7kPBFuaMAA02tY.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7kPBFuaMAA02tY.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1997644404731883959",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "美籍华裔建筑大师贝聿铭（I.M. Pei）一生创作了众多世界闻名的经典建筑，其作品遍布全球，以其现代主义风格、几何美学以及对光影的精妙运用而闻名。 \n\n本系列推文使用微缩模型展示以贝聿铭的一些经典建筑作品\n\n本声明：微缩模型使用了nano banana pro生成，存在一定幻觉，仅求神似\n\n提示词见评论区 https://t.co/1YLGnMaZ9h",
-    "created_at": "2025-12-07T12:28:35.000Z",
-    "metrics": {
-      "like_count": 4,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 1,
-      "view_count": 568,
-      "impression_count": 568
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7kO-qgacAApuFt.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7kO-qgacAApuFt.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G7kO-qlaQAAXNWw.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7kO-qlaQAAXNWw.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1997640919495983119",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Adam38363368936 这个帖子在小红书上应该也能炸，但是炸的是你的号",
-    "created_at": "2025-12-07T12:14:44.000Z",
-    "metrics": {
-      "like_count": 4,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 2160,
-      "impression_count": 2160
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -189,23 +427,23 @@
     }
   },
   {
-    "id": "1997638325793136776",
+    "id": "2003017909053071515",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@YantongYt @GeminiApp 谁能上谁上不了，以及哪个东西能画的像一些，全都取决于名气",
-    "created_at": "2025-12-07T12:04:25.000Z",
+    "text": "@kevinma_dev_zh 当然，还有试验。改点参数啥的...没事也不太动代码😂",
+    "created_at": "2025-12-22T08:20:58.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 2,
-      "impression_count": 2
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -213,130 +451,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "YantongYt"
-        },
-        {
-          "username": "GeminiApp"
+          "username": "kevinma_dev_zh"
         }
       ]
     }
   },
   {
-    "id": "1997638128950182037",
+    "id": "2003017712138919941",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@YantongYt @GeminiApp 我试过几次故宫博物院，不知道为什么大模型对这个大白菜这么痴情，每一次都会有它😂",
-    "created_at": "2025-12-07T12:03:38.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 28,
-      "impression_count": 28
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "YantongYt"
-        },
-        {
-          "username": "GeminiApp"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1997630485002870797",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@yofine2js @ykszs017 不够破，但是下雪的天气弥补了这一点\n\n但是，5-10度为什么会下雪呢😂",
-    "created_at": "2025-12-07T11:33:16.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 33,
-      "impression_count": 33
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "yofine2js"
-        },
-        {
-          "username": "ykszs017"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1997600721445834960",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "老马果然是生意人啊！\n\n大概有五天的时间，我的fo数在1066~1070之间反复波动，把我搞烦了。充了个会员，几个小时fo数涨了二十个左右。\n\n---\n\n我最终还是开了个premium会员，看了一下数据，看来感觉与数据是吻合的。\n\n就火了那几天，后面流量断崖式下降。\n\n后面开了BASIC会员对流量毫无帮助，但是取消BASIC会员之后（11月底），流量显著下降。\n\n杀猪盘啊😂😂😂",
-    "created_at": "2025-12-07T09:35:00.000Z",
+    "text": "@Ni_luvya @LFC 有，但现在限制比较宽松，好像可以一天画100张了",
+    "created_at": "2025-12-22T08:20:11.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 1,
-      "view_count": 1515,
-      "impression_count": 1515
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7jnMJIbQAA1sPN.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7jnMJIbQAA1sPN.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1997588630978838790",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@dallasmavs Cooper is a kid who can shoulder responsibility, and that is his most precious quality.",
-    "created_at": "2025-12-07T08:46:57.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 133,
-      "impression_count": 133
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -344,155 +481,32 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dallasmavs"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1997588064726901032",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "Cooper is a kid who can shoulder responsibility, and that is his most precious quality.\n\nThe beginning of the season was extremely tough—he must questioned everything. \n\nBut as he fought through the difficulties and found his rhythm, the encouragement drawn from that experience will become a valuable treasure that carries him throughout his career.\n\nFighting👊👊👊",
-    "created_at": "2025-12-07T08:44:42.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 36,
-      "impression_count": 36
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1997584844050821513",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "本来看到原帖的图片，联想到了只狼。但是生成出来的图反倒有点不那么像（那种修罗场的感觉需要下手狠一些），不过还是能表达词中的意思（我特意进行了美化）。\n\n感谢 @ykszs017 的提示词\n\n（马致远：这垃圾词不是我写的） https://t.co/5joWSbQhQJ",
-    "created_at": "2025-12-07T08:31:54.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 1,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 460,
-      "impression_count": 460
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G7jX1PUaoAARmod.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7jX1PUaoAARmod.jpg"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/G7jYWdWbsAAMNOK.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G7jYWdWbsAAMNOK.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "ykszs017"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1997581960756293977",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "我非常认同这个批评。\n\n我本人也只是玩一玩，生成的这个效果让我感到惊艳，于是我分享出来，没有很在意真实性问题。我不了解敦煌，但我很了解都江堰，我清楚哪里有问题。\n\n生成严谨的资料图，当然很长的路要走。另一个现实是，许多地方很美，但在网上缺乏充分的资料，所以需要有更多的推广与分享。",
-    "created_at": "2025-12-07T08:20:27.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 173,
-      "impression_count": 173
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1997580572563288457",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@0xShellywang @dotey 有些距离看着很远，但是如果路径走通之后，很多资源都会快速聚拢，速度就会随之加快。\n\n我想年初大家都不太敢想现在的这种图片生成效果。后面会发生什么，还真挺令人期待",
-    "created_at": "2025-12-07T08:14:56.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 48,
-      "impression_count": 48
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "0xShellywang"
+          "username": "Ni_luvya"
         },
         {
-          "username": "dotey"
+          "username": "LFC"
         }
       ]
     }
   },
   {
-    "id": "1997578457983926397",
+    "id": "2003017556588966029",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@wzblog good",
-    "created_at": "2025-12-07T08:06:32.000Z",
+    "text": "@kevinma_dev_zh 重要的是理论推导，他们的精力很少放在代码上",
+    "created_at": "2025-12-22T08:19:34.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 19,
-      "impression_count": 19
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -500,29 +514,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "wzblog"
+          "username": "kevinma_dev_zh"
         }
       ]
     }
   },
   {
-    "id": "1997577836375544169",
+    "id": "2003017168246710334",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@wzblog great! 这个非常重要。\n\n我也不喜欢那种各种幻觉的东西，尤其是自己比较熟悉的东西。但目前完全的精准严谨，依靠大模型自带的能力还是很难做到。\n\n不过我感觉现在正处于一个临界点上，nano banana pro已经接近指哪打哪的水平，那么如何对其进行补充就非常关键。",
-    "created_at": "2025-12-07T08:04:04.000Z",
+    "text": "@Ni_luvya @LFC 就是在Gemini中使用",
+    "created_at": "2025-12-22T08:18:01.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 38,
-      "impression_count": 38
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -530,107 +544,80 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "wzblog"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1997576401114042871",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@wzblog 另外，我认为也不需要这么纠结于这种问题。\n\n这种图本来就是概念图，是对既有元素进行各种拼接，像是一种集锦。\n\n要求用AI不到一分钟就干一个工程师或者画家花费巨大精力完成的工作，终归有点过分。",
-    "created_at": "2025-12-07T07:58:21.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 33,
-      "impression_count": 33
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+          "username": "Ni_luvya"
+        },
         {
-          "username": "wzblog"
+          "username": "LFC"
         }
       ]
     }
   },
   {
-    "id": "1997576302677934509",
+    "id": "2003014700322508831",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
     },
-    "text": "@wzblog AI生成的东西，尤其是这种输入一个地方，交给AI来检索相关信息补全细节的事情，肯定是基于网上所拥有的数据（文字描述+图片），数据的丰富度决定了能否获得更精准的生成效果。\n\n比如用AI能够生成接近真实的哈佛与剑桥校园，但不可能生成国内的许多非著名高校校园。",
-    "created_at": "2025-12-07T07:57:58.000Z",
+    "text": "@kevinma_dev_zh 做一些补充，很有趣的故事（不过拉里佩奇的代码能力可能也就是在Jeff Dean这种超级大牛面前不太能看，我们能接触到的人应该没几个比他更好的）\n\nhttps://t.co/mnBjMHE0y6",
+    "created_at": "2025-12-22T08:08:13.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 50,
-      "impression_count": 50
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "wzblog"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1997574884726333537",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": true
-    },
-    "text": "@wzblog https://t.co/iFXGLDGINZ",
-    "created_at": "2025-12-07T07:52:20.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 34,
-      "impression_count": 34
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/iFXGLDGINZ",
+          "url": "https://t.co/mnBjMHE0y6",
           "indices": [
-            8,
-            31
+            89,
+            112
           ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1997574678437929442?s=20"
+          "display_url": "x.com/i/grok/share/5…",
+          "expanded_url": "https://x.com/i/grok/share/5gDyUNnHWGCmDgDHDBCBE20Ra"
         }
       ],
       "hashtags": [],
       "mentions": [
         {
-          "username": "wzblog"
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2003009871260860547",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@langzihan 其实我已经懒得管它是不是讨好我了。\n\n我感觉自从4.1之后，grok就彻底没有骨头了，软得一批，早就失去了我的信任",
+    "created_at": "2025-12-22T07:49:02.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "langzihan"
         }
       ]
     }

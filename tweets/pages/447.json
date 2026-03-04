@@ -1,0 +1,578 @@
+[
+  {
+    "id": "1946725892807430574",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "对这种“小问题”, 精细的上下文甚至手工编写代码可能是必要的。",
+    "created_at": "2025-07-20T00:16:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946612529813500289",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "对大模型来说，编写fibonacci螺旋线的程序还是有点太难了（sonnet 4, matlab)。可能这个需求虽然看起来简单，但是要求达到非常高的精确性，这一点是大模型很难做到的（类似于比较9.8与9.11的大小）\n\n(图片仅用来展示其拉胯效果，有些辣眼睛） https://t.co/OhA8E8EiN9",
+    "created_at": "2025-07-19T16:46:08.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GwPBTaUWEAAE3oK.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GwPBTaUWEAAE3oK.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GwPBX74a8AAbLT1.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GwPBX74a8AAbLT1.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GwPBbdfXQAAS1bF.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GwPBbdfXQAAS1bF.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590699513921566",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "施密特认为，未来AI领域将诞生10家类似谷歌、Meta规模的巨头公司，其核心竞争力在于“学习循环”——即产品能否通过用户反馈快速自我优化。硬件创新周期较慢，但软件和数据驱动的网络效应将决定市场格局。开源模型的扩散和资本投入的平衡也是行业关注的焦点。",
+    "created_at": "2025-07-19T15:19:23.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590695336362411",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "施密特强调，AI的伦理问题在于如何平衡创新与责任。他担心，AI如果不加监管，可能逐步侵蚀人类的价值观、自主性和判断力，导致“虚拟牢笼”式的生活。真正的风险不是“终结者”式的毁灭，而是人类主动放弃挑战和成长的动力。他主张保护人类能动性，确保AI成为赋能工具而非替代品。",
+    "created_at": "2025-07-19T15:19:22.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590697420972067",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "AI将极大降低内容创作门槛，个人有望凭借AI工具制作媲美好莱坞的电影或艺术作品。虽然大制作仍需团队协作，但AI会在剧本、特效、剪辑等环节提供强大支持。施密特认为，创意产业的分工将向更高层次的创造力和审美转移，重复性、低附加值的岗位将被自动化取代。",
+    "created_at": "2025-07-19T15:19:22.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590693201461431",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "教育系统应加快变革，利用AI为每个人提供个性化、游戏化的学习体验。年轻一代对AI和数字技术的适应能力极强，未来应鼓励他们将智能应用于各自感兴趣的领域，如气候、材料、能源等。AI将极大加速科学发现和跨学科创新，但目前模型尚未具备“跨领域迁移”能力，即将一种领域的知识应用到完全不同的领域。",
+    "created_at": "2025-07-19T15:19:21.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590687518224776",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "AI的快速发展带来生物、化学、网络攻击等新型威胁。超级AI可能带来人类难以预见的安全挑战，尤其在中美竞争、芯片管控、开源模型扩散等方面。如何平衡创新与安全、开放与管控，成为全球性难题。施密特提出“互保失灵”理论，大国间需建立类似核威慑的AI安全机制，并建议追踪所有高性能芯片的位置和用途。",
+    "created_at": "2025-07-19T15:19:20.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590683143496074",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "AI的发展速度受限于能源而非芯片。施密特指出，AI革命将需要巨大的电力支持。虽然核能（被寄予厚望，但短期内难以满足需求。中国在电力储备上具有优势，如果获得足够芯片，将在AI竞赛中占据有利地位。数据中心的能耗和经济性尚未被充分验证，但资本正大量涌入能效更高的芯片和计算架构创新领域。",
+    "created_at": "2025-07-19T15:19:19.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590685286781362",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "AI短期内将带来更多高薪工作，而非大规模失业。历史上，自动化首先取代危险、低技能岗位，随后提升整体生产力和工资。每个人都将拥有智能助手，普通人也能通过AI提升技能。尽管会有岗位流失，但新兴行业和岗位会不断涌现。经济扩张和人口结构变化将推动AI在全球范围内的应用，尤其是在劳动力短缺的国家",
+    "created_at": "2025-07-19T15:19:19.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590678571766192",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "标题：Ex-Google CEO: What Artificial Superintelligence Will Actually Look Like w/ Eric Schmidt &amp; Dave B\n链接：https://t.co/3wwdsNA7cm\n作者：Peter H. Diamandis\n日期：2025-07-17",
+    "created_at": "2025-07-19T15:19:18.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/3wwdsNA7cm",
+          "indices": [
+            108,
+            131
+          ],
+          "display_url": "youtube.com/watch?v=qaPHK1…",
+          "expanded_url": "https://www.youtube.com/watch?v=qaPHK1fJL5s"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590681012863074",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "数字超级智能的到来与定义\n\n施密特认为，数字超级智能将在未来10年内实现。他预测，AI即将具备自我“脚手架”生成能力，这意味着AI能够自主设定和实现复杂目标。届时，每个人都将拥有类似“口袋里的爱因斯坦和达·芬奇”的多才多艺AI助手。这些AI代理将极大提升个人和企业的能力，但也带来正负两方面的影响",
+    "created_at": "2025-07-19T15:19:18.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946590675530850586",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "数字超级智能的崛起：前谷歌CEO埃里克·施密特对未来AI的展望\n\n施密特乐观地认为，AI将带来前所未有的经济增长和社会繁荣，但前提是人类要主动适应、合理监管、持续创新。他强调，人的“目的感”不会消失，AI应成为提升人类能力和幸福感的工具，而非取代人类本身。 https://t.co/4JPFkXcHyV",
+    "created_at": "2025-07-19T15:19:17.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GwOt45EXYAAqloZ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GwOt45EXYAAqloZ.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946508961475367289",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@op7418 Scott saying, “A founder goes down with the ship.”",
+    "created_at": "2025-07-19T09:54:35.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "op7418"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1946412395746005429",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @HarryStebbings: “There's an unspoken covenant that as a founder, you go down with the ship.\n\nFor better or worse, it's changed a bit ov…",
+    "created_at": "2025-07-19T03:30:52.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "HarryStebbings"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1946411717644414996",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "&gt; \"But by then, Scott was already in our conference room with physical papers to sign and was handing me a pen.\" https://t.co/aiBIV4bFx2",
+    "created_at": "2025-07-19T03:28:10.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/aiBIV4bFx2",
+          "indices": [
+            116,
+            139
+          ],
+          "display_url": "x.com/jeffwsurf/stat…",
+          "expanded_url": "https://x.com/jeffwsurf/status/1946376139959841084"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946404550694601049",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "最喜欢的一句话：\n\nI think there's an unspoken covenant that as a founder you go down with the ship, you know, and and I think that uh for for better, for worse.\n\nIt's changed a bit over the last year and I think it's a bit disappointing to be honest. https://t.co/mJZpO619el",
+    "created_at": "2025-07-19T02:59:41.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GwMECNnXoAAI5u1.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GwMECNnXoAAI5u1.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946400446064844804",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "9. AI 行业格局与未来展望\n\nScott 认为，未来基础模型公司最终会整合为 2-6 家主导者，但市场会呈现“幂律分布”，头部公司占据大部分份额。应用层公司同样会有巨大增长空间，未来几年行业整体市值将大幅提升。他强调，AI 领域的价值创造巨大，基础模型和应用层都会有多家赢家。",
+    "created_at": "2025-07-19T02:43:23.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946400448526839910",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "10. 个人成长与品牌建设\n\nScott 分享，自己最自豪的特质是“情绪上的冷静”，能在高压环境下保持冷静和专注。他也接受主持人建议，未来会更主动地塑造个人和公司品牌，讲好 Cognition 的成长故事，吸引更多人才和资源。",
+    "created_at": "2025-07-19T02:43:23.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946400443581837471",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "8. AI 领域的误区与 RL（强化学习）的突破\n\n外界低估了 RL在 AI 能力提升中的作用。过去几年，AI 主要依赖模仿学习（如 GPT-3），而 RL 能让模型在特定环境下通过反馈不断优化，几乎可以解决任何有明确评价标准的任务。未来，AI 在各垂直领域的突破将依赖于高质量、针对性的训练数据和 RL 技术。​⁠",
+    "created_at": "2025-07-19T02:43:22.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1946400437483307483",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "6. Cognition 的增长与市场定位\n\nScott 透露，Cognition 在过去 6-8 个月内（不含此次收购）已实现从 0 到 8000 万美元 ARR 的增长，增速与行业头部公司相当。Cognition 的产品 Devon 主要服务于工程团队，强调与团队协作工具（如 Slack、Linear、GitHub）深度集成，区别于更偏消费市场的同类产品。​⁠",
+    "created_at": "2025-07-19T02:43:21.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  }
+]

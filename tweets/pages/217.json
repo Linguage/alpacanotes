@@ -1,118 +1,153 @@
 [
   {
-    "id": "1986032567011991903",
+    "id": "1996067500191342866",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@kevinma_dev_zh 我彻底脸盲了，分不出来什么区别😂",
-    "created_at": "2025-11-05T11:27:17.000Z",
+    "text": "圆桌派，成都，刘家琨（普利兹克建筑奖得主）\n\nhttps://t.co/VhNg1Nfwa5",
+    "created_at": "2025-12-03T04:02:31.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 40,
-      "impression_count": 40
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
+      "urls": [
         {
-          "username": "kevinma_dev_zh"
+          "url": "https://t.co/VhNg1Nfwa5",
+          "indices": [
+            23,
+            46
+          ],
+          "display_url": "youtu.be/PhdeNmZKEAU?si…",
+          "expanded_url": "https://youtu.be/PhdeNmZKEAU?si=cuDFKJa4pqPhhuAJ"
         }
-      ]
+      ],
+      "hashtags": [],
+      "mentions": []
     }
   },
   {
-    "id": "1986028876343210333",
+    "id": "1996065256565834046",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@kevinma_dev_zh 你的头像是哪一只？",
-    "created_at": "2025-11-05T11:12:37.000Z",
+    "text": "单一平台对我的了解都不够，于是我把X、GPT和Gemini中的“印象碎片”整理到了一起，顺带把X头像也贴在墙上了。\n\n（不知道为何会是这种发型，因为“佛系”吗？🤣） https://t.co/sLWMDJ9TS4 https://t.co/qIc7cZiXCU",
+    "created_at": "2025-12-03T03:53:36.000Z",
     "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 285,
-      "impression_count": 285
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "kevinma_dev_zh"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986025853885784099",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@kevinma_dev_zh @HAZENLEE_ 这样搬运（不加引用）会获得更高流量吗？",
-    "created_at": "2025-11-05T11:00:36.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 66,
-      "impression_count": 66
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "kevinma_dev_zh"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986025258814693750",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "我想，我会喜欢这个功能的。\n\n提出一个要求，然后就对代码进行了详尽解读，提供有条理的操作建议 https://t.co/clCFnICV8T",
-    "created_at": "2025-11-05T10:58:14.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 96,
-      "impression_count": 96
+      "like_count": 3,
+      "retweet_count": 2,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G4_HJwaaEAAvnh_.jpg",
+        "url": "https://pbs.twimg.com/media/G7NyWntbgAIXVp4.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G4_HJwaaEAAvnh_.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G7NyWntbgAIXVp4.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/sLWMDJ9TS4",
+          "indices": [
+            83,
+            106
+          ],
+          "display_url": "x.com/dotey/status/1…",
+          "expanded_url": "https://x.com/dotey/status/1995944319677554985"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1996062469203386377",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "我的这个Gemini不太了解我，但效果还挺好🤣 https://t.co/sLWMDJ9TS4 https://t.co/6ylC5L8NqC",
+    "created_at": "2025-12-03T03:42:32.000Z",
+    "metrics": {
+      "like_count": 3,
+      "retweet_count": 2,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7NwEADbgAMvhGo.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7NwEADbgAMvhGo.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/sLWMDJ9TS4",
+          "indices": [
+            24,
+            47
+          ],
+          "display_url": "x.com/dotey/status/1…",
+          "expanded_url": "https://x.com/dotey/status/1995944319677554985"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1996037184814780878",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "欧拉太纯粹了\n\n（伟大的“欧拉-拉格朗日方程”的起源） https://t.co/rARcyGgCQi",
+    "created_at": "2025-12-03T02:02:04.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7NZPcra8AAy7bJ.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7NZPcra8AAy7bJ.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7NZPdCbwAAL5Ym.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7NZPdCbwAAL5Ym.jpg"
       }
     ],
     "entities": {
@@ -122,61 +157,71 @@
     }
   },
   {
-    "id": "1986020071375040608",
+    "id": "1995904488927023113",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "codemaps和苹果最近泄漏的app store前端代码应该是绝配。打算学习一下",
-    "created_at": "2025-11-05T10:37:38.000Z",
+    "text": "@dotey 看来官方已经落在后面了，看不见尾灯的那种😂",
+    "created_at": "2025-12-02T17:14:46.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 259,
-      "impression_count": 259
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
     }
   },
   {
-    "id": "1986015387843273046",
+    "id": "1995886121256108362",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "https://t.co/RbczcxR6Sy",
-    "created_at": "2025-11-05T10:19:01.000Z",
+    "text": "西安的城墙确实很有特色 https://t.co/YXeTCm7ZFa https://t.co/X4Ve3RowSr",
+    "created_at": "2025-12-02T16:01:47.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 82,
-      "impression_count": 82
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7LPyV7bMAANUVr.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7LPyV7bMAANUVr.jpg"
+      }
+    ],
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/RbczcxR6Sy",
+          "url": "https://t.co/YXeTCm7ZFa",
           "indices": [
-            0,
-            23
+            12,
+            35
           ],
-          "display_url": "x.com/ScottWu46/stat…",
-          "expanded_url": "https://x.com/ScottWu46/status/1985981765849407687"
+          "display_url": "x.com/NanoBanana/sta…",
+          "expanded_url": "https://x.com/NanoBanana/status/1995828737758105846"
         }
       ],
       "hashtags": [],
@@ -184,385 +229,371 @@
     }
   },
   {
-    "id": "1986015016353771792",
+    "id": "1995881653592621503",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@realcoreychiu 老罗这些节目里我最喜欢的一期",
-    "created_at": "2025-11-05T10:17:32.000Z",
+    "text": "四川地图中的美食（含重庆🤓） https://t.co/zAS7svIjWS https://t.co/9U3U5YnFe2",
+    "created_at": "2025-12-02T15:44:02.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 100,
-      "impression_count": 100
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "realcoreychiu"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986011245145968770",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@coolzeromike @seekjourney 就是告诉你每天写了多少条，写了多少字之类的，呈现得一目了然。\n\n然后就想继续保持下去了",
-    "created_at": "2025-11-05T10:02:33.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 7,
-      "impression_count": 7
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "coolzeromike"
-        },
-        {
-          "username": "seekjourney"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986008663941898595",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@coolzeromike @seekjourney 我也只是记录。它有回顾功能和AI功能，但我基本上不用。\n\n如果是会员的话，可以语音输入，自动转换成文字，成功率很高。\n\n我个人比较认同的优点\n1. 上手门槛极低，随手记录，没有心理包袱\n2. 多端都可用，而且体验一致\n3. 比较好的数据可视化，能够帮助我形成心理上的积极暗示",
-    "created_at": "2025-11-05T09:52:18.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 33,
-      "impression_count": 33
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "coolzeromike"
-        },
-        {
-          "username": "seekjourney"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1986004999210754122",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@Jackywine 最近经常有从国内网站上搬运过来的帖子爆火，包括但不限于某些教程、伪造的名人名言配图之类的。\n\nX上好的资源非常好，但差的也算得上真的差。而且，爆火与否与质量很真没啥关系，与真伪关系也不大\n\nhttps://t.co/ky39kkx5in",
-    "created_at": "2025-11-05T09:37:44.000Z",
-    "metrics": {
-      "like_count": 7,
-      "retweet_count": 1,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 5042,
-      "impression_count": 5042
-    },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7LLodIasAAJLlC.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7LLodIasAAJLlC.jpg"
+      }
+    ],
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/ky39kkx5in",
+          "url": "https://t.co/zAS7svIjWS",
           "indices": [
-            106,
-            129
+            15,
+            38
           ],
           "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1983908981614768349"
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1995866774458577074"
         }
       ],
       "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1995869874498019525",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@XianyuLi 告诉老登 https://t.co/jFKXjN5t2C",
+    "created_at": "2025-12-02T14:57:14.000Z",
+    "metrics": {
+      "like_count": 17,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7LBEEEbgAUFFaT.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7LBEEEbgAUFFaT.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
       "mentions": [
         {
-          "username": "Jackywine"
+          "username": "XianyuLi"
         }
       ]
     }
   },
   {
-    "id": "1985995930605396235",
+    "id": "1995866774458577074",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@Jackywine 刷Hackernews的各种姿势，点击浏览我的导航站\n\nhttps://t.co/TReIomdbmP",
-    "created_at": "2025-11-05T09:01:42.000Z",
+    "text": "餐桌上的中国地图，地图中的中国美食\n\n（甘肃面条处理得简直优雅） https://t.co/D1ahToPspn https://t.co/zvk0jQOjmx",
+    "created_at": "2025-12-02T14:44:55.000Z",
     "metrics": {
       "like_count": 3,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 215,
-      "impression_count": 215
-    },
-    "media": null,
-    "entities": {
-      "urls": [
-        {
-          "url": "https://t.co/TReIomdbmP",
-          "indices": [
-            39,
-            62
-          ],
-          "display_url": "linguista.cn/bookmarks/#%E5…",
-          "expanded_url": "https://linguista.cn/bookmarks/#%E5%86%85%E5%AE%B9%E8%81%9A%E5%90%88"
-        }
-      ],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Jackywine"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1985995766465548595",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@Jackywine 真正的上游：Hackernews\n\nhttps://t.co/soUaOe5Jwf https://t.co/tCArDWkxK4",
-    "created_at": "2025-11-05T09:01:03.000Z",
-    "metrics": {
-      "like_count": 19,
-      "retweet_count": 4,
-      "reply_count": 3,
-      "quote_count": 0,
-      "view_count": 1974,
-      "impression_count": 1974
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": [
       {
-        "url": "https://pbs.twimg.com/media/G4-smJbboAApzHW.jpg",
+        "url": "https://pbs.twimg.com/media/G7K-DZMbgAEj9Ci.jpg",
         "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G4-smJbboAApzHW.jpg"
+        "preview_image_url": "https://pbs.twimg.com/media/G7K-DZMbgAEj9Ci.jpg"
       }
     ],
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/soUaOe5Jwf",
+          "url": "https://t.co/D1ahToPspn",
           "indices": [
-            29,
-            52
+            33,
+            56
           ],
-          "display_url": "news.ycombinator.com/news",
-          "expanded_url": "https://news.ycombinator.com/news"
+          "display_url": "x.com/emollick/statu…",
+          "expanded_url": "https://x.com/emollick/status/1995720976068137048"
         }
       ],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Jackywine"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1985993927196078559",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "@LiXiang1947 @Jiankui_He 牢底坐穿",
-    "created_at": "2025-11-05T08:53:44.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 20,
-      "impression_count": 20
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Jiankui_He"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1985988827526431138",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "股市有风险，入市需谨慎\n\n（真是完美的教材） https://t.co/xXHhAfD4hH",
-    "created_at": "2025-11-05T08:33:29.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 127,
-      "impression_count": 127
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G4-mTvraAAEj8jb.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G4-mTvraAAEj8jb.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [],
       "hashtags": [],
       "mentions": []
     }
   },
   {
-    "id": "1985985159934669300",
+    "id": "1995863195240837593",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "网络存在海量的学习资源（视频、推文），很多推友热衷于收藏（包括我）, 甚至将其当成自己学习的救星！\n\nAK泼了盆冷水。他认为，应当先搞清楚，你是需要娱乐还是需要学习。如果为了后者，应当有更深入的实践，因为学习是件痛苦的事情。\n\nhttps://t.co/agIer8yIiq",
-    "created_at": "2025-11-05T08:18:54.000Z",
+    "text": "@zhangjintao9020 里面有很多windsurf字样的代码，还没来得及改成antigravity",
+    "created_at": "2025-12-02T14:30:41.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "zhangjintao9020"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1995848970854433180",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@PMAndDog 我不认为炒股会让人变得谦虚。\n\n谦虚的基础是内心的平静，编程可以让人变得平静（多次狂躁无果之后自然形成的状态）😂",
+    "created_at": "2025-12-02T13:34:10.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "PMAndDog"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1995823721869967738",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@geniusvczh https://t.co/wTT1PqAFla",
+    "created_at": "2025-12-02T11:53:50.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 66,
-      "impression_count": 66
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/agIer8yIiq",
+          "url": "https://t.co/wTT1PqAFla",
           "indices": [
-            114,
-            137
+            12,
+            35
           ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1985971266629878182"
+          "display_url": "x.com/geniusvczh/sta…",
+          "expanded_url": "https://x.com/geniusvczh/status/1990362377175642320?t=Ewsyn29ULF3n88iModMFzQ&s=19"
         }
       ],
       "hashtags": [],
-      "mentions": []
-    }
-  },
-  {
-    "id": "1985984129809465783",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
-      "verified": false
-    },
-    "text": "https://t.co/ejpzTF95GV https://t.co/Z8BwQrdMUT",
-    "created_at": "2025-11-05T08:14:49.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 86,
-      "impression_count": 86
-    },
-    "media": [
-      {
-        "url": "https://pbs.twimg.com/media/G4-iBs7bQAMUh57.jpg",
-        "type": "photo",
-        "preview_image_url": "https://pbs.twimg.com/media/G4-iBs7bQAMUh57.jpg"
-      }
-    ],
-    "entities": {
-      "urls": [
+      "mentions": [
         {
-          "url": "https://t.co/ejpzTF95GV",
-          "indices": [
-            0,
-            23
-          ],
-          "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1985955581879062766"
+          "username": "geniusvczh"
         }
-      ],
-      "hashtags": [],
-      "mentions": []
+      ]
     }
   },
   {
-    "id": "1985977465488228723",
+    "id": "1995823205836288227",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "@Yangzi812 有没有被封，央视还没点B数😂",
-    "created_at": "2025-11-05T07:48:20.000Z",
+    "text": "@geniusvczh 你不是说Claude 4.5也不错吗🤪",
+    "created_at": "2025-12-02T11:51:47.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "geniusvczh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1995817367562322431",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@amehochan wow，想想就牛逼🥸🤓🧐😎",
+    "created_at": "2025-12-02T11:28:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "amehochan"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1995816907593973958",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "如果搞一个《从入门到精通》的课程，可能超过80%的流量都在“从入门”这部分，很多人都会在不远处的岔路选择“到放弃”。\n\n但只去做入门的工作，也挺没劲的。 https://t.co/3JjEkZY6jw",
+    "created_at": "2025-12-02T11:26:45.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 72,
-      "impression_count": 72
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/3JjEkZY6jw",
+          "indices": [
+            77,
+            100
+          ],
+          "display_url": "x.com/PMbackttfuture…",
+          "expanded_url": "https://x.com/PMbackttfuture/status/1995789865519349873"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1995815413205127552",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "关于“为什么我这么谦虚”🤓🤓🤓 https://t.co/rHJJMCxOwy",
+    "created_at": "2025-12-02T11:20:49.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7KPeKcbgAAHH3c.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7KPeKcbgAAHH3c.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1995806807751885002",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @qisi_ai: 借着宝玉老师的思路，突发奇想，如果一个品牌开一家「主题乐园」会是什么样的？发现麦当劳和苹果完全是两个画风啊😆提示词放在评论区了↓ https://t.co/36lbMe0ROW",
+    "created_at": "2025-12-02T10:46:37.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -570,41 +601,47 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "Yangzi812"
+          "username": "qisi_ai"
         }
       ]
     }
   },
   {
-    "id": "1985976705325117903",
+    "id": "1995720294745399307",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "https://t.co/GoyINsQhBF",
-    "created_at": "2025-11-05T07:45:18.000Z",
+    "text": "嗯，这个输入的效果还是可以的。\n\n我测试了一下豆包的语音输入法结合Get 笔记的协同。\n\n豆包语音它可以保留自己说出来的几乎每一个字，然后如果要使用书面的话，可能还是需要进行一些简单的润色。Get 笔记可以完成这类工作。\n\n发送至我的豆包语音输入法。 https://t.co/cX5HIQRCOu https://t.co/fzgiCTUP9R",
+    "created_at": "2025-12-02T05:02:51.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 123,
-      "impression_count": 123
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7I5CCCacAAcrfS.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7I5CCCacAAcrfS.jpg"
+      }
+    ],
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/GoyINsQhBF",
+          "url": "https://t.co/cX5HIQRCOu",
           "indices": [
-            0,
-            23
+            126,
+            149
           ],
-          "display_url": "x.com/swyx/status/19…",
-          "expanded_url": "https://x.com/swyx/status/1985762813252378905"
+          "display_url": "x.com/manateelazycat…",
+          "expanded_url": "https://x.com/manateelazycat/status/1995518945567379624"
         }
       ],
       "hashtags": [],
@@ -612,65 +649,89 @@
     }
   },
   {
-    "id": "1985975212178038815",
+    "id": "1995545946961396086",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "看推文数量没有太大的意义。我今天在推上收集串联资料导致我的推文数爆炸。\n\n每创建一个内容节点、把节点进行连接都算得上一条推文。因此，它更应该被称为“动作数量”。\n\n不过在有些地方，比如知乎上，给别人点赞也算得上一种动作，甚至会被其它知友看到。\n\n当然，类似的数据都算是一种标记，用来吹牛逼还是管用的",
-    "created_at": "2025-11-05T07:39:22.000Z",
+    "text": "RT @tingyun97: 康熙：算朕求你，以后请用粗体字，我老花看不清。😂 https://t.co/Qi3GVDyt4u",
+    "created_at": "2025-12-01T17:30:03.000Z",
     "metrics": {
-      "like_count": 2,
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 103,
-      "impression_count": 103
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
-    "media": null,
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/G7DZIffawAAMyRB.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7DZIffawAAMyRB.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7DZIfUbQAAiiFG.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7DZIfUbQAAiiFG.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/G7DZIfXaYAAyOR_.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/G7DZIfXaYAAyOR_.jpg"
+      }
+    ],
     "entities": {
       "urls": [],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "tingyun97"
+        }
+      ]
     }
   },
   {
-    "id": "1985972532231750028",
+    "id": "1995543625447711214",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼🦙",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2003876562094219264/zlB67On8_400x400.jpg",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
       "verified": false
     },
-    "text": "https://t.co/w2DNFbwdpr",
-    "created_at": "2025-11-05T07:28:43.000Z",
+    "text": "@dotey 竞争力来自于对自己技能包的不断刷新。至于朝哪个方向刷新，识时务者为俊杰\n\nhttps://t.co/mHxKGb7OIS",
+    "created_at": "2025-12-01T17:20:50.000Z",
     "metrics": {
-      "like_count": 0,
+      "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 38,
-      "impression_count": 38
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
       "urls": [
         {
-          "url": "https://t.co/w2DNFbwdpr",
+          "url": "https://t.co/mHxKGb7OIS",
           "indices": [
-            0,
-            23
+            44,
+            67
           ],
           "display_url": "x.com/AztecaAlpaca/s…",
-          "expanded_url": "https://x.com/AztecaAlpaca/status/1985730788059762781"
+          "expanded_url": "https://x.com/AztecaAlpaca/status/1995543118666760483?s=20"
         }
       ],
       "hashtags": [],
-      "mentions": []
+      "mentions": [
+        {
+          "username": "dotey"
+        }
+      ]
     }
   }
 ]

@@ -1,115 +1,22 @@
 [
   {
-    "id": "2020087830924734645",
+    "id": "2028628311182843984",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@orwell_benjamin @royxy 美国主打的是流行文化，营造殿堂感方面差点意思...",
-    "created_at": "2026-02-07T10:50:44.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 34,
-      "impression_count": 34
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "orwell_benjamin"
-        },
-        {
-          "username": "royxy"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020074643735114044",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@Neva_labs 没办法，未来的局面，恶劣的应该比现在恶劣成百上千倍。发布软件就像现在发短视频一样...",
-    "created_at": "2026-02-07T09:58:20.000Z",
-    "metrics": {
-      "like_count": 3,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 941,
-      "impression_count": 941
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "Neva_labs"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020073082413896049",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@linxinglu 这只是一个定义的问题，能理解文章在说什么就够了",
-    "created_at": "2026-02-07T09:52:08.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 588,
-      "impression_count": 588
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "linxinglu"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020072601868202436",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@wholdmry 对，我感觉这是AI最恐怖的一点。\n\n它对软件行业的影响其实不光是冲击那些大厂，对独立开发者的冲击也是巨大的...",
-    "created_at": "2026-02-07T09:50:14.000Z",
+    "text": "@kevinma_dev_zh 其实从这个角度来说, 对我而言，obsidian更适合作为内容批处理的工具，并不适合做日常记录。\n\n它太精致了，似乎带来某种仪式感，一开始感觉不错，后面就难以坚持。\n\n让我坚持记录和输出的是flomo和写推特。",
+    "created_at": "2026-03-03T00:27:34.000Z",
     "metrics": {
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 788,
-      "impression_count": 788
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -117,29 +24,29 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "wholdmry"
+          "username": "kevinma_dev_zh"
         }
       ]
     }
   },
   {
-    "id": "2020068741216964935",
+    "id": "2028626284474204354",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@dotey 之前很喜欢他们的tab，然后他们就给取消了...",
-    "created_at": "2026-02-07T09:34:53.000Z",
+    "text": "@kevinma_dev_zh human writes是对的。但是我不认为人类应该负责高质量输入。只需要输入就够了，高不高质量并不重要。\n\n人类的价值恰恰在于随意地输入，输入的多了，自然而然地就产生了价值。重要的地方不在于每一次输入的严肃性，而是许多内容天然产生的联系和统计内涵。",
+    "created_at": "2026-03-03T00:19:30.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 34,
-      "impression_count": 34
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -147,29 +54,61 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dotey"
+          "username": "kevinma_dev_zh"
         }
       ]
     }
   },
   {
-    "id": "2020068552972333461",
+    "id": "2028530404094079272",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@dotey 我倒是挺喜欢用它的，但只是刚刚习惯了它的vscode扩展😅",
-    "created_at": "2026-02-07T09:34:08.000Z",
+    "text": "官方的新闻发布会就应该这样掷地有声。\n\n可惜我们的频道都是些叽叽歪歪的软趴趴的成语轰炸🐶🐶🐶\n https://t.co/p3Rm7szeqQ",
+    "created_at": "2026-03-02T17:58:31.000Z",
     "metrics": {
-      "like_count": 1,
+      "like_count": 3,
+      "retweet_count": 1,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2028482851981897730/img/pPVOb_s6EcOIjSdD.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2028482851981897730/img/pPVOb_s6EcOIjSdD.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028525797032730710",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@Lostlanding @guangzhijiuwo @XiaWan27472 @grok 79年邓小平访美，副总理职务享受国家元首待遇。\n\n美国还是比较实用主义的，不会那么拘泥于乱七八糟的礼节和惯例",
+    "created_at": "2026-03-02T17:40:12.000Z",
+    "metrics": {
+      "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 315,
-      "impression_count": 315
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -177,29 +116,212 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "dotey"
+          "username": "Lostlanding"
+        },
+        {
+          "username": "guangzhijiuwo"
+        },
+        {
+          "username": "XiaWan27472"
+        },
+        {
+          "username": "grok"
         }
       ]
     }
   },
   {
-    "id": "2020065507517595761",
+    "id": "2028525388054589542",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "这届开幕式应该是做得非常棒的，尤其是21与24的两次在许多环节上搞得大家莫名其妙之后，衬托出了这一届的优秀。\n\n不过我认为奥运开幕式的巅峰是08,12,14这三届（个人感觉）",
-    "created_at": "2026-02-07T09:22:02.000Z",
+    "text": "@grok @Lostlanding @XiaWan27472 你当时也参加了？知道的那么清楚🐶",
+    "created_at": "2026-03-02T17:38:35.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "grok"
+        },
+        {
+          "username": "Lostlanding"
+        },
+        {
+          "username": "XiaWan27472"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2028517820791972165",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh 如果一项工作的处理效率提高了很多之后，这项工作的重要性就会大大降低，然后称为被忽视的工作... \n\n因为在这件事情上花费时间能获得回报会大大降低\n\n这就很尴尬，许多事情大家都很擅长之后，就会触及这件事情真的毫无意义的本质。\n\n然后，社会规则会青睐一个需要更耗费精力的事情",
+    "created_at": "2026-03-02T17:08:31.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2028515712311128489",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "AI提高了效率之后，我们的生活会变得轻松吗，我们的头脑会变得聪明吗？\n\n---\n\n(如下内容来自AI）\n\n1. 效率的陷阱：被填满的真空\n\n以前，整理文件夹和处理海量文档是如此痛苦，以至于我们会主动“节制”，只处理真正重要的信息。\n\n帕金森定律的 AI 版： 既然 AI 能让处理效率提升 100 倍，那么原本不值得处理的“噪音文档”现在也变得“顺便处理一下吧”。\n\n繁琐的增殖： 当你处理繁琐事务的带宽增加时，外界（或你自己）会产生更高频的需求。最终，你并没有因为高效而获得闲暇，反而因为能承载更多而变得更忙。这就像高速公路越修越宽，堵车却依然存在，因为更多的车被吸引上路了。\n\n2. “摄取”不等于“内化”\n\n你感觉自己没有变得更聪明，这是一种极其清醒的直觉。\n\n认知的“代餐”： AI 摄取信息的过程是“数据压缩”。当你阅读 AI 的总结时，你跳过了最磨练智力的过程——在混乱中寻找秩序的挣扎。\n\n肌肉的萎缩： 聪明往往来自于对信息的“深度加工”而非“广度覆盖”。如果我们的角色退化成了“审查 AI 摘要的批阅者”，我们确实在变得博学（知道更多结论），但却在变得平庸（失去推导过程中的直觉和灵感）。\n\n3. 锤子与钉子的错位\n\n像 Claude Cowork 或 Manus 这种工具，确实是工业级的“重型锤子”。\n\n工具异化： 当我们沉迷于构建 _MANIFEST.md、调试 Global Instructions 时，我们有时会忘记：有些文档其实根本不需要整理，有些信息其实根本不需要摄取。\n\n过度工程化： 这种为了提升 100 倍效率而进行的“系统设计”，本身就成了另一种形式的“繁琐事务”。",
+    "created_at": "2026-03-02T17:00:08.000Z",
+    "metrics": {
+      "like_count": 4,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/oYoDPitPsg",
+          "indices": [
+            150,
+            173
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2028512917323411512"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028515083312312495",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "你这个Gemini坏得很，让我勇敢地关掉Claude... https://t.co/oYoDPitPsg https://t.co/zsV4JRNZXD",
+    "created_at": "2026-03-02T16:57:38.000Z",
     "metrics": {
       "like_count": 1,
       "retweet_count": 0,
-      "reply_count": 2,
-      "quote_count": 0,
-      "view_count": 239,
-      "impression_count": 239
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HCa7nlOaMAAqSa_.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/HCa7nlOaMAAqSa_.png"
+      }
+    ],
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/oYoDPitPsg",
+          "indices": [
+            30,
+            53
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2028512917323411512"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028514362185634228",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh 大概率并不会让人轻松...\n\n1930年，凯恩斯预测，2030年人类只需每周工作15个小时，但他显然低估了人类制造垃圾工作填充剩余时间的能力。😅",
+    "created_at": "2026-03-02T16:54:46.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2028513549912543647",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "到现在，我感觉大模型最重要的功能还是闲聊🤣",
+    "created_at": "2026-03-02T16:51:32.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -209,23 +331,317 @@
     }
   },
   {
-    "id": "2020064440138494036",
+    "id": "2028512917323411512",
     "author": {
       "id": "1725169104963657728",
       "username": "AztecaAlpaca",
       "name": "阿兹特克小羊驼",
       "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
+      "verified": false
     },
-    "text": "@XianyuLi @cnyzgkc 早晚都会被封的，索性活得痛快点！",
-    "created_at": "2026-02-07T09:17:48.000Z",
+    "text": "当有了锤子，人们是控制不住自己的，总会去找钉子。\n\n这种工具（cowork、manus等），可以帮我们更高效地处理繁琐事务，甚至可以将效率提高100倍。\n\n但当我们能够高效地处理繁琐事务之后，反倒有可能陷入更多繁琐的事务之中...似乎科技进步总是会带来这种问题。\n\n对cowork，我当然相信它的威力。我自己就经常使用cc整理文件夹，处理海量文档。\n\n但我认为我需要把效率提高100倍。我更没有感觉有了AI辅助摄取海量信息之后，自己能变得更聪明。",
+    "created_at": "2026-03-02T16:49:02.000Z",
+    "metrics": {
+      "like_count": 7,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/SX7Yvps7BH",
+          "indices": [
+            133,
+            156
+          ],
+          "display_url": "x.com/kevinma_dev_zh…",
+          "expanded_url": "https://x.com/kevinma_dev_zh/status/2028369395517726932"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028481860863672364",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "怪吓人的 https://t.co/ZMHkd1hmo3",
+    "created_at": "2026-03-02T14:45:37.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2028192979987419136/pu/img/pG1vZrStMOj3C94_.jpg",
+        "type": "video",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2028192979987419136/pu/img/pG1vZrStMOj3C94_.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028447218202734623",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@ykszs017 来GPT吧，能把你稳稳接住🤣",
+    "created_at": "2026-03-02T12:27:58.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "ykszs017"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2028415349553869009",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@kevinma_dev_zh 算是内容编辑的IDE吧。\n\n另外，clippings和git插件太好用了😂",
+    "created_at": "2026-03-02T10:21:20.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "kevinma_dev_zh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2028412989976834173",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "反正都是Donald https://t.co/lEJ8Hvbj3o",
+    "created_at": "2026-03-02T10:11:57.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HCZe3VQasAAWH9f.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/HCZe3VQasAAWH9f.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028402958111760840",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "每个领域都可以用AI重做一遍，包括战争🐶🐶🐶 https://t.co/UppKgLMM7k",
+    "created_at": "2026-03-02T09:32:05.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/UppKgLMM7k",
+          "indices": [
+            23,
+            46
+          ],
+          "display_url": "x.com/AztecaAlpaca/s…",
+          "expanded_url": "https://x.com/AztecaAlpaca/status/2028402798556303820"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028402798556303820",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "美国轰炸伊朗的事件表明，AI的最大用处还是来指导决策，而最后落地的则是传统的东西，比如导弹...",
+    "created_at": "2026-03-02T09:31:27.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028359337689924087",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "前几天靠一个有点键政的东西小火一把，被骂得狗血淋头，也没几个人取关我。\n\n这两天我老老实实做人，发点无关痛痒的感想，没有流量，粉丝数也在下降😅 https://t.co/kMvApm9K7O",
+    "created_at": "2026-03-02T06:38:45.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/kMvApm9K7O",
+          "indices": [
+            72,
+            95
+          ],
+          "display_url": "x.com/geniusvczh/sta…",
+          "expanded_url": "https://x.com/geniusvczh/status/2028354023536107588"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2028358616097734870",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@geniusvczh 当然，还是需要必备要素 https://t.co/A2Ar1wmttb",
+    "created_at": "2026-03-02T06:35:53.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HCYtYBMaQAA4zZc.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/HCYtYBMaQAA4zZc.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "geniusvczh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2028358444936577026",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@geniusvczh 好像之前有位老师在pornhub上讲高数，小火一把...",
+    "created_at": "2026-03-02T06:35:13.000Z",
     "metrics": {
       "like_count": 2,
       "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 12,
-      "impression_count": 12
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
     },
     "media": null,
     "entities": {
@@ -233,373 +649,7 @@
       "hashtags": [],
       "mentions": [
         {
-          "username": "XianyuLi"
-        },
-        {
-          "username": "cnyzgkc"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020062419066966230",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@zhongying14 嗯嗯。\n\n其实那些巨无霸软件中的绝大多数功能都不是必需的，我们需要的只是其中的一小部分，这部分在AI时代很可能会有小软件来实现，甚至可能会被AI在一次对话中就实现了...",
-    "created_at": "2026-02-07T09:09:46.000Z",
-    "metrics": {
-      "like_count": 2,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 336,
-      "impression_count": 336
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhongying14"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020058684680991215",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@david0520782123 应该会有。现在很多人感觉token很像之前的手机流量。\n\n流量以前贵得一批，只能做一些类似于之前在实际上“看报纸”之类的活...后来便宜了，可以刷短视频。\n\n现在我们还主要是更快地去了一些AI时代之前就有的事情。等到token进入“4G”时代，可能就可以玩出许多新花样类，到时AI时代字节平台就呼之欲出了",
-    "created_at": "2026-02-07T08:54:55.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 1,
-      "view_count": 376,
-      "impression_count": 376
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "david0520782123"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020055356337246233",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@valarzai 只是不知道市场会是什么样子。\n\n现在处于一个礼崩乐坏的局面中，都可以预期未来什么挣不到钱，但却很难去判断“什么东西在未来能挣到钱”",
-    "created_at": "2026-02-07T08:41:42.000Z",
-    "metrics": {
-      "like_count": 5,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 906,
-      "impression_count": 906
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "valarzai"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020054110108807280",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@UncleJAI 也不一定是被独立开发者给做掉。很多功能，可能普通人直接就拿AI来实现了，他们只需要有个结果，东西用完了就可以扔了，中间的过程甚至不需要形成产品😅",
-    "created_at": "2026-02-07T08:36:45.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 579,
-      "impression_count": 579
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "UncleJAI"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020049429752082566",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XiaoKooeye 有可能吧，现在已经进入了一个发布之后就不再维护的时代了，和传媒的那种管拉不管擦的局面差不多了",
-    "created_at": "2026-02-07T08:18:09.000Z",
-    "metrics": {
-      "like_count": 10,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 1520,
-      "impression_count": 1520
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XiaoKooeye"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020042732782399939",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@nodibase 护城河还是来自于复杂性吧，但是会被不断侵蚀。\n\n大多数复杂的软件只是一大堆简单功能打包之后捆绑销售的，真正复杂的部分并不多，这一类会受到严重冲击。",
-    "created_at": "2026-02-07T07:51:32.000Z",
-    "metrics": {
-      "like_count": 3,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 858,
-      "impression_count": 858
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "nodibase"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020037810867302454",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@zhizuchangle_us 应该说是软件“家道中落，民然众人”",
-    "created_at": "2026-02-07T07:31:59.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 485,
-      "impression_count": 485
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "zhizuchangle_us"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020035834590953479",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XianyuLi 哈哈，估计用不了很久就有许多竞品",
-    "created_at": "2026-02-07T07:24:08.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 79,
-      "impression_count": 79
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XianyuLi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020034864695943591",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XianyuLi 信你个鬼",
-    "created_at": "2026-02-07T07:20:16.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 1,
-      "quote_count": 0,
-      "view_count": 685,
-      "impression_count": 685
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XianyuLi"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020031617302134937",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@nyx_zheng @dotey 软件的盈利模式要被革命了，但是人们对软件与代码的需求是大规模提高的",
-    "created_at": "2026-02-07T07:07:22.000Z",
-    "metrics": {
-      "like_count": 4,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 1007,
-      "impression_count": 1007
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "nyx_zheng"
-        },
-        {
-          "username": "dotey"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020029561208205705",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@XUJWilliam 哈哈，已经没有那种兴奋感了",
-    "created_at": "2026-02-07T06:59:12.000Z",
-    "metrics": {
-      "like_count": 1,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 64,
-      "impression_count": 64
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "XUJWilliam"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2020020434159431710",
-    "author": {
-      "id": "1725169104963657728",
-      "username": "AztecaAlpaca",
-      "name": "阿兹特克小羊驼",
-      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
-      "verified": true
-    },
-    "text": "@oxcode_ 哈哈，主要是来测试一下模型从视觉到代码的能力，目前感觉还有距离。\n\n我使用GPT与Gemini得到的其实我还能接受，就是那个opus，把我笑崩😂",
-    "created_at": "2026-02-07T06:22:56.000Z",
-    "metrics": {
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "quote_count": 0,
-      "view_count": 146,
-      "impression_count": 146
-    },
-    "media": null,
-    "entities": {
-      "urls": [],
-      "hashtags": [],
-      "mentions": [
-        {
-          "username": "oxcode_"
+          "username": "geniusvczh"
         }
       ]
     }

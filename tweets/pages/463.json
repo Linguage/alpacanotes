@@ -1,0 +1,680 @@
+[
+  {
+    "id": "1935674064254996834",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "RT @karpathy: Nice - my AI startup school talk is now up! Chapters:\n\n0:00 Imo fair to say that software is changing quite fundamentally aga…",
+    "created_at": "2025-06-19T12:20:34.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "karpathy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935605726904553982",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@puppercore a cute fr(d)og mouse https://t.co/wRdvzoKzbU",
+    "created_at": "2025-06-19T07:49:01.000Z",
+    "metrics": {
+      "like_count": 7,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GtynJOhWoAEGQP7.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtynJOhWoAEGQP7.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "puppercore"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935562085548831084",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@BadUncleX 谷歌编程工具报菜名那一段真是绷不住",
+    "created_at": "2025-06-19T04:55:36.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "BadUncleX"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935560866306601358",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@BadUncleX 喜欢看他们卷起来，这是我目前最大的快乐来源",
+    "created_at": "2025-06-19T04:50:46.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "BadUncleX"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935551382075134350",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@LinearUncle @dotey 看热度能持续多久了。如果能一直持续下去，也算是程序员的知音。\n\n大概率会拉完几坨之后满意地离开，并给下面的人说你们能做的我也能做...",
+    "created_at": "2025-06-19T04:13:04.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "LinearUncle"
+        },
+        {
+          "username": "dotey"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935550602551115932",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@dotey @ch1lam_ 至少给了个原型，而不仅仅是给出一堆形而上的需求描述。\n\n就怕老板还把自己生成的这堆屎山当成宝，要求不能大面积修改。",
+    "created_at": "2025-06-19T04:09:59.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "dotey"
+        },
+        {
+          "username": "ch1lam_"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935546433454948619",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "该系列推文总结了Andrej Karpathy关于软件范式转变的观点。他认为当前处于软件3.0时代，但大模型就像1960s的大型机一样尚不够易用。他认为当前的最佳实践是人机协同，而为人机协同打造基础设施则是当前的软件行业发展的重点。",
+    "created_at": "2025-06-19T03:53:25.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 480,
+      "impression_count": 480
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542228585431198",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "Google Canvas 笔记页面：https://t.co/KcAcmjmEZ8",
+    "created_at": "2025-06-19T03:36:42.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "view_count": 32,
+      "impression_count": 32
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/KcAcmjmEZ8",
+          "indices": [
+            19,
+            42
+          ],
+          "display_url": "gemini.google.com/share/858e6697…",
+          "expanded_url": "https://gemini.google.com/share/858e6697164c"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542226232422907",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "其它参考资料：\nhttps://t.co/izLcNBocJf",
+    "created_at": "2025-06-19T03:36:42.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 38,
+      "impression_count": 38
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/izLcNBocJf",
+          "indices": [
+            8,
+            31
+          ],
+          "display_url": "app.circleback.ai/view/mc2qsiqi8…",
+          "expanded_url": "https://app.circleback.ai/view/mc2qsiqi8w2v7cng2e6?tab=notes"
+        }
+      ],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542223321579529",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "8/8 Karpathy 展望未来：AI agent 会成为新型数字信息消费者，企业要为它们准备专属文档和 API。AI 让人人都能用自然语言“编程”，但部署和基础设施仍是挑战。#AI #未来软件 https://t.co/HZ9eUWEGFu",
+    "created_at": "2025-06-19T03:36:41.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 39,
+      "impression_count": 39
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GtxrSDvXcAA_VUN.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtxrSDvXcAA_VUN.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI",
+        "未来软件"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542219391516746",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "7/8 最优的人机协作是“AI 生成-人类验证”模式。通过可视化界面加快验证，避免 AI 输出过多导致难以审核。任务要拆分为小块，保持聚焦，防止“AI 迷路”。",
+    "created_at": "2025-06-19T03:36:40.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 32,
+      "impression_count": 32
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542215784415246",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "6/8 他主张“部分自治”是最佳实践：如 Cursor、Perplexity 等产品，将 LLM 融入传统界面，配合自定义 GUI 和“自治滑块”，让用户决定 AI 的自主程度。#AI #人机协作 https://t.co/LY6oTpezKy",
+    "created_at": "2025-06-19T03:36:39.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 48,
+      "impression_count": 48
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtxqz-GboAAwOJr.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtxqz-GboAAwOJr.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtxq4hYW0AADIh6.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtxq4hYW0AADIh6.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gtxq9OCXcAEBoyl.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtxq9OCXcAEBoyl.png"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GtxrCpiWUAAVLtb.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtxrCpiWUAAVLtb.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI",
+        "人机协作"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542211397173704",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "5/8 Karpathy 认为 LLM 是“人类精神的随机模拟”，拥有超强知识与记忆力，但也有幻觉、缺乏自知之明、智能分布不均等明显缺陷。用好它们，要懂得扬长避短。#AI #认知 https://t.co/R6pnRTNFfI",
+    "created_at": "2025-06-19T03:36:38.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 35,
+      "impression_count": 35
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GtxqbJBW8AEWUE8.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtxqbJBW8AEWUE8.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GtxqgRjaQAQR6zf.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtxqgRjaQAQR6zf.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI",
+        "认知"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542207576240448",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "4/8 现阶段 LLM 计算像 1960 年代的大型机：计算集中、成本高、用户远程访问。个人本地 LLM 还没普及，但趋势已现。技术扩散也首次由消费者端率先推动，企业和政府反而落后。#AI",
+    "created_at": "2025-06-19T03:36:37.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 41,
+      "impression_count": 41
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542203537117373",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "3/8 Karpathy 把大模型（LLM）比作“操作系统”：有闭源阵营（像 Windows/macOS），也有开源生态（LLAMA 类似 Linux）。未来，LLM 就是新一代计算平台。#AI #操作系统 https://t.co/vtpRJCyzVc",
+    "created_at": "2025-06-19T03:36:36.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 35,
+      "impression_count": 35
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GtxqCcLWAAAVdmG.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/GtxqCcLWAAAVdmG.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI",
+        "操作系统"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542197287534627",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "2/8 Software 1.0 是人类写代码，2.0 是通过数据训练神经网络，3.0 则是用自然语言 prompt 直接“编程”大模型。GitHub 上已经充满了英文与代码混合的内容，这就是新范式的到来。#AI #LLM https://t.co/V9DqCNwu5j",
+    "created_at": "2025-06-19T03:36:35.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 54,
+      "impression_count": 54
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtxp4yoWsAABXyC.jpg",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtxp4yoWsAABXyC.jpg"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI",
+        "LLM"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935542192636051597",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "@karpathy  提供的官方资料\n\nhttps://t.co/wmuOIRJxIV",
+    "created_at": "2025-06-19T03:36:34.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "view_count": 40,
+      "impression_count": 40
+    },
+    "media": null,
+    "entities": {
+      "urls": [
+        {
+          "url": "https://t.co/wmuOIRJxIV",
+          "indices": [
+            20,
+            43
+          ],
+          "display_url": "x.com/karpathy/statu…",
+          "expanded_url": "https://x.com/karpathy/status/1935518272667217925"
+        }
+      ],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "karpathy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935542189276450830",
+    "author": {
+      "id": "1495931005857046528",
+      "username": "Linguista2025",
+      "name": "Linguista",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1908813846141190144/PeyzcyMF_400x400.jpg",
+      "verified": false
+    },
+    "text": "1/8 Andrej Karpathy 在 YC AI Startup School 的演讲提出了软件发展的三大范式：Software 1.0（传统代码）、2.0（神经网络权重）、3.0（用英文 prompt 控制大模型）。每一次范式转变都在重塑软件世界。#AI #软件进化 #LLM https://t.co/47VctJl04I",
+    "created_at": "2025-06-19T03:36:33.000Z",
+    "metrics": {
+      "like_count": 2,
+      "retweet_count": 1,
+      "reply_count": 1,
+      "quote_count": 1,
+      "view_count": 608,
+      "impression_count": 608
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/Gtxr1rEWQAAzHNL.png",
+        "type": "photo",
+        "preview_image_url": "https://pbs.twimg.com/media/Gtxr1rEWQAAzHNL.png"
+      }
+    ],
+    "entities": {
+      "urls": [],
+      "hashtags": [
+        "AI",
+        "软件进化",
+        "LLM"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1935514536423129201",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@BadUncleX 这半年过得像半个世纪",
+    "created_at": "2025-06-19T01:46:40.000Z",
+    "metrics": {
+      "like_count": 1,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "BadUncleX"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1935512588714131946",
+    "author": {
+      "id": "1725169104963657728",
+      "username": "AztecaAlpaca",
+      "name": "阿兹特克小羊驼",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2019350943930937348/0z3zAknf_400x400.jpg",
+      "verified": false
+    },
+    "text": "@netfalcon_yx @imwsl90 35岁已经挂了，那是真没戏了",
+    "created_at": "2025-06-19T01:38:55.000Z",
+    "metrics": {
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": null,
+      "quote_count": null,
+      "view_count": null,
+      "impression_count": null
+    },
+    "media": null,
+    "entities": {
+      "urls": [],
+      "hashtags": [],
+      "mentions": [
+        {
+          "username": "netfalcon_yx"
+        },
+        {
+          "username": "imwsl90"
+        }
+      ]
+    }
+  }
+]
