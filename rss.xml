@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Mar 2026 05:04:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Mar 2026 05:12:18 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 09 Mar 2026 05:04:34 GMT</pubDate>
+        <pubDate>Mon, 09 Mar 2026 05:12:18 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -33,7 +33,7 @@
 &lt;p&gt;最后抽出来的共享层不大，也就四个方向的基础能力。但这四个方向是两条线每次修改都会触碰的地方。把它们合到一处之后，&quot;改了这边忘了那边&quot;的问题至少在这个范围内消失了。&lt;/p&gt;
 &lt;h2 id=&quot;数据的归属感比代码更容易搞混&quot;&gt;数据的归属感比代码更容易搞混&lt;/h2&gt;
 &lt;p&gt;代码谁写的、归谁管，通常还比较明确。但数据往往不是。&lt;/p&gt;
-&lt;p&gt;项目里有一批轮轨几何数据，原来放在实验线的目录下面，看起来像是实验线的私有资产。但仔细一看，主线其实也需要这批数据，只是一直在用另一份格式不太一样的副本。&lt;/p&gt;
+&lt;p&gt;项目里有一批数据，原来放在实验线的目录下面，看起来像是实验线的私有资产。但仔细一看，主线其实也需要这批数据，只是一直在用另一份格式不太一样的副本。&lt;/p&gt;
 &lt;p&gt;这种情况在研究型项目里特别常见：一份数据最初是为某个具体实验准备的，放在那个实验的目录里顺理成章。但后来这份数据变成了所有人都需要的公共输入，位置却没有跟着调整。结果就是要么到处复制，要么靠路径硬编码指向一个&quot;不该属于你&quot;的目录。&lt;/p&gt;
 &lt;p&gt;这次处理的方式是：把原始数据提到一个明确属于整个工作区的位置，然后写一个统一的前处理步骤把它转成标准格式，各自的实现线只使用自己目录下的标准化结果。这样，数据只有一份源头，但每条线都有自己干净的消费入口。&lt;/p&gt;
 &lt;h2 id=&quot;测试和算例的区别比想象中重要&quot;&gt;测试和算例的区别，比想象中重要&lt;/h2&gt;
