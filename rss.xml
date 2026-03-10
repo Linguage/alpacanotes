@@ -4,13 +4,13 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Mar 2026 09:46:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Mar 2026 10:10:51 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Mar 2026 09:46:46 GMT</pubDate>
+        <pubDate>Tue, 10 Mar 2026 10:10:51 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
-            <title><![CDATA[当项目结构清楚之后，下一个问题是「谁按什么规则来干活」]]></title>
+            <title><![CDATA[为 AI 协作建立项目规则的实践]]></title>
             <description><![CDATA[项目目录整理完毕后，如何通过 AGENTS.md 和 skill 机制为 AI agent 建立分层的协作规则和可复用的代码审查流程，从临时交代走向仓库内显式约定。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/building-ai-collaboration-rules</link>
             <guid isPermaLink="false">article:building-ai-collaboration-rules</guid>
@@ -58,7 +58,7 @@
 &lt;p&gt;当然，写下来只是起步。这些 &lt;code&gt;AGENTS.md&lt;/code&gt; 和 skill 到底好不好用、哪些过于繁琐需要简化、哪些还缺失需要补充——只有在实际使用中才能回答。就像前几轮整理得出的结论一样：不用追求一步到位，只需要保证这一轮比上一轮更清楚，就够了。&lt;/p&gt;</content:encoded>
         </item>
         <item>
-            <title><![CDATA[把一个「能跑」的项目，整理成一个「能活下去」的项目]]></title>
+            <title><![CDATA[两轮项目结构整理的踩坑与反思]]></title>
             <description><![CDATA[从一个长期试验式推进的研究项目出发，记录两轮结构整理中关于重复代码、数据归属、测试分类、文档分层、渐进式收口等方面的踩坑经历与普适性反思。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/reflections-on-reorganization</link>
             <guid isPermaLink="false">article:reflections-on-reorganization</guid>
@@ -119,7 +119,7 @@
 &lt;p&gt;定期花时间把结构理一理、把边界画清楚、把过时的东西归档或删掉、把当前的状态写下来——这些事不紧急，但它们决定了一个项目到底是&quot;能跑一阵子&quot;，还是&quot;能一直跑下去&quot;。&lt;/p&gt;</content:encoded>
         </item>
         <item>
-            <title><![CDATA[一次「屎山」项目整理的过程复盘与经验总结]]></title>
+            <title><![CDATA[一次失控项目的目录整理复盘]]></title>
             <description><![CDATA[记录一次对长期探索式开发项目的目录整理过程，分享从识别边界、分层归档到善用AI工具的实践经验，探讨项目整理的原则与时机。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/project-reorg-experience</link>
             <guid isPermaLink="false">article:project-reorg-experience</guid>
