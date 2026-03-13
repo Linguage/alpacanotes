@@ -4,11 +4,44 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Mar 2026 22:34:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 05:09:41 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 12 Mar 2026 22:34:37 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 05:09:41 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[腾讯SkillsHub:开源蛋糕里的蟑螂]]></title>
+            <description><![CDATA[从腾讯SkillHub事件探讨开源生态中的搭便车现象，分析开源行为的经济动机和制度困境，以及开发者如何应对大厂的合法但无耻的行为。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/open-source-cockroach-economics</link>
+            <guid isPermaLink="false">article:open-source-cockroach-economics</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;腾讯搞了个 SkillHub，号称&quot;专为中国用户优化的 AI Skills 社区&quot;。我没有打开这东西，但据说有一万三千多个 skill，绝大多数是从 ClawHub 直接搬过来的。套一层中文搜索，挂一个国内 CDN，再把自家的腾讯文档、QQ 浏览器、腾讯地图塞进去凑数，通稿一发——&quot;生态建设&quot;。&lt;/p&gt;
+&lt;p&gt;我有时候其实挺抵触开源的。不是抵触开源本身，而是抵触它对流氓太友好。再好的一盘蛋糕，都不够几个蟑螂造的。&lt;/p&gt;
+&lt;p&gt;这事严格来说不算抄袭。协议合规，署名保留，代码没改，法律上挑不出毛病。但恶心就恶心在这儿——它一个大厂，不认真地自己去经营自己生态，而是利用躲在灰色地带地把别人的劳动成果变成了自己商业版图的一块砖，还要美其名曰”造福大家“。一家市值几万亿的公司，AI 战略的核心动作是&quot;镜像别人的生态&quot;，真的让人很不适。&lt;/p&gt;
+&lt;h2 id=&quot;开源的经济逻辑&quot;&gt;开源的经济逻辑&lt;/h2&gt;
+&lt;p&gt;我经常会思考一个问题：开源的意义到底在哪？&lt;/p&gt;
+&lt;p&gt;许多人会说他们做开源是“用爱发电”。但是这明显现实。热情往往是短暂的，只有物质意义上的回报才能让事情变得长久。开源社区对计算机行业来说是个古老的存在，绝不可能仅仅是单纯为了情怀的利他主义。&lt;/p&gt;
+&lt;p&gt;这个问题得从经济学上去想。我了解了一下，大概有几种非常“物质”的自利机制促使越来越多的人加入到开源中来。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;信号理论：能力展示的成本&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spence 的信号理论解释得最好：开源贡献是一种 costly signal，你把代码公开展示，本质上是在劳动力市场上发出一个难以伪造的能力证明。代码质量、架构设计、问题解决能力——这些都是无法伪装的硬实力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人力资本理论：可携带的投资&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Becker 的人力资本理论也讲得通——你在公司里写的代码是 firm-specific 的，离职就归零；开源项目是 general human capital，可以随身携带。同样的时间投入，开源的长期 ROI 可能更高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;礼物经济：声望的记账系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;还有一层是礼物经济。开源社区的声望体系——star 数、contributor 排名、maintainer 身份——本质上是一套礼物经济的记账系统。你&quot;赠予&quot;代码，社区&quot;回馈&quot;地位。这个循环之所以能运转，前提是参与者共享同一套互惠规范。&lt;/p&gt;
+&lt;h2 id=&quot;大厂的理性与无耻&quot;&gt;大厂的理性与无耻&lt;/h2&gt;
+&lt;p&gt;问题在于，大厂不在这个规范体系里。它们是纯粹的理性经济人，只取不予。甚至不认为自己&quot;收了礼物&quot;，因为请帖上确实写着&quot;无需回礼&quot;。&lt;/p&gt;
+&lt;p&gt;好消息是，上面这些自利性的激励——信号价值、人力资本、社会资本——搭便车者拿不走。腾讯可以搬走你的 skill，但搬不走你的 GitHub profile。所以开源不会因为白嫖者的存在而崩溃，真正受损的是&quot;开源应该是互惠的&quot;这个信念。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;署名权的底线&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但有一条底线是硬的：署名权。开源协议——不管是 MIT 还是 Apache——管的是代码的使用和分发，要求保留版权声明。但署名权本身不由开源协议管辖，而是受著作权法保护。在大多数法域里，署名权是人身权利，不可转让、不可放弃。换句话说，你可以白嫖我的代码，但不能把我的名字抹掉。&lt;/p&gt;
+&lt;p&gt;当然，大厂不会蠢到明目张胆地删署名。它的做法更精明：LICENSE 文件原封不动地保留在代码仓库的某个角落里，但产品界面上用户看到的是&quot;腾讯 SkillHub 精选&quot;。你作为作者，技术上&quot;被署名了&quot;，实际上&quot;被隐身了&quot;。形式合规，实质隐匿。想告都找不到诉由。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;微妙的均衡&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但它也不敢大规模乱搞。万一哪天真搞出了集体诉讼，几千个开发者联名告腾讯侵犯署名权——法律后果另说，光是公关层面就是核弹级的。南山必胜客的战绩再辉煌，也扛不住这种舆论。&lt;/p&gt;
+&lt;p&gt;所以现状就是一个微妙的均衡：大厂精确地踩在&quot;合法但无耻&quot;的线上，开发者心里恶心但没有足够的动力去打破它。开源继续运转，白嫖继续发生，蛋糕继续被蟑螂爬。&lt;/p&gt;
+&lt;h2 id=&quot;最终还是要看实力但腾讯已经要out了&quot;&gt;最终还是要看实力，但腾讯已经要out了&lt;/h2&gt;
+&lt;p&gt;至于腾讯本身，除了微信之外，我已经想不出有什么非用不可的理由了。在 AI 这波浪潮里，混元没声量，元宝没人用，SkillHub 是搬运工，然后像更年期一样躁动地炒作“小龙虾养殖”。一家曾经在移动互联网时代无处不在的公司，现在最大的 AI 动作是给别人的开源生态做中文镜像和搞“社区送鸡蛋营销”——总感觉仿佛回到了某个古老的过去。&lt;/p&gt;
+&lt;p&gt;这就比较尴尬了，因为在一个已经大幕开启的新时代，它虽然是过去的王者，但你不用它的东西，似乎也什么都不缺。&lt;/p&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[为 AI 协作建立项目规则的实践]]></title>
             <description><![CDATA[项目目录整理完毕后，如何通过 AGENTS.md 和 skill 机制为 AI agent 建立分层的协作规则和可复用的代码审查流程，从临时交代走向仓库内显式约定。]]></description>
