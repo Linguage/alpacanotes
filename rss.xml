@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Mar 2026 10:47:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 15:51:05 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Mar 2026 10:47:34 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 15:51:05 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -42,6 +42,36 @@
 &lt;h2 id=&quot;最终还是要看实力但腾讯已经要out了&quot;&gt;最终还是要看实力，但腾讯已经要out了&lt;/h2&gt;
 &lt;p&gt;至于腾讯本身，除了微信之外，我已经想不出有什么非用不可的理由了。在 AI 这波浪潮里，混元没声量，元宝没人用，SkillHub 是搬运工，然后像更年期一样躁动地炒作“小龙虾养殖”。一家曾经在移动互联网时代无处不在的公司，现在最大的 AI 动作是给别人的开源生态做中文镜像和搞“社区送鸡蛋营销”——总感觉仿佛回到了某个古老的过去。&lt;/p&gt;
 &lt;p&gt;这就比较尴尬了，因为在一个已经大幕开启的新时代，它虽然是过去的王者，但你不用它的东西，似乎也什么都不缺。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[工具上瘾与专注的稀缺]]></title>
+            <description><![CDATA[反思自己对工具折腾的执念——从即时反馈的快感到逃避真正困难之事的拖延，以及在没有明确目标时，任何工具都只是拖延的载体。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/tool-addiction-and-focus</link>
+            <guid isPermaLink="false">article:tool-addiction-and-focus</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;h2 id=&quot;磨牙&quot;&gt;磨牙&lt;/h2&gt;
+&lt;p&gt;我对倒腾工具这件事有一种近乎本能的执念——IDE、Vim、Obsidian、Rime 输入法，什么都想配一遍。这种冲动不像是兴趣爱好，更像是有些人夜里磨牙：你不是在享受它，而是在释放某种说不清的压力。&lt;/p&gt;
+&lt;p&gt;仔细想想，这种行为至少有三层吸引力。&lt;/p&gt;
+&lt;p&gt;第一层是即时反馈的快感。改一个配置，效果立刻可见——主题变了、快捷键顺手了、补全更聪明了。这种&quot;小修小补、即时回报&quot;的循环，跟刷短视频的多巴胺机制是同构的，只是披着一层&quot;我在提升生产力&quot;的合理化外衣。&lt;/p&gt;
+&lt;p&gt;第二层是掌控感。日常面对的事情充满不确定性——模型收不收敛、结果有没有意义、论文能不能写完。但 &lt;code&gt;.vimrc&lt;/code&gt; 是完全可控的，Rime 的方案文件改一行就生效一行。倒腾工具提供了一种&quot;我在掌控一切&quot;的心理补偿。&lt;/p&gt;
+&lt;p&gt;第三层大概最核心：逃避真正困难的事。当你沉迷于 Obsidian 的插件体系时，你其实是在回避打开那个还没写完的章节。工具折腾是一种高伪装度的拖延。&lt;/p&gt;
+&lt;h2 id=&quot;一个不断迁移的人&quot;&gt;一个不断迁移的人&lt;/h2&gt;
+&lt;p&gt;回顾过去几年，我在写作工具上的轨迹是这样的：&lt;/p&gt;
+&lt;p&gt;VS Code 时期，Markdown 插件试了五六款，到后来自己都分不清哪款是什么样。然后转向 Emacs，体验了 org mode，坚持了几个月，最终也放弃了。期间在 VS Code、PyCharm、Emacs 里都装过 Vim 键位插件，无一例外半途而废。&lt;/p&gt;
+&lt;p&gt;现在又到了 Vim。&lt;/p&gt;
+&lt;p&gt;每一次切换都有自己的合理理由。用 Emacs 的时候觉得笔记软件已经足够丰富，没必要在编辑器里重造轮子；用 Vim 键位插件的时候总有退路，不开心了直接关掉，恢复原来的操作方式。但把这些片段串起来看，工具本身从来不是瓶颈。真正的模式是：在不确定该往哪走的时候，用工具迁移来填充空白。&lt;/p&gt;
+&lt;p&gt;我曾经在笔记里写过一句话：&quot;我已经失去了捣鼓这些工具的欲望。&quot;但后来我又开始折腾 Vim。这说明那个欲望并没有消失，只是换了个对象。&lt;/p&gt;
+&lt;h2 id=&quot;vim又一个新的开始&quot;&gt;Vim：又一个新的开始？&lt;/h2&gt;
+&lt;p&gt;目前我在用 Vim 写 Markdown。体验不敢说特别好，但也还行。&lt;/p&gt;
+&lt;p&gt;上手的挑战在于被一套全新的规矩框住，而且这套规矩极硬，根本不容商量。就像来到一个非常陌生的地方，除了肢体语言几乎没有其他方式与人交流。之前在各种编辑器里用 Vim 模拟插件，总有退路。而这一次，我选择直接进入原生 Vim。&lt;/p&gt;
+&lt;p&gt;我也试过 NeoVim，套用了 LazyVim 的配置，内容过于丰富，反倒无所适从。计划是先用原生 Vim 打基础，把基本操作内化，之后再逐渐切换。&lt;/p&gt;
+&lt;p&gt;坦率讲，我写那篇 Vim 笔记的目的不是为了产出什么有价值的内容，而是为了在练习中勾勒自己的心路历程。但正是这种&quot;不为了什么&quot;的写作，无意间把自己的状态暴露得最清晰。&lt;/p&gt;
+&lt;h2 id=&quot;真正的问题&quot;&gt;真正的问题&lt;/h2&gt;
+&lt;p&gt;我翻看之前的记录，发现里面写道：&quot;我现在处于一个特殊的节点，因为我不知道自己需要做什么。我对未来缺乏规划，所以难免陷入东一榔头西一棒子的状态。&quot;&lt;/p&gt;
+&lt;p&gt;这句话和&quot;倒腾工具像磨牙&quot;是同一件事的两面。没有明确的目标在牵引，精力就自然流向阻力最小的方向：配置工具。不是工具不好，而是在没有目标的情况下，任何工具都只是拖延的载体。&lt;/p&gt;
+&lt;p&gt;虽然并不是很看得上那些把一个工具使用一万年的人，但不得不承认，当下真正稀缺的不是工具的丰富度，而是专注本身。试来试去，反倒把专注试没了。&lt;/p&gt;
+&lt;p&gt;所以真正值得问的问题可能不是&quot;该用什么工具&quot;，而是&quot;我接下来到底要做什么&quot;。工具的选择在目标确定之后会变得非常简单。重造轮子需要耗费心血，但比重造轮子更浪费的，是连自己要造什么都还没想清楚。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[为 AI 协作建立项目规则的实践]]></title>
