@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Mar 2026 05:09:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 05:28:05 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Mar 2026 05:09:41 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 05:28:05 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -16,7 +16,8 @@
             <guid isPermaLink="false">article:open-source-cockroach-economics</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-            <content:encoded>&lt;p&gt;腾讯搞了个 SkillHub，号称&quot;专为中国用户优化的 AI Skills 社区&quot;。我没有打开这东西，但据说有一万三千多个 skill，绝大多数是从 ClawHub 直接搬过来的。套一层中文搜索，挂一个国内 CDN，再把自家的腾讯文档、QQ 浏览器、腾讯地图塞进去凑数，通稿一发——&quot;生态建设&quot;。&lt;/p&gt;
+            <content:encoded>&lt;p&gt;腾讯搞了个 SkillHub，号称&quot;专为中国用户优化的 AI Skills 社区&quot;。我没有打开这东西,不想浪费时间，也不想动情绪，但据说有一万三千多个 skill，绝大多数是从 ClawHub 直接搬过来的。&lt;/p&gt;
+&lt;p&gt;他们大概率会如过去经常做的那样，一通经典的“混元形意...组合拳”：套一层中文搜索，挂一个国内 CDN，再把自家的腾讯文档、QQ 浏览器、腾讯地图塞进去凑数，通稿一发——&quot;生态建设&quot;。&lt;/p&gt;
 &lt;p&gt;我有时候其实挺抵触开源的。不是抵触开源本身，而是抵触它对流氓太友好。再好的一盘蛋糕，都不够几个蟑螂造的。&lt;/p&gt;
 &lt;p&gt;这事严格来说不算抄袭。协议合规，署名保留，代码没改，法律上挑不出毛病。但恶心就恶心在这儿——它一个大厂，不认真地自己去经营自己生态，而是利用躲在灰色地带地把别人的劳动成果变成了自己商业版图的一块砖，还要美其名曰”造福大家“。一家市值几万亿的公司，AI 战略的核心动作是&quot;镜像别人的生态&quot;，真的让人很不适。&lt;/p&gt;
 &lt;h2 id=&quot;开源的经济逻辑&quot;&gt;开源的经济逻辑&lt;/h2&gt;
