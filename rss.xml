@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 05:15:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 05:20:59 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 05:15:18 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 05:20:59 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -48,6 +48,16 @@
             <content:encoded>&lt;p&gt;这是一篇第二轮测试文章。&lt;/p&gt;
 &lt;p&gt;正文只保留最少内容，用来排除复杂正文结构对 Telegram 抓取和 Instant View 渲染的影响。&lt;/p&gt;
 &lt;p&gt;如果你看到这句话，说明页面正文已经正常输出。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Telegram IV 测试文章 C]]></title>
+            <description><![CDATA[第三轮 Telegram Instant View 测试页面，使用新的 slug 与最小正文，继续验证部署时序和链接预览行为。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-iv-test-2026-03-14-c</link>
+            <guid isPermaLink="false">article:telegram-iv-test-2026-03-14-c</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;这是一篇第三轮测试文章。&lt;/p&gt;
+&lt;p&gt;它只保留标题、摘要和一小段正文，用于继续验证 Telegram 中的链接卡片与 Instant View 解析是否稳定。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[Telegram IV 测试文章]]></title>
