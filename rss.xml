@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 11:19:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 11:37:07 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 11:19:11 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 11:37:07 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -56,8 +56,8 @@
 &lt;p&gt;折腾了一整天改规则、改消息写法、修部署脚本，每一步都有收获，但都不是那个让 IV &quot;时灵时不灵&quot;的主因。最后的答案是：&lt;strong&gt;你发得太早了，页面还没准备好。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;还有一点没法控制&quot;&gt;还有一点没法控制&lt;/h2&gt;
 &lt;p&gt;还有一个残留现象：同一条 IV 链接反复打开，偶尔会白屏。第一次打开通常没问题，再点一次就可能只剩标题栏。&lt;/p&gt;
-&lt;p&gt;但这个反而好判断——既然第一次能打开，说明规则是对的、页面也是完整的。反复打开出问题，更像是 Telegram 客户端自己的缓存或渲染机制在作怪。这部分不在我能控制的范围内了。&lt;/p&gt;
-&lt;p&gt;接受它，继续过日子。&lt;/p&gt;
+&lt;p&gt;后来搞清楚了：这是 Telegram Web K 版（&lt;code&gt;web.telegram.org/k&lt;/code&gt;）的客户端 bug。Web K 在关闭 IV 视图后没有正确清理内部状态，再次打开同一篇文章时，渲染管线的状态已经脏了，就白屏了。移动端完全不受影响——原生客户端的 IV 渲染引擎和 Web 版是两套完全不同的实现。至于 Web A 版（&lt;code&gt;web.telegram.org/a&lt;/code&gt;），它压根不支持 IV，连按钮都不会出现。&lt;/p&gt;
+&lt;p&gt;所以 IV 在 Telegram Web 端就是二等公民。移动端能正常用就行，桌面端的读者走 &lt;code&gt;Read More&lt;/code&gt; 链接直接看原文也不差。&lt;/p&gt;
 &lt;h2 id=&quot;延伸阅读&quot;&gt;延伸阅读&lt;/h2&gt;
 &lt;p&gt;如果你也想给自己的静态站点配 Telegram Instant View，可以看看 &lt;a href=&quot;https://linguista.cn/labs/workshop/telegram-instant-view-settings/&quot;&gt;《为静态站点配置 Telegram Instant View：从页面标记到部署等待》&lt;/a&gt;，那篇按正确顺序整理了完整的操作步骤，不用像我一样绕弯子。&lt;/p&gt;</content:encoded>
         </item>
