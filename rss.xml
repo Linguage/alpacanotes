@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 04:39:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 05:06:50 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 04:39:47 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 05:06:50 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -37,6 +37,24 @@
 &lt;p&gt;写这篇文章的时候，本地改动还没部署到线上。页面模板改好了，规则也重写了，本地构建通过了，但 Telegram 抓到的仍然是旧版本。&lt;/p&gt;
 &lt;p&gt;所以严格来说，这轮工作还没有真正做完。但它把问题从&quot;感觉 Telegram 很随机&quot;拆成了几个可以逐一验证的具体事项：页面需要稳定的语义标记，canonical 必须和部署路径一致，同域名多模板需要统一的规则策略，验证时必须考虑缓存。&lt;/p&gt;
 &lt;p&gt;回头看，最大的收获不是某条具体的 XPath 规则，而是页面和抓取规则之间终于有了明确的约定——以后不管改哪边，都知道该看什么、该改什么。这比&quot;改一下试试看&quot;要靠谱得多。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Telegram IV 测试文章]]></title>
+            <description><![CDATA[这是一篇简短测试文章，用于检查 AlpacaNotes 在 Telegram 中的普通预览与 Instant View 表现是否正常。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-iv-test-2026-03-14</link>
+            <guid isPermaLink="false">article:telegram-iv-test-2026-03-14</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;这是一篇专门用于测试的文章。&lt;/p&gt;
+&lt;p&gt;它的目的很简单：确认 &lt;code&gt;linguista.cn/alpacanotes/articles/...&lt;/code&gt; 链接在 Telegram 中是否能稳定生成普通预览，以及通过 &lt;code&gt;t.me/iv?...&amp;#x26;rhash=...&lt;/code&gt; 是否能打开 Instant View。&lt;/p&gt;
+&lt;h2 id=&quot;测试要点&quot;&gt;测试要点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;标题是否正常显示。&lt;/li&gt;
+&lt;li&gt;摘要是否正常显示。&lt;/li&gt;
+&lt;li&gt;页面能否被 Instant View 正确抓取。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;测试结论占位&quot;&gt;测试结论占位&lt;/h2&gt;
+&lt;p&gt;如果你看到这段文字，说明正文已经被正常渲染。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[腾讯SkillsHub:开源蛋糕里的蟑螂]]></title>
