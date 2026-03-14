@@ -4,16 +4,16 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 04:22:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 04:30:12 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 04:22:11 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 04:30:12 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
             <title><![CDATA[ Instant View 踩坑记]]></title>
             <description><![CDATA[排查 Telegram Instant View 不稳定问题的过程中，逐步理解了页面结构、缓存机制和规则维护之间的关系，最终把一套脆弱的样式匹配改成了可维护的语义标记体系。]]></description>
-            <link>https://linguista.cn/alpacanotes/articles/instant-view-in-chaos-v3</link>
-            <guid isPermaLink="false">article:instant-view-in-chaos-v3</guid>
+            <link>https://linguista.cn/alpacanotes/articles/instant-view-in-chaos-v4</link>
+            <guid isPermaLink="false">article:instant-view-in-chaos-v4</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
             <content:encoded>&lt;p&gt;同一个域名下的内容链接，有些在 Telegram 里能弹出 Instant View，有些只显示普通链接卡片。一开始以为是某个页面写坏了，排查之后才发现，这不是某个页面的问题，而是页面结构、部署状态、同域名下跑着多套模板、再加上 Telegram 自己的缓存，几件事叠在一起的结果。&lt;/p&gt;
