@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 11:37:07 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 12:11:57 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 11:37:07 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 12:11:57 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -609,119 +609,6 @@
 &lt;p&gt;目前应对这个局面，一个稍微有效的做法就是：写下来。&lt;/p&gt;
 &lt;p&gt;写下今天用AI做了什么，遇到了什么问题，有什么想法。不用长，几句话就行。这件事本身就是在练习提问和整理思路。有了对自己感受与想法的些许标记，也许就足够了。&lt;/p&gt;
 &lt;p&gt;有了这些标记，如果有时间，可以与AI聊一聊，不是每一次和AI的对话都要产出代码或者成果。有时候，一系列的对话能够帮自己想清楚一件事，就已经值回票价了。&lt;/p&gt;</content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AlpacaNotes博客 集成 Telegram 自动推送实战]]></title>
-            <description><![CDATA[本文记录了如何通过 GitHub Actions 和 Telegram Bot API，实现博客新文章自动推送到 Telegram 频道的完整流程。]]></description>
-            <link>https://linguista.cn/alpacanotes/articles/telegram-integration-v3</link>
-            <guid isPermaLink="false">article:telegram-integration-v3</guid>
-            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
-            <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
-            <content:encoded>&lt;p&gt;为了方便读者及时获取更新，我为 AlpacaNotes 博客增加了 Telegram 频道自动推送功能。每当有新文章发布时，GitHub Actions 会自动触发脚本，将文章标题和链接发送到订阅频道。以下是实现这一功能的简要流程。&lt;/p&gt;
-&lt;h2 id=&quot;1-申请-telegram-bot&quot;&gt;1. 申请 Telegram Bot&lt;/h2&gt;
-&lt;p&gt;首先，你需要拥有一个 Telegram 账号并申请一个机器人：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;在 Telegram 中搜索 &lt;strong&gt;@BotFather&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;发送指令 &lt;code&gt;/newbot&lt;/code&gt; 创建新机器人。&lt;/li&gt;
-&lt;li&gt;按照提示设置机器人的名称（Name）和用户名（Username）。&lt;/li&gt;
-&lt;li&gt;创建成功后，BotFather 会给你一个 &lt;strong&gt;HTTP API Token&lt;/strong&gt;（类似 &lt;code&gt;123456789:ABCdef...&lt;/code&gt;），请妥善保管。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;2-设置频道并获取-chat-id&quot;&gt;2. 设置频道并获取 Chat ID&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;创建一个新的 Telegram Channel（频道），或者使用现有频道。&lt;/li&gt;
-&lt;li&gt;将你刚才创建的机器人添加为频道管理员（Administrator），赋予发送消息的权限。&lt;/li&gt;
-&lt;li&gt;为了获取频道的 &lt;code&gt;Chat ID&lt;/code&gt;，你可以先在频道里随便发一条消息，然后转发给 &lt;strong&gt;@getidsbot&lt;/strong&gt;（或其他类似 ID 查询机器人），它会返回以 &lt;code&gt;-100&lt;/code&gt; 开头的频道 ID（例如 &lt;code&gt;-1003229698152&lt;/code&gt;）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;3-配置-github-secrets&quot;&gt;3. 配置 GitHub Secrets&lt;/h2&gt;
-&lt;p&gt;为了安全起见，不要将 Token 直接硬编码在代码中。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;进入博客项目的 GitHub 仓库页面。&lt;/li&gt;
-&lt;li&gt;点击 &lt;strong&gt;Settings&lt;/strong&gt; -&gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; -&gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;新建 Repository Secret：
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;TELEGRAM_TOKEN&lt;/code&gt;: 填入 BotFather 给你的 Token。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;4-编写自动化脚本&quot;&gt;4. 编写自动化脚本&lt;/h2&gt;
-&lt;p&gt;在项目中编写一个 Node.js 脚本（&lt;code&gt;scripts/telegram-notify.js&lt;/code&gt;），用于检测变更并发送消息。&lt;/p&gt;
-&lt;p&gt;主要逻辑如下：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;使用 &lt;code&gt;git diff&lt;/code&gt; 识别本次提交中&lt;strong&gt;新增&lt;/strong&gt;的 &lt;code&gt;.md&lt;/code&gt; 文件。&lt;/li&gt;
-&lt;li&gt;解析 Markdown 文件的 Frontmatter（元数据），提取标题和描述。&lt;/li&gt;
-&lt;li&gt;调用 Telegram 的 &lt;code&gt;sendMessage&lt;/code&gt; API，将文章标题、描述和链接格式化后发送到指定频道。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;5-配置-github-actions-工作流&quot;&gt;5. 配置 GitHub Actions 工作流&lt;/h2&gt;
-&lt;p&gt;最后，修改 &lt;code&gt;.github/workflows/deploy.yml&lt;/code&gt; 文件，在部署流程中加入通知步骤：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- name: Check for new content and notify
-  if: success()
-  env:
-    TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-    TELEGRAM_TO: &quot;-1003229698152&quot; # 你的频道 ID
-    SITE_URL: &quot;https://linguista.cn&quot;
-    BASE_PATH: &quot;/alpacanotes&quot;
-  run: node scripts/telegram-notify.js
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;6-静态站点部署配置&quot;&gt;6. 静态站点部署配置&lt;/h2&gt;
-&lt;p&gt;本博客使用 Next.js 构建，并托管在 GitHub Pages 上。为了确保静态资源加载正确（特别是当部署在子路径如 &lt;code&gt;/alpacanotes&lt;/code&gt; 下时），需要在 &lt;code&gt;next.config.ts&lt;/code&gt; 中进行特别配置：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-typescript&quot;&gt;const isProd = process.env.NODE_ENV === &quot;production&quot;;
-
-const nextConfig: NextConfig = {
-  // 启用静态导出模式，生成纯 HTML/CSS/JS 文件
-  output: isProd ? &quot;export&quot; : undefined,
-  
-  // 禁用 Next.js 自带的图片优化服务（GitHub Pages 不支持 Node.js 运行时）
-  images: {
-    unoptimized: true,
-  },
-  
-  // 设置子路径，匹配 GitHub Pages 的仓库名
-  basePath: isProd ? &quot;/alpacanotes&quot; : &quot;&quot;,
-  assetPrefix: isProd ? &quot;/alpacanotes/&quot; : &quot;&quot;,
-};
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;此外，部署工作流目前已经改为 shell 方式同步 &lt;code&gt;out&lt;/code&gt; 目录到外部 &lt;code&gt;gh-pages&lt;/code&gt; 分支，并显式补上 &lt;code&gt;.nojekyll&lt;/code&gt;，以避免 GitHub Pages 忽略 &lt;code&gt;_next&lt;/code&gt; 目录导致静态资源丢失。&lt;/p&gt;
-&lt;h2 id=&quot;7-配置-telegram-instant-view-即时预览&quot;&gt;7. 配置 Telegram Instant View (即时预览)&lt;/h2&gt;
-&lt;p&gt;为了让用户在 Telegram 中获得更好的阅读体验（无需跳转浏览器即可秒开文章），我们配置了 Instant View。&lt;/p&gt;
-&lt;h3 id=&quot;71-创建-instant-view-模板&quot;&gt;7.1 创建 Instant View 模板&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;登录 &lt;a href=&quot;https://instantview.telegram.org/my/&quot;&gt;Telegram Instant View Editor&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;输入你的博客文章示例链接（例如 &lt;code&gt;https://linguista.cn/alpacanotes/articles/telegram-integration&lt;/code&gt;）。&lt;/li&gt;
-&lt;li&gt;编写提取规则。早期规则曾依赖 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt; 之类的样式类名，后来在实际排查中证实过于脆弱。当前更可靠的做法是让页面模板输出稳定的 &lt;code&gt;data-iv-*&lt;/code&gt; 标记，并在同域名多模板场景下保留回退规则。核心思路如下：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;~version: &quot;2.1&quot;
-
-body: //*[@data-iv-body] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]
-title: //*[@data-iv-title] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]//h1[1]
-subtitle: //*[@data-iv-subtitle] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]//h1[1]/following-sibling::p[1]
-author: //*[@data-iv-author] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;text-muted&quot;) and contains(@class, &quot;text-sm&quot;)][1]/span[1]
-published_date: //*[@data-iv-published]/@data-iv-published | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;text-muted&quot;) and contains(@class, &quot;text-sm&quot;)][1]/span[last()]
-@split_parent: //p/img
-@remove: //*[@data-iv-ignore] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;mb-4&quot;)]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;点击 &lt;strong&gt;Mark as Published&lt;/strong&gt;，你将获得一个 &lt;strong&gt;rhash&lt;/strong&gt;（一串哈希值，例如 &lt;code&gt;d41d8cd98f00b204e980&lt;/code&gt;）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;72-配置-github-secrets&quot;&gt;7.2 配置 GitHub Secrets&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;回到 GitHub 仓库的 &lt;strong&gt;Settings&lt;/strong&gt; &gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; &gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;新建 Secret &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt;，填入刚才获得的 hash 值。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;73-脚本支持&quot;&gt;7.3 脚本支持&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;link_preview_options&lt;/code&gt; 可以作为 Bot 推送中的辅助能力，但它并不是一个“填了就完美生效”的万能开关。后续排查中确认了几个更接近真实情况的结论：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;t.me/iv?url=...&amp;#x26;rhash=...&lt;/code&gt; 裸链接本身可以作为私有 Instant View 入口直接使用；&lt;/li&gt;
-&lt;li&gt;通过 Bot API 指定 &lt;code&gt;link_preview_options.url = t.me/iv?...&lt;/code&gt;，并不总能稳定复现“手动粘贴裸 IV 链接”的行为；&lt;/li&gt;
-&lt;li&gt;消息结构、GitHub Pages 发布时序、Telegram 客户端缓存都会影响卡片最终是否挂上 &lt;code&gt;INSTANT VIEW&lt;/code&gt;；&lt;/li&gt;
-&lt;li&gt;更稳妥的工程做法是：先确保页面已经真正公网可抓取，再发送消息，并始终保留原始文章链接作为阅读兜底。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;如果你想看这一轮排查的完整经过，可以继续阅读：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linguista.cn/labs/workshop/telegram-instant-view-settings/&quot;&gt;《为静态站点配置 Telegram Instant View：从页面标记到部署等待》&lt;/a&gt;（实操指南）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://linguista.cn/alpacanotes/articles/instant-view-in-chaos&quot;&gt;《Instant View 踩坑记：折腾了一整天，答案是「等一下」》&lt;/a&gt;（排查故事）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;本文即为该功能的测试文章。如果你在 Telegram 频道看到了这条推送，说明自动化流程已配置成功！&lt;/em&gt;&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[关于聂卫平]]></title>
