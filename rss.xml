@@ -4,11 +4,40 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Mar 2026 22:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 03:41:52 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Mar 2026 22:35:38 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 03:41:52 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[ Instant View 踩坑记]]></title>
+            <description><![CDATA[排查 Telegram Instant View 不稳定问题的过程中，逐步理解了页面结构、缓存机制和规则维护之间的关系，最终把一套脆弱的样式匹配改成了可维护的语义标记体系。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/instant-view-from-chaos-to-contract</link>
+            <guid isPermaLink="false">article:instant-view-from-chaos-to-contract</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;同一个域名下的内容链接，有些在 Telegram 里能弹出 Instant View，有些只显示普通链接卡片。一开始以为是某个页面写坏了，排查之后才发现，这不是某个页面的问题，而是页面结构、部署状态、同域名下跑着多套模板、再加上 Telegram 自己的缓存，几件事叠在一起的结果。&lt;/p&gt;
+&lt;p&gt;这种&quot;时灵时不灵&quot;的体验很容易让人陷入试错循环——改一下规则，发一条链接，看看行不行。但如果不理解底层机制，每次试错都是盲目的。&lt;/p&gt;
+&lt;h2 id=&quot;样式类名是最脆弱的锚点&quot;&gt;样式类名是最脆弱的锚点&lt;/h2&gt;
+&lt;p&gt;之前的 Instant View 规则大量依赖 Tailwind 的 utility class，比如 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt;、&lt;code&gt;text-sm&lt;/code&gt;。短期内能用，但前端稍微调一下样式，规则就会悄悄失效，而且失效的时候没有任何提示——只是 Instant View 不出现了，你还不知道为什么。&lt;/p&gt;
+&lt;p&gt;这次的核心改动，是在页面模板中加入一组语义化的 &lt;code&gt;data-iv-*&lt;/code&gt; 属性：标题、副标题、作者、发布时间、正文主体各有明确标记，不需要展示的元素标记为忽略。规则从&quot;猜样式类名&quot;变成&quot;读语义标记&quot;，维护成本一下子降了很多。&lt;/p&gt;
+&lt;p&gt;说白了，两个系统之间得有个明确的约定，不能靠猜对方长什么样来配合。CSS 类名是给浏览器渲染用的，拿它当抓取规则的锚点，迟早要出问题。&lt;/p&gt;
+&lt;h2 id=&quot;同域名多模板的现实&quot;&gt;同域名多模板的现实&lt;/h2&gt;
+&lt;p&gt;事情没有到语义标记就结束。同一个域名下还跑着另一套页面模板，用的是完全不同的 HTML 结构——没有 &lt;code&gt;data-iv-*&lt;/code&gt;，正文在 &lt;code&gt;article.docs-content&lt;/code&gt; 里，标题是正文内的第一个 &lt;code&gt;h1&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;两套模板共享一个域名，Telegram 的 Instant View 规则又是按域名绑定的，所以必须用一套规则同时覆盖两种页面结构。最终的写法是&quot;先尝试匹配语义标记，匹配不到就回退到旧模板的结构&quot;。不算优雅，但实用，而且逻辑清晰。&lt;/p&gt;
+&lt;p&gt;这个场景让我意识到，很多时候&quot;规则不生效&quot;不是规则本身的问题，而是你忘了自己的域名下其实跑着不止一套东西。&lt;/p&gt;
+&lt;h2 id=&quot;telegram-的缓存比你想象的顽固&quot;&gt;Telegram 的缓存比你想象的顽固&lt;/h2&gt;
+&lt;p&gt;排查的时候碰到一个挺意外的情况：页面明明能正常访问，Telegram 编辑器却报 &quot;Can&apos;t fetch page&quot;。手动用 curl 验证，HTTP 200，页面内容完整。&lt;/p&gt;
+&lt;p&gt;后来理解了，Telegram 对链接预览有自己的缓存层。旧链接不一定会重新抓取，规则发布后也不是立刻对所有链接生效。更可靠的验证方式是用新的 URL，或者给 URL 加上查询参数来绕过缓存。&lt;/p&gt;
+&lt;p&gt;另一个细节是，通过 Bot 推送时显式指定 &lt;code&gt;link_preview_options.url&lt;/code&gt; 为 &lt;code&gt;t.me/iv?...&lt;/code&gt; 格式，比用户手动粘贴原始链接更容易触发 Instant View。手动粘贴时 Telegram 的行为更不可控。&lt;/p&gt;
+&lt;h2 id=&quot;canonical-路径这种小事&quot;&gt;canonical 路径这种小事&lt;/h2&gt;
+&lt;p&gt;还顺手修了一个容易忽略的问题：页面的 canonical URL 和实际部署路径不一致。部署在子路径下，但 canonical 里漏掉了那段前缀。&lt;/p&gt;
+&lt;p&gt;这种问题平时不会造成页面报错，用户也看不出来，但爬虫和 Telegram 在整理 URL 的时候会被搞混。修起来只是一行代码的事，但不修的话，调试的时候会多出一个干扰因素。&lt;/p&gt;
+&lt;h2 id=&quot;还没结束&quot;&gt;还没结束&lt;/h2&gt;
+&lt;p&gt;写这篇文章的时候，本地改动还没部署到线上。页面模板改好了，规则也重写了，本地构建通过了，但 Telegram 抓到的仍然是旧版本。&lt;/p&gt;
+&lt;p&gt;所以严格来说，这轮工作还没有真正做完。但它把问题从&quot;感觉 Telegram 很随机&quot;拆成了几个可以逐一验证的具体事项：页面需要稳定的语义标记，canonical 必须和部署路径一致，同域名多模板需要统一的规则策略，验证时必须考虑缓存。&lt;/p&gt;
+&lt;p&gt;回头看，最大的收获不是某条具体的 XPath 规则，而是页面和抓取规则之间终于有了明确的约定——以后不管改哪边，都知道该看什么、该改什么。这比&quot;改一下试试看&quot;要靠谱得多。&lt;/p&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[腾讯SkillsHub:开源蛋糕里的蟑螂]]></title>
             <description><![CDATA[从腾讯SkillHub事件探讨开源生态中的搭便车现象，分析开源行为的经济动机和制度困境，以及开发者如何应对大厂的合法但无耻的行为。]]></description>
