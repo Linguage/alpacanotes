@@ -4,85 +4,62 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 10:37:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 11:19:11 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 10:37:30 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 11:19:11 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
-            <title><![CDATA[Instant View 踩坑记]]></title>
-            <description><![CDATA[排查 Telegram Instant View 不稳定问题的过程中，逐步理解了页面结构、消息发送方式、部署链路和 Telegram 缓存之间的关系，最终把问题从一团混乱拆成了几个可以分别判断的层面。]]></description>
+            <title><![CDATA[Instant View 踩坑记：折腾了一整天，答案是「等一下」]]></title>
+            <description><![CDATA[为了让 Telegram Instant View 稳定工作，我排查了 IV 规则、Bot 消息写法、页面结构和部署链路，最终发现真正的问题是 GitHub Pages CDN 还没传播完就发了通知。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/instant-view-in-chaos</link>
             <guid isPermaLink="false">article:instant-view-in-chaos</guid>
             <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-            <content:encoded>&lt;p&gt;同一个域名下的内容链接，有些在 Telegram 里能弹出 Instant View 的阅读视图，有些却只显示一张普通的链接卡片。一开始我以为是某个页面写坏了，查了一圈才发现，这不是哪一个页面的问题——而是页面写法、部署状态、同一个域名下跑着好几套东西、再加上 Telegram 自己的缓存脾气，几件事搅在一起的结果。&lt;/p&gt;
-&lt;p&gt;这种&quot;时灵时不灵&quot;的体验特别容易让人掉进试错的死循环：改一下规则，发一条链接，看看行不行——不行，再改，再发。但如果不搞清楚到底是哪一层出了问题，每次试错都是在碰运气。&lt;/p&gt;
-&lt;h2 id=&quot;用样式名当锚点迟早翻车&quot;&gt;用样式名当锚点，迟早翻车&lt;/h2&gt;
-&lt;p&gt;之前写的 Instant View 匹配规则，基本上是照着页面的 CSS 类名来抓内容的，比如 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt; 这些。短期内确实能用，但前端只要稍微调一下样式，匹配规则就会悄悄失效——而且失效的时候没有任何报错，只是 Instant View 按钮不出现了，你还得自己去猜是哪里出了问题。&lt;/p&gt;
-&lt;p&gt;这次做的最关键的改动，是在页面里加了一组专门给 Instant View 看的标记：标题是标题，正文是正文，作者、发布时间各有各的记号，不该被抓取的导航栏也明确标注了&quot;请忽略&quot;。这样一来，匹配规则不再需要猜页面长什么样，只要认这些约定好的标记就行了。&lt;/p&gt;
-&lt;p&gt;道理其实很朴素：两个系统之间需要有个明确的约定，不能靠猜对方的外表来配合。CSS 类名是给浏览器排版用的，拿它来当定位依据，就像靠一个人今天穿什么衣服来认人——换一身你就不认识了。&lt;/p&gt;
-&lt;h2 id=&quot;一个域名下跑着两套东西&quot;&gt;一个域名下跑着两套东西&lt;/h2&gt;
-&lt;p&gt;事情没有到&quot;加好标记&quot;就结束。同一个域名下还跑着另一套完全不同的页面，结构、标记方式都和这边不一样。&lt;/p&gt;
-&lt;p&gt;问题在于，Telegram 的 Instant View 规则是按域名来绑定的，不是按页面路径。所以一套规则得同时照顾两种写法完全不同的页面。最后的办法是：先试着按新标记匹配，匹配不上就退回去按老页面的结构来。算不上多漂亮，但管用，逻辑也说得通。&lt;/p&gt;
-&lt;p&gt;这个环节让我意识到一个容易忽略的事实：很多时候&quot;规则不生效&quot;不是规则本身写错了，而是你忘了自己的域名下其实不止跑着一套东西。&lt;/p&gt;
-&lt;h2 id=&quot;telegram-的缓存比想象中顽固&quot;&gt;Telegram 的缓存比想象中顽固&lt;/h2&gt;
-&lt;p&gt;排查过程中碰到一个挺让人困惑的现象：页面明明在浏览器里能正常打开，Telegram 的编辑器却报&quot;抓不到页面&quot;。手动验证了一下，服务器返回正常，内容完整。&lt;/p&gt;
-&lt;p&gt;后来才明白，Telegram 对链接预览有自己的一层缓存。旧链接不一定会重新去抓取，规则更新后也不是马上对所有链接都生效。比较靠谱的验证方式是用一个全新的链接，或者在链接后面加个参数骗过缓存。&lt;/p&gt;
-&lt;p&gt;但真正让人头疼的还不是这个。同一条 Instant View 链接，手动粘贴到聊天里可以正常解析出阅读视图；可一旦把它放进 Bot 发出的消息里——不管是嵌在富文本里、做成按钮、还是放在预览参数里——Telegram 的反应就变得很随机。有时当普通链接处理，有时卡片出来了但点进去打不开，有时第一次正常、第二次就白屏。&lt;/p&gt;
-&lt;p&gt;这个阶段对我最大的冲击，不是某个技术细节，而是一个认知上的转变。之前我一直觉得&quot;手动粘贴能用，Bot 发出来也应该一样能用&quot;；后来才意识到，对 Telegram 来说，用户手动贴一条链接和 Bot 通过接口发一条消息，走的很可能根本不是同一条路。同一个入口，两套逻辑。&lt;/p&gt;
-&lt;h2 id=&quot;顺手修了一个不起眼的小问题&quot;&gt;顺手修了一个不起眼的小问题&lt;/h2&gt;
-&lt;p&gt;还顺手修了一个平时完全不会注意到的问题：页面声明的&quot;标准地址&quot;和实际部署路径对不上。网站部署在一个子路径下，但页面里写的标准地址漏掉了那段路径前缀。&lt;/p&gt;
-&lt;p&gt;这种问题用户看不出来，浏览器也不会报错，但 Telegram 在整理链接信息的时候就可能被搞糊涂。修起来就一行代码的事，不修的话，排查别的问题时它会一直在旁边添乱。&lt;/p&gt;
-&lt;h2 id=&quot;以为差不多了结果部署也在搞事&quot;&gt;以为差不多了，结果部署也在搞事&lt;/h2&gt;
-&lt;p&gt;本来以为，规则改好了，页面结构也对齐了，这事应该快收尾了。结果紧接着又蹦出一个完全不同方向的问题：网站样式突然全乱了，页面变成了光秃秃的纯文字，排版和交互全都没了。&lt;/p&gt;
-&lt;p&gt;回头去查部署流程，才发现原因出奇地低级：发布目录里少了一个特殊文件，导致 GitHub Pages 把存放样式和脚本的那个文件夹整个忽略了。对浏览器来说，就是整个网站像没加载样式一样；对 Telegram 来说，它抓到的页面自然也是残缺的。&lt;/p&gt;
-&lt;p&gt;这个阶段的感受特别深：当你把问题按层拆开——页面、规则、Bot、部署——每一层单独看都还算合理；但当它们混在一起出毛病的时候，整个系统就像在随机报错。真正折磨人的从来不是某一个具体的 bug，而是你不知道眼前这个症状到底该往哪一层去查。&lt;/p&gt;
-&lt;h2 id=&quot;卡片终于出来了但还没完&quot;&gt;卡片终于出来了，但还没完&lt;/h2&gt;
-&lt;p&gt;后来又围绕 Bot 的消息写法做了好几轮实验：把链接嵌在文本里、做成按钮、拆成两条消息、改回单条……试下来发现，并不是哪种写法&quot;理论上最标准&quot;就一定有用，关键是哪种写法恰好符合 Telegram 当下愿意接受的解析方式。&lt;/p&gt;
-&lt;p&gt;最后卡片确实出来了。频道里终于看到了带 &lt;code&gt;INSTANT VIEW&lt;/code&gt; 按钮的预览卡片，那一刻至少能确认三件事：页面结构能被正确匹配了，规则是生效的，Bot 也不是完全使不上劲。&lt;/p&gt;
-&lt;p&gt;但新问题紧跟着就来了：第一次点开通常没问题，再点同一条，正文有时就白了，只剩一个标题栏。&lt;/p&gt;
-&lt;p&gt;不过这个现象反而帮我排除了一大堆怀疑。如果规则根本没匹配上，第一次就不该成功；如果规则标识有问题，卡片也不该出现。既然第一次能打开，那问题就更像是 Telegram 客户端自己在缓存或重新渲染时出了状况，而不是我这边的页面还藏着什么根本性的错误。&lt;/p&gt;
-&lt;h2 id=&quot;最后接受的不是完美的解法而是边界&quot;&gt;最后接受的，不是完美的解法，而是边界&lt;/h2&gt;
-&lt;p&gt;写到这里，整件事终于不像一开始那样一团浆糊了。现在我能比较清楚地说出哪些是我这边的问题，哪些是 Telegram 那边的事。&lt;/p&gt;
-&lt;p&gt;我这边能做的，其实都已经做得差不多了：给页面加稳定的语义标记，兼容同域名下的多套模板，修好标准地址，确保部署流程不丢文件，再把通知时机调到页面真正发布完成之后。&lt;/p&gt;
-&lt;p&gt;我这边做不到的事情，也逐渐看清了：同一条链接在 Telegram 里反复打开是否稳定，这事不完全由页面决定。至少在这一轮排查里，那部分更像是 Telegram 自身的缓存和渲染机制在作怪。&lt;/p&gt;
-&lt;p&gt;这轮折腾下来最大的收获，不是找到了某条完美的匹配规则，也不是发现了某个万能的接口参数，而是终于把&quot;感觉 Telegram 在随机抽风&quot;这件事，拆成了几个可以分别排查的层面。以后再碰到类似的问题，至少知道该先看页面结构，再看线上部署，再看消息写法，最后才去怀疑 Telegram 本身——而不是从头到尾在原地打转。&lt;/p&gt;
+            <content:encoded>&lt;p&gt;事情从一个烦人的现象开始：同一个域名下的文章链接，发到 Telegram 里，有时候底部有 &lt;code&gt;INSTANT VIEW&lt;/code&gt; 按钮，有时候没有；有时候点进去能正常阅读，有时候是白屏。&lt;/p&gt;
+&lt;p&gt;我以为搞个把小时就能解决。结果折腾了一整天。&lt;/p&gt;
+&lt;h2 id=&quot;第一层iv-规则太脆弱&quot;&gt;第一层：IV 规则太脆弱&lt;/h2&gt;
+&lt;p&gt;最先怀疑的是 Instant View 的匹配规则。打开一看，果然——之前的规则全靠 CSS 类名来定位内容，什么 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt; 之类的。这些名字是 Tailwind 生成的样式标记，前端随便改一下排版，匹配就悄悄失效了，连个报错都没有。&lt;/p&gt;
+&lt;p&gt;于是我做了一件早就该做的事：在页面模板里加了一组 &lt;code&gt;data-iv-*&lt;/code&gt; 属性。标题是 &lt;code&gt;data-iv-title&lt;/code&gt;，正文是 &lt;code&gt;data-iv-body&lt;/code&gt;，作者和发布时间也各有标记，导航栏之类不该被抓的元素标上 &lt;code&gt;data-iv-ignore&lt;/code&gt;。然后 IV 规则只认这些语义标记，不再去猜页面长什么样。&lt;/p&gt;
+&lt;p&gt;改完之后，在 Telegram 的 IV 编辑器里一测，规则确实稳定了。我想这事应该差不多了吧。&lt;/p&gt;
+&lt;h2 id=&quot;第二层同一个域名两套页面&quot;&gt;第二层：同一个域名，两套页面&lt;/h2&gt;
+&lt;p&gt;没差不多。&lt;/p&gt;
+&lt;p&gt;我忘了一件事：这个域名下不只跑着我的笔记站，还有主站的文档页面，HTML 结构完全不同。而 Telegram 的 IV 规则是按域名绑定的——一个域名只能有一套规则。&lt;/p&gt;
+&lt;p&gt;所以我的规则得同时覆盖两种完全不同的页面结构。最后用了一个&quot;先后匹配&quot;的方案：先试 &lt;code&gt;data-iv-*&lt;/code&gt;，匹配不到就回退到主站那套 &lt;code&gt;docs-content&lt;/code&gt; + &lt;code&gt;md-theme-amp&lt;/code&gt; 的结构。不算优雅，但能用。&lt;/p&gt;
+&lt;p&gt;到这里我又觉得差不多了。&lt;/p&gt;
+&lt;h2 id=&quot;第三层bot-消息怎么写都不对&quot;&gt;第三层：Bot 消息怎么写都不对&lt;/h2&gt;
+&lt;p&gt;然后进入了最耗时的一个环节。&lt;/p&gt;
+&lt;p&gt;规则改好了，用 &lt;code&gt;t.me/iv?url=...&amp;#x26;rhash=...&lt;/code&gt; 裸链接手动粘贴到聊天里，IV 正常弹出。但 Bot 通过 API 发出来的消息，就是另一回事了。&lt;/p&gt;
+&lt;p&gt;我试了各种写法：把 IV 链接嵌在消息文本里、做成 inline 按钮、拆成两条消息、用 &lt;code&gt;link_preview_options&lt;/code&gt; 指定预览 URL……每种写法在 Telegram 那边的反应都不一样，而且同一种写法隔一会儿再试，结果可能又变了。&lt;/p&gt;
+&lt;p&gt;这个阶段我最大的认知冲击是：&lt;strong&gt;手动粘贴一条链接和 Bot 通过 API 发一条消息，在 Telegram 内部走的可能根本不是同一条路。&lt;/strong&gt;&quot;手动能用&quot;不等于&quot;Bot 发也能用&quot;。&lt;/p&gt;
+&lt;p&gt;花了好几轮实验，总算找到一套消息结构能比较稳定地挂出 IV 卡片。我松了口气。&lt;/p&gt;
+&lt;h2 id=&quot;插曲nojekyll-的低级失误&quot;&gt;插曲：&lt;code&gt;.nojekyll&lt;/code&gt; 的低级失误&lt;/h2&gt;
+&lt;p&gt;在这过程中还踩了一个完全不相关的坑。&lt;/p&gt;
+&lt;p&gt;之前把部署流程从 GitHub Actions 的官方 action 切换到手写 shell 脚本，结果忘了在发布目录里放 &lt;code&gt;.nojekyll&lt;/code&gt; 文件。GitHub Pages 默认会用 Jekyll 处理静态文件，而 Jekyll 会忽略所有下划线开头的目录——比如 &lt;code&gt;_next&lt;/code&gt;。Next.js 的所有 CSS 和 JS 资源都在 &lt;code&gt;_next&lt;/code&gt; 里面。&lt;/p&gt;
+&lt;p&gt;所以页面变成了光秃秃的纯文本。HTML 加载了，但样式和交互全没了。浏览器里看着像是前端炸了，Telegram 去抓页面拿到的当然也是残缺的内容。&lt;/p&gt;
+&lt;p&gt;修复倒是一行代码的事：&lt;code&gt;touch &quot;${temp_dir}/.nojekyll&quot;&lt;/code&gt;。但排查的时候根本没往这个方向想，因为症状看起来像是 CSS 写坏了。&lt;/p&gt;
+&lt;h2 id=&quot;以为快好了&quot;&gt;以为快好了&lt;/h2&gt;
+&lt;p&gt;修好 &lt;code&gt;.nojekyll&lt;/code&gt; 之后，页面恢复正常了。IV 规则也稳定了。Bot 消息写法也调通了。我觉得这次真的差不多了。&lt;/p&gt;
+&lt;p&gt;部署一下，发条通知试试——&lt;/p&gt;
+&lt;p&gt;有时候有 IV 按钮，有时候没有。&lt;/p&gt;
+&lt;p&gt;我都快疯了。&lt;/p&gt;
+&lt;h2 id=&quot;真正的反转&quot;&gt;真正的反转&lt;/h2&gt;
+&lt;p&gt;反复试了几轮之后，我终于注意到一个规律：如果部署完马上发通知，IV 大概率挂不上；如果等几分钟再手动发链接，就没问题。&lt;/p&gt;
+&lt;p&gt;然后一切都说通了。&lt;/p&gt;
+&lt;p&gt;**GitHub Pages 的 CDN 传播需要时间。**代码推送到 &lt;code&gt;gh-pages&lt;/code&gt; 分支之后，CDN 节点并不是立刻就能返回新内容。可能要几十秒，甚至一两分钟。而 Bot 的通知脚本是紧接着部署步骤运行的——这时候 Telegram 去抓取页面 URL，拿到的可能是旧版本，也可能是 404，也可能是正在更新中的不完整页面。&lt;/p&gt;
+&lt;p&gt;所以 Telegram 的 IV 引擎拿到了一个&quot;坏&quot;的页面，匹配失败或者渲染出白屏，然后还把这个结果缓存了。之后再怎么改规则、改消息写法，都没用——因为根本原因不在那些地方。&lt;/p&gt;
+&lt;h2 id=&quot;等一下就好了&quot;&gt;「等一下」就好了&lt;/h2&gt;
+&lt;p&gt;最终的解决方案朴素得有点让人哭笑不得：&lt;strong&gt;等页面真正上线了再发通知。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我写了一个 &lt;code&gt;wait-for-publication.js&lt;/code&gt; 脚本，部署完成后轮询刚发布的页面 URL。每 10 秒检查一次，最多等 3 分钟。检查的标准是：HTTP 返回 200，而且页面内容里包含 &lt;code&gt;data-iv-body&lt;/code&gt; 或文章标题——这说明新版页面已经真正可以被外部访问了。&lt;/p&gt;
+&lt;p&gt;轮询通过之后，还额外 &lt;code&gt;sleep 20&lt;/code&gt; 冷却一下，给 CDN 多留点缓冲时间。然后才运行 Telegram 通知脚本。&lt;/p&gt;
+&lt;p&gt;加上这个等待之后，IV 按钮就稳定了。&lt;/p&gt;
+&lt;p&gt;折腾了一整天改规则、改消息写法、修部署脚本，每一步都有收获，但都不是那个让 IV &quot;时灵时不灵&quot;的主因。最后的答案是：&lt;strong&gt;你发得太早了，页面还没准备好。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;还有一点没法控制&quot;&gt;还有一点没法控制&lt;/h2&gt;
+&lt;p&gt;还有一个残留现象：同一条 IV 链接反复打开，偶尔会白屏。第一次打开通常没问题，再点一次就可能只剩标题栏。&lt;/p&gt;
+&lt;p&gt;但这个反而好判断——既然第一次能打开，说明规则是对的、页面也是完整的。反复打开出问题，更像是 Telegram 客户端自己的缓存或渲染机制在作怪。这部分不在我能控制的范围内了。&lt;/p&gt;
+&lt;p&gt;接受它，继续过日子。&lt;/p&gt;
 &lt;h2 id=&quot;延伸阅读&quot;&gt;延伸阅读&lt;/h2&gt;
-&lt;p&gt;如果想看更完整的工程排查版本，可以继续阅读 &lt;a href=&quot;https://linguista.cn/alpacanotes/articles/telegram-instant-view-debugging-journey&quot;&gt;《Telegram Instant View 适配：从页面结构到部署链路的完整排查》&lt;/a&gt;。那篇文章把页面结构、规则、Bot 推送和 GitHub Pages 部署问题放在同一条链路里重新梳理了一遍。&lt;/p&gt;</content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Telegram Instant View 适配：从页面结构到部署链路的完整排查]]></title>
-            <description><![CDATA[记录为静态站点适配 Telegram Instant View 的过程，涉及页面语义标记、IV 规则编写、Bot 消息构造、GitHub Pages 部署细节，以及 Telegram 客户端侧的缓存行为。]]></description>
-            <link>https://linguista.cn/alpacanotes/articles/telegram-instant-view-debugging-journey</link>
-            <guid isPermaLink="false">article:telegram-instant-view-debugging-journey</guid>
-            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
-            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-            <content:encoded>&lt;h2 id=&quot;问题背景&quot;&gt;问题背景&lt;/h2&gt;
-&lt;p&gt;Telegram 的 Instant View（IV）功能允许用户在客户端内直接阅读网页正文，无需跳转浏览器。对于内容发布者来说，如果链接能附带 IV 按钮，阅读体验会好很多。但在实际适配过程中，同一域名下的链接表现并不一致：有时卡片底部会出现 &lt;code&gt;INSTANT VIEW&lt;/code&gt; 按钮，有时只有普通预览；即使首次能正常打开 IV，再次点击同一链接时正文偶尔会变成白屏。&lt;/p&gt;
-&lt;p&gt;这篇文章记录了一次完整的排查过程，把问题拆分成页面结构、IV 规则、Bot 消息构造、部署链路四个层面逐一检查，最终定位出各层的实际状况。&lt;/p&gt;
-&lt;h2 id=&quot;页面结构从样式类名到语义标记&quot;&gt;页面结构：从样式类名到语义标记&lt;/h2&gt;
-&lt;p&gt;Instant View 模板需要从页面中找到标题、正文、作者等内容。之前的 IV 规则靠 Tailwind 的样式类名（如 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt;）来定位元素。问题在于，前端只要调一下样式，规则就会悄悄失效，而且不会有任何报错提示。&lt;/p&gt;
-&lt;p&gt;改造方案是给页面关键元素加上专门的 &lt;code&gt;data-iv-*&lt;/code&gt; 标记：标题、正文、发布时间各有明确标记，不该被抓取的导航元素也标注了忽略。这样 IV 规则认的是稳定的语义标记而不是随时可能变化的样式类名，页面和规则之间的依赖关系就清晰可控了。&lt;/p&gt;
-&lt;p&gt;同时修正了 canonical URL 中缺失的部署子路径前缀。这个问题对浏览器访问没有影响，但会导致 Telegram 抓取时拿到一个不存在的“标准地址”，增加了不必要的排查干扰。&lt;/p&gt;
-&lt;h2 id=&quot;iv-规则同域名双模板兼容&quot;&gt;IV 规则：同域名双模板兼容&lt;/h2&gt;
-&lt;p&gt;该域名下同时存在两套页面结构：笔记站使用 &lt;code&gt;data-iv-*&lt;/code&gt; 标记，主站文档页用的是完全不同的 HTML 结构。为了用一份 IV 模板覆盖两种页面，规则采用了先后匹配的方式——优先尝试 &lt;code&gt;data-iv-*&lt;/code&gt;，匹配不到就回退到主站的页面结构。&lt;/p&gt;
-&lt;p&gt;这一步的意义不是追求“优雅”的规则，而是承认同域名多模板并存的现实，并在模板层面把这种现实明确表达出来。&lt;/p&gt;
-&lt;h2 id=&quot;bot-消息构造并非照文档填参数就行&quot;&gt;Bot 消息构造：并非照文档填参数就行&lt;/h2&gt;
-&lt;p&gt;页面结构和 IV 规则就绪后，通过裸链接 &lt;code&gt;t.me/iv?url=...&amp;#x26;rhash=...&lt;/code&gt; 直接访问，确认 IV 可以正常渲染。这一步排除了“规则未生效”和“&lt;code&gt;rhash&lt;/code&gt; 失效”两种可能。&lt;/p&gt;
-&lt;p&gt;问题出在 Bot 推送消息的环节。Telegram Bot API 提供了指定预览链接的参数，但实测表明，通过它指定 IV 链接并不能稳定重现用户手动粘贴链接时的效果。在某些消息写法下，Telegram 会把 IV 链接当作普通链接处理，甚至解析成别的东西。&lt;/p&gt;
-&lt;p&gt;经过多轮实验——把 IV 链接嵌在文本里、做成按钮、拆成两条消息、调整预览参数——最终才找到一套可以稳定挂出 IV 卡片的消息写法。这里最重要的结论不是某个参数本身，而是消息的写法会影响 Telegram 生成预览的方式，需要单独测试验证。&lt;/p&gt;
-&lt;h2 id=&quot;部署链路中的两个隐蔽问题&quot;&gt;部署链路中的两个隐蔽问题&lt;/h2&gt;
-&lt;p&gt;排查过程中暴露了两个与 IV 表面无关但实际影响结果的部署问题。&lt;/p&gt;
-&lt;p&gt;第一个是 &lt;code&gt;.nojekyll&lt;/code&gt; 文件缺失。切换到手写 shell 部署后，发布目录中不再自动包含 &lt;code&gt;.nojekyll&lt;/code&gt;，导致 GitHub Pages 将 &lt;code&gt;_next&lt;/code&gt; 等下划线开头的目录忽略。表现为页面 HTML 可以加载，但 CSS 和 JS 资源全部 404。这个问题的外在表现很容易被误判为前端代码错误。&lt;/p&gt;
-&lt;p&gt;第二个是发布时序问题。Bot 发送通知时，GitHub Pages 的 CDN 可能尚未完成传播，导致 Telegram 抓取到的是旧版页面或空白响应。解决方式是在部署完成后轮询目标 URL，确认返回 200 且页面包含预期标记后，再等待一段冷却时间才触发通知。&lt;/p&gt;
-&lt;h2 id=&quot;最终结论&quot;&gt;最终结论&lt;/h2&gt;
-&lt;p&gt;经过逐层排查，问题的边界可以明确划分：&lt;/p&gt;
-&lt;p&gt;站点侧的工作已经基本完成：页面结构有稳定的语义标记，IV 规则不再依赖容易变化的样式类名，部署流程中的 &lt;code&gt;.nojekyll&lt;/code&gt; 缺失和发布时序问题已修复，Bot 消息写法也经过验证可以触发 IV 卡片生成。&lt;/p&gt;
-&lt;p&gt;剩余的不稳定性主要表现为同一条 IV 链接反复打开时偶尔出现白屏。由于首次打开通常正常，失败只出现在重复打开的时候，这更可能是 Telegram 客户端自身的缓存或渲染行为导致的，而不是站点侧的问题。&lt;/p&gt;
-&lt;p&gt;对于这类不在自身控制范围内的行为，务实的做法是保留原始链接作为阅读兜底，验证时使用新链接而非反复测试同一条旧消息。&lt;/p&gt;
-&lt;h2 id=&quot;延伸阅读&quot;&gt;延伸阅读&lt;/h2&gt;
-&lt;p&gt;如果想看这轮排查过程中更贴近当天状态的阶段性记录，可以继续阅读 &lt;a href=&quot;https://linguista.cn/alpacanotes/articles/instant-view-in-chaos&quot;&gt;《Instant View 踩坑记》&lt;/a&gt;。&lt;/p&gt;</content:encoded>
+&lt;p&gt;如果你也想给自己的静态站点配 Telegram Instant View，可以看看 &lt;a href=&quot;https://linguista.cn/labs/workshop/telegram-instant-view-settings/&quot;&gt;《为静态站点配置 Telegram Instant View：从页面标记到部署等待》&lt;/a&gt;，那篇按正确顺序整理了完整的操作步骤，不用像我一样绕弯子。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[腾讯SkillsHub:开源蛋糕里的蟑螂]]></title>
@@ -740,8 +717,8 @@ published_date: //*[@data-iv-published]/@data-iv-published | //article[contains(
 &lt;/ol&gt;
 &lt;p&gt;如果你想看这一轮排查的完整经过，可以继续阅读：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linguista.cn/alpacanotes/articles/telegram-instant-view-debugging-journey&quot;&gt;《Telegram Instant View 适配：从页面结构到部署链路的完整排查》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://linguista.cn/alpacanotes/articles/instant-view-in-chaos&quot;&gt;《Instant View 踩坑记》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linguista.cn/labs/workshop/telegram-instant-view-settings/&quot;&gt;《为静态站点配置 Telegram Instant View：从页面标记到部署等待》&lt;/a&gt;（实操指南）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linguista.cn/alpacanotes/articles/instant-view-in-chaos&quot;&gt;《Instant View 踩坑记：折腾了一整天，答案是「等一下」》&lt;/a&gt;（排查故事）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;本文即为该功能的测试文章。如果你在 Telegram 频道看到了这条推送，说明自动化流程已配置成功！&lt;/em&gt;&lt;/p&gt;</content:encoded>
