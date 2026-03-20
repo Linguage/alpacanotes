@@ -4,11 +4,28 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Mar 2026 10:11:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2026 13:00:52 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Mar 2026 10:11:31 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 13:00:52 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[Telegram / Discord 推送测试文章]]></title>
+            <description><![CDATA[这是一篇用于测试 AlpacaNotes 在 Telegram 与 Discord 频道中的推送效果、摘要提取和链接跳转是否正常的文章。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-discord-push-test-2026-03-20</link>
+            <guid isPermaLink="false">article:telegram-discord-push-test-2026-03-20</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;这是一篇用于测试推送链路的临时文章。&lt;/p&gt;
+&lt;p&gt;它的目标很简单：确认当仓库里新增一篇 article 之后，站点部署完成，Telegram 和 Discord 两个频道都能收到更新消息。&lt;/p&gt;
+&lt;p&gt;这篇文章本身没有太多实际内容，重点是用来观察三件事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;标题在不同平台上的呈现是否正常；&lt;/li&gt;
+&lt;li&gt;摘要是否使用了 frontmatter 里的 &lt;code&gt;description&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;链接跳转后，线上页面是否已经是最新版本。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果这条测试推送工作正常，后面就可以更放心地把日常文章和 notes 同时同步到两个频道里。&lt;/p&gt;</content:encoded>
+        </item>
         <item>
             <title><![CDATA[Instant View 踩坑记：折腾了一整天，答案是「等一下」]]></title>
             <description><![CDATA[为了让 Telegram Instant View 稳定工作，我排查了 IV 规则、Bot 消息写法、页面结构和部署链路，最终发现真正的问题是 GitHub Pages CDN 还没传播完就发了通知。]]></description>
