@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Mar 2026 11:14:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2026 11:21:23 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Mar 2026 11:14:01 GMT</pubDate>
+        <pubDate>Wed, 25 Mar 2026 11:21:23 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -62,9 +62,9 @@
 &lt;p&gt;这些规则不需要一个复杂的脚本来执行，写在任何翻译提示词里都能用。&lt;/p&gt;
 &lt;h2 id=&quot;一个关于工程判断的小教训&quot;&gt;一个关于工程判断的小教训&lt;/h2&gt;
 &lt;p&gt;这个项目从开始到弃用，前后大约一周。期间翻译了十几篇文章，其中包括几篇八万字以上的长访谈。系统本身是能用的，翻译质量也可以接受。但最终的结论是：用一个交互式窗口手动操作，效率反而更高。&lt;/p&gt;
-&lt;p&gt;回头看，问题出在对环境变化速度的低估上。我在设计分片翻译的时候，心里的参照系是&quot;上下文窗口不够长&quot;这个前提。这个前提在几个月前确实成立，但 LLM 的上下文窗口在这段时间里已经扩大了好几倍。系统还在按旧前提运转，解决的是一个正在消失的问题。&lt;/p&gt;
+&lt;p&gt;回头看，问题出在对环境变化速度的低估上。我在设计分片翻译的时候，心里的参照系是&quot;上下文窗口不够长&quot;这个前提。但是这种焦虑在可以轻松使用AI Studio这种提供1M上下文的平台的前提下，意义不大。&lt;/p&gt;
 &lt;p&gt;另一个教训是关于工程复杂度的。每一个功能——断点续传、动态重切、四级回退——单独看都很合理，每一个都是为了解决一个真实的、在使用中遇到的问题。但它们叠加起来之后，系统的维护成本开始超过使用收益。什么时候该停下来不再加功能，这个判断比&quot;该加什么功能&quot;更难做。&lt;/p&gt;
-&lt;p&gt;留下技术文档不是因为这个系统以后还会用，而是因为里面的一些设计思路——术语表接力、重叠衔接、分级回退切分——在其他需要分片处理长文本的场景下可能有参考价值。至于翻译本身，就回到最简单的方式：打开一个足够大的上下文窗口，把全文丢进去。&lt;/p&gt;</content:encoded>
+&lt;p&gt;留下技术文档不是因为这个系统以后还会用，而是因为里面的一些设计思路——术语表接力、重叠衔接、分级回退切分——在其他需要分片处理长文本的场景下可能有参考价值。至于翻译本身，就回到最简单的方式：打开一个足够大的上下文窗口，把全文丢进去。另外，我也会偶尔翻出来再测试一下，把它接上claude或者国产的大模型，日后也可能会突然发现这套系统变得丝滑好用，届时可以用来翻译一些图书级别的长文档。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[Telegram / Discord 推送测试文章]]></title>
