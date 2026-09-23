@@ -4,9 +4,9 @@
         <description><![CDATA[AlpacaNotes Blog]]></description>
         <link>https://linguista.cn/alpacanotes</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 11:04:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 14:42:52 GMT</lastBuildDate>
         <atom:link href="https://linguista.cn/alpacanotes/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 13 Aug 2026 11:04:43 GMT</pubDate>
+        <pubDate>Wed, 23 Sep 2026 14:42:52 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026, AlpacaNotes]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <item>
@@ -350,6 +350,96 @@
 &lt;p&gt;但赌桌上还坐满了人。&lt;/p&gt;</content:encoded>
         </item>
         <item>
+            <title><![CDATA[造了一条翻译流水线，然后把它关掉了]]></title>
+            <description><![CDATA[用一周时间构建分片翻译系统，翻译了十几篇长文，最后发现不如直接丢进去。为了翻译 YouTube 上的长播客文字稿，基于 Claude SDK 写了一套分片翻译系统——术语表接力、断点续传、四级回退切分。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/translation-pipeline-journey</link>
+            <guid isPermaLink="false">article:translation-pipeline-journey</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;h2 id=&quot;起点一篇八万字的播客文字稿&quot;&gt;起点：一篇八万字的播客文字稿&lt;/h2&gt;
+&lt;p&gt;我有一个个人知识库，里面有一个目录专门存放从网上收藏的外文文章，积攒了不少播客访谈和演讲的文字稿。我习惯把这些东西翻译成中文再读，一方面是阅读速度更快，另一方面是翻译本身就是一种深度阅读——你不得不去理解每一句话到底在说什么。&lt;/p&gt;
+&lt;p&gt;我之前经常直接把东西甩到chatbot中直接翻译，这一套当然问题不大，但是存在潜在的对内容压缩的风险。另外一点，我有超多配额的国产大模型，心想其实翻译不那么考验大模型的能力，因此不妨开发一套skills，来直接对内容进行翻译。当然，有这种方法直接短文章没问题，几千字的博客帖子扔进去，几分钟就出来了。但当我把一篇 超长的YouTube视频脚本或者一本书丢过去，就很难避免它翻到一半就开始丢内容、混术语，翻译质量明显下降。当然，还有一种情况：直接卡住，几个世纪过后告诉你失败...&lt;/p&gt;
+&lt;p&gt;于是我决定写一个分片翻译系统。&lt;/p&gt;
+&lt;h2 id=&quot;分片的基本想法&quot;&gt;分片的基本想法&lt;/h2&gt;
+&lt;p&gt;核心思路：把长文按章节标题切成若干片段，每片独立调用一次 LLM，翻译完再拼起来。每片有自己独立的上下文，不会溢出。&lt;/p&gt;
+&lt;p&gt;但&quot;切开再拼回去&quot;这件事，远没有听起来那么简单。最直接的问题是：切开之后，后一片看不到前一片的内容，怎么保证术语统一？怎么保证前后文衔接自然？&lt;/p&gt;
+&lt;p&gt;我用了两个机制。第一个是术语表接力：每片翻译完成后，脚本会从输出中提取新出现的术语对照（比如 &quot;scaling law → 规模定律&quot;），存入一个不断增长的术语表，注入到下一片的提示词里。这样模型在翻译后续片段时，已经知道前面把哪个词翻成了什么。&lt;/p&gt;
+&lt;p&gt;第二个是重叠段落：把前一片译文的最后三段文字带给下一片，标注&quot;这是前文结尾，不要重复翻译，仅用于衔接语气&quot;。这样模型能感知到前文的口吻和节奏，避免每片的开头都像是文章的第一段。&lt;/p&gt;
+&lt;h2 id=&quot;真正的文本什么样都有&quot;&gt;真正的文本什么样都有&lt;/h2&gt;
+&lt;p&gt;系统写出来之后，拿几篇标准的博客文章测试，运行得很顺畅。但实际使用中很快遇到了各种边界情况。&lt;/p&gt;
+&lt;p&gt;第一个是播客文字稿的时间戳。YouTube 自动转录出来的文字稿里密布着 &quot;0:00&quot;、&quot;1:23&quot; 这样的时间戳，它们出现在原文的各个位置，需要在翻译时全部移除。我写了一个检测函数，扫描原文中的时间戳模式——粗体时间戳、裸时间戳、方括号时间戳、括号章节目录——出现三次以上就判定为视频脚本，自动切换到去时间戳、合并短句、跳过广告的处理模式。&lt;/p&gt;
+&lt;p&gt;第二个是没有章节标题的文档。我的切分逻辑以 &lt;code&gt;##&lt;/code&gt; 标题为边界，但有些演讲稿（比如 David Patterson 的那篇）是 58K 字符的纯文本，没有任何标题，也没有段落分隔。切分函数拿到这样的输入，一刀都切不下去。&lt;/p&gt;
+&lt;p&gt;为此我做了一个四级回退机制：先试按空行切，切不动就按换行切，再不行就按句号问号等标点切，最后兜底是强制按字符数在空格处截断。每一级都检查切出来的最大片段是否在限制以内，满足就停下来。&lt;/p&gt;
+&lt;p&gt;第三个是说话人识别。播客和访谈里有多个人在说话，翻译完之后读者分不清谁是谁。一开始我做了一个独立的后处理脚本，对已翻译的文本再跑一遍 LLM 来推断说话人。后来发现这条路不太对——中文译文里的说话人线索远不如英文原文丰富。英文原文中，提问的句式、自我介绍、对他人的称呼，这些线索都很明确。到了中文里，这些特征被翻译抹平了不少。&lt;/p&gt;
+&lt;p&gt;最终的方案是在翻译的同时就做说话人识别，把识别指令直接写进翻译提示词里，而不是翻译完再补。&lt;/p&gt;
+&lt;h2 id=&quot;断点续传从简单到复杂&quot;&gt;断点续传：从简单到复杂&lt;/h2&gt;
+&lt;p&gt;长文翻译经常中断——网络超时、API 限额、手动终止。翻译到第 8 片的时候断了，总不能从头再来。所以我给系统加了断点续传：每片翻译完成后立即写一个 checkpoint 文件，记录原文内容、原文的哈希值、译文和术语。下次运行时，检测到 checkpoint 存在且哈希匹配，就跳过这一片。&lt;/p&gt;
+&lt;p&gt;最初这个功能需要手动加 &lt;code&gt;--resume&lt;/code&gt; 参数。很快发现自己总是忘记加，于是改成了自动检测：每次运行都去工作目录里看有没有已完成的 checkpoint，有就跳过，没有就翻译。&lt;/p&gt;
+&lt;p&gt;后来又遇到一个更微妙的问题。第一次用 10K 字符切分，翻译了一部分之后觉得片段太大、模型处理不好，想改成 5K 重新来过。但已经完成的那几片没问题，只是后面的需要切小一点。如果简单地重新切分，片段编号就全变了，已有的 checkpoint 对不上。&lt;/p&gt;
+&lt;p&gt;最终的解决方案是：保留已完成片段不动，把剩余未翻译的原文拼在一起，按新的尺寸重新切分，清理掉旧的未完成 checkpoint。这样已完成的工作一点不浪费，新的片段从正确的位置接上去。&lt;/p&gt;
+&lt;p&gt;回头看这个续传系统，它的复杂度已经超过了翻译本身。原文指纹校验、chunk manifest 持久化、动态重切、checkpoint 清理——这些机制解决的都是真实遇到的问题，但它们叠加起来之后，系统变得很难一眼看清全貌。&lt;/p&gt;
+&lt;h2 id=&quot;便宜的模型撑不住&quot;&gt;便宜的模型撑不住&lt;/h2&gt;
+&lt;p&gt;系统设计了多模型支持，可以通过一个参数切换到不同的模型提供商。这个功能的初衷很实际：翻译是一个 token 消耗量很大的任务，如果能用更便宜的模型完成，成本可以降低一个数量级。&lt;/p&gt;
+&lt;p&gt;我试过用 MiniMax 翻译了一篇文章。结果很难接受：术语译法不稳定，同一个词前后出现了三四种不同的翻译；口语化的段落被改写成了不像中文的奇怪句式；说话人识别几乎完全失败，该标注的地方没标注，不该标注的地方乱标。当然，更关键的还是有些段落完全不讲人话。&lt;/p&gt;
+&lt;p&gt;不得已，所有正式翻译都回到了 Claude Sonnet。Sonnet 的翻译质量确实好得多，但代价是 token 单价高出很多倍。对于一篇普通的博客文章，这个成本还在可接受范围内。但 YouTube 上那些动辄两三个小时的长访谈——文字稿 70K、80K 字符起步——切成十几个片段逐一翻译，每片都用 Sonnet，总成本就变得很不经济了。&lt;/p&gt;
+&lt;p&gt;这让整个分片翻译系统陷入了一个两难：用便宜的模型质量不够用，用好的模型又太贵。而且片数越多，这个矛盾越突出。&lt;/p&gt;
+&lt;h2 id=&quot;每片的固定开销&quot;&gt;每片的固定开销&lt;/h2&gt;
+&lt;p&gt;这笔账其实越算越不乐观。&lt;/p&gt;
+&lt;p&gt;每片翻译的提示词不只有待翻译的原文，还包括一套固定的&quot;脚手架&quot;：翻译原则（直译优先、不要中介转写、术语处理规则等），视频脚本处理指令（去时间戳、合并短句、说话人识别），章节标题策略，已有的术语表，前一片的末尾三段。这些加起来大约 700 到 1200 tokens，与原文内容无关。&lt;/p&gt;
+&lt;p&gt;7 个 10K 片段的文章，固定开销合计约 5600 tokens。如果同一篇文章切成 22 个 5K 片段，固定开销变成约 17600 tokens。多出来的一万多 tokens 全是在重复念同一套指令。而且术语表会随着翻译不断膨胀，后面的片段比前面的片段更贵。&lt;/p&gt;
+&lt;p&gt;这还只是输入端。输出端每片也有格式指令产生的额外开销。算下来，分片翻译比一次性翻译多消耗 15% 到 20% 的 token，而且片切得越小，比例越高。&lt;/p&gt;
+&lt;h2 id=&quot;关掉它的原因&quot;&gt;关掉它的原因&lt;/h2&gt;
+&lt;p&gt;最终让我决定放弃这套系统的，不是某一个具体的技术问题，而是一个整体判断：性价比不够。&lt;/p&gt;
+&lt;p&gt;速度慢是第一个原因。13 个片段的文章需要 13 次串行的 API 调用，每次都要等模型生成完整的翻译，加上重试和最后的导读生成，一篇文章翻译下来要几十分钟。这段时间不需要人工干预，但你得等着它跑完才能看到结果，没法边看边调整。&lt;/p&gt;
+&lt;p&gt;token 消耗大是第二个原因。分片的固有开销——每片重复的系统指令、不断膨胀的术语表、衔接段落——这些都是用 token 换来的跨片一致性。在上下文窗口只有 8K 的时代，这个代价值得付。但现在主流模型的上下文窗口已经到了 128K 甚至更大，一篇 70K 的文章可以一次性放进去，根本不需要切分。&lt;/p&gt;
+&lt;p&gt;翻译质量没有明显优势是第三个原因。我对比了分片翻译的结果和直接在交互式工具（比如 AI Studio）里翻译的结果，差别不大。分片系统在术语一致性上有一点优势——术语表接力确实能保证前后统一——但这个优势在一次性翻译中也基本能做到，因为模型本身就能在长上下文里保持一致。&lt;/p&gt;
+&lt;p&gt;系统复杂度高是第四个原因。断点续传、chunk manifest、动态重切、四级回退切分、视频脚本检测、说话人识别——每一个功能都是为了解决一个真实的问题，但它们合在一起形成了一个需要持续维护的系统。而我要做的事情只是翻译文章。&lt;/p&gt;
+&lt;h2 id=&quot;留下来的东西&quot;&gt;留下来的东西&lt;/h2&gt;
+&lt;p&gt;系统关掉了，但过程中积累的翻译理念还是有用的。&lt;/p&gt;
+&lt;p&gt;比如&quot;非中介翻译&quot;这个约束。LLM 在翻译非英语文本时，有一种倾向：先把原文理解为英文，再从英文翻译成中文。日语翻中文的时候尤其明显——翻译结果读起来像是从英文转过来的，日语原文特有的省略结构和语气词全丢了。在提示词里明确写&quot;不要借助英语或其他中介语言&quot;，能一定程度上缓解这个问题。&lt;/p&gt;
+&lt;p&gt;再比如&quot;直译优先&quot;的层次。很多人让 AI 翻译的时候会说&quot;翻译要通顺&quot;，但&quot;通顺&quot;这个要求往往导致模型过度改写——补出原文没有的主语、加上原文没有的因果连接词、把原文的省略结构展开。我在提示词里建立了一个优先级：先尽量保留原文的语序和结构，实在不通顺再调整语序，最后才是为了可读性牺牲原文形式。这个分层让模型的翻译行为更可控。&lt;/p&gt;
+&lt;p&gt;还有术语表的处理策略。&quot;首次出现时写成&apos;中文翻译（原文术语）&apos;，后续直接使用中文&quot;——这个规则在任何翻译场景下都适用，不限于分片系统。人名的处理也是一样：只有被广泛认可的译名（比如&quot;欧拉&quot;）才翻译，其余一律保留原文，避免读者无法回溯原始人名。&lt;/p&gt;
+&lt;p&gt;这些规则不需要一个复杂的脚本来执行，写在任何翻译提示词里都能用。&lt;/p&gt;
+&lt;h2 id=&quot;一个关于工程判断的小教训&quot;&gt;一个关于工程判断的小教训&lt;/h2&gt;
+&lt;p&gt;这个项目从开始到弃用，前后大约一周。期间翻译了十几篇文章，其中包括几篇八万字以上的长访谈。系统本身是能用的，翻译质量也可以接受。但最终的结论是：用一个交互式窗口手动操作，效率反而更高。&lt;/p&gt;
+&lt;p&gt;回头看，问题出在对环境变化速度的低估上。我在设计分片翻译的时候，心里的参照系是&quot;上下文窗口不够长&quot;这个前提。但是这种焦虑在可以轻松使用AI Studio这种提供1M上下文的平台的前提下，意义不大。&lt;/p&gt;
+&lt;p&gt;另一个教训是关于工程复杂度的。每一个功能——断点续传、动态重切、四级回退——单独看都很合理，每一个都是为了解决一个真实的、在使用中遇到的问题。但它们叠加起来之后，系统的维护成本开始超过使用收益。什么时候该停下来不再加功能，这个判断比&quot;该加什么功能&quot;更难做。&lt;/p&gt;
+&lt;p&gt;留下技术文档不是因为这个系统以后还会用，而是因为里面的一些设计思路——术语表接力、重叠衔接、分级回退切分——在其他需要分片处理长文本的场景下可能有参考价值。至于翻译本身，就回到最简单的方式：打开一个足够大的上下文窗口，把全文丢进去。另外，我也会偶尔翻出来再测试一下，把它接上claude或者国产的大模型，日后也可能会突然发现这套系统变得丝滑好用，届时可以用来翻译一些图书级别的长文档。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[通知卡片规范化与 Discord 同步推送]]></title>
+            <description><![CDATA[从一个卡片宽度问题出发，整理出通知链路的结构边界]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/notification-card-normalization-and-discord-sync</link>
+            <guid isPermaLink="false">article:notification-card-normalization-and-discord-sync</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;h2 id=&quot;起点&quot;&gt;起点&lt;/h2&gt;
+&lt;p&gt;最初是要解决一个小问题：站内 notes 链接在 Telegram 中生成的卡片，宽度和内容密度不一致。后来，这些问题修复后，我想干脆再增加在Discord上的同步功能吧。&lt;/p&gt;
+&lt;p&gt;有些卡片能显示完整的标题和简介，有些只剩下一个日期加一行空泛的说明文字。表现上看起来像是 bug，但根源在于不同类型的 note 走的是同一套 metadata 生成逻辑，而这套逻辑并没有为&quot;没有手写简介&quot;的情况做好兜底。&lt;/p&gt;
+&lt;p&gt;从这个具体的卡片问题出发，排查逐步扩展成对整条通知链路的重新梳理——metadata 怎么拆、推送文案怎么收敛、Discord 怎么接入、以及相邻仓库怎样复用同一套设计。&lt;/p&gt;
+&lt;h2 id=&quot;网页标题和卡片标题是两件事&quot;&gt;网页标题和卡片标题是两件事&lt;/h2&gt;
+&lt;p&gt;排查过程中发现的第一个结构性问题是：网页详情页的标题和 Telegram 卡片的标题共用了同一套生成逻辑。对于有手写标题的文章，这没有影响；但对于 memo 类型的 note，一旦为了让卡片看起来有内容而把正文前几句话抬成标题，网页详情页的标题也会跟着变，最终导致页面上出现一段很长的&quot;标题&quot;，既不好看也不符合阅读预期。&lt;/p&gt;
+&lt;p&gt;解决办法是把这两个场景拆开。在数据模型层面，为 note 统一计算一个 &lt;code&gt;previewText&lt;/code&gt; 字段，作为正文前若干字的标准截取结果。在此基础上，分出两个独立的函数：一个服务网页详情页本身的标题和说明，另一个只服务 Telegram 和社交卡片的 metadata。网页详情页保持日期标题或手写描述，Telegram 卡片则使用日期标题加上固定长度的正文摘要。&lt;/p&gt;
+&lt;p&gt;这一步同时也修正了 Open Graph 和 Twitter Card 的 metadata 输出。对于没有手写描述的 memo，&lt;code&gt;og:description&lt;/code&gt; 自动取正文前若干字，不再输出空字符串；&lt;code&gt;og:image&lt;/code&gt; 也统一指定了一张固定的站点图片，减少卡片布局因来源图片不同而产生的尺寸波动。&lt;/p&gt;
+&lt;h2 id=&quot;推送文案的收敛&quot;&gt;推送文案的收敛&lt;/h2&gt;
+&lt;p&gt;站点 metadata 调整完之后，推送脚本本身也需要跟进。之前的 Telegram 通知脚本虽然会提取 &lt;code&gt;description&lt;/code&gt;，但消息正文里并没有真正输出这段信息，用户在频道里看到的只有标题和链接。同时，标签行有时会变得很长，把消息气泡和卡片的视觉宽度拉得不稳定。&lt;/p&gt;
+&lt;p&gt;调整分两步。第一步，把摘要真正写入消息正文，让频道消息本身也具备稳定的简介层。第二步，对标签输出做限制：限制 hashtag 的数量和总长度，保留必要的分类信息，但避免标签成为卡片宽度的主要驱动因素。&lt;/p&gt;
+&lt;p&gt;这一层的目标不是让所有卡片绝对等宽——Telegram 的客户端渲染行为本身就不完全可控——而是削弱长标题、空摘要和长标签叠加带来的波动，让大多数卡片看起来处于一个可预期的范围内。&lt;/p&gt;
+&lt;h2 id=&quot;discord-接入与共享通知模块&quot;&gt;Discord 接入与共享通知模块&lt;/h2&gt;
+&lt;p&gt;在 Telegram 通知逻辑调整之后，接下来是把通知链路向 Discord 扩展。&lt;/p&gt;
+&lt;p&gt;为了避免两个平台各自维护一套几乎相同的文件变更解析逻辑，先抽出了一个共享模块。这个模块做的事情不复杂：基于 git diff 判断哪些内容是新增的，从中识别出文章和 note，解析它们的 frontmatter，然后生成标题、摘要和标签。Telegram 通知脚本被改造成复用这个模块，只保留 Telegram API 调用和 IV 链接构造的部分。Discord 通知脚本则是新写的，通过 Incoming Webhook 发送 embed 风格的频道消息。&lt;/p&gt;
+&lt;p&gt;这样处理的好处是&quot;检测新增内容&quot;和&quot;提取摘要&quot;只有一份实现。以后调整摘要规则或标签策略时不需要同时改两个脚本。Discord 的接入方式选择了 webhook 而不是 bot，因为当前场景只是部署后的单向推送，webhook 足够用，不需要引入更复杂的机器人权限管理。&lt;/p&gt;
+&lt;h2 id=&quot;跨仓库的复用可能&quot;&gt;跨仓库的复用可能&lt;/h2&gt;
+&lt;p&gt;除了当前仓库的代码改动，这轮还核查了相邻的另一个 Hugo 仓库。那个仓库已经有 Telegram 推送脚本和部署后通知的 workflow 步骤，但还没有 Discord 通知，也没有把内容变更解析抽成共享模块。&lt;/p&gt;
+&lt;p&gt;基于当前仓库已经验证过的做法，整理了一份面向那个仓库的执行建议：抽出共享解析模块，保留 Hugo 仓库自身的路由和 URL 生成逻辑，让 Telegram 和 Discord 共用同一套摘要生成策略。这部分只完成了方案整理，没有直接改动那个仓库的代码。&lt;/p&gt;
+&lt;h2 id=&quot;已验证的和尚待确认的&quot;&gt;已验证的和尚待确认的&lt;/h2&gt;
+&lt;p&gt;本轮的验证覆盖了本地构建和静态文件检查：构建通过，导出的 HTML 中 &lt;code&gt;og:title&lt;/code&gt; 已恢复为日期标题，&lt;code&gt;og:description&lt;/code&gt; 对 memo 正确使用了正文前若干字。三个通知脚本的语法检查也都通过了。&lt;/p&gt;
+&lt;p&gt;但有几件事在本轮中没有完成端到端验证：Discord 频道是否真的能收到消息，需要一次真实部署来确认；Telegram 旧消息上的卡片受客户端缓存影响，不能仅凭旧消息的表现来判断当前 metadata 是否已生效；相邻仓库的改造建议还停留在文档阶段。&lt;/p&gt;
+&lt;h2 id=&quot;拆开之后的结构边界&quot;&gt;拆开之后的结构边界&lt;/h2&gt;
+&lt;p&gt;这轮工作的成果不只是多接入了一个 Discord webhook。更重要的是把几件容易混在一起的事情拆清楚了：网页标题和卡片标题各自由谁决定，简介文本从哪里来，通知脚本的内容解析和平台调用怎样分层，以及不同仓库之间怎样复用同一套通知链路设计。&lt;/p&gt;
+&lt;p&gt;后续如果需要调整卡片的展示策略，或者为新的平台接入推送，改动的范围和影响已经比之前更容易预判了。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Instant View 踩坑记：折腾了一整天，答案是「等一下」]]></title>
             <description><![CDATA[为了让 Telegram Instant View 稳定工作，我排查了 IV 规则、Bot 消息写法、页面结构和部署链路，最后注意到部署后立即发通知时更容易失败，等页面可以从外部访问后再发送，IV 才稳定下来。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/instant-view-in-chaos</link>
@@ -430,6 +520,188 @@
 &lt;p&gt;当然，大厂不会蠢到明目张胆地删署名。它的做法更精明：LICENSE 文件原封不动地保留在代码仓库的某个角落里，但产品界面上用户看到的是&quot;腾讯 SkillHub 精选&quot;。你作为作者，技术上&quot;被署名了&quot;，实际上&quot;被隐身了&quot;。形式合规，实质隐匿。想告都找不到诉由。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;微妙的均衡&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;但它也不敢大规模乱搞。万一哪天真搞出了集体诉讼，几千个开发者联名告腾讯侵犯署名权——法律后果另说，光是公关层面就是核弹级的。南山必胜客的战绩再辉煌，也扛不住这种舆论。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[为静态站点配置 Telegram Instant View：从页面标记到部署等待]]></title>
+            <description><![CDATA[面向静态站点的 Telegram Instant View 配置指南，涵盖页面语义标记、IV 规则编写、同域名多模板兼容、Bot 消息构造、.nojekyll 问题和部署等待机制。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-instant-view-settings</link>
+            <guid isPermaLink="false">article:telegram-instant-view-settings</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;Telegram 的 Instant View（IV）可以让用户在 Telegram 客户端里直接阅读网页正文，不用跳转浏览器。对内容站来说，文章链接带上 &lt;code&gt;INSTANT VIEW&lt;/code&gt; 按钮，阅读体验会好不少。&lt;/p&gt;
+&lt;p&gt;但要让 IV 稳定工作，特别是对部署在 GitHub Pages 上的静态站点来说，需要把页面标记、IV 规则、Bot 消息和部署时序几个环节串起来。这篇文章按操作顺序整理了关键步骤。&lt;/p&gt;
+&lt;h2 id=&quot;1-页面端加语义标记&quot;&gt;1. 页面端：加语义标记&lt;/h2&gt;
+&lt;p&gt;IV 模板需要从页面 HTML 中提取标题、正文、作者、发布时间等信息。最直觉的做法是靠 CSS 类名来定位——但这非常脆弱。你用 Tailwind 生成的 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt; 之类的类名随时可能因为样式调整而变化，IV 规则会悄悄失效，而且没有任何报错。&lt;/p&gt;
+&lt;p&gt;更稳妥的做法是在页面模板中加一组专用的 &lt;code&gt;data-iv-*&lt;/code&gt; 属性：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#x3C;article data-iv-page=&quot;post&quot;&gt;
+  &amp;#x3C;header data-iv-header=&quot;true&quot;&gt;
+    &amp;#x3C;h1 data-iv-title=&quot;true&quot;&gt;{post.title}&amp;#x3C;/h1&gt;
+    {post.subtitle &amp;#x26;&amp;#x26; (
+      &amp;#x3C;p data-iv-subtitle=&quot;true&quot;&gt;{post.subtitle}&amp;#x3C;/p&gt;
+    )}
+    &amp;#x3C;div&gt;
+      &amp;#x3C;time dateTime={post.date} data-iv-published={String(publishedUnix)}&gt;
+        {publishedLabel}
+      &amp;#x3C;/time&gt;
+      &amp;#x3C;span data-iv-author=&quot;true&quot;&gt;{post.author}&amp;#x3C;/span&gt;
+    &amp;#x3C;/div&gt;
+  &amp;#x3C;/header&gt;
+
+  &amp;#x3C;div data-iv-body=&quot;true&quot;
+       dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+  /&gt;
+
+  {/* 不希望 IV 抓取的区域 */}
+  &amp;#x3C;nav data-iv-ignore=&quot;true&quot;&gt;...&amp;#x3C;/nav&gt;
+&amp;#x3C;/article&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;几个要点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;data-iv-title&lt;/code&gt;、&lt;code&gt;data-iv-body&lt;/code&gt;、&lt;code&gt;data-iv-author&lt;/code&gt; 分别标记标题、正文和作者&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;data-iv-published&lt;/code&gt; 放在 &lt;code&gt;&amp;#x3C;time&gt;&lt;/code&gt; 元素上，值为 Unix 时间戳（IV 引擎可以直接解析）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;data-iv-ignore&lt;/code&gt; 标记导航栏、侧边栏、评论区等不应出现在阅读视图中的元素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;同时检查一下页面的 &lt;code&gt;&amp;#x3C;link rel=&quot;canonical&quot;&gt;&lt;/code&gt; 是否包含了正确的部署子路径。如果你的站点部署在 &lt;code&gt;/alpacanotes&lt;/code&gt; 下，canonical URL 也要带上这个前缀。这个问题浏览器不在乎，但 Telegram 在抓取和缓存时会参考 canonical。&lt;/p&gt;
+&lt;h2 id=&quot;2-iv-规则编写与同域名兼容&quot;&gt;2. IV 规则：编写与同域名兼容&lt;/h2&gt;
+&lt;p&gt;到 &lt;a href=&quot;https://instantview.telegram.org/my/&quot;&gt;Telegram Instant View Editor&lt;/a&gt; 编写规则。规则用 XPath 语法告诉 IV 引擎从页面中提取哪些内容。&lt;/p&gt;
+&lt;p&gt;如果你的域名下只有一套页面结构，规则很简单：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;~version: &quot;2.1&quot;
+
+body:           //*[@data-iv-body]
+title:          //*[@data-iv-title]
+subtitle:       //*[@data-iv-subtitle]
+author:         //*[@data-iv-author]
+published_date: //*[@data-iv-published]/@data-iv-published
+
+@split_parent:  //p/img
+@remove:        //*[@data-iv-ignore]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;同域名多模板的情况&quot;&gt;同域名多模板的情况&lt;/h3&gt;
+&lt;p&gt;如果同一个域名下还跑着其他站点（比如主站的文档页），HTML 结构可能完全不同。IV 规则是按域名绑定的，一个域名只有一份规则。这时需要用 XPath 的 &lt;code&gt;|&lt;/code&gt;（或）运算符做双路匹配：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;~version: &quot;2.1&quot;
+
+body: //*[@data-iv-body] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]
+title: //*[@data-iv-title] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]//h1[1]
+subtitle: //*[@data-iv-subtitle] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]//h1[1]/following-sibling::p[1]
+author: //*[@data-iv-author] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;text-muted&quot;) and contains(@class, &quot;text-sm&quot;)][1]/span[1]
+published_date: //*[@data-iv-published]/@data-iv-published | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;text-muted&quot;) and contains(@class, &quot;text-sm&quot;)][1]/span[last()]
+
+@split_parent: //p/img
+@remove: //*[@data-iv-ignore] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;mb-4&quot;)]
+
+@set_attr(width, &quot;auto&quot;): //img
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;规则会从左到右尝试匹配，第一个命中的生效。把 &lt;code&gt;data-iv-*&lt;/code&gt; 放在前面，回退规则放在 &lt;code&gt;|&lt;/code&gt; 后面。&lt;/p&gt;
+&lt;p&gt;写好之后在编辑器里用几个不同页面测试，确认都能正确提取，然后点 &lt;strong&gt;Mark as Published&lt;/strong&gt;，会得到一个 &lt;code&gt;rhash&lt;/code&gt;。把它存到 GitHub Secrets 的 &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt; 里。&lt;/p&gt;
+&lt;h2 id=&quot;3-bot-消息构造&quot;&gt;3. Bot 消息构造&lt;/h2&gt;
+&lt;p&gt;有了 &lt;code&gt;rhash&lt;/code&gt;，就可以构造 IV 链接了：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://t.me/iv?url=&amp;#x3C;encoded_article_url&gt;&amp;#x26;rhash=&amp;#x3C;your_rhash&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;通过 Bot API 发消息时，可以用 &lt;code&gt;link_preview_options&lt;/code&gt; 参数指定预览 URL：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;const ivUrl = `https://t.me/iv?url=${encodeURIComponent(articleUrl)}&amp;#x26;rhash=${rhash}`;
+
+const body = {
+  chat_id: channelId,
+  text: messageText,
+  parse_mode: &apos;HTML&apos;,
+  link_preview_options: {
+    url: ivUrl,
+    prefer_large_media: true,
+    show_above_text: true
+  }
+};
+
+await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+  method: &apos;POST&apos;,
+  headers: { &apos;Content-Type&apos;: &apos;application/json&apos; },
+  body: JSON.stringify(body)
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;注意事项&quot;&gt;注意事项&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;link_preview_options&lt;/code&gt; 的行为和用户手动粘贴链接不完全一样。几个实际经验：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;消息文本中最好也包含原始文章链接（作为阅读兜底），不要只依赖 IV 链接&lt;/li&gt;
+&lt;li&gt;同一条消息里不要塞太多链接，否则 Telegram 可能会选错一条来生成预览&lt;/li&gt;
+&lt;li&gt;新发布的链接效果最好；旧链接可能因为 Telegram 缓存而无法及时更新 IV 状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;4-github-pages-部署两个容易踩的坑&quot;&gt;4. GitHub Pages 部署：两个容易踩的坑&lt;/h2&gt;
+&lt;h3 id=&quot;41-nojekyll-文件&quot;&gt;4.1 &lt;code&gt;.nojekyll&lt;/code&gt; 文件&lt;/h3&gt;
+&lt;p&gt;如果你用 Next.js（或任何会生成 &lt;code&gt;_next&lt;/code&gt; 目录的框架）部署到 GitHub Pages，&lt;strong&gt;必须&lt;/strong&gt;在发布根目录放一个空的 &lt;code&gt;.nojekyll&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;原因：GitHub Pages 默认启用 Jekyll 处理，而 Jekyll 会忽略所有下划线开头的目录。&lt;code&gt;_next&lt;/code&gt; 里放着你全部的 CSS 和 JS 资源——被忽略之后，页面就变成光秃秃的纯文本，CSS/JS 全 404。&lt;/p&gt;
+&lt;p&gt;如果你用手写 shell 脚本部署，不要忘了这一步：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;cp -R ./out/. &quot;${deploy_dir}/&quot;
+touch &quot;${deploy_dir}/.nojekyll&quot;   # 关键
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个问题的症状很容易被误判为前端代码错误，因为 HTML 本身是正常的，只是样式全丢了。&lt;/p&gt;
+&lt;h3 id=&quot;42-发布时序先确保页面在线再发通知&quot;&gt;4.2 发布时序：先确保页面在线，再发通知&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;这是整个流程中最重要的一条。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;代码推送到 &lt;code&gt;gh-pages&lt;/code&gt; 分支之后，GitHub Pages 的 CDN 并不是立刻就能返回新内容。可能要几十秒，甚至一两分钟。如果 Bot 在部署步骤完成后立刻发通知，Telegram 去抓取页面时拿到的可能是旧版本、404 或者不完整的页面。IV 引擎匹配失败，卡片不会挂上 &lt;code&gt;INSTANT VIEW&lt;/code&gt; 按钮。更糟的是 Telegram 会缓存这个失败的结果。&lt;/p&gt;
+&lt;p&gt;解决方案是在部署和通知之间加一个等待步骤，轮询目标 URL 直到确认新页面已经可以正常访问：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;async function waitForTarget(target) {
+  const MAX_ATTEMPTS = 18;  // 最多 18 次
+  const DELAY_MS = 10000;   // 每次间隔 10 秒
+
+  for (let attempt = 1; attempt &amp;#x3C;= MAX_ATTEMPTS; attempt++) {
+    // 加随机参数绕过 CDN 缓存
+    const probeUrl = `${target.url}?deploy_check=${Date.now()}`;
+
+    try {
+      const response = await fetch(probeUrl, {
+        headers: { &apos;cache-control&apos;: &apos;no-cache&apos; }
+      });
+      const html = await response.text();
+
+      // 检查 HTTP 200 且页面包含预期内容
+      const ready = response.ok &amp;#x26;&amp;#x26; (
+        html.includes(&apos;data-iv-body&apos;) ||
+        html.includes(target.expectedTitle)
+      );
+
+      if (ready) return;
+    } catch (error) {
+      // 网络错误，继续重试
+    }
+
+    await new Promise(r =&gt; setTimeout(r, DELAY_MS));
+  }
+
+  throw new Error(`Timed out waiting for: ${target.url}`);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;核心思路：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查询参数 &lt;code&gt;deploy_check=${Date.now()}&lt;/code&gt; 让每次请求的 URL 都不同，避免 CDN 返回缓存&lt;/li&gt;
+&lt;li&gt;检查标准不只是 HTTP 200，还要确认页面内容包含 &lt;code&gt;data-iv-body&lt;/code&gt; 或文章标题——防止 CDN 返回旧版页面&lt;/li&gt;
+&lt;li&gt;最多等 3 分钟（18 次 × 10 秒），超时则报错中断部署流程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 GitHub Actions 的 deploy workflow 中，把这个等待步骤放在部署和通知之间：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- name: Deploy to GitHub Pages
+  run: # ...部署脚本...
+
+- name: Wait for deployment propagation
+  run: node scripts/wait-for-publication.js
+
+- name: Cool down before notify
+  run: sleep 20
+
+- name: Notify Telegram
+  run: node scripts/telegram-notify.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;sleep 20&lt;/code&gt; 是轮询通过之后的额外冷却时间。CDN 传播不是瞬时完成的，多等 20 秒可以让更多边缘节点同步完毕。&lt;/p&gt;
+&lt;h2 id=&quot;5-telegram-客户端缓存&quot;&gt;5. Telegram 客户端缓存&lt;/h2&gt;
+&lt;p&gt;即使以上全部配置正确，你可能仍然会遇到一个现象：同一条 IV 链接第一次打开正常，再次打开偶尔白屏。&lt;/p&gt;
+&lt;p&gt;这是 Telegram 客户端自身的缓存/渲染行为，不在站点侧能控制的范围内。判断方法很简单：如果第一次能打开，说明规则和页面都没问题；如果是重复打开才出问题，那就是客户端侧的事。&lt;/p&gt;
+&lt;p&gt;务实的做法是：消息里始终保留原始文章链接作为兜底，验证 IV 效果时用新链接而不是反复测试同一条旧消息。&lt;/p&gt;
+&lt;h2 id=&quot;总结一下关键步骤&quot;&gt;总结一下关键步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;页面模板加 &lt;code&gt;data-iv-*&lt;/code&gt; 语义标记&lt;/li&gt;
+&lt;li&gt;在 IV 编辑器中编写基于这些标记的规则，发布拿到 &lt;code&gt;rhash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Bot 消息用 &lt;code&gt;link_preview_options&lt;/code&gt; 挂 IV 链接，同时保留原始链接&lt;/li&gt;
+&lt;li&gt;部署目录放 &lt;code&gt;.nojekyll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署后轮询确认页面在线，再发通知&lt;/strong&gt;——这一条最容易漏，也最关键&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你想看我实际排查这些问题时的弯路和心路历程，可以读读 &lt;a href=&quot;https://linguista.cn/alpacanotes/articles/instant-view-in-chaos&quot;&gt;《Instant View 踩坑记：折腾了一整天，答案是「等一下」》&lt;/a&gt;。&lt;/p&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[工具上瘾与专注的稀缺]]></title>
@@ -896,6 +1168,262 @@
 &lt;p&gt;有了这些标记，如果有时间，可以与AI聊一聊，不是每一次和AI的对话都要产出代码或者成果。有时候，一系列的对话能够帮自己想清楚一件事，就已经值回票价了。&lt;/p&gt;</content:encoded>
         </item>
         <item>
+            <title><![CDATA[基于Claude Agent SDK的文档摘要处理工具开发记录]]></title>
+            <description><![CDATA[记录基于Claude Agent SDK构建文档摘要生成工具的完整开发过程，包括API选型、格式设计、文件命名等挑战的解决方案。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/development-journey</link>
+            <guid isPermaLink="false">article:development-journey</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;这篇文档记录了我如何一步步构建一个基于 Claude Agent SDK 的文档摘要生成工具。整个过程并非一帆风顺——从最初的 API 选型困惑，到摘要格式的反复调整，再到文件命名规则的多次重构，每一步都伴随着问题的发现与解决。&lt;/p&gt;
+&lt;h2 id=&quot;起点一个简单的需求&quot;&gt;起点：一个简单的需求&lt;/h2&gt;
+&lt;p&gt;事情的起点很简单：我有一个 &lt;code&gt;Clippings&lt;/code&gt; 文件夹，里面存放着从各处收集的文章（接近300篇）。这些文章越积越多，却很少被真正阅读和消化。我希望有一个工具，能够批量处理这些文章，为每篇生成一张摘要卡片——既保留核心信息，又节省阅读时间（最后，我将其上传到自己的网站中，即&lt;a href=&quot;https://linguista.cn/whatsup/&quot;&gt;精选阅读&lt;/a&gt;模块）。&lt;/p&gt;
+&lt;p&gt;最初的代码框架已经存在，使用的是智谱 AI 的 GLM 模型（这是我最初的设想，但还没有完全调通）。但我希望切换到 Claude Agent SDK，因为它提供了更强大的 agent 能力，而且我已经配置好了 Claude Code 环境。接下来的工作是由amp完成的，因为我有免费赠送的10美刀额度，整个thread都使用的smart模型（调用Claude Opus 4.5, 大概花费$7）&lt;/p&gt;
+&lt;h2 id=&quot;第一个挑战理解-claude-agent-sdk&quot;&gt;第一个挑战：理解 Claude Agent SDK&lt;/h2&gt;
+&lt;p&gt;当我说&quot;使用 Claude Agent SDK&quot;时，虽然我之前用过几次，但其实对它的详细用法印象并不深刻，只有残存于记忆中的模糊印象。我让amp帮我通过查阅最新文档，了解到 Claude Agent SDK 是一个基于 Claude Code 构建的 Python/TypeScript 库，核心 API 是异步的 &lt;code&gt;query()&lt;/code&gt; 函数：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;from claude_agent_sdk import query, ClaudeAgentOptions
+
+async for message in query(
+    prompt=&quot;你的提示词&quot;,
+    options=ClaudeAgentOptions(allowed_tools=[])
+):
+    # 处理响应
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;与传统的同步 API 调用不同，这里返回的是一个异步迭代器，需要用 &lt;code&gt;async for&lt;/code&gt; 来遍历消息流。这意味着整个处理逻辑都需要重构为异步模式。&lt;/p&gt;
+&lt;p&gt;我们写了一个简单的测试脚本来验证 SDK 是否正常工作：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;async def test_basic_query():
+    async for message in query(
+        prompt=&quot;请用中文简单介绍一下你自己&quot;,
+        options=ClaudeAgentOptions(allowed_tools=[])
+    ):
+        if hasattr(message, &apos;result&apos;):
+            print(f&quot;结果: {message.result}&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;测试通过后，我们才开始正式改造主程序。&lt;/p&gt;
+&lt;h2 id=&quot;设计工作流程&quot;&gt;设计工作流程&lt;/h2&gt;
+&lt;p&gt;接下来需要设计清晰的工作流程。最终确定的目录结构是：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Clippings/
+├── toread/      # 待处理的文章
+├── summary/     # 生成的摘要卡片
+└── _archived/   # 已处理的原文
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;工作流程很直观：从 &lt;code&gt;toread&lt;/code&gt; 读取文章，生成摘要后保存到 &lt;code&gt;summary&lt;/code&gt;，同时将原文移动到 &lt;code&gt;_archived&lt;/code&gt;。这样既保留了原文的可追溯性，又让待处理队列保持清晰。&lt;/p&gt;
+&lt;h2 id=&quot;摘要格式的演进&quot;&gt;摘要格式的演进&lt;/h2&gt;
+&lt;p&gt;摘要的格式经历了几轮调整。&lt;/p&gt;
+&lt;p&gt;最初的设计包含&quot;核心观点&quot;、&quot;关键要点&quot;、&quot;金句摘录&quot;、&quot;延伸思考&quot;四个部分，采用分点列举的形式。但这种格式显得有些机械，更像是填空题而非真正的内容理解。&lt;/p&gt;
+&lt;p&gt;经过讨论，我们将格式调整为三个部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;摘要&lt;/strong&gt;：100字左右的精炼概括&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容框架与概述&lt;/strong&gt;：用自然段落描述文章脉络，而非分点罗列&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心概念及解读&lt;/strong&gt;：提取关键词并结合文章进行解读&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这种格式更贴近人类的阅读习惯——先了解大意，再理解结构，最后掌握核心概念。&lt;/p&gt;
+&lt;p&gt;关于模板文件，我们发现一个有趣的问题：如果模板中包含具体的示例文字（比如&quot;文章开篇从某个现象切入...&quot;），AI 可能会照搬这些措辞，产生硬编码效果。解决方案是用占位符替代具体示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;## 内容框架与概述
+
+{用2-4个自然段落概述文章结构与核心论述}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;漫长的等待日志系统的引入&quot;&gt;漫长的等待：日志系统的引入&lt;/h2&gt;
+&lt;p&gt;第一次批量处理时，我们遇到了一个实际问题：命令执行后长时间没有任何输出，直到所有文章处理完毕才一次性返回结果。对于几十篇文章的批量处理，这意味着要等待很长时间而不知道进度如何。&lt;/p&gt;
+&lt;p&gt;解决方案是引入日志系统。在每次批处理开始时，先创建一个日志文件，列出所有待处理的文件：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;# 摘要生成任务日志
+
+| 序号 | 文件名 | 状态 |
+|------|--------|------|
+| 1 | article-1.md | ⏳ pending |
+| 2 | article-2.md | ⏳ pending |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;每处理完一篇文章，立即更新日志状态（✅ done / ❌ failed / ⏭️ skipped），并追加一条带时间戳的日志条目。这样即使命令超时中断，我们也能从日志中看到哪些文章已经处理完成。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;class ProcessLogger:
+    def update_status(self, filename: str, status: str, message: str = &quot;&quot;):
+        # 更新状态表格
+        # 追加日志条目
+        # 写入文件（实时持久化）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;文件命名的困境&quot;&gt;文件命名的困境&lt;/h2&gt;
+&lt;p&gt;文件命名是我们遇到的最棘手的问题之一。&lt;/p&gt;
+&lt;p&gt;最初的方案很简单：从标题中提取英文字符，转小写，用连字符连接。对于英文标题，这工作得很好：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;The Next Two Years of Software Engineering&quot; → &lt;code&gt;the-next-two-years-of-software-engineering.md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但对于中文标题，问题就来了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;鲍勃·迪伦：我们这个时代的诗人&quot; → &lt;code&gt;鲍勃迪伦我们这个时代的诗人.md&lt;/code&gt;（中文字符没有被过滤）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;修复后又出现新问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;硅谷的尤达大师&quot; → &lt;code&gt;20260124-232655.md&lt;/code&gt;（纯中文标题变成了时间戳）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;时间戳虽然能保证唯一性，但完全失去了语义。更糟糕的是，有些文章的原标题本身就没有意义，比如 &quot;Thread by @AztecaAlpaca&quot;——即使正确提取也是无用的 &lt;code&gt;thread-by-aztecaalpaca.md&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;最终的解决方案是让 Claude 自己来生成文件名。在 prompt 中增加一个要求：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;首先，在第一行输出一个适合做文件名的英文短语（3-5个单词），格式：
+SLUG: your-english-slug-here
+规则：
+- 必须是纯英文，单词用连字符连接，全小写
+- 如果原标题是中文，翻译成英文并提取关键词
+- 如果原标题无意义，根据文章内容提炼核心主题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;鲍勃·迪伦——欧美音乐的灵魂&quot; → &lt;code&gt;bob-dylan-soul-of-rock.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&quot;Thread by @AztecaAlpaca&quot; → 根据文章内容生成有意义的名称&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AI 理解文章内容，自然能生成更合适的文件名。&lt;/p&gt;
+&lt;h2 id=&quot;原文信息的位置调整&quot;&gt;原文信息的位置调整&lt;/h2&gt;
+&lt;p&gt;一个小但重要的细节：原文信息（来源链接、作者、发表日期）应该放在哪里？&lt;/p&gt;
+&lt;p&gt;最初我们把它放在摘要开头，紧跟在标题之后。但这样阅读体验不好——读者点开一篇摘要，首先想看的是内容概括，而不是元数据。&lt;/p&gt;
+&lt;p&gt;调整后，原文信息移到了文章末尾，并且将原文标题和来源 URL 合并为一个链接：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;## 原文信息
+
+| 字段 | 内容 |
+|------|------|
+| 原文 | [文章标题](https://source-url.com) |
+| 作者 | 作者名 |
+| 发表日期 | 2025-01-20 |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这样既保留了可追溯性，又不干扰主要内容的呈现。&lt;/p&gt;
+&lt;h2 id=&quot;最终的代码结构&quot;&gt;最终的代码结构&lt;/h2&gt;
+&lt;p&gt;经过这些迭代，最终的代码结构如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tools/
+├── process.py           # 主处理脚本
+├── test_agent_sdk.py    # SDK 测试脚本
+├── summary_template.md  # 摘要模板参考
+├── README.md           # 使用说明
+├── logs/               # 处理日志
+└── docs/               # 开发文档
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;核心处理流程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;创建日志文件，列出待处理文件&lt;/li&gt;
+&lt;li&gt;逐个读取文章，解析 frontmatter 和正文&lt;/li&gt;
+&lt;li&gt;调用 Claude 生成摘要（包含 SLUG 和 DESCRIPTION）&lt;/li&gt;
+&lt;li&gt;从响应中提取 slug 作为文件名&lt;/li&gt;
+&lt;li&gt;写入摘要文件，移动原文到归档目录&lt;/li&gt;
+&lt;li&gt;更新日志状态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;反思与总结&quot;&gt;反思与总结&lt;/h2&gt;
+&lt;p&gt;回顾整个开发过程，有几点值得记录：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;异步编程的必要性&lt;/strong&gt;：Claude Agent SDK 基于异步设计，这不是可选的，而是必须适应的。好在 Python 的 &lt;code&gt;asyncio&lt;/code&gt; 已经足够成熟，改造成本并不高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;实时反馈很重要&lt;/strong&gt;：长时间无响应的命令会让人焦虑。日志系统虽然简单，但极大改善了使用体验。下次设计批处理工具时，这应该是标配而非事后补救。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;让 AI 做它擅长的事&lt;/strong&gt;：文件命名这个问题，我们最初试图用正则表达式和规则来解决，结果越改越复杂。最终让 Claude 来生成文件名，反而是最简洁有效的方案。AI 理解语义，规则处理语法——各司其职。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;格式设计需要迭代&lt;/strong&gt;：摘要的格式不是一次设计好的，而是在实际使用中逐步调整的。过于结构化的分点列举会显得机械，适度的自然段落更易阅读。&lt;/p&gt;
+&lt;p&gt;这个工具还有改进空间，但作为一个解决实际问题的工具，它已经可以正常工作了。剩下的优化，留待实际使用中发现新需求时再说。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;最后更新：2026-01-25&lt;/em&gt;&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[为博客集成 Telegram 自动推送：GitHub Actions 与 Bot API 实战]]></title>
+            <description><![CDATA[记录如何通过 GitHub Actions 与 Telegram Bot API，为博客搭建新文章自动推送链路的完整流程。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/telegram-integration</link>
+            <guid isPermaLink="false">article:telegram-integration</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;为了方便读者及时获取更新，我为 AlpacaNotes 博客增加了 Telegram 频道自动推送功能。每当有新文章发布时，GitHub Actions 会自动触发脚本，将文章标题和链接发送到订阅频道。以下是实现这一功能的简要流程。&lt;/p&gt;
+&lt;h2 id=&quot;1-申请-telegram-bot&quot;&gt;1. 申请 Telegram Bot&lt;/h2&gt;
+&lt;p&gt;首先，你需要拥有一个 Telegram 账号并申请一个机器人：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Telegram 中搜索 &lt;strong&gt;@BotFather&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;发送指令 &lt;code&gt;/newbot&lt;/code&gt; 创建新机器人。&lt;/li&gt;
+&lt;li&gt;按照提示设置机器人的名称（Name）和用户名（Username）。&lt;/li&gt;
+&lt;li&gt;创建成功后，BotFather 会给你一个 &lt;strong&gt;HTTP API Token&lt;/strong&gt;（类似 &lt;code&gt;123456789:ABCdef...&lt;/code&gt;），请妥善保管。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;2-设置频道并获取-chat-id&quot;&gt;2. 设置频道并获取 Chat ID&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;创建一个新的 Telegram Channel（频道），或者使用现有频道。&lt;/li&gt;
+&lt;li&gt;将你刚才创建的机器人添加为频道管理员（Administrator），赋予发送消息的权限。&lt;/li&gt;
+&lt;li&gt;为了获取频道的 &lt;code&gt;Chat ID&lt;/code&gt;，你可以先在频道里随便发一条消息，然后转发给 &lt;strong&gt;@getidsbot&lt;/strong&gt;（或其他类似 ID 查询机器人），它会返回以 &lt;code&gt;-100&lt;/code&gt; 开头的频道 ID（例如 &lt;code&gt;-1003229698152&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;3-配置-github-secrets&quot;&gt;3. 配置 GitHub Secrets&lt;/h2&gt;
+&lt;p&gt;为了安全起见，不要将 Token 直接硬编码在代码中。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入博客项目的 GitHub 仓库页面。&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;Settings&lt;/strong&gt; -&gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; -&gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;新建 Repository Secret：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;TELEGRAM_TOKEN&lt;/code&gt;: 填入 BotFather 给你的 Token。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;4-编写自动化脚本&quot;&gt;4. 编写自动化脚本&lt;/h2&gt;
+&lt;p&gt;在项目中编写一个 Node.js 脚本（&lt;code&gt;scripts/telegram-notify.js&lt;/code&gt;），用于检测变更并发送消息。&lt;/p&gt;
+&lt;p&gt;主要逻辑如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 &lt;code&gt;git diff&lt;/code&gt; 识别本次提交中&lt;strong&gt;新增&lt;/strong&gt;的 &lt;code&gt;.md&lt;/code&gt; 文件。&lt;/li&gt;
+&lt;li&gt;解析 Markdown 文件的 Frontmatter（元数据），提取标题和描述。&lt;/li&gt;
+&lt;li&gt;调用 Telegram 的 &lt;code&gt;sendMessage&lt;/code&gt; API，将文章标题、描述和链接格式化后发送到指定频道。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;5-配置-github-actions-工作流&quot;&gt;5. 配置 GitHub Actions 工作流&lt;/h2&gt;
+&lt;p&gt;最后，修改 &lt;code&gt;.github/workflows/deploy.yml&lt;/code&gt; 文件，在部署流程中加入通知步骤：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- name: Check for new content and notify
+  if: success()
+  env:
+    TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+    TELEGRAM_TO: &quot;-1003229698152&quot; # 你的频道 ID
+    SITE_URL: &quot;https://linguista.cn&quot;
+    BASE_PATH: &quot;/alpacanotes&quot;
+  run: node scripts/telegram-notify.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;6-静态站点部署配置&quot;&gt;6. 静态站点部署配置&lt;/h2&gt;
+&lt;p&gt;本博客使用 Next.js 构建，并托管在 GitHub Pages 上。为了确保静态资源加载正确（特别是当部署在子路径如 &lt;code&gt;/alpacanotes&lt;/code&gt; 下时），需要在 &lt;code&gt;next.config.ts&lt;/code&gt; 中进行特别配置：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-typescript&quot;&gt;const isProd = process.env.NODE_ENV === &quot;production&quot;;
+
+const nextConfig: NextConfig = {
+  // 启用静态导出模式，生成纯 HTML/CSS/JS 文件
+  output: isProd ? &quot;export&quot; : undefined,
+
+  // 禁用 Next.js 自带的图片优化服务（GitHub Pages 不支持 Node.js 运行时）
+  images: {
+    unoptimized: true,
+  },
+
+  // 设置子路径，匹配 GitHub Pages 的仓库名
+  basePath: isProd ? &quot;/alpacanotes&quot; : &quot;&quot;,
+  assetPrefix: isProd ? &quot;/alpacanotes/&quot; : &quot;&quot;,
+};
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此外，部署工作流目前已经改为 shell 方式同步 &lt;code&gt;out&lt;/code&gt; 目录到外部 &lt;code&gt;gh-pages&lt;/code&gt; 分支，并显式补上 &lt;code&gt;.nojekyll&lt;/code&gt;，以避免 GitHub Pages 忽略 &lt;code&gt;_next&lt;/code&gt; 目录导致静态资源丢失。&lt;/p&gt;
+&lt;h2 id=&quot;7-配置-telegram-instant-view-即时预览&quot;&gt;7. 配置 Telegram Instant View (即时预览)&lt;/h2&gt;
+&lt;p&gt;为了让用户在 Telegram 中获得更好的阅读体验（无需跳转浏览器即可秒开文章），我们配置了 Instant View。&lt;/p&gt;
+&lt;h3 id=&quot;71-创建-instant-view-模板&quot;&gt;7.1 创建 Instant View 模板&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;登录 &lt;a href=&quot;https://instantview.telegram.org/my/&quot;&gt;Telegram Instant View Editor&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;输入你的博客文章示例链接（例如 &lt;code&gt;https://linguista.cn/alpacanotes/articles/telegram-integration&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;编写提取规则。早期规则曾依赖 &lt;code&gt;text-xl&lt;/code&gt;、&lt;code&gt;mt-16&lt;/code&gt; 之类的样式类名，后来在实际排查中证实过于脆弱。当前更可靠的做法是让页面模板输出稳定的 &lt;code&gt;data-iv-*&lt;/code&gt; 标记，并在同域名多模板场景下保留回退规则。核心思路如下：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;~version: &quot;2.1&quot;
+
+body: //*[@data-iv-body] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]
+title: //*[@data-iv-title] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]//h1[1]
+subtitle: //*[@data-iv-subtitle] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;md-theme-amp&quot;)]//h1[1]/following-sibling::p[1]
+author: //*[@data-iv-author] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;text-muted&quot;) and contains(@class, &quot;text-sm&quot;)][1]/span[1]
+published_date: //*[@data-iv-published]/@data-iv-published | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;text-muted&quot;) and contains(@class, &quot;text-sm&quot;)][1]/span[last()]
+@split_parent: //p/img
+@remove: //*[@data-iv-ignore] | //article[contains(@class, &quot;docs-content&quot;)]//div[contains(@class, &quot;mb-4&quot;)]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;点击 &lt;strong&gt;Mark as Published&lt;/strong&gt;，你将获得一个 &lt;strong&gt;rhash&lt;/strong&gt;（一串哈希值，例如 &lt;code&gt;d41d8cd98f00b204e980&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;72-配置-github-secrets&quot;&gt;7.2 配置 GitHub Secrets&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;回到 GitHub 仓库的 &lt;strong&gt;Settings&lt;/strong&gt; &gt; &lt;strong&gt;Secrets and variables&lt;/strong&gt; &gt; &lt;strong&gt;Actions&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;新建 Secret &lt;code&gt;TELEGRAM_IV_RHASH&lt;/code&gt;，填入刚才获得的 hash 值。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;73-脚本支持&quot;&gt;7.3 脚本支持&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;link_preview_options&lt;/code&gt; 可以作为 Bot 推送中的辅助能力，但它并不是一个“填了就完美生效”的万能开关。后续排查中确认了几个更接近真实情况的结论：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;t.me/iv?url=...&amp;#x26;rhash=...&lt;/code&gt; 裸链接本身可以作为私有 Instant View 入口直接使用；&lt;/li&gt;
+&lt;li&gt;通过 Bot API 指定 &lt;code&gt;link_preview_options.url = t.me/iv?...&lt;/code&gt;，并不总能稳定复现“手动粘贴裸 IV 链接”的行为；&lt;/li&gt;
+&lt;li&gt;消息结构、GitHub Pages 发布时序、Telegram 客户端缓存都会影响卡片最终是否挂上 &lt;code&gt;INSTANT VIEW&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;更稳妥的工程做法是：先确保页面已经真正公网可抓取，再发送消息，并始终保留原始文章链接作为阅读兜底。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果你想看这一轮排查的完整经过，可以继续阅读：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linguista.cn/alpacanotes/alpacanotes/articles/telegram-instant-view-settings&quot;&gt;《为静态站点配置 Telegram Instant View：从页面标记到部署等待》&lt;/a&gt;（实操指南）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linguista.cn/alpacanotes/articles/instant-view-in-chaos&quot;&gt;《Instant View 踩坑记：折腾了一整天，答案是「等一下」》&lt;/a&gt;（排查故事）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;本文即为该功能的测试文章。如果你在 Telegram 频道看到了这条推送，说明自动化流程已配置成功！&lt;/em&gt;&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
             <title><![CDATA[关于聂卫平]]></title>
             <description><![CDATA[聂卫平先生离世，我从一个完全不重要的个人视角，回顾一下这位围棋传奇在我心中的印记，借此表示缅怀。]]></description>
             <link>https://linguista.cn/alpacanotes/articles/nie-weiping-from-my-view</link>
@@ -1290,6 +1818,92 @@ AI画匠，Prompt Kiddie、球迷（勇士&amp;#x26;马刺@ NBA，利物浦@英�
 &lt;p&gt;于是，我在它的指导下执行了那几行陌生但寄托了我所有希望的命令，然后就是起死回生的时刻，我长舒了一口气。
 此时，我的代码回到了我用“残之一手”点击GitHub Desktop的那一刻之前的状态，我的博客评论区配置依然找不到。但是我已经不再为此感到一丝一毫的不爽，全是劫后余生的庆幸。&lt;/p&gt;
 &lt;p&gt;后面，借助Windsurf+GPT-5，我把评论区补上了，又修复了其他已经发现的小bug，然后开始写了这篇博客。这件事情始于经验的缺乏带来的误操作，不过还好我用的是Git，这款软件真是大慈大悲的发明。过去两年我一直在使用Git，但是只学会了最基础的操作。&lt;/p&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Git 历史回退自救手册：reflog 找回与分支指针恢复]]></title>
+            <description><![CDATA[Git 误操作后使用 reflog 找回提交并恢复分支指针的操作清单。]]></description>
+            <link>https://linguista.cn/alpacanotes/articles/git-recover_guide</link>
+            <guid isPermaLink="false">article:git-recover_guide</guid>
+            <dc:creator><![CDATA[AztecaAlpaca]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;p&gt;该指南来自于一次自我感觉&lt;a href=&quot;https://linguista.cn/alpacanotes/alpacanotes/articles/git-incident-2025-09-28&quot;&gt;惊险的经历&lt;/a&gt;，&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一份精简但可操作的“掉历史”自救清单：当你在 GUI 或命令行误操作后，发现最近提交“消失”时，如何快速定位并安全恢复。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;典型症状&quot;&gt;典型症状&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;近期提交不见了&lt;/strong&gt;：&lt;code&gt;git log&lt;/code&gt; 顶端不是你刚做的提交。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工作区回到旧版本&lt;/strong&gt;：本地文件和远端网站内容明显“时光倒流”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远端与本地不一致&lt;/strong&gt;：&lt;code&gt;git status -sb&lt;/code&gt; 显示 &lt;code&gt;main...origin/main [ahead N|behind N]&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;成因与诱因简明&quot;&gt;成因与诱因（简明）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;直接成因&lt;/strong&gt;：分支指针被移到旧提交，或进入分离 HEAD，导致近期提交不在当前分支历史中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前几天可能埋下的雷&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;直接 &lt;code&gt;git checkout &amp;#x3C;commit&gt;&lt;/code&gt; 查看旧版本后继续开发/提交；&lt;/li&gt;
+&lt;li&gt;用 GUI 的“Checkout/Reset/Restore”类功能回到旧提交但未建保护分支；&lt;/li&gt;
+&lt;li&gt;偶发 &lt;code&gt;git reset --hard &amp;#x3C;old&gt;&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;未及时推送，远端与本地脱节，引发误判。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;今天触发的动作&lt;/strong&gt;：在 GUI 中对某个旧提交执行了“Checkout/Reset”，把当前分支（例如 &lt;code&gt;main&lt;/code&gt;）指针回退了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;本次拯救摘要&quot;&gt;本次拯救（摘要）&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;用 &lt;code&gt;reflog&lt;/code&gt; 找到目标提交 &lt;code&gt;&amp;#x3C;sha&gt;&lt;/code&gt;（历史未丢，只是指针偏了）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;二选一恢复：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# 安全合并法（推荐）
+git checkout -b restore-work &amp;#x3C;sha&gt;
+git checkout main
+git merge restore-work
+
+# 或：直接重置法（快捷）
+git checkout main
+git reset --hard &amp;#x3C;sha&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;如远端历史需以本地为准：&lt;code&gt;git push -f origin main&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;恢复步骤&quot;&gt;恢复步骤&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# 1) 快速浏览当前可达历史
+git log --oneline -10
+
+# 2) 关键：查看 HEAD 的移动“航迹记录”
+git reflog -20
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;在 &lt;code&gt;reflog&lt;/code&gt; 输出中，&lt;strong&gt;找到你需要回到的那次正确提交的 SHA&lt;/strong&gt;（记为 &lt;code&gt;&amp;#x3C;sha&gt;&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;两种恢复方式择一&quot;&gt;两种恢复方式（择一）&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# 从目标提交创建保护分支
+git checkout -b restore-work &amp;#x3C;sha&gt;
+
+# 回到主分支并合并恢复
+git checkout main
+git merge restore-work
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;说明：保留现场，历史连贯，最不容易出岔子。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git checkout main
+git reset --hard &amp;#x3C;sha&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;说明：让当前分支指针“瞬移”到 &lt;code&gt;&amp;#x3C;sha&gt;&lt;/code&gt;；如远端不是你想要的历史，后续可能需要强推。&lt;/p&gt;
+&lt;h2 id=&quot;同步远端如有需要&quot;&gt;同步远端（如有需要）&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# 仅当你确认“本地才是正确历史”时才执行强推！
+git push -f origin main
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;预防与习惯精简版&quot;&gt;预防与习惯（精简版）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;查看旧版本用新分支&lt;/strong&gt;：&lt;code&gt;git checkout -b inspect-&amp;#x3C;date&gt; &amp;#x3C;sha&gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小步提交，及时推送&lt;/strong&gt;：远端即备份。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;危险操作前打快照&lt;/strong&gt;：&lt;code&gt;git branch backup-&amp;#x3C;date&gt;&lt;/code&gt; 或 &lt;code&gt;git tag safety-&amp;#x3C;date&gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;丢历史先看 reflog&lt;/strong&gt;：优先 &lt;code&gt;git reflog&lt;/code&gt;，再考虑其他。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
         </item>
         <item>
             <title><![CDATA[虽然有点卡，但我喜欢Liquid Glass]]></title>
