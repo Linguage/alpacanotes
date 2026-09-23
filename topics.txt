@@ -1,8 +1,8 @@
 4:"$Sreact.fragment"
-5:I[6498,["177","static/chunks/app/layout-54a8dd0a87eb9eba.js"],"default"]
-6:I[8312,["177","static/chunks/app/layout-54a8dd0a87eb9eba.js"],"ThemeProvider"]
-7:I[4079,["177","static/chunks/app/layout-54a8dd0a87eb9eba.js"],"default"]
-8:I[3575,["177","static/chunks/app/layout-54a8dd0a87eb9eba.js"],"default"]
+5:I[9073,["177","static/chunks/app/layout-133ab298c351553b.js"],"default"]
+6:I[8312,["177","static/chunks/app/layout-133ab298c351553b.js"],"ThemeProvider"]
+7:I[4079,["177","static/chunks/app/layout-133ab298c351553b.js"],"default"]
+8:I[3575,["177","static/chunks/app/layout-133ab298c351553b.js"],"default"]
 9:I[5244,[],""]
 a:I[3866,[],""]
 c:I[6213,[],"OutletBoundary"]
@@ -11,11 +11,102 @@ e:I[6213,[],"MetadataBoundary"]
 12:I[4835,[],""]
 1:HL["/alpacanotes/_next/static/media/eaead17c7dbfcd5d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/alpacanotes/_next/static/css/cc2b58cedd75d3de.css","style"]
-3:HL["/alpacanotes/_next/static/css/eff214b5f8227b6c.css","style"]
-0:{"P":null,"b":"u5nKYXf3rLSIKapSxIiLo","p":"/alpacanotes","c":["","topics"],"i":false,"f":[[["",{"children":["topics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/cc2b58cedd75d3de.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/eff214b5f8227b6c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fontsapi.zeoseven.com"}],["$","link",null,{"rel":"stylesheet","href":"https://fontsapi.zeoseven.com/309/main/result.css"}]]}],["$","body",null,{"className":"antialiased min-h-screen __variable_60ddcb","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]]}]]}],{"children":["topics",["$","$4","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":["$Lb",null,["$","$Lc",null,{"children":"$Ld"}]]}],{},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","5SSIMw5x86HiT6lvx3ZqP",{"children":[["$","$Le",null,{"children":"$Lf"}],["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
-13:I[2647,["935","static/chunks/935-c3c4a42486495e3b.js","443","static/chunks/app/topics/page-e3c989a774a7bc93.js"],"default"]
-14:I[4839,["935","static/chunks/935-c3c4a42486495e3b.js","443","static/chunks/app/topics/page-e3c989a774a7bc93.js"],""]
-b:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L13",null,{}],["$","div",null,{"className":"max-w-6xl mx-auto px-6","children":[["$","header",null,{"className":"mb-12 text-center pb-8","children":[["$","h1",null,{"className":"text-5xl font-serif font-bold tracking-tight mb-4 text-foreground","children":"Topics"}],["$","p",null,{"className":"text-lg text-muted font-normal","children":"Curated collections of thoughts and resources"}]]}],["$","article",null,{"className":"prose prose-base dark:prose-invert max-w-none mb-16 prose-headings:font-serif prose-headings:font-bold prose-a:text-accent prose-a:no-underline hover:prose-a:underline","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<p>Here you can find various topics and reading lists I've curated.</p>"}}]}],["$","div",null,{"className":"grid gap-0 md:grid-cols-2 lg:grid-cols-3 border-y border-foreground/10 divide-y divide-foreground/10 md:divide-y-0 md:divide-x md:divide-foreground/10","children":[["$","$L14","sports-watched",{"href":"/topics/sports-watched","className":"group block h-full p-6 hover:bg-surface-soft transition-colors","children":[["$","h2",null,{"className":"text-2xl font-serif font-bold mb-2 group-hover:text-accent transition-colors","children":"Sports-watched"}],["$","p",null,{"className":"text-muted mb-4 line-clamp-2 text-base","children":"My sports watched plans and comments."}],["$","div",null,{"className":"flex items-center text-accent font-semibold text-xs uppercase tracking-widest","children":["View Topic ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right ml-1 group-hover:translate-x-1 transition-transform","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]]}],["$","$L14","book-list",{"href":"/topics/book-list","className":"group block h-full p-6 hover:bg-surface-soft transition-colors","children":[["$","h2",null,{"className":"text-2xl font-serif font-bold mb-2 group-hover:text-accent transition-colors","children":"阅读书单"}],["$","p",null,{"className":"text-muted mb-4 line-clamp-2 text-base","children":"My reading plans and comments."}],["$","div",null,{"className":"flex items-center text-accent font-semibold text-xs uppercase tracking-widest","children":["View Topic ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right ml-1 group-hover:translate-x-1 transition-transform","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]]}],["$","$L14","note-workflow",{"href":"/topics/note-workflow","className":"group block h-full p-6 hover:bg-surface-soft transition-colors","children":[["$","h2",null,{"className":"text-2xl font-serif font-bold mb-2 group-hover:text-accent transition-colors","children":"笔记与工作流"}],["$","p",null,{"className":"text-muted mb-4 line-clamp-2 text-base","children":"关于笔记系统、输入方式、AI辅助整理等工作流的探索与记录。"}],["$","div",null,{"className":"flex items-center text-accent font-semibold text-xs uppercase tracking-widest","children":["View Topic ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right ml-1 group-hover:translate-x-1 transition-transform","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]]}],["$","$L14","what-to-build",{"href":"/topics/what-to-build","className":"group block h-full p-6 hover:bg-surface-soft transition-colors","children":[["$","h2",null,{"className":"text-2xl font-serif font-bold mb-2 group-hover:text-accent transition-colors","children":"What to Build"}],["$","p",null,{"className":"text-muted mb-4 line-clamp-2 text-base","children":"My building ideas and comments."}],["$","div",null,{"className":"flex items-center text-accent font-semibold text-xs uppercase tracking-widest","children":["View Topic ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right ml-1 group-hover:translate-x-1 transition-transform","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]]}]]}]]}]]}]
+3:HL["/alpacanotes/_next/static/css/43d86760ca1bf48f.css","style"]
+0:{"P":null,"b":"c1k1xqfTsXwzKeDXFFyCw","p":"/alpacanotes","c":["","topics"],"i":false,"f":[[["",{"children":["topics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/cc2b58cedd75d3de.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/43d86760ca1bf48f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fontsapi.zeoseven.com"}],["$","link",null,{"rel":"stylesheet","href":"https://fontsapi.zeoseven.com/309/main/result.css"}]]}],["$","body",null,{"className":"antialiased min-h-screen __variable_60ddcb","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]]}]]}],{"children":["topics",["$","$4","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":["$Lb",null,["$","$Lc",null,{"children":"$Ld"}]]}],{},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","Tz-EfGgDh7p-y_tsCgN96",{"children":[["$","$Le",null,{"children":"$Lf"}],["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+13:I[2647,["769","static/chunks/769-2223c092272770b0.js","181","static/chunks/181-00c5394d716d3dbd.js","443","static/chunks/app/topics/page-4dcbeadcb6087c63.js"],"default"]
+14:I[5972,["769","static/chunks/769-2223c092272770b0.js","181","static/chunks/181-00c5394d716d3dbd.js","443","static/chunks/app/topics/page-4dcbeadcb6087c63.js"],"default"]
+15:Te8b,<h2 id="sports-watched">Sports Watched</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 冬奥会</li>
+<li class="task-list-item"><input type="checkbox" disabled> 世界杯</li>
+<li class="task-list-item"><input type="checkbox" disabled> 环法</li>
+</ul>
+<h2 id="世界杯">世界杯</h2>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 阿根廷逆转英格兰，2026-07-16</p>
+<ul>
+<li><a href="/alpacanotes/articles/argentina-beat-england-2026-07-16">阿根廷逆转英格兰</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 世界杯四强产生，2026-07-12</p>
+<ul>
+<li><a href="/alpacanotes/articles/world-cup-final-four-2026-07-12">世界杯四强产生</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 佛得角结束世界杯征程，2026-07-04</p>
+<ul>
+<li><a href="/alpacanotes/articles/cape-verde-world-cup-2026-07-04">佛得角结束世界杯征程</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 送别莫德里奇，2026-07-04</p>
+<ul>
+<li><a href="/alpacanotes/articles/modric-last-world-cup">送别莫德里奇</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 德国再次止步32强，2026-06-30</p>
+<ul>
+<li><a href="/alpacanotes/articles/germany-eliminated-world-cup-2026-06-30">德国再次止步32强</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 世界杯小组赛结束，2026-06-28</p>
+<ul>
+<li><a href="/alpacanotes/articles/world-cup-group-stage-ended-2026-06-28">世界杯小组赛结束</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="nba">NBA</h2>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 总决赛结束以后，2026-06-14</p>
+<ul>
+<li><a href="/alpacanotes/articles/spurs-finals-ended-2026-06-14">总决赛结束以后</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 马刺总决赛第四场，2026-06-11</p>
+<ul>
+<li><a href="/alpacanotes/articles/spurs-finals-game-four-collapse-2026-06-11">领先29分后输掉总决赛第四场</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 马刺重返总决赛，2026-05-31</p>
+<ul>
+<li><a href="/alpacanotes/articles/spurs-enter-finals">马刺重新站上总决赛舞台：文班与一支新王朝班底</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 马刺与雷霆的双加时，2026-05-21</p>
+<ul>
+<li><a href="/alpacanotes/articles/spurs-thunder-double-overtime-2026-05-21">马刺与雷霆的双加时，以及重新看NBA</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 马刺与开拓者第三场，2026-04-25</p>
+<ul>
+<li><a href="/alpacanotes/articles/spurs-young-core-playoffs-2026-04-25">马刺与开拓者第三场：年轻人已经做好了准备</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" checked disabled> 文班与拉塞尔：超越数据统计的赢家，2026-03-06</p>
+<ul>
+<li><a href="/alpacanotes/notes/wembanyama-russell-2026-03-06">文班与拉塞尔：超越数据统计的赢家</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="体育随笔">体育随笔</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> 体育近况速览，2026-03-08
+<ul>
+<li><a href="/alpacanotes/notes/sports-roundup-2026-03-08">体育近况速览：NBA、英超、世界杯与自行车赛季</a></li>
+</ul>
+</li>
+</ul>b:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L13",null,{}],["$","div",null,{"className":"mx-auto max-w-6xl px-6","children":["$","div",null,{"className":"topics-browser","children":[["$","header",null,{"className":"mb-10 text-center","children":[["$","h1",null,{"className":"mb-6 font-serif text-4xl font-bold tracking-tight sm:text-5xl","children":"Topics"}],["$","$L14",null,{"topics":[{"id":"sports-watched","title":"Sports-watched"},{"id":"book-list","title":"阅读书单"},{"id":"note-workflow","title":"笔记与工作流"},{"id":"what-to-build","title":"What to Build"}],"activeId":"sports-watched"}]]}],["$","article",null,{"aria-label":"Sports-watched 内容目录","className":"prose topic-content mx-auto max-w-3xl","dangerouslySetInnerHTML":{"__html":"$15"}}]]}]}]]}]
 11:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-f:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Topics - AlpacaNotes - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"Curated collections of thoughts and resources."}],["$","meta","3",{"property":"og:title","content":"AlpacaNotes"}],["$","meta","4",{"property":"og:description","content":"AlpacaNotes Blog"}],["$","meta","5",{"property":"og:url","content":"https://linguista.cn/alpacanotes"}],["$","meta","6",{"property":"og:site_name","content":"AlpacaNotes"}],["$","meta","7",{"property":"og:locale","content":"zh_CN"}],["$","meta","8",{"property":"og:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"AlpacaNotes"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary"}],["$","meta","14",{"name":"twitter:site","content":"@linguista2025"}],["$","meta","15",{"name":"twitter:creator","content":"@linguista2025"}],["$","meta","16",{"name":"twitter:title","content":"AlpacaNotes"}],["$","meta","17",{"name":"twitter:description","content":"AlpacaNotes Blog"}],["$","meta","18",{"name":"twitter:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","link","19",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Topics - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"书单、赛事、工作流与项目记录的专题目录。"}],["$","link","3",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/topics"}],["$","meta","4",{"property":"og:title","content":"AlpacaNotes"}],["$","meta","5",{"property":"og:description","content":"AlpacaNotes Blog"}],["$","meta","6",{"property":"og:url","content":"https://linguista.cn/alpacanotes"}],["$","meta","7",{"property":"og:site_name","content":"AlpacaNotes"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"AlpacaNotes"}],["$","meta","13",{"property":"og:type","content":"website"}],["$","meta","14",{"name":"twitter:card","content":"summary"}],["$","meta","15",{"name":"twitter:site","content":"@linguista2025"}],["$","meta","16",{"name":"twitter:creator","content":"@linguista2025"}],["$","meta","17",{"name":"twitter:title","content":"AlpacaNotes"}],["$","meta","18",{"name":"twitter:description","content":"AlpacaNotes Blog"}],["$","meta","19",{"name":"twitter:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","link","20",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
 d:null
