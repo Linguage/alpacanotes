@@ -1,96 +1,19 @@
-5:"$Sreact.fragment"
-6:I[9073,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"default"]
-7:I[8312,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"ThemeProvider"]
-8:I[4079,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"default"]
-9:I[3575,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"default"]
-a:I[5244,[],""]
-b:I[3866,[],""]
-d:I[6213,[],"OutletBoundary"]
-f:I[6213,[],"MetadataBoundary"]
-11:I[6213,[],"ViewportBoundary"]
-13:I[4835,[],""]
+4:"$Sreact.fragment"
+5:I[9073,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"default"]
+6:I[8312,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"ThemeProvider"]
+7:I[4079,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"default"]
+8:I[3575,["177","static/chunks/app/layout-c715a1ad2885c4b9.js"],"default"]
+9:I[5244,[],""]
+a:I[3866,[],""]
+b:I[2841,["396","static/chunks/396-f2cf01189a33cbf9.js","588","static/chunks/app/topics/book-list/page-c0cdedb36cd4f694.js"],"default"]
+c:I[6213,[],"OutletBoundary"]
+e:I[6213,[],"MetadataBoundary"]
+10:I[6213,[],"ViewportBoundary"]
+12:I[4835,[],""]
 1:HL["/alpacanotes/_next/static/media/eaead17c7dbfcd5d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-2:HL["/alpacanotes/_next/static/css/273de2bf27f5b562.css","style"]
+2:HL["/alpacanotes/_next/static/css/f1e3d0f15f08d8cd.css","style"]
 3:HL["/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","style"]
-4:HL["/alpacanotes/_next/static/css/317672730f5bea25.css","style"]
-0:{"P":null,"b":"rPKEBDvIL2yIbl20lZHiJ","p":"/alpacanotes","c":["","topics","book-list"],"i":false,"f":[[["",{"children":["topics",{"children":[["slug","book-list","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$5","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/273de2bf27f5b562.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_099833","children":[["$","$L6",null,{}],["$","$L7",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}],{"children":["topics",["$","$5","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","book-list","d"],["$","$5","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$5","c",{"children":["$Lc",[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/317672730f5bea25.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Ld",null,{"children":"$Le"}]]}],{},null]},null]},null]},null],["$","$5","h",{"children":[null,["$","$5","QhB2KCadRoBhzrQeB7I7F",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
-14:I[480,["369","static/chunks/369-ddec396f8c095bbc.js","480","static/chunks/480-229792f6d43a7cc0.js","893","static/chunks/893-d6515227b70eccdf.js","109","static/chunks/app/topics/%5Bslug%5D/page-c8223c0763940ec1.js"],"default"]
-c:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L14",null,{}],["$","div",null,{"className":"mx-auto max-w-6xl px-6","children":"$L15"}]]}]
-16:I[7619,["369","static/chunks/369-ddec396f8c095bbc.js","480","static/chunks/480-229792f6d43a7cc0.js","893","static/chunks/893-d6515227b70eccdf.js","109","static/chunks/app/topics/%5Bslug%5D/page-c8223c0763940ec1.js"],"default"]
-17:"$Sreact.suspense"
-19:I[9448,["369","static/chunks/369-ddec396f8c095bbc.js","480","static/chunks/480-229792f6d43a7cc0.js","893","static/chunks/893-d6515227b70eccdf.js","109","static/chunks/app/topics/%5Bslug%5D/page-c8223c0763940ec1.js"],"default"]
-1b:I[7034,["369","static/chunks/369-ddec396f8c095bbc.js","480","static/chunks/480-229792f6d43a7cc0.js","893","static/chunks/893-d6515227b70eccdf.js","109","static/chunks/app/topics/%5Bslug%5D/page-c8223c0763940ec1.js"],"default"]
-1c:I[4839,["369","static/chunks/369-ddec396f8c095bbc.js","480","static/chunks/480-229792f6d43a7cc0.js","893","static/chunks/893-d6515227b70eccdf.js","109","static/chunks/app/topics/%5Bslug%5D/page-c8223c0763940ec1.js"],""]
-1d:I[846,["369","static/chunks/369-ddec396f8c095bbc.js","480","static/chunks/480-229792f6d43a7cc0.js","893","static/chunks/893-d6515227b70eccdf.js","109","static/chunks/app/topics/%5Bslug%5D/page-c8223c0763940ec1.js"],"default"]
-18:Taa8,<h2 id="2026图书阅读计划">2026｜图书阅读计划</h2>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" disabled> 《卡拉马佐夫兄弟》</li>
-<li class="task-list-item"><input type="checkbox" checked disabled> 《西西弗神话》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《你好，陌生人》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《丝绸之路》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《第一个人》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《当我们不再理解这个世界》</li>
-<li class="task-list-item"><input type="checkbox" checked disabled> 《蛙》</li>
-<li class="task-list-item"><input type="checkbox" checked disabled> 《古都》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《人生十二法则-2》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《杀死一只知更鸟》</li>
-<li class="task-list-item"><input type="checkbox" checked disabled> 《生死疲劳》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《南货店》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《沿着季风的方向》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《檀香刑》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《梵高传》</li>
-<li class="task-list-item"><input type="checkbox" checked disabled> 《达芬奇传》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《白鹿原》</li>
-<li class="task-list-item"><input type="checkbox" checked disabled> 《盛唐的背影》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《The book of Elon》</li>
-<li class="task-list-item"><input type="checkbox" disabled> 《The Infinity Machine》</li>
-</ul>
-<h2 id="2025书单与读后感essays">2025｜书单与读后感（Essays）</h2>
-<ul class="contains-task-list">
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 《牛顿传》</p>
-<ul>
-<li><a href="/alpacanotes/essays/newton_biography_review">《牛顿传》读后记</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 《暗淡蓝点》</p>
-<ul>
-<li><a href="/alpacanotes/essays/pale-blue-dot-review">《暗淡蓝点》读后记</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="2024书单与读后感essays">2024｜书单与读后感（Essays）</h2>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" checked disabled> 《黑客与画家》
-<ul>
-<li><a href="/alpacanotes/essays/comment_hacker_painter">评论：《黑客与画家》</a></li>
-</ul>
-</li>
-</ul>1a:Tad2,<h2 id="2026图书阅读计划">2026｜图书阅读计划</h2>
-<ul class="contains-task-list">
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《卡拉马佐夫兄弟》</li>
-<li class="task-list-item" data-book-state="read"><input type="checkbox" checked disabled aria-label="已读"> 《西西弗神话》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《你好，陌生人》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《丝绸之路》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《第一个人》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《当我们不再理解这个世界》</li>
-<li class="task-list-item" data-book-state="read"><input type="checkbox" checked disabled aria-label="已读"> 《蛙》</li>
-<li class="task-list-item" data-book-state="read"><input type="checkbox" checked disabled aria-label="已读"> 《古都》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《人生十二法则-2》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《杀死一只知更鸟》</li>
-<li class="task-list-item" data-book-state="read"><input type="checkbox" checked disabled aria-label="已读"> 《生死疲劳》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《南货店》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《沿着季风的方向》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《檀香刑》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《梵高传》</li>
-<li class="task-list-item" data-book-state="read"><input type="checkbox" checked disabled aria-label="已读"> 《达芬奇传》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《白鹿原》</li>
-<li class="task-list-item" data-book-state="read"><input type="checkbox" checked disabled aria-label="已读"> 《盛唐的背影》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《The book of Elon》</li>
-<li class="task-list-item" data-book-state="unread"><input type="checkbox" disabled aria-label="待读"> 《The Infinity Machine》</li>
-</ul>
-15:["$","div",null,{"className":"notes-browser collection-directory topics-browser pb-12","children":[["$","$L16",null,{}],["$","section",null,{"className":"collection-content","children":[["$","div",null,{"className":"collection-meta mb-6 flex items-center justify-between gap-4 text-[11px] text-muted","children":[["$","span",null,{"children":"主题阅读与持续记录"}],["$","span",null,{"children":"Reading List"}]]}],["$","$17",null,{"fallback":["$","article",null,{"aria-label":"阅读书单 内容目录","className":"prose topic-content max-w-none","dangerouslySetInnerHTML":{"__html":"$18"}}],"children":["$","$L19","book-list",{"list":{"introHtml":"","sections":[{"id":"2026图书阅读计划","title":"2026｜图书阅读计划","depth":2,"year":"2026","html":"$1a","read":6,"unread":14},{"id":"2025书单与读后感essays","title":"2025｜书单与读后感（Essays）","depth":2,"year":"2025","html":"<h2 id=\"2025书单与读后感essays\">2025｜书单与读后感（Essays）</h2>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\" data-book-state=\"read\">\n<p><input type=\"checkbox\" checked disabled aria-label=\"已读\"> 《牛顿传》</p>\n<ul>\n<li><a href=\"/alpacanotes/essays/newton_biography_review\">《牛顿传》读后记</a></li>\n</ul>\n</li>\n<li class=\"task-list-item\" data-book-state=\"read\">\n<p><input type=\"checkbox\" checked disabled aria-label=\"已读\"> 《暗淡蓝点》</p>\n<ul>\n<li><a href=\"/alpacanotes/essays/pale-blue-dot-review\">《暗淡蓝点》读后记</a></li>\n</ul>\n</li>\n</ul>\n","read":2,"unread":0},{"id":"2024书单与读后感essays","title":"2024｜书单与读后感（Essays）","depth":2,"year":"2024","html":"<h2 id=\"2024书单与读后感essays\">2024｜书单与读后感（Essays）</h2>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\" data-book-state=\"read\"><input type=\"checkbox\" checked disabled aria-label=\"已读\"> 《黑客与画家》\n<ul>\n<li><a href=\"/alpacanotes/essays/comment_hacker_painter\">评论：《黑客与画家》</a></li>\n</ul>\n</li>\n</ul>","read":1,"unread":0}]},"title":"阅读书单"}]}]]}],["$","$L1b",null,{"title":"Topics","label":"分类与目录","action":["$","span",null,{"className":"magnet-home","children":[4," 专题"]}],"navigation":["$","nav",null,{"aria-label":"专题分类","className":"magnet-tabs","children":[["$","$L1c","sports-watched",{"href":"/topics/sports-watched","aria-current":"$undefined","children":"体育"}],["$","$L1c","book-list",{"href":"/topics/book-list","aria-current":"page","children":"书单"}],["$","$L1c","note-workflow",{"href":"/topics/note-workflow","aria-current":"$undefined","children":"工作流"}],["$","$L1c","what-to-build",{"href":"/topics/what-to-build","aria-current":"$undefined","children":"项目"}]]}],"children":["$","section",null,{"className":"hanging-card topic-directory-card","aria-label":"专题章节目录","children":[["$","span",null,{"className":"hanging-card-rings","aria-hidden":"true","children":[["$","i",null,{}],["$","i",null,{}]]}],["$","div",null,{"className":"hanging-card-paper","children":[["$","nav",null,{"aria-label":"专题章节","className":"topic-directory-links","children":[["$","p",null,{"children":"本页目录"}],[["$","$L1c","2026图书阅读计划",{"href":"/topics/book-list#2026图书阅读计划","className":"$undefined","children":"2026｜图书阅读计划"}],["$","$L1c","2025书单与读后感essays",{"href":"/topics/book-list#2025书单与读后感essays","className":"$undefined","children":"2025｜书单与读后感（Essays）"}],["$","$L1c","2024书单与读后感essays",{"href":"/topics/book-list#2024书单与读后感essays","className":"$undefined","children":"2024｜书单与读后感（Essays）"}]]]}],["$","details",null,{"className":"topic-keywords","children":[["$","summary",null,{"children":"关键词便签"}],["$","$L1d",null,{"keywords":[{"label":"书单与读后感（Essays）","weight":16,"href":"/topics/book-list#2025书单与读后感essays"},{"label":"评论","weight":11,"href":"/topics/book-list#2025书单与读后感essays"},{"label":"暗淡蓝点","weight":10,"href":"/topics/book-list#2025书单与读后感essays"},{"label":"牛顿传","weight":10,"href":"/topics/book-list#2025书单与读后感essays"},{"label":"黑客与画家","weight":10,"href":"/topics/book-list#2024书单与读后感essays"},{"label":"图书阅读计划","weight":8,"href":"/topics/book-list#2026图书阅读计划"},{"label":"古都","weight":6,"href":"/topics/book-list#2026图书阅读计划"},{"label":"Books","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"Reading","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"The Infinity Machine","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"The book of Elon","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"丝绸之路","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"人生十二法则-2","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"传记","weight":5,"href":"/topics/book-list#2025书单与读后感essays"},{"label":"你好，陌生人","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"南货店","weight":5,"href":"/topics/book-list#2026图书阅读计划"},{"label":"卡尔·萨根","weight":5,"href":"/topics/book-list#2025书单与读后感essays"},{"label":"卡拉马佐夫兄弟","weight":5,"href":"/topics/book-list#2026图书阅读计划"}],"seed":"topics:book-list","kind":"anchor"}]]}]]}]]}]}]]}]
-12:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"阅读书单 - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"My reading plans and comments."}],["$","link","3",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/topics/book-list"}],["$","meta","4",{"property":"og:title","content":"阅读书单 - AlpacaNotes"}],["$","meta","5",{"property":"og:description","content":"My reading plans and comments."}],["$","meta","6",{"property":"og:url","content":"https://linguista.cn/alpacanotes/topics/book-list"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary"}],["$","meta","9",{"name":"twitter:title","content":"阅读书单 - AlpacaNotes"}],["$","meta","10",{"name":"twitter:description","content":"My reading plans and comments."}],["$","link","11",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
-e:null
+0:{"P":null,"b":"TiE4a_0uLmN84oisIj0Jh","p":"/alpacanotes","c":["","topics","book-list"],"i":false,"f":[[["",{"children":["topics",{"children":["book-list",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/f1e3d0f15f08d8cd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_099833","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}],{"children":["topics",["$","$4","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["book-list",["$","$4","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children","book-list","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":[["$","$Lb",null,{}],null,["$","$Lc",null,{"children":"$Ld"}]]}],{},null]},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","eNzhMN6FPxvRxydVAPWTf",{"children":[["$","$Le",null,{"children":"$Lf"}],["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+11:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Readings - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"AlpacaNotes Blog"}],["$","meta","3",{"name":"robots","content":"noindex, follow"}],["$","link","4",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/readings"}],["$","meta","5",{"property":"og:title","content":"AlpacaNotes"}],["$","meta","6",{"property":"og:description","content":"AlpacaNotes Blog"}],["$","meta","7",{"property":"og:url","content":"https://linguista.cn/alpacanotes"}],["$","meta","8",{"property":"og:site_name","content":"AlpacaNotes"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","meta","11",{"property":"og:image:width","content":"1200"}],["$","meta","12",{"property":"og:image:height","content":"630"}],["$","meta","13",{"property":"og:image:alt","content":"AlpacaNotes"}],["$","meta","14",{"property":"og:type","content":"website"}],["$","meta","15",{"name":"twitter:card","content":"summary"}],["$","meta","16",{"name":"twitter:site","content":"@linguista2025"}],["$","meta","17",{"name":"twitter:creator","content":"@linguista2025"}],["$","meta","18",{"name":"twitter:title","content":"AlpacaNotes"}],["$","meta","19",{"name":"twitter:description","content":"AlpacaNotes Blog"}],["$","meta","20",{"name":"twitter:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","link","21",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
+d:null
