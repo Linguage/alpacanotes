@@ -1,117 +1,20 @@
-5:"$Sreact.fragment"
-6:I[9073,["177","static/chunks/app/layout-8144f2ef0ed16f8e.js"],"default"]
-7:I[8312,["177","static/chunks/app/layout-8144f2ef0ed16f8e.js"],"ThemeProvider"]
-8:I[4079,["177","static/chunks/app/layout-8144f2ef0ed16f8e.js"],"default"]
-9:I[3575,["177","static/chunks/app/layout-8144f2ef0ed16f8e.js"],"default"]
-a:I[5244,[],""]
-b:I[3866,[],""]
+4:"$Sreact.fragment"
+5:I[9073,["177","static/chunks/app/layout-38343c67172a527f.js"],"default"]
+6:I[8312,["177","static/chunks/app/layout-38343c67172a527f.js"],"ThemeProvider"]
+7:I[4079,["177","static/chunks/app/layout-38343c67172a527f.js"],"default"]
+8:I[3575,["177","static/chunks/app/layout-38343c67172a527f.js"],"default"]
+9:I[5244,[],""]
+a:I[3866,[],""]
+b:I[6396,["839","static/chunks/839-2246f4c52da6c4b8.js","443","static/chunks/app/topics/page-d1b38a8f0840e301.js"],"default"]
+c:I[4839,["839","static/chunks/839-2246f4c52da6c4b8.js","443","static/chunks/app/topics/page-d1b38a8f0840e301.js"],""]
 d:I[6213,[],"OutletBoundary"]
 f:I[6213,[],"MetadataBoundary"]
 11:I[6213,[],"ViewportBoundary"]
 13:I[4835,[],""]
 1:HL["/alpacanotes/_next/static/media/eaead17c7dbfcd5d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-2:HL["/alpacanotes/_next/static/css/ccbe3a436b5a5737.css","style"]
+2:HL["/alpacanotes/_next/static/css/82fecce9f2d28961.css","style"]
 3:HL["/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","style"]
-4:HL["/alpacanotes/_next/static/css/317672730f5bea25.css","style"]
-0:{"P":null,"b":"FyA5yg0iXwEcdsnsvcpWN","p":"/alpacanotes","c":["","topics"],"i":false,"f":[[["",{"children":["topics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$5","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/ccbe3a436b5a5737.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_099833","children":[["$","$L6",null,{}],["$","$L7",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}],{"children":["topics",["$","$5","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$5","c",{"children":["$Lc",[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/317672730f5bea25.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Ld",null,{"children":"$Le"}]]}],{},null]},null]},null],["$","$5","h",{"children":[null,["$","$5","sC5rIsCfh-smRw6Gi7CCu",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
-14:I[480,["396","static/chunks/396-bba9295fd3a1c520.js","272","static/chunks/272-6868447608b0857d.js","480","static/chunks/480-b8f5a294060af371.js","443","static/chunks/app/topics/page-8702c981e2056cba.js"],"default"]
-c:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L14",null,{}],["$","div",null,{"className":"mx-auto max-w-6xl px-6","children":"$L15"}]]}]
-16:I[7619,["396","static/chunks/396-bba9295fd3a1c520.js","272","static/chunks/272-6868447608b0857d.js","480","static/chunks/480-b8f5a294060af371.js","443","static/chunks/app/topics/page-8702c981e2056cba.js"],"default"]
-18:I[7034,["396","static/chunks/396-bba9295fd3a1c520.js","272","static/chunks/272-6868447608b0857d.js","480","static/chunks/480-b8f5a294060af371.js","443","static/chunks/app/topics/page-8702c981e2056cba.js"],"default"]
-19:I[4839,["396","static/chunks/396-bba9295fd3a1c520.js","272","static/chunks/272-6868447608b0857d.js","480","static/chunks/480-b8f5a294060af371.js","443","static/chunks/app/topics/page-8702c981e2056cba.js"],""]
-1a:I[846,["396","static/chunks/396-bba9295fd3a1c520.js","272","static/chunks/272-6868447608b0857d.js","480","static/chunks/480-b8f5a294060af371.js","443","static/chunks/app/topics/page-8702c981e2056cba.js"],"default"]
-17:Te6b,<h2 id="sports-watched">Sports Watched</h2>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" disabled> 冬奥会</li>
-<li class="task-list-item"><input type="checkbox" disabled> 世界杯</li>
-<li class="task-list-item"><input type="checkbox" disabled> 环法</li>
-</ul>
-<h2 id="世界杯">世界杯</h2>
-<ul class="contains-task-list">
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 阿根廷逆转英格兰，2026-07-16</p>
-<ul>
-<li><a href="/alpacanotes/notes/argentina-beat-england-2026-07-16">阿根廷逆转英格兰</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 世界杯四强产生，2026-07-12</p>
-<ul>
-<li><a href="/alpacanotes/notes/world-cup-final-four-2026-07-12">世界杯四强产生</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 佛得角结束世界杯征程，2026-07-04</p>
-<ul>
-<li><a href="/alpacanotes/notes/cape-verde-world-cup-2026-07-04">佛得角结束世界杯征程</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 送别莫德里奇，2026-07-04</p>
-<ul>
-<li><a href="/alpacanotes/notes/modric-last-world-cup">送别莫德里奇</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 德国再次止步32强，2026-06-30</p>
-<ul>
-<li><a href="/alpacanotes/notes/germany-eliminated-world-cup-2026-06-30">德国再次止步32强</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 世界杯小组赛结束，2026-06-28</p>
-<ul>
-<li><a href="/alpacanotes/notes/world-cup-group-stage-ended-2026-06-28">世界杯小组赛结束</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="nba">NBA</h2>
-<ul class="contains-task-list">
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 总决赛结束以后，2026-06-14</p>
-<ul>
-<li><a href="/alpacanotes/notes/spurs-finals-ended-2026-06-14">总决赛结束以后</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 马刺总决赛第四场，2026-06-11</p>
-<ul>
-<li><a href="/alpacanotes/notes/spurs-finals-game-four-collapse-2026-06-11">领先29分后输掉总决赛第四场</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 马刺重返总决赛，2026-05-31</p>
-<ul>
-<li><a href="/alpacanotes/essays/spurs-enter-finals">马刺重新站上总决赛舞台：文班与一支新王朝班底</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 马刺与雷霆的双加时，2026-05-21</p>
-<ul>
-<li><a href="/alpacanotes/notes/spurs-thunder-double-overtime-2026-05-21">马刺与雷霆的双加时，以及重新看NBA</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 马刺与开拓者第三场，2026-04-25</p>
-<ul>
-<li><a href="/alpacanotes/notes/spurs-young-core-playoffs-2026-04-25">马刺与开拓者第三场：年轻人已经做好了准备</a></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" checked disabled> 文班与拉塞尔：超越数据统计的赢家，2026-03-06</p>
-<ul>
-<li><a href="/alpacanotes/notes/wembanyama-russell-2026-03-06">文班与拉塞尔：超越数据统计的赢家</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="体育随笔">体育随笔</h2>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" checked disabled> 体育近况速览，2026-03-08
-<ul>
-<li><a href="/alpacanotes/notes/sports-roundup-2026-03-08">体育近况速览：NBA、英超、世界杯与自行车赛季</a></li>
-</ul>
-</li>
-</ul>15:["$","div",null,{"className":"notes-browser collection-directory topics-browser pb-12","children":[["$","$L16",null,{}],["$","section",null,{"className":"collection-content","children":[["$","div",null,{"className":"collection-meta mb-6 flex items-center justify-between gap-4 text-[11px] text-muted","children":[["$","span",null,{"children":"主题阅读与持续记录"}],["$","span",null,{"children":"Sports Watched"}]]}],["$","article",null,{"aria-label":"Sports-watched 内容目录","className":"prose topic-content max-w-none","dangerouslySetInnerHTML":{"__html":"$17"}}]]}],["$","$L18",null,{"title":"Topics","label":"分类与目录","action":["$","span",null,{"className":"magnet-home","children":[3," 专题"]}],"navigation":["$","nav",null,{"aria-label":"专题分类","className":"magnet-tabs","children":[["$","$L19","sports-watched",{"href":"/topics/sports-watched","aria-current":"page","children":"体育"}],["$","$L19","note-workflow",{"href":"/topics/note-workflow","aria-current":"$undefined","children":"工作流"}],["$","$L19","what-to-build",{"href":"/topics/what-to-build","aria-current":"$undefined","children":"项目"}]]}],"children":["$","section",null,{"className":"hanging-card topic-directory-card","aria-label":"专题章节目录","children":[["$","span",null,{"className":"hanging-card-rings","aria-hidden":"true","children":[["$","i",null,{}],["$","i",null,{}]]}],["$","div",null,{"className":"hanging-card-paper","children":[["$","nav",null,{"aria-label":"专题章节","className":"topic-directory-links","children":[["$","p",null,{"children":"本页目录"}],[["$","$L19","sports-watched",{"href":"/topics/sports-watched#sports-watched","className":"$undefined","children":"Sports Watched"}],["$","$L19","世界杯",{"href":"/topics/sports-watched#世界杯","className":"$undefined","children":"世界杯"}],["$","$L19","nba",{"href":"/topics/sports-watched#nba","className":"$undefined","children":"NBA"}],["$","$L19","体育随笔",{"href":"/topics/sports-watched#体育随笔","className":"$undefined","children":"体育随笔"}]]]}],["$","details",null,{"className":"topic-keywords","children":[["$","summary",null,{"children":"关键词便签"}],["$","$L1a",null,{"keywords":[{"label":"NBA","weight":49,"href":"/topics/sports-watched#nba"},{"label":"世界杯","weight":43,"href":"/topics/sports-watched#世界杯"},{"label":"足球","weight":30,"href":"/topics/sports-watched#世界杯"},{"label":"马刺","weight":25,"href":"/topics/sports-watched#nba"},{"label":"佛得角","weight":12,"href":"/topics/sports-watched#世界杯"},{"label":"英格兰","weight":12,"href":"/topics/sports-watched#世界杯"},{"label":"阿根廷","weight":12,"href":"/topics/sports-watched#世界杯"},{"label":"尼克斯","weight":10,"href":"/topics/sports-watched#nba"},{"label":"总决赛","weight":10,"href":"/topics/sports-watched#nba"},{"label":"文班亚马","weight":10,"href":"/topics/sports-watched#nba"},{"label":"梅西","weight":10,"href":"/topics/sports-watched#世界杯"},{"label":"随想","weight":10,"href":"/topics/sports-watched#nba"},{"label":"Sports","weight":9,"href":"/topics/sports-watched#sports-watched"},{"label":"Sports Watched","weight":8,"href":"/topics/sports-watched#sports-watched"},{"label":"体育随笔","weight":8,"href":"/topics/sports-watched#体育随笔"},{"label":"德国","weight":7,"href":"/topics/sports-watched#世界杯"},{"label":"雷霆","weight":7,"href":"/topics/sports-watched#nba"},{"label":"克罗地亚","weight":5,"href":"/topics/sports-watched#世界杯"}],"seed":"topics:sports-watched","kind":"anchor"}]]}]]}]]}]}]]}]
+0:{"P":null,"b":"0tguRKW8YTbw-98WhcLdd","p":"/alpacanotes","c":["","topics"],"i":false,"f":[[["",{"children":["topics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/82fecce9f2d28961.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_099833","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}],{"children":["topics",["$","$4","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":[["$","main",null,{"className":"py-12 text-center","children":[["$","$Lb",null,{}],["$","$Lc",null,{"href":"/cards?view=list","children":"打开 Cards 列表"}]]}],null,["$","$Ld",null,{"children":"$Le"}]]}],{},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","ZiBz5qzdg2ZlkhSW103ac",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
 12:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Topics - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"赛事、工作流与项目记录的专题目录。"}],["$","link","3",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/topics"}],["$","meta","4",{"property":"og:title","content":"AlpacaNotes"}],["$","meta","5",{"property":"og:description","content":"AlpacaNotes Blog"}],["$","meta","6",{"property":"og:url","content":"https://linguista.cn/alpacanotes"}],["$","meta","7",{"property":"og:site_name","content":"AlpacaNotes"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"AlpacaNotes"}],["$","meta","13",{"property":"og:type","content":"website"}],["$","meta","14",{"name":"twitter:card","content":"summary"}],["$","meta","15",{"name":"twitter:site","content":"@linguista2025"}],["$","meta","16",{"name":"twitter:creator","content":"@linguista2025"}],["$","meta","17",{"name":"twitter:title","content":"AlpacaNotes"}],["$","meta","18",{"name":"twitter:description","content":"AlpacaNotes Blog"}],["$","meta","19",{"name":"twitter:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","link","20",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Cards - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"PageStudio 卡片、阅读与专题。"}],["$","meta","3",{"name":"robots","content":"noindex, follow"}],["$","link","4",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/cards"}],["$","meta","5",{"property":"og:title","content":"AlpacaNotes"}],["$","meta","6",{"property":"og:description","content":"PageStudio 卡片、阅读与专题。"}],["$","meta","7",{"property":"og:url","content":"https://linguista.cn/alpacanotes"}],["$","meta","8",{"property":"og:site_name","content":"AlpacaNotes"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","meta","11",{"property":"og:image:width","content":"1200"}],["$","meta","12",{"property":"og:image:height","content":"630"}],["$","meta","13",{"property":"og:image:alt","content":"AlpacaNotes"}],["$","meta","14",{"property":"og:type","content":"website"}],["$","meta","15",{"name":"twitter:card","content":"summary"}],["$","meta","16",{"name":"twitter:site","content":"@linguista2025"}],["$","meta","17",{"name":"twitter:creator","content":"@linguista2025"}],["$","meta","18",{"name":"twitter:title","content":"AlpacaNotes"}],["$","meta","19",{"name":"twitter:description","content":"PageStudio 卡片、阅读与专题。"}],["$","meta","20",{"name":"twitter:image","content":"https://linguista.cn/alpacanotes/aztecaalpaca.jpg"}],["$","link","21",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
 e:null

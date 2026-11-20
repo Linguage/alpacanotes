@@ -1,0 +1,109 @@
+@font-face{font-family:"Noto Sans SC";src:local("PingFang SC");font-weight:100 900}
+@font-face{font-family:"Noto Serif SC";src:local("Songti SC");font-weight:100 900}
+html,body{scrollbar-width:none}
+html{overscroll-behavior:contain}
+body{margin:0;color:#222;background:#fff}
+html[data-html-cards-plain] body{color:var(--ink);background:var(--paper)}
+/* Shared by the library, the discussion frame and unstyled documents. */
+.pagestudio-theme {
+  color-scheme: light;
+  --paper: #f5f0e6;
+  --panel: #fdfaf3;
+  --ink: #292623;
+  --muted: #625a50;
+  --line: #dbd1c1;
+  --sidebar: #eee7da;
+  --hero: #eae1d2;
+  --field: #f9f5ec;
+  --hover: #eee5d7;
+  --selected: #e4d7c3;
+  --subtle: #f4ede1;
+  --line-strong: #aa9c88;
+  --accent: #493e32;
+  --fill: #39342e;
+  --fill-hover: #51483d;
+  --on-fill: #fff9ed;
+  --focus: #886339;
+  --marker: #8a7358;
+  --badge-ink: #3e352d;
+  --error: #8e362e;
+  --error-bg: #f8e6dd;
+  --backdrop: #26221d65;
+  --shadow: #2e261c32;
+}
+
+.pagestudio-theme:is([data-theme=dark],[data-html-cards-theme=dark]) {
+  color-scheme: dark;
+  --paper: #1d1c1b;
+  --panel: #252321;
+  --ink: #eee7da;
+  --muted: #c1b5a6;
+  --line: #474139;
+  --sidebar: #22201e;
+  --hero: #2d2924;
+  --field: #211f1d;
+  --hover: #342f29;
+  --selected: #453b30;
+  --subtle: #282521;
+  --line-strong: #786b5b;
+  --accent: #e3ccb0;
+  --fill: #e4cdb0;
+  --fill-hover: #f1dcc2;
+  --on-fill: #28221b;
+  --focus: #dcb482;
+  --marker: #c2a280;
+  --badge-ink: #f1e6d9;
+  --error: #ffc7b7;
+  --error-bg: #4a302a;
+  --backdrop: #100e0bc2;
+  --shadow: #0008;
+}
+
+.pagestudio-theme[data-appearance=retro] {
+  --paper: #e9e5db;
+  --panel: #f4f0e7;
+  --ink: #201c22;
+  --muted: #595059;
+  --line: #39323b;
+  --sidebar: #dfdbd0;
+  --hero: #e1ddd2;
+  --field: #f0ece3;
+  --hover: #e4dfd7;
+  --selected: #e9bdc9;
+  --subtle: #e3ded3;
+  --line-strong: #242026;
+  --accent: #752843;
+  --fill: #df95ad;
+  --fill-hover: #eba9bd;
+  --on-fill: #271a24;
+  --focus: #963956;
+  --marker: #aa4869;
+  --badge-ink: #30242d;
+  --backdrop: #241e2890;
+  --shadow: #3c303f48;
+}
+
+.pagestudio-theme[data-appearance=retro]:is([data-theme=dark],[data-html-cards-theme=dark]) {
+  --paper: #252329;
+  --panel: #302c33;
+  --ink: #f3eaf0;
+  --muted: #c9b9c7;
+  --line: #70636f;
+  --sidebar: #2b272e;
+  --hero: #39313b;
+  --field: #2b272e;
+  --hover: #3b333e;
+  --selected: #624050;
+  --subtle: #322c35;
+  --line-strong: #aa95a7;
+  --accent: #f3b7cb;
+  --fill: #e9a2b9;
+  --fill-hover: #f3bacd;
+  --on-fill: #271a24;
+  --focus: #ffb5d0;
+  --marker: #e4a0b9;
+  --badge-ink: #f5e7f0;
+  --backdrop: #161119b0;
+  --shadow: #120e16a0;
+}
+
