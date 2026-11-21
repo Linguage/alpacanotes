@@ -1,26 +1,29 @@
-5:"$Sreact.fragment"
-6:I[9073,["177","static/chunks/app/layout-38343c67172a527f.js"],"default"]
-7:I[8312,["177","static/chunks/app/layout-38343c67172a527f.js"],"ThemeProvider"]
-8:I[4079,["177","static/chunks/app/layout-38343c67172a527f.js"],"default"]
-9:I[3575,["177","static/chunks/app/layout-38343c67172a527f.js"],"default"]
-a:I[5244,[],""]
-b:I[3866,[],""]
-d:I[6213,[],"OutletBoundary"]
-f:I[6213,[],"MetadataBoundary"]
-11:I[6213,[],"ViewportBoundary"]
-13:I[4835,[],""]
+7:"$Sreact.fragment"
+8:I[19,["839","static/chunks/839-14659c40363d67cb.js","374","static/chunks/374-8ba6823a799856a2.js","430","static/chunks/430-8b951a965532a16f.js","177","static/chunks/app/layout-e8f91db78c83a55b.js"],"default"]
+9:I[8312,["839","static/chunks/839-14659c40363d67cb.js","374","static/chunks/374-8ba6823a799856a2.js","430","static/chunks/430-8b951a965532a16f.js","177","static/chunks/app/layout-e8f91db78c83a55b.js"],"ThemeProvider"]
+a:I[4079,["839","static/chunks/839-14659c40363d67cb.js","374","static/chunks/374-8ba6823a799856a2.js","430","static/chunks/430-8b951a965532a16f.js","177","static/chunks/app/layout-e8f91db78c83a55b.js"],"default"]
+b:I[3575,["839","static/chunks/839-14659c40363d67cb.js","374","static/chunks/374-8ba6823a799856a2.js","430","static/chunks/430-8b951a965532a16f.js","177","static/chunks/app/layout-e8f91db78c83a55b.js"],"default"]
+c:I[2668,["839","static/chunks/839-14659c40363d67cb.js","374","static/chunks/374-8ba6823a799856a2.js","430","static/chunks/430-8b951a965532a16f.js","177","static/chunks/app/layout-e8f91db78c83a55b.js"],"default"]
+d:I[5244,[],""]
+e:I[3866,[],""]
+10:I[6213,[],"OutletBoundary"]
+12:I[6213,[],"MetadataBoundary"]
+14:I[6213,[],"ViewportBoundary"]
+16:I[4835,[],""]
 1:HL["/alpacanotes/_next/static/media/eaead17c7dbfcd5d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-2:HL["/alpacanotes/_next/static/css/82fecce9f2d28961.css","style"]
-3:HL["/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","style"]
-4:HL["/alpacanotes/_next/static/css/317672730f5bea25.css","style"]
-0:{"P":null,"b":"0tguRKW8YTbw-98WhcLdd","p":"/alpacanotes","c":["","topics","sports-watched"],"i":false,"f":[[["",{"children":["topics",{"children":[["slug","sports-watched","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$5","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/82fecce9f2d28961.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/d71c56dcb0af79dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_099833","children":[["$","$L6",null,{}],["$","$L7",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}],{"children":["topics",["$","$5","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","sports-watched","d"],["$","$5","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$5","c",{"children":["$Lc",[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/317672730f5bea25.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Ld",null,{"children":"$Le"}]]}],{},null]},null]},null]},null],["$","$5","h",{"children":[null,["$","$5","7hRw62aKgx2ov-B00wrcV",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
-14:I[480,["839","static/chunks/839-2246f4c52da6c4b8.js","369","static/chunks/369-878ed7faf3d36423.js","480","static/chunks/480-ea5e276d3c4d4170.js","109","static/chunks/app/topics/%5Bslug%5D/page-8848e7ff58b03d8f.js"],"default"]
-c:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L14",null,{}],["$","div",null,{"className":"mx-auto max-w-6xl px-6","children":"$L15"}]]}]
-16:I[7619,["839","static/chunks/839-2246f4c52da6c4b8.js","369","static/chunks/369-878ed7faf3d36423.js","480","static/chunks/480-ea5e276d3c4d4170.js","109","static/chunks/app/topics/%5Bslug%5D/page-8848e7ff58b03d8f.js"],"default"]
-18:I[7034,["839","static/chunks/839-2246f4c52da6c4b8.js","369","static/chunks/369-878ed7faf3d36423.js","480","static/chunks/480-ea5e276d3c4d4170.js","109","static/chunks/app/topics/%5Bslug%5D/page-8848e7ff58b03d8f.js"],"default"]
-19:I[4839,["839","static/chunks/839-2246f4c52da6c4b8.js","369","static/chunks/369-878ed7faf3d36423.js","480","static/chunks/480-ea5e276d3c4d4170.js","109","static/chunks/app/topics/%5Bslug%5D/page-8848e7ff58b03d8f.js"],""]
-1a:I[846,["839","static/chunks/839-2246f4c52da6c4b8.js","369","static/chunks/369-878ed7faf3d36423.js","480","static/chunks/480-ea5e276d3c4d4170.js","109","static/chunks/app/topics/%5Bslug%5D/page-8848e7ff58b03d8f.js"],"default"]
-17:Te6b,<h2 id="sports-watched">Sports Watched</h2>
+2:HL["/alpacanotes/_next/static/css/ac18903f24d3df44.css","style"]
+3:HL["/alpacanotes/_next/static/css/55695d19bb4a4417.css","style"]
+4:HL["/alpacanotes/_next/static/css/ee194f3901939905.css","style"]
+5:HL["/alpacanotes/_next/static/css/229e6c11f73a9e76.css","style"]
+6:HL["/alpacanotes/_next/static/css/317672730f5bea25.css","style"]
+0:{"P":null,"b":"P_akY84MKGZcJGG8BA51O","p":"/alpacanotes","c":["","topics","sports-watched"],"i":false,"f":[[["",{"children":["topics",{"children":[["slug","sports-watched","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$7","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/ac18903f24d3df44.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/55695d19bb4a4417.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/ee194f3901939905.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/229e6c11f73a9e76.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"antialiased min-h-screen __variable_099833","children":[["$","$L8",null,{}],["$","$L9",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{"children":["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]]}]}]]}],{"children":["topics",["$","$7","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","sports-watched","d"],["$","$7","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children","topics","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$7","c",{"children":["$Lf",[["$","link","0",{"rel":"stylesheet","href":"/alpacanotes/_next/static/css/317672730f5bea25.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L10",null,{"children":"$L11"}]]}],{},null]},null]},null]},null],["$","$7","h",{"children":[null,["$","$7","hxG9UyCmoGsFsn0m9FAcm",{"children":[["$","$L12",null,{"children":"$L13"}],["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
+17:I[2647,["839","static/chunks/839-14659c40363d67cb.js","706","static/chunks/706-2a79fd8e7d06db3a.js","647","static/chunks/647-b7617c346082dce2.js","109","static/chunks/app/topics/%5Bslug%5D/page-323ba077c7636919.js"],"default"]
+f:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foreground","children":[["$","$L17",null,{}],["$","div",null,{"className":"mx-auto max-w-6xl px-6","children":"$L18"}]]}]
+19:I[7619,["839","static/chunks/839-14659c40363d67cb.js","706","static/chunks/706-2a79fd8e7d06db3a.js","647","static/chunks/647-b7617c346082dce2.js","109","static/chunks/app/topics/%5Bslug%5D/page-323ba077c7636919.js"],"default"]
+1b:I[7034,["839","static/chunks/839-14659c40363d67cb.js","706","static/chunks/706-2a79fd8e7d06db3a.js","647","static/chunks/647-b7617c346082dce2.js","109","static/chunks/app/topics/%5Bslug%5D/page-323ba077c7636919.js"],"default"]
+1c:I[4839,["839","static/chunks/839-14659c40363d67cb.js","706","static/chunks/706-2a79fd8e7d06db3a.js","647","static/chunks/647-b7617c346082dce2.js","109","static/chunks/app/topics/%5Bslug%5D/page-323ba077c7636919.js"],""]
+1d:I[846,["839","static/chunks/839-14659c40363d67cb.js","706","static/chunks/706-2a79fd8e7d06db3a.js","647","static/chunks/647-b7617c346082dce2.js","109","static/chunks/app/topics/%5Bslug%5D/page-323ba077c7636919.js"],"default"]
+1a:Tf7c,<h2 id="sports-watched">Sports Watched</h2>
 <ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" disabled> 冬奥会</li>
 <li class="task-list-item"><input type="checkbox" disabled> 世界杯</li>
@@ -31,37 +34,37 @@ c:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foregroun
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 阿根廷逆转英格兰，2026-07-16</p>
 <ul>
-<li><a href="/alpacanotes/notes/argentina-beat-england-2026-07-16">阿根廷逆转英格兰</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/argentina-beat-england-2026-07-16/">阿根廷逆转英格兰</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 世界杯四强产生，2026-07-12</p>
 <ul>
-<li><a href="/alpacanotes/notes/world-cup-final-four-2026-07-12">世界杯四强产生</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/world-cup-final-four-2026-07-12/">世界杯四强产生</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 佛得角结束世界杯征程，2026-07-04</p>
 <ul>
-<li><a href="/alpacanotes/notes/cape-verde-world-cup-2026-07-04">佛得角结束世界杯征程</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/cape-verde-world-cup-2026-07-04/">佛得角结束世界杯征程</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 送别莫德里奇，2026-07-04</p>
 <ul>
-<li><a href="/alpacanotes/notes/modric-last-world-cup">送别莫德里奇</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/modric-last-world-cup/">送别莫德里奇</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 德国再次止步32强，2026-06-30</p>
 <ul>
-<li><a href="/alpacanotes/notes/germany-eliminated-world-cup-2026-06-30">德国再次止步32强</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/germany-eliminated-world-cup-2026-06-30/">德国再次止步32强</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 世界杯小组赛结束，2026-06-28</p>
 <ul>
-<li><a href="/alpacanotes/notes/world-cup-group-stage-ended-2026-06-28">世界杯小组赛结束</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/world-cup-group-stage-ended-2026-06-28/">世界杯小组赛结束</a></li>
 </ul>
 </li>
 </ul>
@@ -70,37 +73,37 @@ c:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foregroun
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 总决赛结束以后，2026-06-14</p>
 <ul>
-<li><a href="/alpacanotes/notes/spurs-finals-ended-2026-06-14">总决赛结束以后</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/spurs-finals-ended-2026-06-14/">总决赛结束以后</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 马刺总决赛第四场，2026-06-11</p>
 <ul>
-<li><a href="/alpacanotes/notes/spurs-finals-game-four-collapse-2026-06-11">领先29分后输掉总决赛第四场</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/spurs-finals-game-four-collapse-2026-06-11/">领先29分后输掉总决赛第四场</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 马刺重返总决赛，2026-05-31</p>
 <ul>
-<li><a href="/alpacanotes/essays/spurs-enter-finals">马刺重新站上总决赛舞台：文班与一支新王朝班底</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/essays/spurs-enter-finals/">马刺重新站上总决赛舞台：文班与一支新王朝班底</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 马刺与雷霆的双加时，2026-05-21</p>
 <ul>
-<li><a href="/alpacanotes/notes/spurs-thunder-double-overtime-2026-05-21">马刺与雷霆的双加时，以及重新看NBA</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/spurs-thunder-double-overtime-2026-05-21/">马刺与雷霆的双加时，以及重新看NBA</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 马刺与开拓者第三场，2026-04-25</p>
 <ul>
-<li><a href="/alpacanotes/notes/spurs-young-core-playoffs-2026-04-25">马刺与开拓者第三场：年轻人已经做好了准备</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/spurs-young-core-playoffs-2026-04-25/">马刺与开拓者第三场：年轻人已经做好了准备</a></li>
 </ul>
 </li>
 <li class="task-list-item">
 <p><input type="checkbox" checked disabled> 文班与拉塞尔：超越数据统计的赢家，2026-03-06</p>
 <ul>
-<li><a href="/alpacanotes/notes/wembanyama-russell-2026-03-06">文班与拉塞尔：超越数据统计的赢家</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/wembanyama-russell-2026-03-06/">文班与拉塞尔：超越数据统计的赢家</a></li>
 </ul>
 </li>
 </ul>
@@ -108,10 +111,10 @@ c:["$","main",null,{"className":"min-h-screen pb-20 bg-background text-foregroun
 <ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" checked disabled> 体育近况速览，2026-03-08
 <ul>
-<li><a href="/alpacanotes/notes/sports-roundup-2026-03-08">体育近况速览：NBA、英超、世界杯与自行车赛季</a></li>
+<li><a href="https://hanzkell.github.io/hzlzh/notes/sports-roundup-2026-03-08/">体育近况速览：NBA、英超、世界杯与自行车赛季</a></li>
 </ul>
 </li>
-</ul>15:["$","div",null,{"className":"notes-browser collection-directory topics-browser pb-12","children":[["$","$L16",null,{}],["$","section",null,{"className":"collection-content","children":[["$","div",null,{"className":"collection-meta mb-6 flex items-center justify-between gap-4 text-[11px] text-muted","children":[["$","span",null,{"children":"主题阅读与持续记录"}],["$","span",null,{"children":"Sports Watched"}]]}],["$","article",null,{"aria-label":"Sports-watched 内容目录","className":"prose topic-content max-w-none","dangerouslySetInnerHTML":{"__html":"$17"}}]]}],["$","$L18",null,{"title":"Topics","label":"分类与目录","action":["$","span",null,{"className":"magnet-home","children":[3," 专题"]}],"navigation":["$","nav",null,{"aria-label":"专题分类","className":"magnet-tabs","children":[["$","$L19","sports-watched",{"href":"/topics/sports-watched","aria-current":"page","children":"体育"}],["$","$L19","note-workflow",{"href":"/topics/note-workflow","aria-current":"$undefined","children":"工作流"}],["$","$L19","what-to-build",{"href":"/topics/what-to-build","aria-current":"$undefined","children":"项目"}]]}],"children":["$","section",null,{"className":"hanging-card topic-directory-card","aria-label":"专题章节目录","children":[["$","span",null,{"className":"hanging-card-rings","aria-hidden":"true","children":[["$","i",null,{}],["$","i",null,{}]]}],["$","div",null,{"className":"hanging-card-paper","children":[["$","nav",null,{"aria-label":"专题章节","className":"topic-directory-links","children":[["$","p",null,{"children":"本页目录"}],[["$","$L19","sports-watched",{"href":"/topics/sports-watched#sports-watched","className":"$undefined","children":"Sports Watched"}],["$","$L19","世界杯",{"href":"/topics/sports-watched#世界杯","className":"$undefined","children":"世界杯"}],["$","$L19","nba",{"href":"/topics/sports-watched#nba","className":"$undefined","children":"NBA"}],["$","$L19","体育随笔",{"href":"/topics/sports-watched#体育随笔","className":"$undefined","children":"体育随笔"}]]]}],["$","details",null,{"className":"topic-keywords","children":[["$","summary",null,{"children":"关键词便签"}],["$","$L1a",null,{"keywords":[{"label":"NBA","weight":49,"href":"/topics/sports-watched#nba"},{"label":"世界杯","weight":43,"href":"/topics/sports-watched#世界杯"},{"label":"足球","weight":30,"href":"/topics/sports-watched#世界杯"},{"label":"马刺","weight":25,"href":"/topics/sports-watched#nba"},{"label":"佛得角","weight":12,"href":"/topics/sports-watched#世界杯"},{"label":"英格兰","weight":12,"href":"/topics/sports-watched#世界杯"},{"label":"阿根廷","weight":12,"href":"/topics/sports-watched#世界杯"},{"label":"尼克斯","weight":10,"href":"/topics/sports-watched#nba"},{"label":"总决赛","weight":10,"href":"/topics/sports-watched#nba"},{"label":"文班亚马","weight":10,"href":"/topics/sports-watched#nba"},{"label":"梅西","weight":10,"href":"/topics/sports-watched#世界杯"},{"label":"随想","weight":10,"href":"/topics/sports-watched#nba"},{"label":"Sports","weight":9,"href":"/topics/sports-watched#sports-watched"},{"label":"Sports Watched","weight":8,"href":"/topics/sports-watched#sports-watched"},{"label":"体育随笔","weight":8,"href":"/topics/sports-watched#体育随笔"},{"label":"德国","weight":7,"href":"/topics/sports-watched#世界杯"},{"label":"雷霆","weight":7,"href":"/topics/sports-watched#nba"},{"label":"克罗地亚","weight":5,"href":"/topics/sports-watched#世界杯"}],"seed":"topics:sports-watched","kind":"anchor"}]]}]]}]]}]}]]}]
-12:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Sports-watched - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"My sports watched plans and comments."}],["$","link","3",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/topics/sports-watched"}],["$","meta","4",{"property":"og:title","content":"Sports-watched - AlpacaNotes"}],["$","meta","5",{"property":"og:description","content":"My sports watched plans and comments."}],["$","meta","6",{"property":"og:url","content":"https://linguista.cn/alpacanotes/topics/sports-watched"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary"}],["$","meta","9",{"name":"twitter:title","content":"Sports-watched - AlpacaNotes"}],["$","meta","10",{"name":"twitter:description","content":"My sports watched plans and comments."}],["$","link","11",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
-e:null
+</ul>18:["$","div",null,{"className":"notes-browser collection-directory topics-browser pb-12","children":[["$","$L19",null,{}],["$","section",null,{"className":"collection-content","children":[["$","div",null,{"className":"collection-meta mb-6 flex items-center justify-between gap-4 text-[11px] text-muted","children":[["$","span",null,{"children":"主题阅读与持续记录"}],["$","span",null,{"children":"Sports Watched"}]]}],["$","article",null,{"aria-label":"Sports-watched 内容目录","className":"prose topic-content max-w-none","dangerouslySetInnerHTML":{"__html":"$1a"}}]]}],["$","$L1b",null,{"title":"Topics","label":"分类与目录","action":["$","span",null,{"className":"magnet-home","children":[3," 专题"]}],"navigation":["$","nav",null,{"aria-label":"专题分类","className":"magnet-tabs","children":[["$","$L1c","sports-watched",{"href":"/topics/sports-watched","aria-current":"page","children":"体育"}],["$","$L1c","note-workflow",{"href":"/topics/note-workflow","aria-current":"$undefined","children":"工作流"}],["$","$L1c","what-to-build",{"href":"/topics/what-to-build","aria-current":"$undefined","children":"项目"}]]}],"children":["$","section",null,{"className":"hanging-card topic-directory-card","aria-label":"专题章节目录","children":[["$","span",null,{"className":"hanging-card-rings","aria-hidden":"true","children":[["$","i",null,{}],["$","i",null,{}]]}],["$","div",null,{"className":"hanging-card-paper","children":[["$","nav",null,{"aria-label":"专题章节","className":"topic-directory-links","children":[["$","p",null,{"children":"本页目录"}],[["$","$L1c","sports-watched",{"href":"/topics/sports-watched#sports-watched","className":"$undefined","children":"Sports Watched"}],["$","$L1c","世界杯",{"href":"/topics/sports-watched#世界杯","className":"$undefined","children":"世界杯"}],["$","$L1c","nba",{"href":"/topics/sports-watched#nba","className":"$undefined","children":"NBA"}],["$","$L1c","体育随笔",{"href":"/topics/sports-watched#体育随笔","className":"$undefined","children":"体育随笔"}]]]}],["$","details",null,{"className":"topic-keywords","children":[["$","summary",null,{"children":"关键词便签"}],["$","$L1d",null,{"keywords":[{"label":"NBA","weight":14,"href":"/topics/sports-watched#nba"},{"label":"世界","weight":12,"href":"/topics/sports-watched#sports-watched"},{"label":"Sports","weight":9,"href":"/topics/sports-watched#sports-watched"},{"label":"Sports Watched","weight":8,"href":"/topics/sports-watched#sports-watched"},{"label":"世界杯","weight":8,"href":"/topics/sports-watched#世界杯"},{"label":"体育随笔","weight":8,"href":"/topics/sports-watched#体育随笔"},{"label":"决赛","weight":6,"href":"/topics/sports-watched#nba"}],"seed":"topics:sports-watched","kind":"anchor"}]]}]]}]]}]}]]}]
+15:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Sports-watched - AlpacaNotes"}],["$","meta","2",{"name":"description","content":"My sports watched plans and comments."}],["$","link","3",{"rel":"canonical","href":"https://linguista.cn/alpacanotes/topics/sports-watched"}],["$","meta","4",{"property":"og:title","content":"Sports-watched - AlpacaNotes"}],["$","meta","5",{"property":"og:description","content":"My sports watched plans and comments."}],["$","meta","6",{"property":"og:url","content":"https://linguista.cn/alpacanotes/topics/sports-watched"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary"}],["$","meta","9",{"name":"twitter:title","content":"Sports-watched - AlpacaNotes"}],["$","meta","10",{"name":"twitter:description","content":"My sports watched plans and comments."}],["$","link","11",{"rel":"icon","href":"/alpacanotes/favicon.svg","type":"image/svg+xml"}]]
+11:null
