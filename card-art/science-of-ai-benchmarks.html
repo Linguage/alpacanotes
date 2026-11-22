@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="计算机科学家莫里茨·哈特指出当前大模型基准测试面临过度刷榜与数据污染危机，主张绝对分数不可信但相对排序仍具价值，提议通过统一的高原训练协议拉平筹备差异，使AI评估从无序博弈回归可靠的经验科学。" name="description"/>
+<title>解构大模型跑分困境：让AI基准测试重归科学测量 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #2e4c7e;
+  --accent-rgb: 46, 76, 126;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 大模型评测与经验科学</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>大模型评测与经验科学</strong><span lang="en">AI BENCHMARKING &amp; EMPIRICAL SCIENCE</span></div>
+<h1>解构大模型跑分困境：让AI基准测试重归科学测量</h1>
+<p class="subtitle" lang="en">He Wants AI Benchmarking To Be a Science, Not a Dark Art</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> John Pavlus</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-10-16">2026-10-16</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">86</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>计算机科学家哈特指出，基准测试长期违背留出法原则，此前AI未爆发可复现危机纯属相对排名在经验上保持稳健的侥幸。大模型时代训练集不透明与针对性刷榜使相对排序失效。测试绝对得分毫无能力度量意义，唯有建立标准化测试前准备协议拉平竞争条件，才能修复评估生态，推动AI评测由竞技玄学走向严谨经验科学。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>86</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>85</dd></div>
+<div><dt>立论新颖</dt><dd>88</dd></div>
+<div><dt>结构严密</dt><dd>82</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 留出法假说的破灭与绝对分数的度量幻象</h3>
+<p>在人工智能发展史上，基准测试扮演了既能触发二十五年AI寒冬、又能引爆深度学习革命的双刃剑角色。然而从统计学习理论的严谨视角审视，现代机器学习在诞生之初便违背了“留出法”（Holdout Method）的核心假设：原本应当被严格封存、仅作终局裁判的测试集，长期公开暴露在互联网中并反复卷入研发迭代循环。这种做法导致测试集上的绝对准确率对细微数据扰动极度脆弱，商业机构宣称的绝对跑分，根本无法等同于模型真正具备了对应的人类推理或专家级认知能力。</p>
+</section>
+<section class="copy">
+<h3>2. 相对排序的经验红利及其在大模型时代的解体</h3>
+<p>在过去半个世纪中，机器学习之所以未曾陷入全面的科研可复现性危机，根本原因在于一种尚未被理论完全阐明的“经验性侥幸”：尽管绝对分数失真，但模型间的相对排名在跨越不同分布的数据集时却展现出惊人的稳健性，榜首模型在实际应用中往往确实更优。然而，这一红利完全建立在“各模型共享通用训练分布”的隐性前提上。大语言模型的崛起彻底瓦解了这一基石——闭源模型训练数据极不透明，开发者能够通过定向数据配比与针对性后训练（Benchmaxxing）进行应试优化，致使劣质模型在榜单上反超综合实力更强的模型，相对排行榜的科学参考价值也随之瓦解。</p>
+</section>
+<section class="copy">
+<h3>3. 高原训练协议与经验竞技科学的制度重构</h3>
+<p>摆脱当前大模型评估死局的关键，不在于徒劳地追求彻底杜绝数据污染，而在于彻底重构竞赛规则体系。正如现代竞技体育将“高原训练”合法化与标准化一样，AI评测应当将测试前的准备过程制度化：打破传统固化训练集的教条限制，代之以“公开测试集 + 标准化备考协议”，允许所有模型在受控的相关数据分布上接受同等程度的针对性微调，从而在拉平筹备差异的基础上恢复相对排名的判别力。基准测试虽无法直接洞穿神经网络的黑盒机制，但只要构筑起透明公平的实证规则体系，它便能如蛋白质结构预测竞赛（CASP）一般，在理论尚未完备的混沌领域中，以受控经验竞技持续孕育出真正的科学认知。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>留出法违规 (Holdout Method Violation)</dt>
+<dd>测试集未被严格封闭而公开用于循环迭代，导致绝对性能分数失去泛化度量意义。</dd>
+</div>
+<div class="note">
+<dt>相对排序稳健性 (Rank Stability)</dt>
+<dd>即使绝对分值不可靠，模型间相对胜负排名在历史上跨数据集仍具有经验性泛化指示价值。</dd>
+</div>
+<div class="note">
+<dt>刷榜与应试后训练 (Benchmaxxing)</dt>
+<dd>针对已知评测基准定向掺入训练数据或进行专门微调，使模型在特定榜单虚假繁荣的应试行为。</dd>
+</div>
+<div class="note">
+<dt>高原训练协议 (Altitude Training Protocol)</dt>
+<dd>承认应试优化的不可避免性，通过制定统一的评测前准备微调流程，拉平所有模型的竞争起跑线。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>新颖性：将基准测试解构为市场博弈而非测量温度计，颠覆了绝对分数衡量真实智能的迷思，揭示以往AI繁荣实赖于排序稳健性这一经验侥幸。</li>
+<li>启发性：提出高原训练方案，从被动防范数据污染转向制度化规范备考协议，为大模型评测跳出猫鼠游戏提供了极具建设性的工程治理框架。</li>
+<li>局限性：高原训练假设各机构算力与工程调优效率均等，但各厂商基座架构与参数规模差异极大，且文章对排序稳健性的机理仍缺少严格的理论证明。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>基准测试</li>
+<li>大模型评估</li>
+<li>机器学习方法论</li>
+<li>数据污染</li>
+</ul>
+<a class="source-link" href="https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

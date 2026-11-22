@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="陶哲轩提出一项协作型AI数学挑战，呼吁利用AI工具从排除西格尔零点的最新证明中推导出虚二次域第十判别式的显式有效上界，以此横向比较不同证明框架的强度并探索类数问题的新思路。" name="description"/>
+<title>利用第十判别式上界排除西格尔零点的AI实验挑战 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 纯粹数学与AI发展</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>纯粹数学与AI发展</strong><span lang="en">PURE MATHEMATICS &amp; AI PROGRESS</span></div>
+<h1>利用第十判别式上界排除西格尔零点的AI实验挑战</h1>
+<p class="subtitle" lang="en">An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Terence Tao</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-10-20">2026-10-20</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">88</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>陶哲轩基于数学人机协同理念，发起了一项针对虚二次域第十判别式有效上界的协作型实验挑战。鉴于类数一问题与西格尔零点存在紧密联系，排除零点的最新技术原则上均可导出该有效上界。文章呼吁借助AI完成繁重的常数估计，借此横向评估各类证明路径的强度，启发全新数学思路并探索人机众包研究新规范。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>88</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>88</dd></div>
+<div><dt>立论新颖</dt><dd>88</dd></div>
+<div><dt>结构严密</dt><dd>86</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 从类数一问题到西格尔零点：有效性上界的历史演进</h3>
+<p>高斯曾推测仅存在9个具有唯一分解整环的虚二次域判别式，即著名的类数一问题。1934年海尔布隆与林富特利用杜林-海尔布隆斥力现象证明了最多只可能存在第十个判别式，但该结论不具备有效性，未能给出具体上界；直到黑格纳利用模曲线黑格纳点才彻底证明不存在第十个判别式。类数一问题与狄利克雷L函数的西格尔零点紧密绑定：若存在第十个判别式d，类数公式将诱导出一个极靠近实轴关键点的西格尔零点。传统西格尔定理依赖非有效方法，直到1976年戈德费尔德结合高阶椭圆曲线给出西格尔定理的有效版本，才首次计算出第十判别式的显式上界，后经格罗斯、查吉尔和奥斯特勒等人改进至exp(55)。</p>
+</section>
+<section class="copy">
+<h3>2. 前沿零点排除与AI介入：构建繁复常数推导的安全沙盒</h3>
+<p>当前数学界在排除朗道-西格尔零点及准黎曼猜想领域涌现出多条全新且有效的证明路线。从理论上讲，这些新论证均可独立导出第十判别式的有效上界，但将定性论证转化为显式常数计算极其繁复琐碎，恰好适合大语言模型等AI工具辅助完成。这项实验挑战邀请研究者借助AI工具，基于各类前沿手稿与证明思路，推导出假想第十判别式的有效显式上界，并尽可能对常数进行优化。由于类数一问题与西格尔零点排除均已尘埃落定，该挑战构成了一个既具深刻学术价值又不会干扰前沿优先权争夺的安全沙盒。</p>
+</section>
+<section class="copy">
+<h3>3. 横向衡量证明架构强度：AI时代的Polymath开放协作新范式</h3>
+<p>该挑战的核心目的并非单纯刷新数值记录，而是通过显式计算横向衡量不同证明架构的理论强度，揭示不同技术组合的优劣势。常数优化过程有望启发类数一问题的新证明方法甚至Lean形式化，或通过引入新技巧修复历史上受挫的证明尝试，乃至推广至更高类数问题。活动倡导类似AI时代博弈众包（Polymath）的开放协作模式，明确要求公开AI使用情况，兼顾质量与可验证性，即使导出极大上界的负面结果或更易人类核验的简洁论证同样具有科学价值。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>第十判别式问题</dt>
+<dd>探究虚二次域类数等于1的判别式是否在已知的9个黑格纳数之外存在第十个的经典数论问题。</dd>
+</div>
+<div class="note">
+<dt>朗道-西格尔零点</dt>
+<dd>狄利克雷L函数在临界线右侧极端靠近s=1的假想实零点，若存在将破坏素数分布规律。</dd>
+</div>
+<div class="note">
+<dt>杜林-海尔布隆斥力现象</dt>
+<dd>数论中一个L函数反常实零点的存在会排斥其他L函数零点或判别式聚集的定性解析机制。</dd>
+</div>
+<div class="note">
+<dt>数学2.0人机协同</dt>
+<dd>主张利用AI承担繁重符号推导与常数优化以增强而非替代人类对数学结构理解的新型研究范式。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>新意在于提出以已解决经典问题为基准测试沙盒的AI科研范式，将繁重繁复的显式常数估值与优化转化为衡量不同前沿证明框架强度的标尺，在不干扰未解决前沿研究优先权的前提下开辟了人机协作新路径。</li>
+<li>局限在于显式常数估计高度依赖具体解析不等式的细致放缩，AI在复杂不等式推导中易产生常数疏漏或逻辑微瑕，在缺乏端到端形式化验证（如Lean）时难以完全保证结果无误。</li>
+<li>边界在于该挑战对证明框架强度的对比仅局限于其在特定判别式问题上的常数转化能力，某类方法导出松散常数并不必然意味着其底层思想在更广阔数论领域的解析威力不足。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>西格尔零点</li>
+<li>类数一问题</li>
+<li>人机协同数学</li>
+<li>第十判别式</li>
+<li>数论</li>
+</ul>
+<a class="source-link" href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

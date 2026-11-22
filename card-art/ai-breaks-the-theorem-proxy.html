@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="数学长期将定理证明作为人类深刻理解的代理指标，但AI以极低成本批量合成跨领域证明打破了该机制；数学界亟需重构激励体系，将评价核心从证明结论本身转向洞见阐释、概念创造与群体理解。" name="description"/>
+<title>定理不再稀缺：AI冲击下的数学评价与理解危机 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 4;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 纯粹数学与AI发展</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>纯粹数学与AI发展</strong><span lang="en">PURE MATHEMATICS &amp; AI PROGRESS</span></div>
+<h1>定理不再稀缺：AI冲击下的数学评价与理解危机</h1>
+<p class="subtitle" lang="en">Deep theorems were scarce and difficult and so became an effective mechanism to identify deep thought. AI has broken this system.</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Bryna Kra</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-09-14">2026-09-14</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">89</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>长期以来，定理因稀缺与攻克难度而成为衡量数学理解的代理指标。然而，前沿AI以极低成本批量合成跨领域证明，彻底打破了这一评价机制。真正的证明不仅是真值证书，更是提供洞见的认知叙事。面对海量机器产出与同行评审危机，数学界亟需重构激励体系，将核心价值从单纯的定理产出转向概念创造、机理阐释与群体理解。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>89</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>90</dd></div>
+<div><dt>立论新颖</dt><dd>88</dd></div>
+<div><dt>结构严密</dt><dd>88</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 稀缺性的终结：定理作为理解代理指标的历史与瓦解</h3>
+<p>从历史来看，数学共同体长期将攻克难题、生产定理作为学术晋升和声誉奖项的核心评价标准。这一机制之所以长期有效，是因为深奥定理极为罕见且攻关代价高昂，证明的诞生往往意味着研究者数年如一日深入学科脉络并揭示隐秘关联——定理实质上充当了衡量难以量化的人类深刻理解的代理指标。然而，前沿人工智能正迅速瓦解这一代理基础。AI能够打破学科壁垒，在符号转换、跨领域工具拼接与组合试错中展现极高效率，极大降低了复杂证明的生产门槛，进而导致海量未经消化的机器生成稿件涌入，远远超出了人类同行评审体系的承载极限。</p>
+</section>
+<section class="copy">
+<h3>2. 尼瓦猜想的现实切片：正确证明与认知洞见的脱节</h3>
+<p>以困扰动力系统与组合学界近三十年的尼瓦猜想（Nivat's conjecture）为例，人类学者此前分别沿着动力系统几何学与代数多项式两条截然不同的路径推进，但始终未能架起概念桥梁。随着该猜想被纳入自动化推理项目，短时间内便涌现出多篇由非本领域研究者提交的完整证明草稿。然而，这些草稿虽格式完备且宣称通过AI校对，其作者却无法或拒绝在线阐释证明背后的核心逻辑与机理。这揭示了一个严峻现实：机器能够轻易拼凑出技术完备的“真值证书”，却无法自动赋予人类心智可理解的数学洞察；单纯的正确证明并不等同于人类数学认知的实质进步。</p>
+</section>
+<section class="copy">
+<h3>3. 重构学术激励体系：从追求定理产出回归群体理解</h3>
+<p>这种证明与理解的解耦，直接冲击了以定理产出数量为导向的学术激励机制。正如威廉·瑟斯顿（William Thurston）所指出的，数学研究的真正产物是清晰度与理解力，而非孤立的定理本身。人类学者的核心价值在于承担学术责任、阐明逻辑机制、提炼新概念，并将碎片化成果融入整体知识体系。面对AI带来的算力充沛新时代，数学界不能仅停留在对机器证明正确性的被动验证，而必须重构评价体系，明确区分问题发现、技术证明、形式化验证与理论阐释的贡献权重，将奖励重心全面迁移至概念提出、定义构建与群体理解的培育上。作为所有推理与实证学科的先导指标，数学在AI时代的价值重构也预示着更广泛知识生产领域即将迎来的范式转型。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>定理的代理机制</dt>
+<dd>传统数学界以攻克定理的难度和稀缺性作为间接衡量学者深刻理解与心智投入的代理指标。</dd>
+</div>
+<div class="note">
+<dt>跨领域综合能力</dt>
+<dd>AI模型无须耗费数年掌握细分领域，即可敏锐发现不同数学分支间的技术关联并高效拼接组合证明。</dd>
+</div>
+<div class="note">
+<dt>理解与证明的解耦</dt>
+<dd>机器能以极低成本生成技术正确的真值证书，但未能向学术共同体传递清晰的直觉、机制与认知图景。</dd>
+</div>
+<div class="note">
+<dt>知识金丝雀效应</dt>
+<dd>数学因判定标准严苛而最先显现AI冲击，揭示了充沛机器产出对传统证据、阐释与同行评审体系的结构性颠覆。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>洞见深刻性：敏锐揭示了定理在数学史中仅作为理解的代理指标这一本质，指明AI并非削弱了数学，而是剥离了稀缺性外衣，迫使学界直面定理数量与真实认知理解的脱节。</li>
+<li>一手实证冲击：结合自身在尼瓦猜想上的研究经历与近期收到匿名AI证明却无人能当面解释的真实切片，极具现场感地展现了同行评审在充沛生成时代的制度性失灵。</li>
+<li>论证局限性：文章虽然呼吁重构包含发现、证明、形式化与阐释的多元激励机制，但尚未提出可操作的量化评价流程，在现行唯论文与产出的学术生态中落地阻力巨大。</li>
+<li>适用边界：主要基于纯数学与理论学科的推导范式，对于依赖大量经验数据验证或高度工程化的应用数学与交叉领域，定理与理解的解耦程度可能存在差异。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>数学研究</li>
+<li>人工智能</li>
+<li>科研评价</li>
+<li>知识生产</li>
+</ul>
+<a class="source-link" href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

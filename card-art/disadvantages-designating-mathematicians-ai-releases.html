@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="数学与人工智能咨询组指出，AI企业在发布数学成果时指定特定学者背书与解读，会造成不平等准入、削弱学科自主权并扭曲激励机制，呼吁转向透明披露、形式化验证及由独立机构资助的开放社区协同模式。" name="description"/>
+<title>AI数学成果发布中指定数学家的弊端与治理建议 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 数学共同体与AI治理</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>数学共同体与AI治理</strong><span lang="en">MATHEMATICS COMMUNITY &amp; AI GOVERNANCE</span></div>
+<h1>AI数学成果发布中指定数学家的弊端与治理建议</h1>
+<p class="subtitle" lang="en">Disadvantages of Designating Mathematicians for AI Output Releases</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Advisory Group on Mathematics and Artificial Intelligence (AGMAI)</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-10-26">2026-10-26</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">85</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>针对AI机构指定数学家优先解读AI成果的做法，数学与人工智能咨询组认为其弊大于利。该模式造成不平等的先发优势，剥夺数学共同体的学术自主权，并使学者沦为企业的声誉护盾。文章建议停止定向指定，转而在第三方学术仓库公开成果，完整披露提示词与算力过程，推进Lean形式化验证，并由独立机构资助社区自发研讨。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>85</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>85</dd></div>
+<div><dt>立论新颖</dt><dd>84</dd></div>
+<div><dt>结构严密</dt><dd>86</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 成果指定发布的先发特权与准入不公</h3>
+<p>在过往的人工智能数学突破发布中，商业 AI 实验室常倾向于挑选并指定少数顶尖数学家优先获取未公开模型的解题结果，由其负责提炼核心思想、验证论证并向学界汇报。尽管该模式表面上能尽早引入同行把关、优化初版阐述并设立清晰的沟通窗口，但在实践中弊远大于利。指定学者提前掌握未经公开的关键材料，不仅让极少数人垄断了他人可能耗费数年钻研的先发优势，造成研究准入的制度性不平等，更严重挫伤了更广泛学术共同体的研究热情与协作积极性。</p>
+</section>
+<section class="copy">
+<h3>2. 学科主体权被侵蚀与“声誉借调”的伦理陷阱</h3>
+<p>更深层的危机在于对数学界自主权与学科主体性的侵害。在 AI 深刻重塑学术贡献认定标准的关键转型期，由商业企业单方面裁定谁来作为新成果的阐释者与代言人，实质上剥夺了学术共同体对自身领域研究进程的自主决定权。商业机构的遴选标准往往受制于利益关联与公关优先级，既不透明也无法问责，甚至可能诱导学者迎合资本意图；同时，顶尖学者的学术声望往往沦为企业的公关护盾，使其陷入替商业成果背书的伦理困境。近期学界的实践已充分证明：只要 AI 成果完全向公众披露，学界完全有能力通过自发研讨班、独立研读和同行评议快速且有机地理解并推进新思想，定向指定在功能上早已完全多余。</p>
+</section>
+<section class="copy">
+<h3>3. 路径2B治理范式：去中心化托管、形式化验证与独立资助</h3>
+<p>针对未经规范学术撰写的 AI 数学成果，AI 实验室应彻底摒弃定向指定，转向透明且去中心化的治理路径（路径2B）。实验室应严格履行文献检索与学术引用规范，将产出直接托管于不受商业实体控制的第三方独立学术平台，并完整披露模型名称、提示词、完整思维链、尝试次数及算力开销等可复现元数据。与此同时，数学论证应尽可能在 Lean 等交互式定理证明器中完成形式化验证，并如实公布题目筛选与基准测试过程；任何用于支持社区理解成果的研讨会与资助，均应全权委托独立的非营利科学机构裁决分配，从而在制度上切断商业利益对纯粹数学演进脉络的隐性干预。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>指定数学家发布模式</dt>
+<dd>AI公司指派特定学者优先获取AI生成的数学结果并主持初期解读与公开汇报的发布机制。</dd>
+</div>
+<div class="note">
+<dt>学科主体权</dt>
+<dd>数学共同体自主决定由谁解读、验证和认定研究成果并主导领域规范的核心自治权力。</dd>
+</div>
+<div class="note">
+<dt>借调声誉</dt>
+<dd>商业机构利用顶尖学者的个人学术声誉为产品有效性背书，并以此规避学界实质性批评的现象。</dd>
+</div>
+<div class="note">
+<dt>路径2B发布规范</dt>
+<dd>要求AI实验室在公开未完成成果时，完整披露元数据并由独立第三方机构资助社区研讨的透明标准。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>新意：深刻揭示了看似良性的专家提前把关实为商业机构转移争议与公关风险的借调声誉机制，敏锐指出了企业遴选偏好对学术共同体自治权与贡献认定规则的潜在侵蚀。</li>
+<li>新意：提出了切实可行的路径2B替代治理框架，将成果发布与完整过程元数据、Lean形式化证明以及独立非营利机构资助解耦，具高度可操作性。</li>
+<li>局限：该建议高度依托纯数学对形式化验证与逻辑自洽的独特性，其依赖社区自发研讨的前提难以直接外推至高实验成本或数据壁垒森严的其他自然科学与工程领域。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>人工智能与数学</li>
+<li>学术共同体</li>
+<li>科研伦理</li>
+<li>开放科学</li>
+</ul>
+<a class="source-link" href="https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

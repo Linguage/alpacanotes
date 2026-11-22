@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="本文从可计算性与计算复杂性理论出发，系统论证软件正确性并非工具选型问题，而是受制于如物理定律般的计算法则。无论是全函数语言、模块化分解还是高级类型系统，都无法消除状态爆炸与验证难度的指数膨胀。" name="description"/>
+<title>从计算复杂性看软件正确性的固有代价与证明边界 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #7b241c;
+  --accent-rgb: 123, 36, 28;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(32px, 5.2vw, 64px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.review { list-style: none; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); padding: 0; gap: 16px; }
+.review li { border-left: 3px solid #8fa2c4; padding-left: 12px; font-size: clamp(14px, 1.4vw, 16.5px); line-height: 1.62; color: #e7ecf5; }
+.source-line { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 18px; border-top: 1px solid #4a5668; margin-top: 18px; padding-top: 14px; }
+.tags { display: flex; flex-wrap: wrap; list-style: none; gap: 6px 12px; padding: 0; font-size: 13px; color: #cbd5e1; }
+.tags li + li::before { content: '·'; margin-right: 12px; opacity: .6; }
+.source-link { display: inline-flex; gap: 8px; align-items: center; padding: 6px 14px; border: 1px solid #8fa2c4; font-size: 14px; font-weight: 800; text-decoration: none; border-radius: 4px; transition: all .15s ease; }
+.source-link:hover { background: #fff9ec; color: var(--dark); border-color: #fff9ec; }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; }
+@media (min-width: 701px) and (max-width: 1024px) {
+  .notes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .issue { border-top-width: 8px; }
+  .headline { padding-block: 15px 13px; border-bottom-width: 3px; }
+  .grid-main { grid-template-columns: 1fr; gap: 18px; padding-block: 15px; }
+  .rail, .content { grid-column: 1; }
+  .rail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 12px; align-items: start; }
+  .anchor { padding: 10px; }
+  .anchor-number { font-size: clamp(52px, 15vw, 90px); -webkit-text-stroke-width: 1.5px; padding-top: 6px; }
+  .abstract, .score { margin-top: 0; }
+  .abstract p { font-size: clamp(15px, 4vw, 19px); line-height: 1.58; }
+  .score { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 2fr; gap: 12px; padding: 8px 0; }
+  .notes { grid-template-columns: 1fr; }
+  .review { grid-template-columns: 1fr; }
+}
+@media print {
+  @page { size: 12in 16in; margin: 0; }
+  html, body { margin: 0; background: var(--paper); print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .issue { width: 100%; box-shadow: none; }
+  .copy, .note, .review li { break-inside: avoid; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body class="antialiased">
+<div class="issue">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 计算复杂性与软件理论</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>计算复杂性与软件理论</strong><span lang="en">COMPUTATIONAL COMPLEXITY &amp; VERIFICATION</span></div>
+<h1>从计算复杂性看软件正确性的固有代价与证明边界</h1>
+<p class="subtitle" lang="en">Why Writing Correct Software Is Hard</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Ron Pressler</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2016-07-23">2016-07-23</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div aria-label="精选评级 94 分" class="anchor">
+<div aria-hidden="true" class="anchor-top"><span>精选评级</span><i class="fa-regular fa-star"></i></div>
+<span aria-hidden="true" class="anchor-number tabular-nums">94</span>
+<div aria-hidden="true" class="anchor-bottom kicker"><span lang="en">ALPACANOTES</span><span>94 / 100</span></div>
+</div>
+<section aria-labelledby="abstract-heading" class="abstract">
+<div class="section-head"><h2 id="abstract-heading">摘要</h2><span class="kicker" lang="en">Abstract</span></div>
+<p>本文立足可计算性与复杂性理论，驳斥了凭借先进语言或工具即可低成本达成软件正确性的乐观论调。计算复杂性如同物理法则，对人机施加了根本约束：有界停机定理表明，判定程序行为无法快于直接运行，通用验证属于最困难的计算问题。全函数限制、模块化与类型系统均无法阻断状态爆炸。追求绝对正确性必然面临巨大代价。</p>
+</section>
+<div class="score">
+<dl class="score-total"><dt>综合评分</dt><dd class="tabular-nums"><b>94</b> / 100</dd></dl>
+<dl class="score-detail tabular-nums">
+<div><dt>深度 (45%)</dt><dd>95</dd></div>
+<div><dt>新颖 (40%)</dt><dd>92</dd></div>
+<div><dt>论证 (15%)</dt><dd>95</dd></div>
+</dl>
+</div>
+</aside>
+<article aria-labelledby="content-heading" class="content">
+<div class="section-head"><h2 id="content-heading">内容框架与概述</h2><span class="kicker" lang="en">The Narrative</span></div>
+<section class="copy">
+<h3>1. 核心论述与机制剖析</h3>
+<p>探讨软件正确性必须回溯至希尔伯特纲领的破灭与理论计算机科学的奠基。哥德尔不完备定理与图灵停机定理不仅确立了判定问题在无限计算中的不可行性，其直接推论——莱斯定理与忙碌海狸定理更表明，程序语义分析与终止证明的增长难度超越了所有可计算函数。即便将考察范围收缩至有限步数，有界停机定理与时间层级定理仍从对角线法推导出了严格的计算下界：判定任意程序在给定步数内的行为不可能快于直接模拟运行。计算复杂性如同物理法则对人机施加了同等的客观约束，使得通用程序验证成为了计算科学中最困难的课题。</p>
+</section>
+<section class="copy">
+<h3>2. 核心论述与机制剖析</h3>
+<p>针对工程界试图通过语言机制或架构模式消除复杂性的尝试，理论工具展现出了冷峻的反驳力。在全函数语言中强制循环递减虽能规避无限循环，但其状态空间对程序规模的函数关系依然超越了原始递归函数，十行极简代码即可编码哥德巴赫猜想等数学难题；更关键的是，参数化复杂度理论证明了模块化并不能使验证成为固定参数可解问题，若干正确有限状态机组合即可模拟空间受限非确定图灵机。这揭示了一个深刻本质：正确性不具备可组合与可解构的性质，局部模块的正确无法自动推导出整体行为的可证性。</p>
+</section>
+<section class="copy">
+<h3>3. 核心论述与机制剖析</h3>
+<p>高级编程语言带来的语法抽象在提升表达紧凑性的同时，在验证端施加了对称的指数级惩罚。变量与并发等抽象将状态空间以笛卡尔积的形式急剧放大，使符号模型检测沦为PSPACE完全问题；而静态类型系统之所以能够高效工作，是因为其检查的返回类型多属于不含具体计算语义的平凡性质，或是将语义限制在有限状态转移的非图灵机属性中。模型检测的状态爆炸与演绎证明对代码构造的极端约束，共同确立了软件工程的基本现实：不存在既通用实用又能轻松实现全量验证的编程语言，形式化验证的本质在于针对特定属性与局部边界进行务实的工程权衡。</p>
+</section>
+</article>
+</div>
+<section aria-labelledby="notes-heading" class="mid pad">
+<div class="section-head"><h2 id="notes-heading">核心概念及解读</h2><span class="kicker" lang="en">Key Concepts</span></div>
+<dl class="notes" style="--concept-count: 4">
+<div class="note">
+<dt>有界停机定理（Bounded Halting）</dt>
+<dd>判定程序是否在给定步数内停机的时间复杂度下界为线性阶，不存在比实际执行更快的通用预测算法。</dd>
+</div>
+<div class="note">
+<dt>正确性不可分解性（Non-decomposability of Correctness）</dt>
+<dd>软件验证不具备固定参数可解性，正确组件的简单组合依然可能产生状态空间不可预测且难以证明的整体。</dd>
+</div>
+<div class="note">
+<dt>符号模型检测的紧凑性代价（Cost of Succinctness）</dt>
+<dd>变量与并发等语法抽象虽成倍压缩了程序源码体积，却导致验证复杂度在状态空间乘积下呈指数级膨胀。</dd>
+</div>
+<div class="note">
+<dt>忙碌海狸定理（Busy Beaver Theorem）</dt>
+<dd>衡量程序规模与证明其停机所需步骤或最小证明长度的函数，其增长速度超越了所有可计算函数。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer aria-labelledby="review-heading" class="footer pad">
+<div class="section-head"><h2 id="review-heading">新意与局限</h2><span class="kicker" lang="en">Editorial Critique</span></div>
+<ul class="review" style="--review-count: 3">
+<li>理论统一性洞见：将形式化验证的困难性从传统认知中的停机问题不可判定性，平移并锚定到计算复杂性理论的硬约束上，有力论证了正确性成本如同热力学熵减一样属于计算领域的自然定律。</li>
+<li>破除模块化与类型万能论：深刻指出正确性无法随模块化而解构，并从莱斯定理视角指明静态类型系统之所以可行是因为验证的是平凡属性或非图灵机模型，颠覆了工程界对于类型即证明的盲目崇拜。</li>
+<li>现实工程适用边界：论证严格立足于最坏情况复杂性分析，未能充分解释为何在实际工业场景中，基于局部性质约束、抽象解释以及SMT求解器的启发式方法往往能够取得超出理论悲观预期的验证成效。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>形式化验证</li>
+<li>计算复杂性</li>
+<li>程序正确性</li>
+<li>可计算性理论</li>
+</ul>
+<a class="source-link" href="https://pron.github.io/posts/correctness-and-complexity" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

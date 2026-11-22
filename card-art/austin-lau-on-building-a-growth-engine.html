@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Anthropic 首位增长团队成员奥斯汀·刘分享如何在入职前九十天确定业务优先级、建立衡量机制，并按公司阶段选择生命周期营销、长期增长和付费渠道。" name="description"/>
+<title>奥斯汀·刘谈如何搭建增长体系 · 剪藏杂志</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #344d83;
+  --accent-rgb: 52, 77, 131;
+  --rule: #babac1;
+  --dark: #1f2937;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular { display: none; }
+html.icons-ready i.fa-regular { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; }
+.headline { padding: 20px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(37px, 6.2vw, 77px); line-height: 1.16; letter-spacing: -.045em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(11px, 1.4vw, 15px); line-height: 1.45; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 12px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 19px; padding-block: 19px 21px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .105); padding: 13px 15px 11px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(104px, 17.5vw, 215px)/.94 var(--latin);
+  letter-spacing: -.095em; padding: 10px .095em 2px 0; color: transparent;
+  -webkit-text-stroke: 2px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 10px; }
+.section-head h2 { font-size: clamp(22px, 2.65vw, 34px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 23px; }
+.abstract { margin-top: 15px; }
+.abstract p { font-size: clamp(17px, 1.92vw, 23px); line-height: 1.66; font-weight: 700; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 15px; padding: 9px 0 8px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 5px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 33px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 8px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 8px; }
+.score-detail dd { font: 700 16px/1.35 var(--latin); }
+.copy { padding: 9px 15px 11px; border-left: 3px solid var(--accent); background: rgba(var(--accent-rgb), .055); }
+.copy + .copy { margin-top: 8px; }
+.copy h3 { font-size: clamp(22px, 2.55vw, 33px); font-weight: 900; line-height: 1.23; margin-bottom: 4px; }
+.copy p { font-size: clamp(18px, 2.05vw, 25px); font-weight: 650; line-height: 1.64; }
+.mid { background: rgba(var(--accent-rgb), .12); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .4); padding-block: 13px 15px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .4); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 7px; }
+.note { padding: 9px 10px 10px; background: var(--paper); border-top: 2px solid var(--accent); min-width: 0; }
+.note dt { font-size: clamp(16px, 1.8vw, 22px); font-weight: 900; line-height: 1.35; }
+.note dd { font-size: clamp(14px, 1.36vw, 17px); line-height: 1.58; margin-top: 5px; }
+.footer { padding-block: 16px 12px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #687384; }
+.footer .kicker { color: #d6dceb; }
+.footer .section-head h2 { font-size: 30px; }
+.review { list-style: none; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); padding: 0; gap: 10px; }
+.review li { border-left: 2px solid #a1afca; padding-left: 10px; font-size: clamp(15px, 1.46vw, 18px); line-height: 1.58; }
+.source-line { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px 15px; border-top: 1px solid #687384; margin-top: 12px; padding-top: 10px; }
+.tags { display: flex; flex-wrap: wrap; list-style: none; gap: 5px 10px; padding: 0; font-size: 13px; }
+.tags li + li::before { content: '·'; margin-right: 10px; }
+.source-link { display: inline-flex; gap: 8px; align-items: center; padding: 5px 10px; border: 1px solid #a1afca; font-size: 14px; font-weight: 800; text-decoration: none; }
+.source-link:hover { background: #fff9ec; color: var(--dark); }
+.credit { font-size: 12px; color: #d6dceb; margin-top: 7px; }
+@media (min-width: 701px) and (max-width: 899px) {
+  .notes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .issue { border-top-width: 8px; }
+  .mast { padding-block: 9px; }
+  .brand { gap: 0 7px; }
+  .brand .kicker { letter-spacing: .1em; }
+  .masttime { font-size: 10px; }
+  .headline { padding-block: 15px 13px; border-bottom-width: 3px; }
+  .grid-main { grid-template-columns: 1fr; gap: 17px; padding-block: 13px; }
+  .rail, .content { grid-column: 1; }
+  .rail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 9px 12px; align-items: start; }
+  .anchor { padding: 8px; }
+  .anchor-number { font-size: clamp(53px, 15vw, 100px); -webkit-text-stroke-width: 1.4px; padding-top: 9px; }
+  .anchor-top span, .anchor-bottom { font-size: 9px; letter-spacing: .05em; }
+  .abstract, .score { margin-top: 0; }
+  .abstract p { font-size: clamp(15px, 4.1vw, 20px); line-height: 1.56; }
+  .abstract .section-head { padding-bottom: 5px; margin-bottom: 5px; }
+  .abstract .section-head .kicker { display: none; }
+  .score { grid-column: 1 / -1; display: grid; grid-template-columns: .9fr 2fr; gap: 12px; padding: 6px 0; }
+  .score-total { padding: 0; }
+  .score-total b { font-size: 23px; }
+  .score-detail { border-top: none; border-left: 1px solid var(--rule); padding: 0 0 0 8px; }
+  .notes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .review { grid-template-columns: 1fr; }
+}
+@media (max-width: 352px) {
+  .mast { align-items: flex-end; }
+  .brand .kicker { flex-basis: 100%; }
+  .anchor-top .kicker { font-size: 8px; }
+  .score-detail div + div { padding-left: 4px; }
+}
+@media print {
+  @page { size: 12in 16in; margin: 0; }
+  html, body { margin: 0; background: var(--paper); print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .issue { width: 100%; }
+  .copy, .note, .review li { break-inside: avoid; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body class="antialiased">
+<div class="issue">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>剪藏杂志</strong><span class="kicker" lang="en">Clipping Review</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>增长</strong><span lang="en">GROWTH</span></div>
+<h1>奥斯汀·刘谈如何搭建增长体系</h1>
+<p class="subtitle" lang="en">Anthropic’s Austin Lau on Building Your Growth Engine</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-newspaper"></i> <span lang="en">Passionfroot</span></span>
+<span lang="en">Passionfroot Team</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2024-07-10">2024-07-10</time></span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div aria-label="本期第 5 篇，共 5 篇" class="anchor">
+<div aria-hidden="true" class="anchor-top"><span>本期选文</span><i class="fa-regular fa-bookmark"></i></div>
+<span aria-hidden="true" class="anchor-number tabular-nums">05</span>
+<div aria-hidden="true" class="anchor-bottom kicker"><span lang="en">Article</span><span> / 05</span></div>
+</div>
+<section aria-labelledby="abstract-heading" class="abstract">
+<div class="section-head"><h2 id="abstract-heading">摘要</h2><span class="kicker" lang="en">Abstract</span></div>
+<p>奥斯汀·刘建议，增长团队在前九十天先把业务目标转成可衡量的任务，再安排少数重点实验。早期可以用小型活动检验受众和信息是否匹配，同时投入需要时间积累的搜索优化、推荐和合作渠道。等产品转化、效果衡量、创意和工程支持到位后，再根据现有需求和目标人群选择付费渠道。</p>
+</section>
+<div class="score">
+<dl class="score-total"><dt>选文评分</dt><dd class="tabular-nums"><b>63</b> / 100</dd></dl>
+<dl class="score-detail tabular-nums">
+<div><dt>深度</dt><dd>68</dd></div>
+<div><dt>新颖性</dt><dd>60</dd></div>
+<div><dt>论证</dt><dd>57</dd></div>
+</dl>
+</div>
+</aside>
+<article aria-labelledby="content-heading" class="content">
+<div class="section-head"><h2 id="content-heading">内容框架与概述</h2><span class="kicker" lang="en">The Story</span></div>
+<section class="copy"><h3>增长岗位的前九十天</h3><p>奥斯汀·刘刚到 Anthropic 时，先从生命周期营销做起。给刚注册的用户发什么，已经用了几周的用户又该收到什么，这些都要分开考虑。增长岗位的前 90 天，可以先弄清公司眼下最需要解决什么，再选几项重点实验，提前想好用什么指标看结果。</p></section>
+<section class="copy"><h3>小范围试验与长期渠道</h3><p>小团队可以先办几场工作坊，听听哪些人对产品感兴趣，也试试怎么介绍产品更容易听懂。有些渠道需要早做。Notion 起初请外部机构做搜索优化，较晚才招聘专职人员，后来得追赶早早投入的竞争对手。搜索排名需要时间积累，用户推荐和渠道合作也可以趁早做起来。</p></section>
+<section class="copy"><h3>什么时候开始投广告</h3><p>等团队能追踪广告带来的转化，也能及时改落地页，再考虑付费投放。Google 搜索广告能接触到已经在找解决方案的人，LinkedIn 可以按职位和公司找到潜在客户，再用报告或案例慢慢介绍产品。渠道值不值得花钱，也可以先试。奥斯汀·刘在 Dropbox 测过一次 YouTube 广告，结果发现它确实带来了额外增长，出乎他的意料。</p></section>
+</article>
+</div>
+<section aria-labelledby="notes-heading" class="mid pad">
+<div class="section-head"><h2 id="notes-heading">核心概念及解读</h2><span class="kicker" lang="en">Key Concepts</span></div>
+<dl class="notes" style="--concept-count: 5">
+<div class="note"><dt>生命周期营销</dt><dd>围绕用户所处阶段安排触达，奥斯汀将其列为在 Anthropic 开展增长工作的首要方向。</dd></div>
+<div class="note"><dt>小范围试验</dt><dd>通过工作坊等活动接触少量用户，检验目标受众和产品信息是否匹配。</dd></div>
+<div class="note"><dt>投放准备度</dt><dd>评估产品转化能力，以及衡量工具、广告创意和落地页工程支持是否到位。</dd></div>
+<div class="note"><dt>承接需求与培育需求</dt><dd>搜索广告接住已有的搜索意图，定向内容触达可以逐步培养潜在客户的兴趣。</dd></div>
+<div class="note"><dt>增量测试</dt><dd>估计渠道投入额外带来的结果，为判断是否继续投入提供依据。</dd></div>
+</dl>
+</section>
+</main>
+<footer aria-labelledby="review-heading" class="footer pad">
+<div class="section-head"><h2 id="review-heading">新意与局限</h2><span class="kicker" lang="en">Editorial Notes</span></div>
+<ul class="review" style="--review-count: 3">
+<li>文章把付费投放的时机落到转化、衡量和执行资源上，也给出了小团队在这些条件到位前可以做的项目。</li><li>Anthropic 和 Notion 的例子交代了渠道选择及其背景，采访没有披露对应的投入和产出。Dropbox 案例也只给出测试结论，未说明实验设计或增量规模。</li><li>Passionfroot 在文章末尾推广自己的创作者合作平台。文中缺少足以比较创作者营销和其他渠道效果的数据。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags"><li>增长策略</li><li>生命周期营销</li><li>渠道选择</li><li>增长实验</li></ul>
+<a class="source-link" href="https://www.passionfroot.me/blog/anthropics-austin-lau-on-building-your-growth-engine" rel="noopener noreferrer"><i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原文</a>
+</div>
+<p class="credit">此摘要卡片由 AI 自动生成</p>
+</footer>
+</div>
+
+</body>
+</html>

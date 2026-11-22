@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="面对AI批量攻破数学猜想引发的第四次数学危机，作者剖析了数学界脱离现实、信任外包与评价异化的沉疴，指出以期刊为核心的信誉体系必然崩盘，呼吁数学研究摆脱解题内卷，回归经验源头、现实关怀与内心审美独立。" name="description"/>
+<title>AI冲击下的数学危机与学术信誉重塑之道 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 纯粹数学与AI发展</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>纯粹数学与AI发展</strong><span lang="en">PURE MATHEMATICS &amp; AI PROGRESS</span></div>
+<h1>AI冲击下的数学危机与学术信誉重塑之道</h1>
+<p class="subtitle" lang="en">AI冲击数学，信誉系统崩盘，数学界何去何从？</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> 薛金鑫 (清华大学)</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-11-04">2026-11-04</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">86</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>针对OpenAI批量攻破数学猜想引发的学界震荡，作者指出危机本质在于数学长期脱离经验现实、过度分工与依赖期刊背书的体制异化。AI的高效生成瓦解了以证明难度为尺度的传统信誉体系。数学并未走向消亡，而是亟需摆脱纯粹解题的技术内卷，重新扎根自然科学与现实工程，使数学家回归追求理解的本质与内在审美的独立判断。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>86</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>88</dd></div>
+<div><dt>立论新颖</dt><dd>86</dd></div>
+<div><dt>结构严密</dt><dd>82</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 机器规模化推演冲击与学术共同体的“信任外包”危机</h3>
+<p>OpenAI集中发布包含数百个数学猜想解答的成果，标志着人工智能在形式推演与定理证明维度已展现出超越人类数学家的规模化生产力，引爆了数学界的信誉危机。这种剧烈冲击的底层诱因，在于现代纯粹数学系统长久以来的封闭与异化。数学演化走向了高度抽象与碎片化的专业分工，学者们在日益狭窄的细分领域中通过添加技术性限制条件维持论文产出，逐渐切断了与物理、工程及经验世界的实质互动。同行之间普遍无法理解彼此的工作，学术共同体长期依赖少数审稿人背书的信任外包机制维持运转。当AI展现出更高效的推演与审核能力时，这种建立在微弱理解之上的脆弱平衡被彻底打破。</p>
+</section>
+<section class="copy">
+<h3>2. “合成钻石”效应与以解题难度为锚的学术评价重组</h3>
+<p>传统学术信誉系统的崩盘是生产力飞跃的必然结果。如同工业合成钻石彻底击穿天然钻石的价格神话，AI将数十年甚至几代学者攻坚难题的社会必要劳动时间压缩至数小时，导致以证明难度为度量衡的论文价值断崖式贬值。以四大顶刊为核心的成果认证体系，短期内将陷入AI生成与AI审稿的虚假循环并丧失公信力；长期来看，单纯依赖象牙塔内解题维持的教职和基金体系将面临萎缩与重组，传统数学系或将如同历史上的力学系一样发生分化，部分走向与量子计算、生物科学等现实前沿的交叉融合，部分回归极少数依托纯粹审美驱动的高等研究机构。</p>
+</section>
+<section class="copy">
+<h3>3. 走出形式主义闭环：经验现实滋养与数学审美独立</h3>
+<p>这场危机实质上是数学摆脱自闭状态、回归开放体系的契机。第三次数学危机中哥德尔不完备定理早已证明封闭的形式系统无法自足，数学的活力必须源于外部现实的滋养。AI虽然擅长概念操纵与证明生成，却无法替代人类基于经验世界的意义赋予、审美直觉和价值判断。中国数学界应当借此契机摆脱对西方顶刊指标的路径依赖与权威盲从，建立服务于国家现实需求与科学前沿的自主评价标准。面对不可逆的技术浪潮，未来的数学研究必须摆脱以猜想难度为导向的技术内卷，在真实问题的经验源头与求索者精神独立的内心世界中实现价值重塑。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>信任外包</dt>
+<dd>指数学界因专业高度分工导致同行难以互通，成果认定完全依赖少数审稿人背书的脆弱信任机制。</dd>
+</div>
+<div class="note">
+<dt>第四次数学危机</dt>
+<dd>指AI在定理证明上的规模化突破，对现代数学脱离现实、自我闭环的封闭形式主义体系造成的颠覆性冲击。</dd>
+</div>
+<div class="note">
+<dt>学术信誉之锚</dt>
+<dd>衡量数学研究真实价值的基准，文章批判脱离现实经验转而锚定期刊等级与解题难度的异化指标。</dd>
+</div>
+<div class="note">
+<dt>数学的经验之源</dt>
+<dd>强调数学活力源于与物理现实和经验世界的互动，过度追求纯粹抽象与封闭近亲繁殖必将导致学科衰退。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>新意：跳出单纯惊叹或防御AI能力的惯常视角，深刻指出危机根源在于数学界的自闭与异化，创造性地用人造钻石击穿天然钻石、布雷顿森林体系脱锚等经济学隐喻，揭示了学术信誉体系崩盘的底层逻辑。</li>
+<li>新意：具备深厚的学术史纵深与前瞻洞察，将当前冲击类比为历史上的力学系重组，大胆预判未来象牙塔式解题数学系的萎缩与学者分化走向，为理解后AI时代的学科重组提供了启发性参照框架。</li>
+<li>局限：对AI在深层理论框架创新与跨领域综合建构上的实质边界探讨尚显不足，且对十年内大学数学系整体消失的预测带有较为激进的演说修辞，一定程度上低估了高等数学在工程与基础教育中的制度惯性。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>数学哲学</li>
+<li>人工智能</li>
+<li>学术评价</li>
+<li>科学社会学</li>
+</ul>
+<a class="source-link" href="https://mp.weixin.qq.com/s/7bGnHUjngUfc1mvilAMKgQ" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

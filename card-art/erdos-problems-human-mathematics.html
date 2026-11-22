@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="面对AI生成证明涌入与功利化抢发风气，埃尔德什问题网站宣布冻结解题评论、隐去已解决状态并取消证明归属表述，通过去游戏化机制引导社区重回人类理解、数学协作与高质量阐释的本质。" name="description"/>
+<title>埃尔德什问题网改版与AI时代人类数学的价值坚守 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 纯粹数学与AI发展</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>纯粹数学与AI发展</strong><span lang="en">PURE MATHEMATICS &amp; AI PROGRESS</span></div>
+<h1>埃尔德什问题网改版与AI时代人类数学的价值坚守</h1>
+<p class="subtitle" lang="en">Changes to the Erdős problems web site</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Thomas Bloom</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-10-06">2026-10-06</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">86</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>文章宣布对埃尔德什问题网站进行重大改革，以应对AI批量生成无解释证明导致的刷榜与功利化倾向。作者通过冻结解题评论、移除解决状态标签、淡化个人归属及推崇高质量阐释，主动将社区与纯算法证明库脱钩，重申数学是充满好奇、交流与协作的人类社会性探索，而非沦为AI黑盒验证的刷题游戏。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>86</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>86</dd></div>
+<div><dt>立论新颖</dt><dd>88</dd></div>
+<div><dt>结构严密</dt><dd>84</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 冲击与异化：猜想社区意外沦为AI基准测试场</h3>
+<p>埃尔德什问题网站建立的初衷是面向人类数学爱好者汇集猜想并梳理研究脉络，但随着AI在短时间内展现出解决高难度数学问题的能力，该网站意外沦为算法能力的基准测试场。尽管技术突破促使许多长期悬而未决的难题获得了答案，却也引发了严重的生态异化：大量缺乏解释的AI生成证明涌入讨论区，用户以抢占优先权为目的频繁发帖，不仅助长了功利化的刷榜心态，更挤占并挫伤了真正热爱数学思维的人类社群。</p>
+</section>
+<section class="copy">
+<h3>2. 机制重构与去游戏化：阻断功利刷榜的四项结构性改革</h3>
+<p>为抵御这种技术冲击对探索生态的侵蚀，网站推行了四项结构性改革以重塑激励机制：全面冻结解题评论与优先权声明提交，改由人工审慎遴选；彻底取消题目的解决状态标识与解决率统计，抹去非黑即白的进度条，抑制追求即时反馈的游戏化心理；在新成果记录中停用个人成果归属表述，削弱追名逐利的诱因；将核心资源转向推崇高质量的证明阐释与经形式化验证的高水准论文。这些举措主动切断了网站与自动化证明仓库的混同，重新确立了以促进人类认知为核心的定位。</p>
+</section>
+<section class="copy">
+<h3>3. 回归埃尔德什精神：数学作为人类社会性探索的价值守护</h3>
+<p>这项制度设计深层呼应了埃尔德什的数学精神：数学从本质上是一项由好奇心驱动、在面对面交流、困惑碰撞与迭代修正中生长的社会性活动。如果将数学探索简化为等待算法产出冷冰冰的形式化证明，并将其倾倒进无人阅读的数据库，人类将失去对智识之美的体验与共同体的联结。技术的演进不应终结数学作为人类活动的本质，守护人类思维的开放性与理解力才是学术共同体存续的根本。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>人类繁荣公理</dt>
+<dd>借用罗博深原则，主张技术与平台的发展应以促进人类群体的智识繁荣、理解力提升与协作共鸣为最高准绳。</dd>
+</div>
+<div class="note">
+<dt>证明仓库与理解社区的分离</dt>
+<dd>形式化代码仓库负责机器证明存证以节省算力，而学术平台必须坚守背景脉络与人类理解的培育。</dd>
+</div>
+<div class="note">
+<dt>状态脱敏与去游戏化</dt>
+<dd>移除问题的已解决状态与百分比统计，打破追求即时反馈的游戏化心态，引导关注数学本身的内涵而非标签。</dd>
+</div>
+<div class="note">
+<dt>社会性数学实践</dt>
+<dd>承袭埃尔德什理念，强调数学是人际交流、共同困惑与思想碰撞的社会活动，反对异化为AI生成的黑盒归档。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>制度层面的去游戏化反思：最具启发之处在于敏锐捕捉到AI介入后数学研究机制的异化，果断通过消除解决状态、淡化优先权署名等制度性去游戏化手段，打破算法刷榜与争名逐利的虚荣反馈回路，为学术社区应对生成式AI冲击提供了创新的治理范本。</li>
+<li>数学认识论层面的重塑：鲜明地区分了形式化证明的机械真值与人类的数学理解，指出一个猜想在获得形式证明后绝非终点，证明背后的阐释、问题滋生出的新思考以及人类之间的心智共鸣才是数学的核心价值。</li>
+<li>治理可扩展性与筛选成本的局限：将开放讨论转为依赖人工邮箱审核与质量判断，在AI生成证明指数级增长的趋势下面临极高的维护成本与主观裁量争议；同时淡化署名和状态虽然抑制了浮躁，但在客观上也增加了检索最新学术进展的摩擦。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>人工智能与数学</li>
+<li>科学共同体</li>
+<li>学术治理</li>
+<li>数学哲学</li>
+</ul>
+<a class="source-link" href="https://terrytao.wordpress.com/2026/10/06/changes-to-the-erdos-problems-web-site/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="探讨AI快速证明能力对数学界传统开放分享文化的冲击，借鉴生物学基因组数据共享协定经验，呼吁学术界重构科研声誉与信用分配机制，并在机器辅助时代转向跨学科复杂现象以探索崭新的数学前沿。" name="description"/>
+<title>AI时代数学开放文化的危机重塑与跨界机遇 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 纯粹数学与学术生态</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>纯粹数学与学术生态</strong><span lang="en">PURE MATHEMATICS &amp; ACADEMIC ECOLOGY</span></div>
+<h1>AI时代数学开放文化的危机重塑与跨界机遇</h1>
+<p class="subtitle" lang="en">Open problems, open mathematics</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Antonio Auffinger</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-09-22">2026-09-22</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">85</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>文章指出，数学界引以为傲的公开分享传统，正因AI大幅降低证明实现的门槛而面临封闭自保的信任危机。借鉴生物学基因组数据共享的制度变革经验，学术界亟需重构科研声誉与信用分配机制。同时，AI的普及将解放数学家的生产力，推动学者转向跨学科复杂现象，在提出新问题与拓展认知边界中开拓新的数学理论。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>85</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>85</dd></div>
+<div><dt>立论新颖</dt><dd>86</dd></div>
+<div><dt>结构严密</dt><dd>80</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 漫长证明周期构筑的开放生态与学科反差</h3>
+<p>数学共同体长期保持着独特的无私分享文化：学者们习惯在走廊闲聊、会议茶歇或公共论坛上毫无保留地分享半成型的构想、未解难题与证明骨架。这种开放生态得以维系的历史根基，在于从提出策略纲要到补齐严谨证明往往需要耗费数月甚至数年的艰巨心力，同行即使掌握了思路纲要也难以轻易抢先发表。然而，以实验技术为驱动的生物学等邻近学科呈现出截然不同的图景：由于CRISPR、冷冻电镜等新技术会产生极具竞争壁垒的高价值数据，相关领域的科研激励机制促使研究者在成果彻底成型前采取高度保守与保密的孤立姿态。</p>
+</section>
+<section class="copy">
+<h3>2. 证明商品化导致的信任危机与制度镜鉴</h3>
+<p>随着人工智能工具使定理证明与推导生成逐渐沦为低成本、高效率的基础设施，数学界原有的开放平衡正在被打破。当原有的学术信用分配方式滞后不变，而机器能够瞬间填补思路骨架时，研究人员尤其是尚在建立声誉的青年学者和研究生，不可避免地面临被抢跑截胡的博弈压力。学术界已经出现撤回预印本、停止在arXiv上传未定稿论文、甚至导师出于保护目的劝阻学生公开分享未完成思路的局部自保行为。面对这种激励扭曲，历史上的生物学共同体曾通过百慕大原则与劳德代尔堡协定主动干预，在强制数据开放的同时界定知识贡献与使用责任。数学界同样亟需开展制度反思与伦理规范重构，避免无私分享的公共文化沦为历史遗迹。</p>
+</section>
+<section class="copy">
+<h3>3. 跨界复杂现象孕育的理论前沿与认知拓展</h3>
+<p>技术赋能的最终目的并非替代数学思考，而是抬高探索未知的认知天花板。应用学科在观测复杂、高维、动态现象时产生的大量前沿问题，迫切需要拓扑学、动力系统、代数几何与概率论等基础数学提供新的抽象模型与理论工具。正如历史上纽结理论赋能DNA解旋机制、群体遗传学驱动测度值扩散过程、几何降维支撑单细胞测序分析一样，基础数学与应用科学的深度碰撞始终是一条相互启发的双向通道。尽管机器推导将日益普遍，数学研究最核心的本质始终没有改变，那就是提出具有深刻洞察力的新问题并拓展对世界的理解。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>开放数学文化</dt>
+<dd>学者在成果未成型前公开分享思路与证明骨架的学术生态，依赖漫长证明周期的天然防抢机制维系。</dd>
+</div>
+<div class="note">
+<dt>百慕大原则</dt>
+<dd>人类基因组计划确立的科研规范，要求测序数据快速向公众开放，通过社区干预重塑数据分享激励机制。</dd>
+</div>
+<div class="note">
+<dt>劳德代尔堡协定</dt>
+<dd>平衡数据快速公开发布与数据创造者学术权益的规则，由研究者、使用者与资助机构共同承担责任。</dd>
+</div>
+<div class="note">
+<dt>证明商品化</dt>
+<dd>AI工具使严谨数学证明的推导生成变得极快且易于获取，打破传统数学研究的劳动力成本门槛。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>新意：敏锐指出AI对数学的真正冲击不仅在于自动化证明，更在于打破了漫长证明周期为思想分享提供的天然信任缓冲，进而威胁整个学科的开源合作生态。</li>
+<li>新意：跳出数学纯理论框架，借鉴生物学在技术爆发期通过百慕大原则与劳德代尔堡协定重塑激励机制的制度经验，为数学界应对声誉分配危机提供了跨界治理视角。</li>
+<li>局限：对数学界如何具体界定思想骨架与机器落地之间的信用权重缺乏可操作方案，且未充分讨论开源形式化数学库（如Lean/Mathlib）在重构贡献认定中的潜在平衡作用。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>人工智能</li>
+<li>数学研究</li>
+<li>学术生态</li>
+<li>科研激励</li>
+<li>跨学科交叉</li>
+</ul>
+<a class="source-link" href="https://terrytao.wordpress.com/2026/09/22/open-problems-open-mathematics/#more-18287" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>

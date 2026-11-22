@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html class="icons-ready" lang="zh-CN">
+<head><meta content="default-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; img-src data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="OpenAI利用AI系统证明了拟黎曼猜想，通过发掘半整模形式等既有工具间的隐秘关联完成了前所未有的数学综合。尽管证明文本冗长且难以直读，该成果仍为大量前沿命题奠定了基础并深刻冲击了传统数学研究范式。" name="description"/>
+<title>AI证明拟黎曼猜想打破百年僵局引发数论研究震动 · AlpacaNotes</title>
+
+
+
+
+
+<link href="reader-icons.css" rel="stylesheet"/><style>
+:root {
+  color-scheme: light;
+  --paper: #f9f7f0;
+  --ink: #1b2230;
+  --soft: #4f5866;
+  --accent: #1b4f72;
+  --accent-rgb: 27, 79, 114;
+  --rule: #babac1;
+  --dark: #192132;
+  --serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'Noto Serif CJK SC', serif;
+  --latin: 'Poppins', Avenir, system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { background: #e5e3dd; }
+body { margin: 0; color: var(--ink); font-family: var(--serif); font-weight: 600; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; }
+i.fa-regular, i.fa-solid { display: none; }
+html.icons-ready i.fa-regular, html.icons-ready i.fa-solid { display: inline-block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.issue { width: min(100%, 1200px); margin: 0 auto; background: var(--paper); border-top: 12px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+.pad { padding-inline: clamp(17px, 4vw, 48px); }
+.latin { font-family: var(--latin); }
+.kicker { font: 700 11px/1.45 var(--latin); letter-spacing: .18em; color: var(--accent); }
+.mast { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; gap: 11px; align-items: baseline; flex-wrap: wrap; }
+.brand strong { color: var(--accent); font-size: clamp(22px, 3vw, 33px); font-weight: 900; letter-spacing: .055em; }
+.masttime { font: 700 12px/1.45 var(--latin); letter-spacing: .08em; white-space: nowrap; color: var(--soft); }
+.headline { padding: 22px 0 18px; border-bottom: 4px solid var(--ink); }
+.headline .kicker { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.headline .kicker strong { font: 800 15px/1.2 var(--serif); letter-spacing: .07em; }
+h1 { font-size: clamp(30px, 4.8vw, 60px); line-height: 1.18; letter-spacing: -.035em; font-weight: 900; text-wrap: balance; overflow-wrap: anywhere; }
+.subtitle { margin-top: 11px; color: var(--soft); font-family: var(--latin); font-size: clamp(12px, 1.4vw, 16px); line-height: 1.45; font-weight: 500; }
+.meta { display: flex; gap: 6px 15px; flex-wrap: wrap; margin-top: 13px; color: var(--ink); font-size: 13px; font-weight: 750; }
+.meta > * + * { border-left: 1px solid var(--rule); padding-left: 14px; }
+.meta time, .meta [lang="en"] { font-family: var(--latin); }
+.grid-main { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; padding-block: 22px 24px; }
+.rail { grid-column: span 4; min-width: 0; }
+.content { grid-column: span 8; min-width: 0; }
+.anchor { border: 1px solid rgba(var(--accent-rgb), .32); background: rgba(var(--accent-rgb), .09); padding: 14px 16px 12px; color: var(--accent); }
+.anchor-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 7px; border-bottom: 1px solid rgba(var(--accent-rgb), .30); }
+.anchor-top span { font-size: 13px; font-weight: 800; }
+.anchor-number {
+  display: block; text-align: center; font: 800 clamp(96px, 16vw, 190px)/.94 var(--latin);
+  letter-spacing: -.09em; padding: 8px .05em 4px 0; color: transparent;
+  -webkit-text-stroke: 2.5px var(--accent);
+}
+.anchor-bottom { display: flex; justify-content: space-between; gap: 8px; padding-top: 7px; border-top: 1px solid rgba(var(--accent-rgb), .30); }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 12px; }
+.section-head h2 { font-size: clamp(22px, 2.5vw, 32px); font-weight: 900; line-height: 1.2; letter-spacing: -.025em; }
+.rail .section-head h2 { font-size: 22px; }
+.abstract { margin-top: 18px; }
+.abstract p { font-size: clamp(16px, 1.8vw, 21px); line-height: 1.68; font-weight: 700; color: #222b3a; }
+.score { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-top: 18px; padding: 11px 0 10px; }
+.score dt { font-size: 13px; font-weight: 800; }
+.score-total { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 6px; }
+.score-total dd { color: var(--accent); white-space: nowrap; font: 700 13px/1 var(--latin); }
+.score-total b { font-size: 36px; }
+.score-detail { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); padding-top: 9px; }
+.score-detail div + div { border-left: 1px solid var(--rule); padding-left: 10px; }
+.score-detail dd { font: 700 18px/1.35 var(--latin); color: var(--accent); }
+.copy { padding: 12px 18px 14px; border-left: 4px solid var(--accent); background: rgba(var(--accent-rgb), .05); border-radius: 0 4px 4px 0; }
+.copy + .copy { margin-top: 12px; }
+.copy h3 { font-size: clamp(19px, 2.2vw, 26px); font-weight: 900; line-height: 1.25; margin-bottom: 6px; color: var(--accent); }
+.copy p { font-size: clamp(16px, 1.8vw, 21px); font-weight: 650; line-height: 1.68; color: #283244; }
+.mid { background: rgba(var(--accent-rgb), .11); border-top: 3px solid var(--accent); border-bottom: 1px solid rgba(var(--accent-rgb), .35); padding-block: 16px 20px; }
+.mid .section-head { border-color: rgba(var(--accent-rgb), .35); }
+.notes { display: grid; grid-template-columns: repeat(var(--concept-count), minmax(0, 1fr)); gap: 10px; }
+.note { padding: 12px 14px 14px; background: var(--paper); border-top: 3px solid var(--accent); border-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,.03); }
+.note dt { font-size: clamp(16px, 1.6vw, 20px); font-weight: 900; line-height: 1.35; color: var(--ink); }
+.note dd { font-size: clamp(13px, 1.3vw, 15px); line-height: 1.6; margin-top: 7px; color: #3c4554; }
+.footer { padding-block: 22px 16px; color: #fff9ec; background: var(--dark); }
+.footer .section-head { border-color: #556277; }
+.footer .kicker { color: #b7c5dc; }
+.footer .section-head h2 { font-size: 26px; }
+.critiques { list-style: none; padding: 0; margin-top: 14px; display: grid; grid-template-columns: repeat(var(--review-count), minmax(0, 1fr)); gap: 14px; }
+.critiques li { position: relative; padding-left: 20px; font-size: clamp(13px, 1.35vw, 15px); line-height: 1.65; color: #e1e7f2; }
+.critiques li::before { content: "•"; position: absolute; left: 6px; top: -1px; color: #9bb1d4; font-size: 20px; }
+.source-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #364459; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; }
+.tags li { font: 600 12px/1.2 var(--latin); padding: 4px 9px; border-radius: 2px; background: rgba(255,255,255,.1); color: #cbd5e1; }
+.source-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; text-decoration: none; padding: 6px 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 3px; transition: background .15s ease; }
+.source-link:hover { background: rgba(255,255,255,.22); }
+.credit { font-size: 12px; color: #94a3b8; margin-top: 10px; text-align: left; }
+@media (max-width: 900px) {
+  .grid-main { grid-template-columns: 1fr; gap: 18px; }
+  .rail, .content { grid-column: span 1; }
+  .anchor-number { font-size: 80px; }
+  .notes { grid-template-columns: 1fr; }
+  .critiques { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .mast { flex-wrap: wrap; gap: 6px 16px; }
+  .masttime { white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="issue" style="--concept-count: 4; --review-count: 3;">
+<header class="pad">
+<div class="mast">
+<div class="brand"><strong>AlpacaNotes</strong><span class="kicker" lang="en">Selected Reading · 纯粹数学与AI发展</span></div>
+<time class="masttime tabular-nums" datetime="2026-11">2026 年 11 月 · AlpacaNotes 精选</time>
+</div>
+<div class="headline">
+<div class="kicker"><strong>纯粹数学与AI发展</strong><span lang="en">PURE MATHEMATICS &amp; AI PROGRESS</span></div>
+<h1>AI证明拟黎曼猜想打破百年僵局引发数论研究震动</h1>
+<p class="subtitle" lang="en">AI Proved the Quasi-Riemann Hypothesis. What Happens Now?</p>
+<div class="meta">
+<span><i aria-hidden="true" class="fa-regular fa-user"></i> Konstantin Kakaes</span>
+<span><i aria-hidden="true" class="fa-regular fa-calendar"></i> 原文发布 <time datetime="2026-10-19">2026-10-19</time></span>
+<span><i aria-hidden="true" class="fa-regular fa-bookmark"></i> 类别：深度长文导读</span>
+</div>
+</div>
+</header>
+<main>
+<div class="grid-main pad">
+<aside aria-label="摘要和选文评分" class="rail">
+<div class="anchor">
+<div class="anchor-top"><span lang="en">REVIEW SCORE</span><span lang="en">DEPTH · NOVELTY</span></div>
+<span class="anchor-number tabular-nums">86</span>
+<div class="anchor-bottom"><span lang="en">SCALE 0–100</span><span lang="en">ALPACANOTES</span></div>
+</div>
+<div class="abstract">
+<div class="section-head"><h2 lang="en">Abstract</h2><span class="kicker">核心概述</span></div>
+<p>OpenAI宣布利用AI证明了拟黎曼猜想，将zeta函数的非平凡零点限制在严格收窄的临界带内。该证明并未提出全新数学概念，而是反直觉地重组并综合了半整模形式等既有工具。尽管机器论文表述极其晦涩，且距离最终攻克完全版猜想仍有鸿沟，但该突破已确立了横跨数论与理论计算机科学的众多重要推论。</p>
+</div>
+<dl class="score">
+<div class="score-total">
+<dt>综合评分</dt>
+<dd class="tabular-nums"><b>86</b> / 100</dd>
+</div>
+<div class="score-detail tabular-nums">
+<div><dt>论证深度</dt><dd>85</dd></div>
+<div><dt>立论新颖</dt><dd>88</dd></div>
+<div><dt>结构严密</dt><dd>86</dd></div>
+</div>
+</dl>
+</aside>
+<article class="content">
+<div class="section-head"><h2 lang="en">Analysis</h2><span class="kicker">论证脉络</span></div>
+<section class="copy">
+<h3>1. 从素数分布基石到临界带收缩的形式化突破</h3>
+<p>黎曼猜想作为数学界最重要的未决难题之一，核心在于判定黎曼zeta函数所有非平凡零点是否严格位于实部为二分之一的临界线上，它直接支配着素数在数轴上的分布规律。相比于要求零点完全落在单条直线上的完全版猜想，拟黎曼猜想退一步要求所有非平凡零点落在一个比既知零至一区间更为狭窄的垂直带内。2026年10月，OpenAI发布成果宣称攻克了拟黎曼猜想，其中一篇长达199页的论文给出了零点实部介于八分之一至八分之七的范围并通过了Lean形式化验证，另一篇经人工编辑的49页论文则证明了十二分之一至十二分之十一的较弱界限。</p>
+</section>
+<section class="copy">
+<h3>2. 既有工具的意外综合颠覆人类数论认知共识</h3>
+<p>数学界对这一突破的反应兼具震撼与审慎。虽然机器生成的原始证明行文冗长且极度缺乏数学期刊所需的阐释规范，迫使研究者们主要转向研读较短的人工编辑版本，但顶级数论学者们在复核后普遍认可了其证明核心。出人意料的是，AI并没有凭空构想全新概念，而是实现了对数论已有工具的惊人综合：它捕捉到了长期被数学家忽视的特定函数族，并将亚历山大·邓恩深耕多年的半整模形式与拉齐维乌先前的计算公式相结合。在此之前，人类学者普遍悲观地认为该领域既有工具不足以解决该问题，必须依赖全新分支理论，而AI对既有工具威力的重组颠覆了这一固有共识。</p>
+</section>
+<section class="copy">
+<h3>3. 连锁推论确立与迈向终极猜想的范式重塑</h3>
+<p>这项证明的确立带来了连锁反应，使数论、代数几何与理论计算机科学中大量长期依赖拟黎曼猜想的附带命题直接晋升为既定定理。然而，前沿学者在释怀之余也保持着清醒判断：当前将零点范围从边缘压缩到八分之七的技术路线，很难被平移用于逼近二分之一临界线。当学界彻底消化这套新方法后，人类距离证明真正的黎曼猜想可能依然遥远，但AI作为能够跨越人类认知盲区、联结离散数学思想的合成者角色，已经无可置疑地改写了现代数学研究的演进节奏。</p>
+</section>
+</article>
+</div>
+<section aria-label="核心概念与术语" class="mid pad">
+<div class="section-head"><h2 lang="en">Core Concepts</h2><span class="kicker">核心概念及解读</span></div>
+<dl class="notes">
+<div class="note">
+<dt>拟黎曼猜想 (Quasi-Riemann Hypothesis)</dt>
+<dd>黎曼猜想的弱化形式，要求zeta函数非平凡零点位于比0到1更窄的垂直带内，能极大限定素数分布偏差。</dd>
+</div>
+<div class="note">
+<dt>黎曼zeta函数 (Riemann Zeta Function)</dt>
+<dd>复变量无穷级数解析延拓构成的函数，其非平凡零点的空间分布直接支配素数出现的频率与规律。</dd>
+</div>
+<div class="note">
+<dt>半整模形式 (Metaplectic Forms)</dt>
+<dd>一类深奥的自守形式数学对象，在本次证明中作为关键函数族工具，连接了原本孤立的数论构件。</dd>
+</div>
+<div class="note">
+<dt>精益形式化验证 (Lean Formal Verification)</dt>
+<dd>利用交互式定理证明器对数学推导进行的逐行严格机器检验，用以确保复杂长证明在逻辑上零瑕疵。</dd>
+</div>
+</dl>
+</section>
+</main>
+<footer class="footer pad">
+<div class="section-head"><h2 lang="en">Critique &amp; Context</h2><span class="kicker">新意与局限</span></div>
+<ul class="critiques">
+<li>概念重组颠覆工具边界共识：最富启发之处在于AI证明完全由既有数学构件综合而成，打破了人类数学家认为现有工具强度不足以攻克猜想的悲观预设，展示了跨工具族全局检索与意外联结的机器特长。</li>
+<li>机器证明的可读性与理解鸿沟：百页机器证明行文晦涩、缺乏叙述美感与直观解释，暴露出AI自动证明系统严重缺乏人类同侪交流所需的清晰性，需要大量人类顶尖专家进行二次提炼与重写。</li>
+<li>弱化猜想向完全猜想跨越的理论天花板：将零点界限收缩到垂直带内部与将其彻底钉死在二分之一临界线上存在本质鸿沟，现有半整模形式技术组合无法直接推导至完全版黎曼猜想，终极问题的解决仍旧充满不确定性。</li>
+</ul>
+<div class="source-line">
+<ul aria-label="文章主题" class="tags">
+<li>人工智能</li>
+<li>数论</li>
+<li>黎曼猜想</li>
+<li>形式化验证</li>
+</ul>
+<a class="source-link" href="https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-regular fa-file-lines"></i> 阅读原始文献
+    </a>
+</div>
+<p class="credit">此摘要卡片由 AlpacaNotes 自动生成 · 采用数字时代印刷品杂志风格 (Magazine Style)</p>
+</footer>
+</div>
+
+</body>
+</html>
