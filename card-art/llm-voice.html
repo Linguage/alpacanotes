@@ -1,4 +1,4 @@
-<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-DWYA0uxOmTbgBL40VHWmyiYa6zSY27IFlCmsdqGwfmA=&#39; &#39;sha256-00GJsklW5rjRu2XRmWfN4b6VpkVUXntBsBBMPmbxDKE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data:; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="pagestudio-paged-reader" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LLM Voice：LLM 文体的恐怖谷</title>
+<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-4nJ3/NXJqO6Nv7gsW0diF0iBok65hVP1svH4+NJD1eM=&#39; &#39;sha256-00GJsklW5rjRu2XRmWfN4b6VpkVUXntBsBBMPmbxDKE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data:; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="pagestudio-paged-reader" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LLM Voice：LLM 文体的恐怖谷</title>
 <style>@font-face{font-family:"Noto Sans SC";src:local("PingFang SC");font-weight:100 900}
 @font-face{font-family:"Noto Serif SC";src:local("Songti SC");font-weight:100 900}
 html,body{scrollbar-width:none}
@@ -112,6 +112,18 @@ html[data-html-cards-plain] body{color:var(--ink);background:var(--paper)}
 <style id="deck-player-style">main[data-html-cards-deck] { display: grid; justify-items: center; gap: 20px; }
 main[data-html-cards-deck] [data-html-cards-slide] { width: 1920px; height: 1080px; flex: none; }
 html.portrait main[data-html-cards-aspects] [data-html-cards-slide] { width: 1080px; height: 1920px; }
+html.portrait main[data-html-cards-aspects="flow"] [data-html-cards-slide] { width: 800px; height: 1422px; }
+html.portrait [data-html-cards-aspects="flow"] [data-html-cards-slide] > section {
+  padding: 44px !important;
+  gap: 22px !important;
+  overflow: auto;
+}
+html.portrait [data-html-cards-aspects="flow"] section > :not(aside) { flex-shrink: 0; }
+html.portrait [data-html-cards-aspects="flow"] section > div { flex-direction: column !important; }
+html.portrait [data-html-cards-aspects="flow"] section > p:last-of-type { position: static !important; }
+html.portrait [data-html-cards-aspects="flow"] :is(h1,h2) { text-wrap: balance; }
+html.portrait [data-html-cards-aspects="flow"] h1 { font-size: 86px !important; }
+html.portrait [data-html-cards-aspects="flow"] h2 { font-size: 50px !important; }
 main[data-html-cards-deck] [data-html-cards-slide] * { box-sizing: border-box; }
 main[data-html-cards-deck] [data-html-cards-slide] > section { width: 100%; height: 100%; position: relative; overflow: hidden; }
 main[data-html-cards-deck]:where(:not([data-html-cards-adapted])) [data-html-cards-slide] > section > aside:last-child { display: none; }
@@ -139,6 +151,14 @@ body.html-cards-deck-player main[data-html-cards-deck] {
   scrollbar-width: none;
   isolation: isolate;
 }
+/* Legacy native exports positioned a second, script-scaled canvas around each slide. */
+@media screen {
+  body.html-cards-deck-player main[data-html-cards-deck] > [data-html-cards-slide] {
+    position: relative;
+    inset: auto;
+    transform: none;
+  }
+}
 body.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !important; }
 .html-cards-deck-dock {
   position: relative;
@@ -152,6 +172,7 @@ body.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !imp
 }
 .html-cards-deck-controls {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 2px;
@@ -316,6 +337,7 @@ function mountHtmlCardsDeck(deck, loadPage) {
     directory: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6h.01M4 12h.01M4 18h.01" stroke-width="3"/>',
     theme: '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor" stroke="none"/>',
     aspect: '<rect x="7" y="3.5" width="10" height="17" rx="2"/><path d="M11 17.5h2"/>',
+    landscape: '<rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/>',
     previous: '<path d="m15 6-6 6 6 6"/>',
     next: '<path d="m9 6 6 6-6 6"/>',
     expand: '<path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/>',
@@ -364,6 +386,12 @@ function mountHtmlCardsDeck(deck, loadPage) {
   const theme = button('theme', '主题', 'T');
   theme.hidden = !deck.hasAttribute('data-html-cards-themes');
   theme.setAttribute('aria-pressed', String(root.classList.contains('dark')));
+  // Native column-based slides can stack their rows on a phone; authored portrait styles take precedence.
+  if (!deck.hasAttribute('data-html-cards-adapted') && !deck.hasAttribute('data-html-cards-aspects') &&
+      slides.every(slide => slide.firstElementChild?.matches('section') &&
+        slide.firstElementChild.style.flexDirection === 'column')) {
+    deck.dataset.htmlCardsAspects = 'flow';
+  }
   const aspect = button('aspect', '横竖屏', 'R');
   aspect.hidden = !deck.hasAttribute('data-html-cards-aspects');
   const full = button('expand', '全屏', 'F');
@@ -383,6 +411,9 @@ function mountHtmlCardsDeck(deck, loadPage) {
   let index = 0;
   let fit = true;
   let orientation;
+  if (window.parent === window && !aspect.hidden) {
+    orientation = window.matchMedia('(max-width: 599px), (pointer: coarse) and (max-width: 1080px) and (max-height: 600px)').matches;
+  }
   let presenting = false;
   let hostConnected = false;
   let hostControls = false;
@@ -502,12 +533,15 @@ function mountHtmlCardsDeck(deck, loadPage) {
     if (portrait !== lastPortrait) {
       lastPortrait = portrait;
       root.classList.toggle('portrait', portrait);
+      const label = portrait ? '切换到桌面横版' : '切换到移动竖版';
+      setIcon(aspect, portrait ? 'landscape' : 'aspect', label, 'R');
       aspect.setAttribute('aria-pressed', String(portrait));
       fitPortrait();
       reportState();
     }
-    const width = portrait ? 1080 : 1920;
-    const height = portrait ? 1920 : 1080;
+    const canvas = slides[index];
+    const width = canvas.offsetWidth;
+    const height = canvas.offsetHeight;
     const scale = fit ? Math.min(1, Math.max(1, deck.clientWidth - 24) / width, Math.max(1, deck.clientHeight - 24) / height) : 1;
     slides[index].style.zoom = String(scale);
   }
@@ -584,6 +618,9 @@ function mountHtmlCardsDeck(deck, loadPage) {
     if (data?.channel === channel && data.version === 1) {
       if (data.type === 'host') {
         const firstContact = !hostConnected;
+        if (firstContact && typeof data.initialPortrait === 'boolean' && orientation === undefined) {
+          orientation = data.initialPortrait;
+        }
         hostConnected = true;
         hostControls = data.controls === 'container';
         dock.hidden = hostControls;
@@ -610,7 +647,7 @@ function mountHtmlCardsDeck(deck, loadPage) {
   });
   navigate(0);
   document.fonts?.ready.then(fitPortrait);
-  if (window.parent !== window) send('ready');
+  if (window.parent !== window) send('ready', { configured: false });
 }
 </script>
 <script>'use strict';
