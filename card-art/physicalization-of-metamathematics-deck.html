@@ -1,4 +1,4 @@
-<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-S7ltnVPzgKyAGBlBG4wQhorJqYTehj5WQCrADCKJufE=&#39; &#39;sha256-F26JRmGqnNyaXLpscgBEy797i9gNHJoUKnwksbbFDRU=&#39; &#39;sha256-+o32msOmkDv1diYR7kalkk6TNEMzA+wHMBN17rEfuLo=&#39; &#39;sha256-00GJsklW5rjRu2XRmWfN4b6VpkVUXntBsBBMPmbxDKE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data:; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="pagestudio-paged-reader" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>元数学的物理化及其对数学基础的启示 · AlpacaNotes</title>
+<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-S7ltnVPzgKyAGBlBG4wQhorJqYTehj5WQCrADCKJufE=&#39; &#39;sha256-F26JRmGqnNyaXLpscgBEy797i9gNHJoUKnwksbbFDRU=&#39; &#39;sha256-DWYA0uxOmTbgBL40VHWmyiYa6zSY27IFlCmsdqGwfmA=&#39; &#39;sha256-00GJsklW5rjRu2XRmWfN4b6VpkVUXntBsBBMPmbxDKE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data:; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="pagestudio-paged-reader" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>元数学的物理化及其对数学基础的启示 · AlpacaNotes</title>
 <style>@font-face{font-family:"Noto Sans SC";src:local("PingFang SC");font-weight:100 900}
 @font-face{font-family:"Noto Serif SC";src:local("Songti SC");font-weight:100 900}
 html,body{scrollbar-width:none}
@@ -189,7 +189,7 @@ body.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !imp
 .html-cards-deck-dock button:focus-visible { outline: 2px solid #c7dbff; outline-offset: -2px; }
 .html-cards-deck-controls button:disabled { opacity: .37; cursor: default; }
 .html-cards-deck-controls svg { display: block; width: 19px; height: 19px; pointer-events: none; }
-.html-cards-deck-dock [hidden] { display: none !important; }
+.html-cards-deck-dock[hidden], .html-cards-deck-dock [hidden] { display: none !important; }
 .html-cards-deck-controls output {
   min-width: 6ch;
   padding-inline: 4px;
@@ -405,6 +405,7 @@ function mountHtmlCardsDeck(deck, loadPage) {
   const controls = document.createElement('nav');
   controls.className = 'html-cards-deck-controls';
   controls.setAttribute('aria-label', '幻灯片播放');
+  const titles = slides.map(slide => slide.querySelector('h1,h2')?.textContent.trim().replace(/\s+/g, ' ') || '');
   const icons = {
     directory: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6h.01M4 12h.01M4 18h.01" stroke-width="3"/>',
     theme: '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor" stroke="none"/>',
@@ -437,12 +438,11 @@ function mountHtmlCardsDeck(deck, loadPage) {
   directoryButton.hidden = slides.length < 2;
   directoryButton.setAttribute('aria-controls', directory.id);
   directoryButton.setAttribute('aria-expanded', 'false');
-  const directoryItems = slides.map((slide, number) => {
+  const directoryItems = titles.map((title, number) => {
     const item = document.createElement('li');
     const entry = document.createElement('button');
     entry.type = 'button';
     const label = document.createElement('span');
-    const title = slide.querySelector('h1,h2')?.textContent.trim().replace(/\s+/g, ' ');
     const pageLabel = `第 ${number + 1} 页`;
     label.textContent = title || pageLabel;
     const count = document.createElement('span');
@@ -479,9 +479,22 @@ function mountHtmlCardsDeck(deck, loadPage) {
   let orientation;
   let presenting = false;
   let hostConnected = false;
+  let hostControls = false;
   let lastPortrait;
+  let loadingPage = null;
+  let pageFailed = false;
   let navigate = show;
   let preloadNext = () => {};
+  let retryPage = () => {};
+  function reportState() {
+    if (!hostControls) return;
+    send('state', {
+      page: index + 1, titles,
+      dark: theme.hidden ? null : root.classList.contains('dark'),
+      portrait: aspect.hidden ? null : lastPortrait,
+      loadingPage, pageFailed,
+    });
+  }
   if (loadPage) {
     const pending = new Map();
     const feedback = document.createElement('div');
@@ -521,21 +534,28 @@ function mountHtmlCardsDeck(deck, loadPage) {
       const deferred = slides[target].firstElementChild?.hasAttribute('data-html-cards-deferred');
       retry.hidden = true;
       feedback.hidden = !deferred;
+      pageFailed = false;
+      loadingPage = deferred ? target + 1 : null;
       if (deferred) {
         message.textContent = '正在加载第 ' + (target + 1) + ' 页';
+        reportState();
         const loaded = await load(target);
         if (target !== requested) return;
         if (!loaded) {
           message.textContent = '第 ' + (target + 1) + ' 页加载失败';
           retry.hidden = false;
+          pageFailed = true;
+          reportState();
           return;
         }
       }
+      loadingPage = null;
       feedback.hidden = true;
       show(target);
       preloadNext();
     };
-    retry.onclick = () => navigate(requested);
+    retryPage = () => navigate(requested);
+    retry.onclick = retryPage;
   }
   function setDirectory(open, restoreFocus = false) {
     directory.hidden = !open;
@@ -578,6 +598,7 @@ function mountHtmlCardsDeck(deck, loadPage) {
       root.classList.toggle('portrait', portrait);
       aspect.setAttribute('aria-pressed', String(portrait));
       fitPortrait();
+      reportState();
     }
     const width = portrait ? 1080 : 1920;
     const height = portrait ? 1920 : 1080;
@@ -596,6 +617,7 @@ function mountHtmlCardsDeck(deck, loadPage) {
     deck.scrollTo(0, 0);
     size();
     fitPortrait();
+    reportState();
   }
   previous.onclick = () => navigate(index - 1);
   next.onclick = () => navigate(index + 1);
@@ -603,6 +625,7 @@ function mountHtmlCardsDeck(deck, loadPage) {
     const dark = root.classList.toggle('dark');
     root.classList.toggle('light', !dark);
     theme.setAttribute('aria-pressed', String(dark));
+    reportState();
   };
   aspect.onclick = () => { orientation = !lastPortrait; size(); };
   function setPresenting(active) {
@@ -651,19 +674,31 @@ function mountHtmlCardsDeck(deck, loadPage) {
   window.addEventListener('resize', size);
   window.addEventListener('message', event => {
     if (event.source !== window.parent) return;
-    if (event.data?.channel === channel && event.data.version === 1 && event.data.type === 'host') {
-      const firstContact = !hostConnected;
-      hostConnected = true;
-      full.hidden = false;
-      setPresenting(event.data.fullscreen === true);
-      size();
-      if (firstContact) {
-        send('ready');
-        preloadNext();
+    const data = event.data;
+    if (data?.channel === channel && data.version === 1) {
+      if (data.type === 'host') {
+        const firstContact = !hostConnected;
+        hostConnected = true;
+        hostControls = data.controls === 'container';
+        dock.hidden = hostControls;
+        full.hidden = false;
+        setPresenting(data.fullscreen === true);
+        size();
+        reportState();
+        if (firstContact) {
+          send('ready');
+          preloadNext();
+        }
+      } else if (data.type === 'control' && hostControls) {
+        if (data.action === 'page' && Number.isInteger(data.page) && data.page >= 1 && data.page <= slides.length) {
+          navigate(data.page - 1);
+        } else if (data.action === 'theme' && !theme.hidden) theme.click();
+        else if (data.action === 'aspect' && !aspect.hidden) aspect.click();
+        else if (data.action === 'retry' && pageFailed) retryPage();
       }
     }
-    if (event.data?.channel === 'dsh-html-cards-reader' && typeof event.data.fit === 'boolean') {
-      fit = event.data.fit;
+    if (data?.channel === 'dsh-html-cards-reader' && typeof data.fit === 'boolean') {
+      fit = data.fit;
       size();
     }
   });
