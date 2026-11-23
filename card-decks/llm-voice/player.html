@@ -1,0 +1,746 @@
+<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-+o32msOmkDv1diYR7kalkk6TNEMzA+wHMBN17rEfuLo=&#39; &#39;sha256-00GJsklW5rjRu2XRmWfN4b6VpkVUXntBsBBMPmbxDKE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data: 'self'; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="pagestudio-paged-reader" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LLM Voice：LLM 文体的恐怖谷</title>
+<style>@font-face{font-family:"Noto Sans SC";src:local("PingFang SC");font-weight:100 900}
+@font-face{font-family:"Noto Serif SC";src:local("Songti SC");font-weight:100 900}
+html,body{scrollbar-width:none}
+html{overscroll-behavior:contain}
+body{margin:0;color:#222;background:#fff}
+html[data-html-cards-plain] body{color:var(--ink);background:var(--paper)}
+/* Shared by the library, the discussion frame and unstyled documents. */
+.pagestudio-theme {
+  color-scheme: light;
+  --paper: #f5f0e6;
+  --panel: #fdfaf3;
+  --ink: #292623;
+  --muted: #625a50;
+  --line: #dbd1c1;
+  --sidebar: #eee7da;
+  --hero: #eae1d2;
+  --field: #f9f5ec;
+  --hover: #eee5d7;
+  --selected: #e4d7c3;
+  --subtle: #f4ede1;
+  --line-strong: #aa9c88;
+  --accent: #493e32;
+  --fill: #39342e;
+  --fill-hover: #51483d;
+  --on-fill: #fff9ed;
+  --focus: #886339;
+  --marker: #8a7358;
+  --badge-ink: #3e352d;
+  --error: #8e362e;
+  --error-bg: #f8e6dd;
+  --backdrop: #26221d65;
+  --shadow: #2e261c32;
+}
+
+.pagestudio-theme:is([data-theme=dark],[data-html-cards-theme=dark]) {
+  color-scheme: dark;
+  --paper: #1d1c1b;
+  --panel: #252321;
+  --ink: #eee7da;
+  --muted: #c1b5a6;
+  --line: #474139;
+  --sidebar: #22201e;
+  --hero: #2d2924;
+  --field: #211f1d;
+  --hover: #342f29;
+  --selected: #453b30;
+  --subtle: #282521;
+  --line-strong: #786b5b;
+  --accent: #e3ccb0;
+  --fill: #e4cdb0;
+  --fill-hover: #f1dcc2;
+  --on-fill: #28221b;
+  --focus: #dcb482;
+  --marker: #c2a280;
+  --badge-ink: #f1e6d9;
+  --error: #ffc7b7;
+  --error-bg: #4a302a;
+  --backdrop: #100e0bc2;
+  --shadow: #0008;
+}
+
+.pagestudio-theme[data-appearance=retro] {
+  --paper: #e9e5db;
+  --panel: #f4f0e7;
+  --ink: #201c22;
+  --muted: #595059;
+  --line: #39323b;
+  --sidebar: #dfdbd0;
+  --hero: #e1ddd2;
+  --field: #f0ece3;
+  --hover: #e4dfd7;
+  --selected: #e9bdc9;
+  --subtle: #e3ded3;
+  --line-strong: #242026;
+  --accent: #752843;
+  --fill: #df95ad;
+  --fill-hover: #eba9bd;
+  --on-fill: #271a24;
+  --focus: #963956;
+  --marker: #aa4869;
+  --badge-ink: #30242d;
+  --backdrop: #241e2890;
+  --shadow: #3c303f48;
+}
+
+.pagestudio-theme[data-appearance=retro]:is([data-theme=dark],[data-html-cards-theme=dark]) {
+  --paper: #252329;
+  --panel: #302c33;
+  --ink: #f3eaf0;
+  --muted: #c9b9c7;
+  --line: #70636f;
+  --sidebar: #2b272e;
+  --hero: #39313b;
+  --field: #2b272e;
+  --hover: #3b333e;
+  --selected: #624050;
+  --subtle: #322c35;
+  --line-strong: #aa95a7;
+  --accent: #f3b7cb;
+  --fill: #e9a2b9;
+  --fill-hover: #f3bacd;
+  --on-fill: #271a24;
+  --focus: #ffb5d0;
+  --marker: #e4a0b9;
+  --badge-ink: #f5e7f0;
+  --backdrop: #161119b0;
+  --shadow: #120e16a0;
+}
+
+</style>
+<style id="deck-player-style">main[data-html-cards-deck] { display: grid; justify-items: center; gap: 20px; }
+main[data-html-cards-deck] [data-html-cards-slide] { width: 1920px; height: 1080px; flex: none; }
+html.portrait main[data-html-cards-aspects] [data-html-cards-slide] { width: 1080px; height: 1920px; }
+main[data-html-cards-deck] [data-html-cards-slide] * { box-sizing: border-box; }
+main[data-html-cards-deck] [data-html-cards-slide] > section { width: 100%; height: 100%; position: relative; overflow: hidden; }
+main[data-html-cards-deck]:where(:not([data-html-cards-adapted])) [data-html-cards-slide] > section > aside:last-child { display: none; }
+main[data-html-cards-deck]:where(:not([data-html-cards-adapted])) :is(h1,h2,h3,p,ul,ol) { margin: 0; }
+
+body.html-cards-deck-player {
+  margin: 0;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+body.html-cards-deck-player:where(:not(:has(> main[data-html-cards-adapted]))) {
+  background: #171a19;
+  color: #f2f4f3;
+}
+body.html-cards-deck-player main[data-html-cards-deck] {
+  flex: 1;
+  min-height: 0;
+  padding: 12px;
+  overflow: auto;
+  display: flex;
+  justify-content: safe center;
+  align-items: safe center;
+  scrollbar-width: none;
+  isolation: isolate;
+}
+body.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !important; }
+.html-cards-deck-dock {
+  position: relative;
+  z-index: 1;
+  align-self: flex-end;
+  flex: none;
+  max-width: calc(100% - 16px);
+  margin: 0 12px 10px;
+  color: #f3f3f2;
+  font: 13px system-ui, sans-serif;
+}
+.html-cards-deck-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 4px 6px;
+  border: 1px solid #5a5a57;
+  border-radius: 999px;
+  background: #343432;
+  box-shadow: 0 5px 16px #0003;
+}
+.html-cards-deck-dock button {
+  color: inherit;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.html-cards-deck-controls button {
+  display: grid;
+  place-items: center;
+  width: clamp(24px, 8.75vw, 36px);
+  height: 34px;
+  border-radius: 6px;
+}
+.html-cards-deck-controls button[aria-pressed="true"],
+.html-cards-deck-controls button[aria-expanded="true"] { background: #ffffff20; }
+.html-cards-deck-dock button:focus-visible { outline: 2px solid #c7dbff; outline-offset: -2px; }
+.html-cards-deck-controls button:disabled { opacity: .37; cursor: default; }
+.html-cards-deck-controls svg { display: block; width: 19px; height: 19px; pointer-events: none; }
+.html-cards-deck-dock [hidden] { display: none !important; }
+.html-cards-deck-controls output {
+  min-width: 6ch;
+  padding-inline: 4px;
+  white-space: nowrap;
+  text-align: center;
+  font: 600 clamp(11px, 3.6vw, 14px) ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+.html-cards-deck-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.html-cards-deck-directory {
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block-end: calc(100% + 6px);
+  width: min(21rem, calc(100vw - 24px));
+  max-height: min(23rem, 56dvh);
+  overflow: auto;
+  overscroll-behavior: contain;
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  border: 1px solid #5a5a57;
+  border-radius: 12px;
+  background: #343432;
+  box-shadow: 0 8px 20px #0005;
+}
+.html-cards-deck-directory button {
+  display: grid;
+  grid-template-columns: 3ch minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  width: 100%;
+  min-height: 34px;
+  padding: 7px 9px;
+  border-radius: 6px;
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+.html-cards-deck-directory button > span:first-child { color: #c4c4bf; font: 12px ui-monospace, monospace; }
+.html-cards-deck-directory button[aria-current="page"] { background: #ffffff26; }
+.html-cards-deck-feedback {
+  position: absolute;
+  z-index: 1;
+  inset-inline-end: 0;
+  inset-block-end: calc(100% + 6px);
+  width: max-content;
+  max-width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #5a5a57;
+  border-radius: 8px;
+  background: #343432;
+}
+.html-cards-deck-dock:has(.html-cards-deck-directory:not([hidden])) .html-cards-deck-feedback { display: none; }
+.html-cards-deck-feedback button { margin-inline-start: 8px; text-decoration: underline; }
+@media (hover: hover) {
+  .html-cards-deck-dock button:not(:disabled):hover { background: #ffffff20; }
+}
+@media (max-width: 420px) {
+  .html-cards-deck-dock { align-self: center; }
+  .html-cards-deck-directory { inset-inline: auto; left: 50%; transform: translateX(-50%); }
+}
+@media (pointer: coarse) {
+  .html-cards-deck-controls button { height: 40px; }
+  .html-cards-deck-directory button { min-height: 40px; }
+}
+
+@media print {
+  @page { size: 20in 11.25in; margin: 0; }
+  body.html-cards-deck-player { display: block; height: auto; overflow: visible; }
+  body.html-cards-deck-player main[data-html-cards-deck] { display: block; padding: 0; overflow: visible; }
+  body.html-cards-deck-player [data-html-cards-slide][hidden] { display: block !important; }
+  main[data-html-cards-deck] [data-html-cards-slide] { zoom: 1 !important; break-after: page; print-color-adjust: exact; }
+  main[data-html-cards-deck] [data-html-cards-slide]:last-child { break-after: auto; }
+  .html-cards-deck-dock { display: none; }
+}
+</style>
+</head><body><script id="reader-data" type="application/json">{"html":"\u003c!doctype html>\u003chtml lang=\"zh-CN\">\u003chead>\u003cmeta charset=\"utf-8\">\u003cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\u003cmeta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; script-src 'sha256-XLl+co3EOcV1jd4QvloxpeQrYDVRRFy+YKn6phxFXKA='; style-src 'unsafe-inline'; img-src data:; font-src data:; base-uri 'none'; form-action 'none'\">\u003ctitle>LLM Voice：LLM 文体的恐怖谷\u003c/title>\u003cstyle>main[data-html-cards-deck] { display: grid; justify-items: center; gap: 20px; }\nmain[data-html-cards-deck] [data-html-cards-slide] { width: 1920px; height: 1080px; flex: none; }\nmain[data-html-cards-deck] [data-html-cards-slide] * { box-sizing: border-box; }\nmain[data-html-cards-deck] [data-html-cards-slide] > section { width: 100%; height: 100%; position: relative; overflow: hidden; }\nmain[data-html-cards-deck] [data-html-cards-slide] > section > aside:last-child { display: none; }\nmain[data-html-cards-deck] :is(h1,h2,h3,p,ul,ol) { margin: 0; }\n\nbody.html-cards-deck-player {\n  box-sizing: border-box;\n  margin: 0;\n  height: 100vh;\n  height: 100dvh;\n  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\n  display: grid;\n  grid-template-rows: minmax(0, 1fr) auto;\n  overflow: hidden;\n  background: #171a19;\n  color: #f2f4f3;\n}\nbody.html-cards-deck-player main[data-html-cards-deck] {\n  position: relative;\n  display: block;\n  min-width: 0;\n  min-height: 0;\n  overflow: hidden;\n  touch-action: pan-y pinch-zoom;\n}\nbody.html-cards-deck-player [data-html-cards-slide] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(var(--slide-scale, 0));\n}\nbody.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !important; }\n.html-cards-deck-controls {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: clamp(6px, 2vw, 14px);\n  padding: 4px 8px 6px;\n  color: #f2f4f3;\n  font: 14px system-ui, sans-serif;\n}\n.html-cards-deck-controls button {\n  color: inherit;\n  background: #282c2b;\n  border: 1px solid #525a57;\n  border-radius: 6px;\n  min-height: 44px;\n  padding: 0 10px;\n  font: inherit;\n  white-space: nowrap;\n  cursor: pointer;\n}\n.html-cards-deck-controls :focus-visible, main[data-html-cards-deck]:focus-visible {\n  outline: 2px solid #8ee2d1;\n  outline-offset: -3px;\n}\n.html-cards-deck-controls button:disabled { opacity: .45; cursor: default; }\n.html-cards-deck-controls output { min-width: 5em; text-align: center; white-space: nowrap; }\n@media (orientation: landscape) and (min-aspect-ratio: 7/4) {\n  body.html-cards-deck-player { grid-template: minmax(0, 1fr) / minmax(0, 1fr) auto; }\n  .html-cards-deck-controls { flex-direction: column; padding: 6px 8px 6px 0; }\n}\n\n@media print {\n  @page { size: 20in 11.25in; margin: 0; }\n  body.html-cards-deck-player { display: block; height: auto; overflow: visible; }\n  body.html-cards-deck-player main[data-html-cards-deck] { display: block; padding: 0; overflow: visible; }\n  body.html-cards-deck-player [data-html-cards-slide][hidden] { display: block !important; }\n  body.html-cards-deck-player [data-html-cards-slide] { position: static; transform: none; }\n  main[data-html-cards-deck] [data-html-cards-slide] { break-after: page; print-color-adjust: exact; }\n  main[data-html-cards-deck] [data-html-cards-slide]:last-child { break-after: auto; }\n  .html-cards-deck-controls { display: none; }\n}\n\u003c/style>\u003c/head>\u003cbody>\u003cmain data-html-cards-deck=\"1\">\u003cdiv data-html-cards-slide>\u003csection id=\"cover\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between;gap:48px\">\n\u003cdiv style=\"display:flex;flex-direction:column;gap:24px\">\n\u003cp style=\"font-size:24px;letter-spacing:6px;color:#5FA79E;text-transform:uppercase\">bliki · martinfowler.com\u003c/p>\n\u003ch1 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:112px;font-weight:700;line-height:1.15;margin:0px\">LLM Voice\u003c/h1>\n\u003cp style=\"font-size:40px;line-height:1.4;color:#C9C3B8\">LLM 文体的恐怖谷\u003c/p>\n\u003c/div>\n\u003cdiv style=\"display:flex;flex-direction:column;gap:12px\">\n\u003chr style=\"border-top:2px solid #5FA79E;width:96px\">\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:30px;font-style:italic;line-height:1.5;color:#9FB5B0\">\"The uncanny valley of LLMs' prose.\"\u003c/p>\n\u003cp style=\"font-size:24px;color:#8A94A3\">Martin Fowler · 2026 年 10 月 29 日\u003c/p>\n\u003c/div>\n\u003caside>开场：Martin Fowler 的 bliki 短文，副标题就是\"LLM 散文的恐怖谷\"。主题：一种读得出来却难以定义的文体感。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"feeling\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>读着读着，你\"知道\"这是 LLM 写的——却说不出为什么\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"detectors\" data-transition=\"fade\" style=\"background:#E9E6DE;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>等你伸手去找工具时，其实已经太晚了\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"self-doubt\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>有些\"AI 腔\"，其实只是年轻人的语言\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"advice\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>不要让 LLM 写初稿\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"policy\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>用了 AI 就声明：透明，也为了互相学习\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"say-your-writing\" data-transition=\"fade\" style=\"background:#E9E6DE;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>把心里的字说出来，再写下来\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"future\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>写作是思考的工具。外包了写作，也就外包了思考。\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"exceptions\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>两个例外：疾病与翻译\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"reasonable\" data-transition=\"fade\" style=\"background:#E9E6DE;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\" data-html-cards-deferred>\u003ch2 hidden>当读者不是\"人\"，交给 LLM 也无妨\u003c/h2>\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"closing\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:48px\" data-html-cards-deferred>\u003ch2 hidden>\"如果我想与人交流，我的人性必须从文字中渗出。\"\u003c/h2>\u003c/section>\u003c/div>\u003c/main>\u003cscript>'use strict';\nconst deck = document.querySelector('main[data-html-cards-deck]');\nconst slides = Array.from(deck.children);\ndocument.body.classList.add('html-cards-deck-player');\ndeck.tabIndex = 0;\ndeck.setAttribute('aria-label', '幻灯片');\nconst controls = document.createElement('nav');\ncontrols.className = 'html-cards-deck-controls';\ncontrols.setAttribute('aria-label', '幻灯片翻页');\nconst previous = document.createElement('button');\nprevious.type = 'button';\nprevious.textContent = '上一页';\nconst next = document.createElement('button');\nnext.type = 'button';\nnext.textContent = '下一页';\nconst position = document.createElement('output');\nposition.setAttribute('aria-live', 'polite');\ncontrols.append(previous, position, next);\ndeck.after(controls);\n\nlet index = -1;\nfunction fitSlide() {\n  const scale = Math.min(1, Math.max(0, deck.clientWidth - 8) / 1920, Math.max(0, deck.clientHeight - 8) / 1080);\n  deck.style.setProperty('--slide-scale', String(scale));\n}\nfunction show(page) {\n  const nextIndex = Math.max(0, Math.min(slides.length - 1, page));\n  if (index === nextIndex) return;\n  index = nextIndex;\n  slides.forEach((slide, number) => { slide.hidden = number !== index; });\n  previous.disabled = index === 0;\n  next.disabled = index === slides.length - 1;\n  position.textContent = (index + 1) + ' / ' + slides.length + ' 页';\n  if (document.activeElement === previous && previous.disabled) next.focus();\n  else if (document.activeElement === next && next.disabled) previous.focus();\n}\nprevious.onclick = () => show(index - 1);\nnext.onclick = () => show(index + 1);\ndocument.addEventListener('keydown', event => {\n  const pages = { ArrowLeft: index - 1, ArrowRight: index + 1, Home: 0, End: slides.length - 1 };\n  if (event.altKey || event.ctrlKey || event.metaKey || !Object.hasOwn(pages, event.key)) return;\n  event.preventDefault();\n  show(pages[event.key]);\n});\n\nlet touchStart;\ndeck.addEventListener('touchstart', event => {\n  touchStart = event.touches.length === 1 ? event.touches[0] : undefined;\n}, { passive: true });\ndeck.addEventListener('touchend', event => {\n  if (!touchStart || event.touches.length) return;\n  const end = event.changedTouches[0];\n  const dx = end.clientX - touchStart.clientX;\n  const dy = end.clientY - touchStart.clientY;\n  touchStart = undefined;\n  if (Math.abs(dx) > 60 && Math.abs(dx) > 1.5 * Math.abs(dy)) show(index + (dx \u003c 0 ? 1 : -1));\n}, { passive: true });\ndeck.addEventListener('touchcancel', () => { touchStart = undefined; });\n\nshow(0);\nfitSlide();\nnew ResizeObserver(fitSlide).observe(deck);\u003c/script>\u003c/body>\u003c/html>","title":"LLM Voice：LLM 文体的恐怖谷","hasTailwind":false,"deferred":true}</script>
+<script>'use strict';
+
+// MiaoYan's standalone export uses a fixed canvas and assigns each page a number.
+function adaptNumberedSlides(body) {
+  const stage = body.querySelector(':scope > #stage');
+  const sourceDeck = stage?.querySelector(':scope > #deck');
+  if (!sourceDeck) return null;
+  const slides = [...sourceDeck.children];
+  if (slides.length < 2 || slides.length > 200 || !slides.every((slide, index) =>
+    slide.matches('section.page') && slide.dataset.page === String(index + 1) &&
+    slide.id === 'page-' + (index + 1)
+  )) return null;
+
+  const deck = document.createElement('main');
+  deck.dataset.htmlCardsDeck = '1';
+  deck.dataset.htmlCardsAdapted = 'numbered';
+  const styles = [...body.querySelectorAll('style')].map(style => style.textContent).join('\n');
+  if (/\bhtml\.dark\b/.test(styles)) deck.dataset.htmlCardsThemes = '';
+  if (/\bhtml\.portrait\b/.test(styles)) deck.dataset.htmlCardsAspects = '';
+  for (const slide of slides) {
+    const frame = document.createElement('div');
+    frame.dataset.htmlCardsSlide = '';
+    slide.classList.add('active');
+    frame.append(slide);
+    deck.append(frame);
+  }
+  const shortcut = [...slides[0].querySelectorAll('span.font-mono')].find(node =>
+    node.childElementCount === 0 && /^KEYBOARD:.*\bESC\s+目录/.test(node.textContent.trim()));
+  if (shortcut) shortcut.textContent = shortcut.textContent.replace(/ESC\s+目录\s*·\s*/g, '');
+  stage.replaceWith(deck);
+  for (const selector of [':scope > #hud', ':scope > #drawer']) body.querySelector(selector)?.remove();
+  return deck;
+}
+
+function mountHtmlCardsDeck(deck, loadPage) {
+  const slides = [...deck.children].filter(node => node.hasAttribute('data-html-cards-slide'));
+  if (!slides.length) return;
+  const root = document.documentElement;
+  const channel = 'pagestudio-deck';
+  const send = (type, detail) => window.parent.postMessage({ channel, version: 1, type, ...detail }, '*');
+  document.body.classList.add('html-cards-deck-player');
+  deck.tabIndex = 0;
+  deck.setAttribute('aria-label', '幻灯片');
+  const controls = document.createElement('nav');
+  controls.className = 'html-cards-deck-controls';
+  controls.setAttribute('aria-label', '幻灯片播放');
+  const icons = {
+    directory: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6h.01M4 12h.01M4 18h.01" stroke-width="3"/>',
+    theme: '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor" stroke="none"/>',
+    aspect: '<rect x="7" y="3.5" width="10" height="17" rx="2"/><path d="M11 17.5h2"/>',
+    previous: '<path d="m15 6-6 6 6 6"/>',
+    next: '<path d="m9 6 6 6-6 6"/>',
+    expand: '<path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/>',
+    collapse: '<path d="M4 9h5V4m11 5h-5V4M4 15h5v5m11-5h-5v5"/>',
+  };
+  function setIcon(control, icon, label, shortcut) {
+    control.setAttribute('aria-label', label);
+    control.title = shortcut ? `${label} (${shortcut})` : label;
+    control.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${icons[icon]}</svg>`;
+  }
+  function button(icon, label, shortcut) {
+    const control = document.createElement('button');
+    control.type = 'button';
+    setIcon(control, icon, label, shortcut);
+    return control;
+  }
+  const previous = button('previous', '上一页', '←');
+  const next = button('next', '下一页', '→');
+  const directoryButton = button('directory', '幻灯片目录');
+  const directory = document.createElement('ol');
+  const pageNumber = number => String(number).padStart(Math.max(2, String(slides.length).length), '0');
+  directory.id = 'html-cards-deck-directory';
+  directory.className = 'html-cards-deck-directory';
+  directory.setAttribute('aria-label', '幻灯片目录');
+  directory.hidden = true;
+  directoryButton.hidden = slides.length < 2;
+  directoryButton.setAttribute('aria-controls', directory.id);
+  directoryButton.setAttribute('aria-expanded', 'false');
+  const directoryItems = slides.map((slide, number) => {
+    const item = document.createElement('li');
+    const entry = document.createElement('button');
+    entry.type = 'button';
+    const label = document.createElement('span');
+    const title = slide.querySelector('h1,h2')?.textContent.trim().replace(/\s+/g, ' ');
+    const pageLabel = `第 ${number + 1} 页`;
+    label.textContent = title || pageLabel;
+    const count = document.createElement('span');
+    count.textContent = pageNumber(number + 1);
+    count.setAttribute('aria-hidden', 'true');
+    entry.setAttribute('aria-label', title ? `${pageLabel}，${title}` : pageLabel);
+    entry.append(count, label);
+    entry.onclick = () => { navigate(number); setDirectory(false, true); };
+    item.append(entry);
+    directory.append(item);
+    return entry;
+  });
+  const theme = button('theme', '主题', 'T');
+  theme.hidden = !deck.hasAttribute('data-html-cards-themes');
+  theme.setAttribute('aria-pressed', String(root.classList.contains('dark')));
+  const aspect = button('aspect', '横竖屏', 'R');
+  aspect.hidden = !deck.hasAttribute('data-html-cards-aspects');
+  const full = button('expand', '全屏', 'F');
+  full.hidden = window.parent !== window;
+  const position = document.createElement('output');
+  const pageStatus = document.createElement('span');
+  const pageCount = document.createElement('span');
+  pageStatus.className = 'html-cards-deck-visually-hidden';
+  pageCount.setAttribute('aria-hidden', 'true');
+  position.append(pageStatus, pageCount);
+  controls.append(directoryButton, theme, aspect, previous, position, next, full);
+  const dock = document.createElement('div');
+  dock.className = 'html-cards-deck-dock';
+  dock.append(controls, directory);
+  deck.after(dock);
+
+  let index = 0;
+  let fit = true;
+  let orientation;
+  let presenting = false;
+  let hostConnected = false;
+  let lastPortrait;
+  let navigate = show;
+  let preloadNext = () => {};
+  if (loadPage) {
+    const pending = new Map();
+    const feedback = document.createElement('div');
+    feedback.className = 'html-cards-deck-feedback';
+    feedback.hidden = true;
+    const message = document.createElement('span');
+    message.setAttribute('role', 'status');
+    const retry = document.createElement('button');
+    retry.type = 'button';
+    retry.textContent = '重试';
+    feedback.append(message, retry);
+    dock.append(feedback);
+    let requested = 0;
+
+    function load(index) {
+      const section = slides[index]?.firstElementChild;
+      if (!section?.hasAttribute('data-html-cards-deferred')) return Promise.resolve(true);
+      if (!pending.has(index)) {
+        pending.set(index, loadPage(index + 1).then(fragment => {
+          if (!fragment) return false;
+          section.replaceChildren(fragment);
+          section.removeAttribute('data-html-cards-deferred');
+          return true;
+        }).finally(() => pending.delete(index)));
+      }
+      return pending.get(index);
+    }
+
+    // Keep one adjacent slide ready without fetching the rest of the deck.
+    preloadNext = () => {
+      const page = index;
+      if (hostConnected) setTimeout(() => { if (requested === page) void load(page + 1); }, 0);
+    };
+    navigate = async page => {
+      requested = Math.max(0, Math.min(slides.length - 1, page));
+      const target = requested;
+      const deferred = slides[target].firstElementChild?.hasAttribute('data-html-cards-deferred');
+      retry.hidden = true;
+      feedback.hidden = !deferred;
+      if (deferred) {
+        message.textContent = '正在加载第 ' + (target + 1) + ' 页';
+        const loaded = await load(target);
+        if (target !== requested) return;
+        if (!loaded) {
+          message.textContent = '第 ' + (target + 1) + ' 页加载失败';
+          retry.hidden = false;
+          return;
+        }
+      }
+      feedback.hidden = true;
+      show(target);
+      preloadNext();
+    };
+    retry.onclick = () => navigate(requested);
+  }
+  function setDirectory(open, restoreFocus = false) {
+    directory.hidden = !open;
+    directoryButton.setAttribute('aria-expanded', String(open));
+    if (open) directoryItems[index].focus();
+    else if (restoreFocus) directoryButton.focus();
+  }
+  directoryButton.onclick = () => setDirectory(directory.hidden);
+  directory.addEventListener('keydown', event => {
+    const focused = directoryItems.indexOf(event.target);
+    const targets = { ArrowUp: focused - 1, ArrowDown: focused + 1, Home: 0, End: directoryItems.length - 1 };
+    if (focused === -1 || !Object.hasOwn(targets, event.key)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    directoryItems[Math.max(0, Math.min(directoryItems.length - 1, targets[event.key]))].focus();
+  });
+  document.addEventListener('pointerdown', event => {
+    if (!directory.hidden && !directory.contains(event.target) && !directoryButton.contains(event.target)) setDirectory(false);
+  });
+  function fitPortrait() {
+    const section = slides[index].firstElementChild;
+    if (!section || !lastPortrait) return;
+    const areas = [...section.querySelectorAll('.page-inner,.ed-main,.card,.ed-quad-cell')];
+    const fits = () => areas.every(node => node.scrollHeight <= node.clientHeight + 2 && node.scrollWidth <= node.clientWidth + 2);
+    let low = 24, high = 35;
+    section.style.setProperty('--ed-fs', high + 'px');
+    if (fits()) return;
+    for (let step = 0; step < 7; step++) {
+      const middle = (low + high) / 2;
+      section.style.setProperty('--ed-fs', middle + 'px');
+      if (fits()) low = middle;
+      else high = middle;
+    }
+    section.style.setProperty('--ed-fs', (Math.floor(low * 2) / 2) + 'px');
+  }
+  function size() {
+    const portrait = !aspect.hidden && (orientation ?? (window.innerHeight > window.innerWidth));
+    if (portrait !== lastPortrait) {
+      lastPortrait = portrait;
+      root.classList.toggle('portrait', portrait);
+      aspect.setAttribute('aria-pressed', String(portrait));
+      fitPortrait();
+    }
+    const width = portrait ? 1080 : 1920;
+    const height = portrait ? 1920 : 1080;
+    const scale = fit ? Math.min(1, Math.max(1, deck.clientWidth - 24) / width, Math.max(1, deck.clientHeight - 24) / height) : 1;
+    slides[index].style.zoom = String(scale);
+  }
+  function show(page) {
+    directoryItems[index].removeAttribute('aria-current');
+    index = Math.max(0, Math.min(slides.length - 1, page));
+    slides.forEach((slide, number) => { slide.hidden = number !== index; });
+    previous.disabled = index === 0;
+    next.disabled = index === slides.length - 1;
+    directoryItems[index].setAttribute('aria-current', 'page');
+    pageStatus.textContent = `第 ${index + 1} 页，共 ${slides.length} 页`;
+    pageCount.textContent = `${pageNumber(index + 1)} / ${pageNumber(slides.length)}`;
+    deck.scrollTo(0, 0);
+    size();
+    fitPortrait();
+  }
+  previous.onclick = () => navigate(index - 1);
+  next.onclick = () => navigate(index + 1);
+  theme.onclick = () => {
+    const dark = root.classList.toggle('dark');
+    root.classList.toggle('light', !dark);
+    theme.setAttribute('aria-pressed', String(dark));
+  };
+  aspect.onclick = () => { orientation = !lastPortrait; size(); };
+  function setPresenting(active) {
+    if (presenting !== active || !full.hasAttribute('aria-pressed')) {
+      setIcon(full, active ? 'collapse' : 'expand', active ? '退出全屏' : '全屏', 'F');
+    }
+    presenting = active;
+    full.setAttribute('aria-pressed', String(active));
+  }
+  function requestFullscreen(active) {
+    if (hostConnected) send('fullscreen', { active });
+    else if (window.parent === window) {
+      const operation = active ? root.requestFullscreen?.() : document.exitFullscreen?.();
+      operation?.catch(() => {});
+    }
+  }
+  full.onclick = () => requestFullscreen(!presenting);
+  document.addEventListener('fullscreenchange', () => {
+    if (!hostConnected) setPresenting(Boolean(document.fullscreenElement));
+  });
+  document.addEventListener('keydown', event => {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest?.('select,input,textarea,[contenteditable]')) return;
+    if (!directory.hidden && event.key === 'Escape') {
+      setDirectory(false, true);
+      event.preventDefault();
+      return;
+    }
+    if (directory.contains(event.target)) return;
+    if (!full.hidden && /^f$/i.test(event.key)) {
+      if (!event.repeat) requestFullscreen(!presenting);
+      event.preventDefault();
+      return;
+    }
+    if (event.key === 'Escape' && presenting && hostConnected) {
+      requestFullscreen(false);
+      event.preventDefault();
+      return;
+    }
+    if (!theme.hidden && /^t$/i.test(event.key)) { if (!event.repeat) theme.click(); return; }
+    if (!aspect.hidden && /^r$/i.test(event.key)) { if (!event.repeat) aspect.click(); return; }
+    const pages = { ArrowLeft: index - 1, ArrowRight: index + 1, Home: 0, End: slides.length - 1 };
+    if (!Object.hasOwn(pages, event.key)) return;
+    event.preventDefault();
+    navigate(pages[event.key]);
+  });
+  window.addEventListener('resize', size);
+  window.addEventListener('message', event => {
+    if (event.source !== window.parent) return;
+    if (event.data?.channel === channel && event.data.version === 1 && event.data.type === 'host') {
+      const firstContact = !hostConnected;
+      hostConnected = true;
+      full.hidden = false;
+      setPresenting(event.data.fullscreen === true);
+      size();
+      if (firstContact) {
+        send('ready');
+        preloadNext();
+      }
+    }
+    if (event.data?.channel === 'dsh-html-cards-reader' && typeof event.data.fit === 'boolean') {
+      fit = event.data.fit;
+      size();
+    }
+  });
+  navigate(0);
+  document.fonts?.ready.then(fitPortrait);
+  if (window.parent !== window) send('ready');
+}
+</script>
+<script>'use strict';
+(() => {
+  const payload = document.getElementById('reader-data');
+  const { html, title, hasTailwind, deferred } = JSON.parse(payload.textContent);
+  payload.remove();
+  document.title = title;
+
+  const template = document.createElement('template');
+  template.innerHTML = html;
+  const source = template.content;
+  const digest = source.querySelector('meta[name="article-card-digest"]')?.content;
+  const articleCanvas = /^[a-f0-9]{64}$/.test(digest) ? source.querySelector('.canvas-list') : null;
+  const articlePages = articleCanvas ? [...articleCanvas.querySelectorAll('.sheet-wrap > article[data-canvas-width]')] : [];
+  if (articlePages.length) {
+    source.querySelector('nav.toolbar')?.remove();
+    articleCanvas.style.justifyContent = 'safe center';
+  }
+
+  if (hasTailwind) {
+    for (const script of source.querySelectorAll('script:not([src])')) {
+      const config = script.textContent.match(/^\s*tailwind\.config\s*=\s*(\{[\s\S]*\})\s*;?\s*$/);
+      if (!config || config[1].length > 32000) continue;
+      try {
+        const parsed = window.JSON5.parse(config[1], (key, value) =>
+          ['__proto__', 'constructor', 'prototype'].includes(key) ? undefined : value);
+        const settings = {};
+        if (parsed.theme && typeof parsed.theme === 'object') settings.theme = parsed.theme;
+        if (['class', 'media', 'selector'].includes(parsed.darkMode)) settings.darkMode = parsed.darkMode;
+        if (Object.keys(settings).length) window.tailwind.config = settings;
+      } catch (error) {
+        console.warn('Could not read the card theme', error);
+      }
+      break;
+    }
+  }
+
+  function sanitize(fragment) {
+    const block = 'script,iframe,frame,frameset,object,embed,portal,base,link,meta,template,title,animate,set,animateTransform,animateMotion,discard';
+    fragment.querySelectorAll(block).forEach(node => node.remove());
+    for (const node of fragment.querySelectorAll('*')) {
+      for (const { name, value, localName } of [...node.attributes]) {
+        const key = localName.toLowerCase();
+        if (key.startsWith('on') || ['target', 'action', 'formaction', 'srcdoc', 'srcset', 'ping', 'poster', 'background', 'data', 'attributionsrc', 'autofocus', 'base'].includes(key)) {
+          node.removeAttribute(name);
+        } else if (key === 'href' && !value.startsWith('#')) {
+          node.removeAttribute(name);
+        } else if (key === 'src' && !/^data:image\//i.test(value)) {
+          node.removeAttribute(name);
+        }
+      }
+    }
+    return fragment;
+  }
+  sanitize(source);
+
+  // Template parsing strips the root elements. Copy their presentation attributes separately.
+  const structure = html.replace(/<!--[\s\S]*?-->|<(script|style|textarea)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, '');
+  const copied = new Set();
+  for (const [, name, attributes] of structure.matchAll(/<(html|body)\b((?:[^>"']|"[^"]*"|'[^']*')*)>/gi)) {
+    const kind = name.toLowerCase();
+    if (copied.has(kind)) continue;
+    copied.add(kind);
+    const opening = document.createElement('template');
+    opening.innerHTML = '<div' + attributes + '></div>';
+    const from = opening.content.firstElementChild;
+    const target = kind === 'html' ? document.documentElement : document.body;
+    for (const attr of ['class', 'style', 'lang', 'dir', 'id']) {
+      if (from?.hasAttribute(attr)) target.setAttribute(attr, from.getAttribute(attr));
+    }
+  }
+  document.body.append(source);
+  const deck = typeof mountHtmlCardsDeck === 'function' &&
+    (document.querySelector('main[data-html-cards-deck="1"]') || adaptNumberedSlides(document.body));
+  if (deck) {
+    const playerStyles = document.head.querySelector('#deck-player-style');
+    if (playerStyles) document.body.append(playerStyles);
+    if (!document.documentElement.hasAttribute('data-html-cards-capture')) {
+      const loadPage = deferred === true && window.parent !== window ? page => new Promise(resolve => {
+        const channel = 'pagestudio-deck';
+        function finish(fragment) {
+          clearTimeout(timeout);
+          window.removeEventListener('message', receive);
+          resolve(fragment);
+        }
+        function receive(event) {
+          const data = event.data;
+          if (event.source !== window.parent || data?.channel !== channel || data.version !== 1 ||
+              data.type !== 'page-content' || data.page !== page) return;
+          if (typeof data.html !== 'string') return finish(null);
+          const part = document.createElement('template');
+          part.innerHTML = data.html;
+          finish(sanitize(part.content));
+        }
+        const timeout = setTimeout(() => finish(null), 20000);
+        window.addEventListener('message', receive);
+        window.parent.postMessage({ channel, version: 1, type: 'page-request', page }, '*');
+      }) : undefined;
+      mountHtmlCardsDeck(deck, loadPage);
+    }
+    return;
+  }
+  // Give unstyled documents a readable default without replacing authored palettes.
+  if (!hasTailwind && !document.body.querySelector('style,[style]') &&
+      !document.body.hasAttribute('style') && !document.documentElement.hasAttribute('style')) {
+    document.documentElement.setAttribute('data-html-cards-plain', '');
+    document.documentElement.classList.add('pagestudio-theme');
+  }
+
+  const artboards = articlePages.length ? articlePages : [...document.body.children].filter(node => !node.matches('script,style'));
+  const originalStyles = ['zoom', 'overflow-x', 'justify-content', 'align-items', 'translate'].map(name =>
+    [name, document.body.style.getPropertyValue(name), document.body.style.getPropertyPriority(name)]);
+  function horizontalBounds() {
+    const boxes = artboards.map(node => node.getBoundingClientRect()).filter(box => box.width && box.height);
+    if (boxes.length) return [Math.min(...boxes.map(box => box.left)), Math.max(...boxes.map(box => box.right))];
+  }
+  let fit = true;
+  let frame = 0;
+  function layout() {
+    for (const [name, value, priority] of originalStyles) document.body.style.setProperty(name, value, priority);
+    const viewport = document.documentElement.clientWidth;
+    const bounds = horizontalBounds();
+    if (!bounds || !viewport) return;
+    const [left, right] = bounds;
+    const width = right - left;
+    if (left >= -1 && right <= viewport + 1) return;
+    const body = getComputedStyle(document.body);
+    const baseZoom = Number(body.zoom) || 1;
+    const box = articlePages.length ? getComputedStyle(articleCanvas) : body;
+    const gutters = ['paddingLeft', 'paddingRight', 'marginLeft', 'marginRight']
+      .reduce((total, key) => total + (Number.parseFloat(box[key]) || 0), 0) * baseZoom;
+    if (fit && width + gutters > viewport) {
+      document.body.style.zoom = String(baseZoom * (viewport - 1) / (width + gutters));
+    }
+    // Centered, fixed-width canvases otherwise start outside the scrollable area.
+    if (body.justifyContent === 'center') document.body.style.justifyContent = 'safe center';
+    if (body.alignItems === 'center') document.body.style.alignItems = 'safe center';
+    document.body.style.overflowX = 'visible';
+    if (fit && body.translate === 'none') {
+      const [fittedLeft, fittedRight] = horizontalBounds() ?? bounds;
+      // A centered scale transform can leave a leading gap after safe alignment.
+      const excess = Math.min(fittedLeft, fittedRight - viewport + 1);
+      if (excess > 1) document.body.style.translate = (-excess / (Number(body.zoom) || 1)) + 'px 0';
+    }
+  }
+  function scheduleLayout() {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(layout);
+  }
+  const resize = new ResizeObserver(scheduleLayout);
+  artboards.forEach(node => resize.observe(node));
+  window.addEventListener('resize', scheduleLayout);
+  window.addEventListener('load', scheduleLayout);
+  window.addEventListener('message', event => {
+    if (event.source !== window.parent || event.data?.channel !== 'dsh-html-cards-reader') return;
+    const { theme, appearance, fit: nextFit } = event.data;
+    if (theme === 'dark' || theme === 'light') document.documentElement.setAttribute('data-html-cards-theme', theme);
+    if (appearance === 'song' || appearance === 'retro') document.documentElement.dataset.appearance = appearance;
+    if (typeof nextFit === 'boolean') {
+      fit = nextFit;
+      scheduleLayout();
+    }
+  });
+  scheduleLayout();
+})();
+</script>
+</body></html>

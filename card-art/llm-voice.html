@@ -1,4 +1,4 @@
-<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-ZHUJnYArUOIH91o5EJur7o8qsQpPgXTtZPCBvbvpJRs=&#39; &#39;sha256-zakdFtYBII/+VG+TmxlWxhbybNFtFCrBl1eTbdDCYfE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data:; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LLM Voice：LLM 文体的恐怖谷</title>
+<!doctype html><html data-html-cards-theme="light" data-appearance="song"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;sha256-+o32msOmkDv1diYR7kalkk6TNEMzA+wHMBN17rEfuLo=&#39; &#39;sha256-00GJsklW5rjRu2XRmWfN4b6VpkVUXntBsBBMPmbxDKE=&#39;; style-src &#39;unsafe-inline&#39;; font-src data:; img-src data:; media-src data:; connect-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;"><meta name="pagestudio-presentation" content="1"><meta name="pagestudio-paged-reader" content="1"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LLM Voice：LLM 文体的恐怖谷</title>
 <style>@font-face{font-family:"Noto Sans SC";src:local("PingFang SC");font-weight:100 900}
 @font-face{font-family:"Noto Serif SC";src:local("Songti SC");font-weight:100 900}
 html,body{scrollbar-width:none}
@@ -137,32 +137,122 @@ body.html-cards-deck-player main[data-html-cards-deck] {
   justify-content: safe center;
   align-items: safe center;
   scrollbar-width: none;
+  isolation: isolate;
 }
 body.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !important; }
-.html-cards-deck-controls {
+.html-cards-deck-dock {
+  position: relative;
+  z-index: 1;
+  align-self: flex-end;
   flex: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 6px 10px;
-  padding: 8px;
-  color: #f2f4f3;
+  max-width: calc(100% - 16px);
+  margin: 0 12px 10px;
+  color: #f3f3f2;
   font: 13px system-ui, sans-serif;
 }
-.html-cards-deck-controls :is(button, select) {
+.html-cards-deck-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 4px 6px;
+  border: 1px solid #5a5a57;
+  border-radius: 999px;
+  background: #343432;
+  box-shadow: 0 5px 16px #0003;
+}
+.html-cards-deck-dock button {
   color: inherit;
-  background: #282c2b;
-  border: 1px solid #525a57;
-  border-radius: 6px;
-  padding: 6px 12px;
+  background: transparent;
+  border: 0;
+  padding: 0;
   font: inherit;
   cursor: pointer;
 }
-.html-cards-deck-controls button:disabled { opacity: .45; cursor: default; }
-.html-cards-deck-controls select { max-width: min(13rem, 86vw); }
-.html-cards-deck-controls [hidden] { display: none !important; }
-.html-cards-deck-controls output { min-width: 7em; text-align: center; }
+.html-cards-deck-controls button {
+  display: grid;
+  place-items: center;
+  width: clamp(24px, 8.75vw, 36px);
+  height: 34px;
+  border-radius: 6px;
+}
+.html-cards-deck-controls button[aria-pressed="true"],
+.html-cards-deck-controls button[aria-expanded="true"] { background: #ffffff20; }
+.html-cards-deck-dock button:focus-visible { outline: 2px solid #c7dbff; outline-offset: -2px; }
+.html-cards-deck-controls button:disabled { opacity: .37; cursor: default; }
+.html-cards-deck-controls svg { display: block; width: 19px; height: 19px; pointer-events: none; }
+.html-cards-deck-dock [hidden] { display: none !important; }
+.html-cards-deck-controls output {
+  min-width: 6ch;
+  padding-inline: 4px;
+  white-space: nowrap;
+  text-align: center;
+  font: 600 clamp(11px, 3.6vw, 14px) ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+.html-cards-deck-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.html-cards-deck-directory {
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block-end: calc(100% + 6px);
+  width: min(21rem, calc(100vw - 24px));
+  max-height: min(23rem, 56dvh);
+  overflow: auto;
+  overscroll-behavior: contain;
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  border: 1px solid #5a5a57;
+  border-radius: 12px;
+  background: #343432;
+  box-shadow: 0 8px 20px #0005;
+}
+.html-cards-deck-directory button {
+  display: grid;
+  grid-template-columns: 3ch minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  width: 100%;
+  min-height: 34px;
+  padding: 7px 9px;
+  border-radius: 6px;
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+.html-cards-deck-directory button > span:first-child { color: #c4c4bf; font: 12px ui-monospace, monospace; }
+.html-cards-deck-directory button[aria-current="page"] { background: #ffffff26; }
+.html-cards-deck-feedback {
+  position: absolute;
+  z-index: 1;
+  inset-inline-end: 0;
+  inset-block-end: calc(100% + 6px);
+  width: max-content;
+  max-width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #5a5a57;
+  border-radius: 8px;
+  background: #343432;
+}
+.html-cards-deck-dock:has(.html-cards-deck-directory:not([hidden])) .html-cards-deck-feedback { display: none; }
+.html-cards-deck-feedback button { margin-inline-start: 8px; text-decoration: underline; }
+@media (hover: hover) {
+  .html-cards-deck-dock button:not(:disabled):hover { background: #ffffff20; }
+}
+@media (max-width: 420px) {
+  .html-cards-deck-dock { align-self: center; }
+  .html-cards-deck-directory { inset-inline: auto; left: 50%; transform: translateX(-50%); }
+}
+@media (pointer: coarse) {
+  .html-cards-deck-controls button { height: 40px; }
+  .html-cards-deck-directory button { min-height: 40px; }
+}
 
 @media print {
   @page { size: 20in 11.25in; margin: 0; }
@@ -171,7 +261,7 @@ body.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !imp
   body.html-cards-deck-player [data-html-cards-slide][hidden] { display: block !important; }
   main[data-html-cards-deck] [data-html-cards-slide] { zoom: 1 !important; break-after: page; print-color-adjust: exact; }
   main[data-html-cards-deck] [data-html-cards-slide]:last-child { break-after: auto; }
-  .html-cards-deck-controls { display: none; }
+  .html-cards-deck-dock { display: none; }
 }
 </style>
 </head><body><script id="reader-data" type="application/json">{"html":"\u003c!doctype html>\u003chtml lang=\"zh-CN\">\u003chead>\u003cmeta charset=\"utf-8\">\u003cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\u003cmeta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; script-src 'sha256-XLl+co3EOcV1jd4QvloxpeQrYDVRRFy+YKn6phxFXKA='; style-src 'unsafe-inline'; img-src data:; font-src data:; base-uri 'none'; form-action 'none'\">\u003ctitle>LLM Voice：LLM 文体的恐怖谷\u003c/title>\u003cstyle>main[data-html-cards-deck] { display: grid; justify-items: center; gap: 20px; }\nmain[data-html-cards-deck] [data-html-cards-slide] { width: 1920px; height: 1080px; flex: none; }\nmain[data-html-cards-deck] [data-html-cards-slide] * { box-sizing: border-box; }\nmain[data-html-cards-deck] [data-html-cards-slide] > section { width: 100%; height: 100%; position: relative; overflow: hidden; }\nmain[data-html-cards-deck] [data-html-cards-slide] > section > aside:last-child { display: none; }\nmain[data-html-cards-deck] :is(h1,h2,h3,p,ul,ol) { margin: 0; }\n\nbody.html-cards-deck-player {\n  box-sizing: border-box;\n  margin: 0;\n  height: 100vh;\n  height: 100dvh;\n  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\n  display: grid;\n  grid-template-rows: minmax(0, 1fr) auto;\n  overflow: hidden;\n  background: #171a19;\n  color: #f2f4f3;\n}\nbody.html-cards-deck-player main[data-html-cards-deck] {\n  position: relative;\n  display: block;\n  min-width: 0;\n  min-height: 0;\n  overflow: hidden;\n  touch-action: pan-y pinch-zoom;\n}\nbody.html-cards-deck-player [data-html-cards-slide] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(var(--slide-scale, 0));\n}\nbody.html-cards-deck-player [data-html-cards-slide][hidden] { display: none !important; }\n.html-cards-deck-controls {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: clamp(6px, 2vw, 14px);\n  padding: 4px 8px 6px;\n  color: #f2f4f3;\n  font: 14px system-ui, sans-serif;\n}\n.html-cards-deck-controls button {\n  color: inherit;\n  background: #282c2b;\n  border: 1px solid #525a57;\n  border-radius: 6px;\n  min-height: 44px;\n  padding: 0 10px;\n  font: inherit;\n  white-space: nowrap;\n  cursor: pointer;\n}\n.html-cards-deck-controls :focus-visible, main[data-html-cards-deck]:focus-visible {\n  outline: 2px solid #8ee2d1;\n  outline-offset: -3px;\n}\n.html-cards-deck-controls button:disabled { opacity: .45; cursor: default; }\n.html-cards-deck-controls output { min-width: 5em; text-align: center; white-space: nowrap; }\n@media (orientation: landscape) and (min-aspect-ratio: 7/4) {\n  body.html-cards-deck-player { grid-template: minmax(0, 1fr) / minmax(0, 1fr) auto; }\n  .html-cards-deck-controls { flex-direction: column; padding: 6px 8px 6px 0; }\n}\n\n@media print {\n  @page { size: 20in 11.25in; margin: 0; }\n  body.html-cards-deck-player { display: block; height: auto; overflow: visible; }\n  body.html-cards-deck-player main[data-html-cards-deck] { display: block; padding: 0; overflow: visible; }\n  body.html-cards-deck-player [data-html-cards-slide][hidden] { display: block !important; }\n  body.html-cards-deck-player [data-html-cards-slide] { position: static; transform: none; }\n  main[data-html-cards-deck] [data-html-cards-slide] { break-after: page; print-color-adjust: exact; }\n  main[data-html-cards-deck] [data-html-cards-slide]:last-child { break-after: auto; }\n  .html-cards-deck-controls { display: none; }\n}\n\u003c/style>\u003c/head>\u003cbody>\u003cmain data-html-cards-deck=\"1\">\u003cdiv data-html-cards-slide>\u003csection id=\"cover\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between;gap:48px\">\n\u003cdiv style=\"display:flex;flex-direction:column;gap:24px\">\n\u003cp style=\"font-size:24px;letter-spacing:6px;color:#5FA79E;text-transform:uppercase\">bliki · martinfowler.com\u003c/p>\n\u003ch1 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:112px;font-weight:700;line-height:1.15;margin:0px\">LLM Voice\u003c/h1>\n\u003cp style=\"font-size:40px;line-height:1.4;color:#C9C3B8\">LLM 文体的恐怖谷\u003c/p>\n\u003c/div>\n\u003cdiv style=\"display:flex;flex-direction:column;gap:12px\">\n\u003chr style=\"border-top:2px solid #5FA79E;width:96px\">\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:30px;font-style:italic;line-height:1.5;color:#9FB5B0\">\"The uncanny valley of LLMs' prose.\"\u003c/p>\n\u003cp style=\"font-size:24px;color:#8A94A3\">Martin Fowler · 2026 年 10 月 29 日\u003c/p>\n\u003c/div>\n\u003caside>开场：Martin Fowler 的 bliki 短文，副标题就是\"LLM 散文的恐怖谷\"。主题：一种读得出来却难以定义的文体感。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"feeling\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">那种感觉\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">读着读着，你\"知道\"这是 LLM 写的——\u003cbr>却说不出为什么\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1.2;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px\">\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">有些文章会让人产生一种与日俱增的感觉：这是大语言模型的输出。原因未必说得清——虽然有一些常见的\"马脚\"（\"问题不在破折号，而在那些承重的挂毯\"*）。而察觉的瞬间，继续读下去的欲望便开始萎缩，有时甚至变成反感。\u003c/p>\n\u003cp style=\"font-size:24px;color:#6B7280\">* 原文：\"it's not the em-dashes, it's the load-bearing tapestries\"——人们总怪破折号，真正的破绽是那些华而不实、被硬塞进论证的比喻。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#1C2430;color:#F4F2ED;padding:40px;border-radius:16px\">\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:28px;font-style:italic;line-height:1.6;color:#C9C3B8\">\"My desire to read on atrophies, sometimes to the point of revulsion.\"\u003c/p>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#9FB5B0\">LLM 文体引发的不是判定，而是一种直觉上的排斥——一个\"散文的恐怖谷\"。\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 2 / 11\u003c/p>\n\u003caside>Fowler 描述的不是论证而是体感：察觉 LLM 文体的那一刻，阅读欲开始萎缩，甚至反感。常见马脚确实存在，但那种感觉本身难以定义——这正是\"恐怖谷\"：足够像人，又不完全是。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"detectors\" data-transition=\"fade\" style=\"background:#E9E6DE;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">检测工具错过了重点\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">等你伸手去找工具时，\u003cbr>其实已经太晚了\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#F4F2ED;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#B14A35\">工具不可靠\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">市面上有不少声称能分辨 LLM 文字与\"碳基产物\"的工具。Fowler 对它们持怀疑——首先是准确性存疑。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#F4F2ED;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#B14A35\">更是问错了问题\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">对 LLM 文体的反应是\u003cb>人的反应\u003c/b>。就算工具信誓旦旦地说\"没有检测到 LLM\"，也无关紧要——你的不适早已发生。\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cdiv style=\"display:flex;flex-direction:column;gap:12px\">\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:28px;font-style:italic;line-height:1.5;color:#2A7F76\">\"By the time I'd reach for a tool to tell me what I'm reading, it's already too late.\"\u003c/p>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 3 / 11\u003c/p>\n\u003caside>检测工具有两个问题：准确率存疑；更根本的是它错过了重点——LLM 文体触发的是读者直觉上的恐怖谷反应，等你需要工具来判定，阅读体验已经被破坏了。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"self-doubt\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">怀疑自己\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">有些\"AI 腔\"，其实只是年轻人的语言\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#8A5A2E\">他也会看走眼\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">Fowler 承认自己识别 LLM 文体的能力同样靠不住。语言随时间变化——抱怨年轻人的说话方式，恰恰是\"上了年纪\"的标志。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#8A5A2E\">代际之别，而非碳硅之别\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">他会排斥\"adopting a new sales \u003cb>motion\u003c/b>\"或\"a \u003cb>sharp\u003c/b> round-up of news\"这类说法——但他也听真人这么说话。那是代际差异，不是碳与硅的分界。（作为移居美国的英国人，美式英语又是另一回事了。）\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 4 / 11\u003c/p>\n\u003caside>重要的自我怀疑：人类语言的代际更替本来就会让老一辈不适，把\"sales motion\"这类新用法当成 AI 腔，可能只是年龄的错觉。识别 LLM 文体这件事本身并不精确。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"advice\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#5FA79E;text-transform:uppercase\">给作者的核心建议\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">不要让 LLM 写初稿\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#26303E;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">人改了也难驱逐\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">即使经过人工编辑，LLM Voice 也极难根除——恐怖谷反应依旧。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#26303E;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">采纳改写也危险\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">让 LLM 参与提纲和结构\"或许\"可以——但只能到大纲为止。散文必须由作者自己填满。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#26303E;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">注：难，但非不可能\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">他见过一个初稿完全由 LLM 完成却察觉不到 LLM Voice 的例子——但那需要大刊职业编辑的彻底清理。\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 5 / 11\u003c/p>\n\u003caside>全文最明确的忠告：别让 LLM 写初稿。人工编辑很难洗掉 LLM Voice；连采纳 LLM 的改写建议都有风险。大纲与结构层面或许可接受，正文必须自己写。脚注留了余地：一个职业编辑救回来的特例。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"policy\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">martinfowler.com 的政策\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">用了 AI 就声明：透明，也为了互相学习\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#2A7F76\">声明的双重目的\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">凡用 AI 协助写作的人，应在致谢中说明用法。一半为了透明，一半为了让读者学到有用的 AI 用法。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#2A7F76\">Fowler 自己的用法\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">不用 AI 生成散文，也不用于结构。\u003cb>唯一的写作用途是当搜索工具\u003c/b>——而且任何信息都回到原始出处核实。\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 6 / 11\u003c/p>\n\u003caside>本站政策：AI 协助必须声明（致谢中），既为透明也为读者学习。Fowler 本人不以 AI 生成文字或结构，只把它当搜索工具，并回源核实。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"say-your-writing\" data-transition=\"fade\" style=\"background:#E9E6DE;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">Say Your Writing\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">把心里的字说出来，再写下来\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1.2;display:flex;flex-direction:column;gap:16px;background:#F4F2ED;padding:40px;border-radius:16px\">\n\u003cp style=\"font-size:26px;line-height:1.65;color:#3C4658\">在 LLM 时代，他的老主张 \u003cb>Say Your Writing\u003c/b> 更加重要：Fowler 习惯把心里的话先说出来，再落笔成文，然后再修改刚写下的东西。想长期以写作与人沟通的人尤其该如此——好作家靠大量练习养成，这是一门值得花时间的技艺。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#1C2430;color:#F4F2ED;padding:40px;border-radius:16px\">\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">而\"向 LLM 投降，会毁掉所有进步。\"\u003c/p>\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:26px;font-style:italic;line-height:1.5;color:#9FB5B0\">\"Surrendering to an LLM will undermine any progress.\"\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 7 / 11\u003c/p>\n\u003caside>写作方法建议：先说、再写、再改。写作能力来自练习，值得专门花时间学；一旦把成文外包给 LLM，练习就中断了，任何进步都会被侵蚀。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"future\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#5FA79E;text-transform:uppercase\">更令人担忧的未来\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:60px;font-weight:700;line-height:1.35\">写作是思考的工具。\u003cbr>外包了写作，也就外包了思考。\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#26303E;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">写下来，才想得清\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">对大多数写作者而言，写作几乎是思考的必需工具：常常只有把东西写下来，对一个话题的想法才真正理顺。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#26303E;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">与词语搏斗，战胜困惑\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">他常常在动笔时明知自己还没弄懂——正是与文字较劲的过程，逼他克服困惑。将来 LLM 好到无法分辨，反而更让人担心。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1.4;display:flex;flex-direction:column;gap:16px;background:#26303E;padding:40px 32px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">乐趣何在\u003c/h3>\n\u003cp style=\"font-size:24px;line-height:1.6;color:#C9C3B8\">越来越多的人把写作交给 LLM，也会把思考与理解一并交出去。\"我不想那样——那样写作还有什么乐趣？\"\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 8 / 11\u003c/p>\n\u003caside>如果有一天 LLM 好到无法分辨，那更可怕：写作即思考，与词语搏斗正是克服困惑的方式。外包写作的人终将外包思考与理解——而那样，写作的乐趣也就没有了。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"exceptions\" data-transition=\"fade\" style=\"background:#F4F2ED;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">规则不是绝对的\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">两个例外：疾病与翻译\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px;border:2px solid #2A7F76\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#2A7F76\">Jim Highsmith\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">本站作者 Highsmith 发现，与 LLM 协作对他的写作至关重要——\u003cb>为了对抗帕金森病的折磨\u003c/b>。Fowler 说：为了继续汲取老友的智慧，\"我很乐意接受文字里的 LLM Voice\"。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#E9E6DE;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#8A5A2E\">翻译\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">许多同事的英语是第二甚至第四语言，LLM 翻译成了他们与马拉地语世界之外沟通的重要帮手。但他仍然更愿意要\u003cb>真人笨拙的文字\u003c/b>，而不是顺滑却无魂的 LLM。\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 9 / 11\u003c/p>\n\u003caside>规避 LLM Voice 是通则而非铁律。例外一：Jim Highsmith 借助 LLM 克服帕金森病对写作的影响——人情优先于文体洁癖。例外二：翻译帮助非英语母语者发声，但 Fowler 的偏好仍是人类笨拙而真实的文字。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"reasonable\" data-transition=\"fade\" style=\"background:#E9E6DE;color:#1C2430;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:40px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#2A7F76;text-transform:uppercase\">合理的场景\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:64px;font-weight:700;line-height:1.3\">当读者不是\"人\"，交给 LLM 也无妨\u003c/h2>\n\u003cdiv style=\"display:flex;gap:32px\">\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#F4F2ED;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#2A7F76\">写给流程的文字\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#3C4658\">给官员的格式化信函，或者一份他怀疑根本没人会读的报告——即使是母语英语者，让 LLM 代笔也算合理。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#F4F2ED;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#2A7F76\">Nygard 的注脚\u003c/h3>\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:26px;font-style:italic;line-height:1.55;color:#3C4658\">\"You're communicating with a process rather than a human. A human may open the envelope but that person is acting as a component in a cybernetic organism.\"\u003c/p>\n\u003cp style=\"font-size:24px;line-height:1.5;color:#6B7280\">Michael Nygard：拆信的人只是\"控制论有机体中的一个组件\"。\u003c/p>\n\u003c/div>\n\u003cdiv style=\"flex:1;display:flex;flex-direction:column;gap:16px;background:#1C2430;color:#F4F2ED;padding:40px;border-radius:16px\">\n\u003ch3 style=\"font-size:30px;font-weight:700;color:#E8B04B\">未来的文档？\u003c/h3>\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">也许未来大多数文档只被 LLM 阅读——它们不会有恐怖谷的烦恼。但只要想与人交流，就是另一回事。\u003c/p>\n\u003c/div>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">LLM Voice · Martin Fowler · 10 / 11\u003c/p>\n\u003caside>机器对机器的文字（格式信函、无人阅读的报告）可以放心交给 LLM。Nygard 的评论点破本质：那是与流程通信，不是与人。未来的文档或许大多只有 LLM 会读。\u003c/aside>\n\u003c/section>\u003c/div>\n\u003cdiv data-html-cards-slide>\u003csection id=\"closing\" data-transition=\"fade\" style=\"background:#1C2430;color:#F4F2ED;font-family:'Noto Sans SC', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:48px\">\n\u003cp style=\"font-size:24px;letter-spacing:4px;color:#5FA79E;text-transform:uppercase\">结语\u003c/p>\n\u003ch2 style=\"font-family:'Noto Serif SC', Georgia, serif;font-size:72px;font-weight:700;line-height:1.35\">\"如果我想与人交流，\u003cbr>我的人性必须从文字中渗出。\"\u003c/h2>\n\u003cdiv style=\"display:flex;flex-direction:column;gap:16px\">\n\u003cp style=\"font-family:'Libre Baskerville', Georgia, serif;font-size:32px;font-style:italic;line-height:1.5;color:#9FB5B0\">\"But if I want to communicate with humans, my humanity has to shine (or at least ooze) out of my prose.\"\u003c/p>\n\u003chr style=\"border-top:2px solid #5FA79E;width:96px\">\n\u003cp style=\"font-size:26px;line-height:1.6;color:#C9C3B8\">Fowler 特别说明：这篇文章的写作过程完全没有使用 AI 或 LLM。\u003c/p>\n\u003cp style=\"font-size:24px;color:#8A94A3\">致谢：Alessio Ferri、Caer Sanders、Ian Cartwright、Jie Jessie Xia、Joshua Kerievsky、Michael Feathers、Michael Nygard、Scott Davies、Wei Zhang 评阅了草稿。\u003c/p>\n\u003c/div>\n\u003cp style=\"position:absolute;left:128px;bottom:64px;font-size:24px;color:#8A94A3\">原文：martinfowler.com/bliki/LLM-Voice.html · 11 / 11\u003c/p>\n\u003caside>收束全文的金句：人性要\"闪耀\"——或者至少\"渗出\"——在文字之外。作者声明本文写作未使用任何 AI；致谢九位草稿评阅人。\u003c/aside>\n\u003c/section>\u003c/div>\u003c/main>\u003cscript>'use strict';\nconst deck = document.querySelector('main[data-html-cards-deck]');\nconst slides = Array.from(deck.children);\ndocument.body.classList.add('html-cards-deck-player');\ndeck.tabIndex = 0;\ndeck.setAttribute('aria-label', '幻灯片');\nconst controls = document.createElement('nav');\ncontrols.className = 'html-cards-deck-controls';\ncontrols.setAttribute('aria-label', '幻灯片翻页');\nconst previous = document.createElement('button');\nprevious.type = 'button';\nprevious.textContent = '上一页';\nconst next = document.createElement('button');\nnext.type = 'button';\nnext.textContent = '下一页';\nconst position = document.createElement('output');\nposition.setAttribute('aria-live', 'polite');\ncontrols.append(previous, position, next);\ndeck.after(controls);\n\nlet index = -1;\nfunction fitSlide() {\n  const scale = Math.min(1, Math.max(0, deck.clientWidth - 8) / 1920, Math.max(0, deck.clientHeight - 8) / 1080);\n  deck.style.setProperty('--slide-scale', String(scale));\n}\nfunction show(page) {\n  const nextIndex = Math.max(0, Math.min(slides.length - 1, page));\n  if (index === nextIndex) return;\n  index = nextIndex;\n  slides.forEach((slide, number) => { slide.hidden = number !== index; });\n  previous.disabled = index === 0;\n  next.disabled = index === slides.length - 1;\n  position.textContent = (index + 1) + ' / ' + slides.length + ' 页';\n  if (document.activeElement === previous && previous.disabled) next.focus();\n  else if (document.activeElement === next && next.disabled) previous.focus();\n}\nprevious.onclick = () => show(index - 1);\nnext.onclick = () => show(index + 1);\ndocument.addEventListener('keydown', event => {\n  const pages = { ArrowLeft: index - 1, ArrowRight: index + 1, Home: 0, End: slides.length - 1 };\n  if (event.altKey || event.ctrlKey || event.metaKey || !Object.hasOwn(pages, event.key)) return;\n  event.preventDefault();\n  show(pages[event.key]);\n});\n\nlet touchStart;\ndeck.addEventListener('touchstart', event => {\n  touchStart = event.touches.length === 1 ? event.touches[0] : undefined;\n}, { passive: true });\ndeck.addEventListener('touchend', event => {\n  if (!touchStart || event.touches.length) return;\n  const end = event.changedTouches[0];\n  const dx = end.clientX - touchStart.clientX;\n  const dy = end.clientY - touchStart.clientY;\n  touchStart = undefined;\n  if (Math.abs(dx) > 60 && Math.abs(dx) > 1.5 * Math.abs(dy)) show(index + (dx \u003c 0 ? 1 : -1));\n}, { passive: true });\ndeck.addEventListener('touchcancel', () => { touchStart = undefined; });\n\nshow(0);\nfitSlide();\nnew ResizeObserver(fitSlide).observe(deck);\u003c/script>\u003c/body>\u003c/html>","title":"LLM Voice：LLM 文体的恐怖谷","hasTailwind":false}</script>
@@ -209,7 +299,7 @@ function adaptNumberedSlides(body) {
   return deck;
 }
 
-function mountHtmlCardsDeck(deck) {
+function mountHtmlCardsDeck(deck, loadPage) {
   const slides = [...deck.children].filter(node => node.hasAttribute('data-html-cards-slide'));
   if (!slides.length) return;
   const root = document.documentElement;
@@ -221,32 +311,74 @@ function mountHtmlCardsDeck(deck) {
   const controls = document.createElement('nav');
   controls.className = 'html-cards-deck-controls';
   controls.setAttribute('aria-label', '幻灯片播放');
-  function button(label) {
+  const icons = {
+    directory: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6h.01M4 12h.01M4 18h.01" stroke-width="3"/>',
+    theme: '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor" stroke="none"/>',
+    aspect: '<rect x="7" y="3.5" width="10" height="17" rx="2"/><path d="M11 17.5h2"/>',
+    previous: '<path d="m15 6-6 6 6 6"/>',
+    next: '<path d="m9 6 6 6-6 6"/>',
+    expand: '<path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/>',
+    collapse: '<path d="M4 9h5V4m11 5h-5V4M4 15h5v5m11-5h-5v5"/>',
+  };
+  function setIcon(control, icon, label, shortcut) {
+    control.setAttribute('aria-label', label);
+    control.title = shortcut ? `${label} (${shortcut})` : label;
+    control.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${icons[icon]}</svg>`;
+  }
+  function button(icon, label, shortcut) {
     const control = document.createElement('button');
     control.type = 'button';
-    control.textContent = label;
+    setIcon(control, icon, label, shortcut);
     return control;
   }
-  const previous = button('← 上一页');
-  const next = button('下一页 →');
-  const directory = document.createElement('select');
+  const previous = button('previous', '上一页', '←');
+  const next = button('next', '下一页', '→');
+  const directoryButton = button('directory', '幻灯片目录');
+  const directory = document.createElement('ol');
+  const pageNumber = number => String(number).padStart(Math.max(2, String(slides.length).length), '0');
+  directory.id = 'html-cards-deck-directory';
+  directory.className = 'html-cards-deck-directory';
   directory.setAttribute('aria-label', '幻灯片目录');
-  directory.append(...slides.map((slide, index) => {
-    const heading = slide.querySelector('h1,h2')?.textContent.trim().replace(/\s+/g, ' ');
-    return new Option((index + 1) + (heading ? ' · ' + heading : ' / ' + slides.length), String(index));
-  }));
-  directory.hidden = slides.length < 2;
-  const theme = button('主题');
+  directory.hidden = true;
+  directoryButton.hidden = slides.length < 2;
+  directoryButton.setAttribute('aria-controls', directory.id);
+  directoryButton.setAttribute('aria-expanded', 'false');
+  const directoryItems = slides.map((slide, number) => {
+    const item = document.createElement('li');
+    const entry = document.createElement('button');
+    entry.type = 'button';
+    const label = document.createElement('span');
+    const title = slide.querySelector('h1,h2')?.textContent.trim().replace(/\s+/g, ' ');
+    const pageLabel = `第 ${number + 1} 页`;
+    label.textContent = title || pageLabel;
+    const count = document.createElement('span');
+    count.textContent = pageNumber(number + 1);
+    count.setAttribute('aria-hidden', 'true');
+    entry.setAttribute('aria-label', title ? `${pageLabel}，${title}` : pageLabel);
+    entry.append(count, label);
+    entry.onclick = () => { navigate(number); setDirectory(false, true); };
+    item.append(entry);
+    directory.append(item);
+    return entry;
+  });
+  const theme = button('theme', '主题', 'T');
   theme.hidden = !deck.hasAttribute('data-html-cards-themes');
   theme.setAttribute('aria-pressed', String(root.classList.contains('dark')));
-  const aspect = button('横竖屏');
+  const aspect = button('aspect', '横竖屏', 'R');
   aspect.hidden = !deck.hasAttribute('data-html-cards-aspects');
-  const full = button('全屏');
+  const full = button('expand', '全屏', 'F');
   full.hidden = window.parent !== window;
   const position = document.createElement('output');
-  position.setAttribute('aria-live', 'polite');
-  controls.append(previous, position, next, directory, theme, aspect, full);
-  deck.after(controls);
+  const pageStatus = document.createElement('span');
+  const pageCount = document.createElement('span');
+  pageStatus.className = 'html-cards-deck-visually-hidden';
+  pageCount.setAttribute('aria-hidden', 'true');
+  position.append(pageStatus, pageCount);
+  controls.append(directoryButton, theme, aspect, previous, position, next, full);
+  const dock = document.createElement('div');
+  dock.className = 'html-cards-deck-dock';
+  dock.append(controls, directory);
+  deck.after(dock);
 
   let index = 0;
   let fit = true;
@@ -254,6 +386,81 @@ function mountHtmlCardsDeck(deck) {
   let presenting = false;
   let hostConnected = false;
   let lastPortrait;
+  let navigate = show;
+  let preloadNext = () => {};
+  if (loadPage) {
+    const pending = new Map();
+    const feedback = document.createElement('div');
+    feedback.className = 'html-cards-deck-feedback';
+    feedback.hidden = true;
+    const message = document.createElement('span');
+    message.setAttribute('role', 'status');
+    const retry = document.createElement('button');
+    retry.type = 'button';
+    retry.textContent = '重试';
+    feedback.append(message, retry);
+    dock.append(feedback);
+    let requested = 0;
+
+    function load(index) {
+      const section = slides[index]?.firstElementChild;
+      if (!section?.hasAttribute('data-html-cards-deferred')) return Promise.resolve(true);
+      if (!pending.has(index)) {
+        pending.set(index, loadPage(index + 1).then(fragment => {
+          if (!fragment) return false;
+          section.replaceChildren(fragment);
+          section.removeAttribute('data-html-cards-deferred');
+          return true;
+        }).finally(() => pending.delete(index)));
+      }
+      return pending.get(index);
+    }
+
+    // Keep one adjacent slide ready without fetching the rest of the deck.
+    preloadNext = () => {
+      const page = index;
+      if (hostConnected) setTimeout(() => { if (requested === page) void load(page + 1); }, 0);
+    };
+    navigate = async page => {
+      requested = Math.max(0, Math.min(slides.length - 1, page));
+      const target = requested;
+      const deferred = slides[target].firstElementChild?.hasAttribute('data-html-cards-deferred');
+      retry.hidden = true;
+      feedback.hidden = !deferred;
+      if (deferred) {
+        message.textContent = '正在加载第 ' + (target + 1) + ' 页';
+        const loaded = await load(target);
+        if (target !== requested) return;
+        if (!loaded) {
+          message.textContent = '第 ' + (target + 1) + ' 页加载失败';
+          retry.hidden = false;
+          return;
+        }
+      }
+      feedback.hidden = true;
+      show(target);
+      preloadNext();
+    };
+    retry.onclick = () => navigate(requested);
+  }
+  function setDirectory(open, restoreFocus = false) {
+    directory.hidden = !open;
+    directoryButton.setAttribute('aria-expanded', String(open));
+    if (open) directoryItems[index].focus();
+    else if (restoreFocus) directoryButton.focus();
+  }
+  directoryButton.onclick = () => setDirectory(directory.hidden);
+  directory.addEventListener('keydown', event => {
+    const focused = directoryItems.indexOf(event.target);
+    const targets = { ArrowUp: focused - 1, ArrowDown: focused + 1, Home: 0, End: directoryItems.length - 1 };
+    if (focused === -1 || !Object.hasOwn(targets, event.key)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    directoryItems[Math.max(0, Math.min(directoryItems.length - 1, targets[event.key]))].focus();
+  });
+  document.addEventListener('pointerdown', event => {
+    if (!directory.hidden && !directory.contains(event.target) && !directoryButton.contains(event.target)) setDirectory(false);
+  });
   function fitPortrait() {
     const section = slides[index].firstElementChild;
     if (!section || !lastPortrait) return;
@@ -284,19 +491,20 @@ function mountHtmlCardsDeck(deck) {
     slides[index].style.zoom = String(scale);
   }
   function show(page) {
+    directoryItems[index].removeAttribute('aria-current');
     index = Math.max(0, Math.min(slides.length - 1, page));
     slides.forEach((slide, number) => { slide.hidden = number !== index; });
     previous.disabled = index === 0;
     next.disabled = index === slides.length - 1;
-    directory.value = String(index);
-    position.textContent = (index + 1) + ' / ' + slides.length + ' 页';
+    directoryItems[index].setAttribute('aria-current', 'page');
+    pageStatus.textContent = `第 ${index + 1} 页，共 ${slides.length} 页`;
+    pageCount.textContent = `${pageNumber(index + 1)} / ${pageNumber(slides.length)}`;
     deck.scrollTo(0, 0);
     size();
     fitPortrait();
   }
-  previous.onclick = () => show(index - 1);
-  next.onclick = () => show(index + 1);
-  directory.onchange = () => show(Number(directory.value));
+  previous.onclick = () => navigate(index - 1);
+  next.onclick = () => navigate(index + 1);
   theme.onclick = () => {
     const dark = root.classList.toggle('dark');
     root.classList.toggle('light', !dark);
@@ -304,8 +512,10 @@ function mountHtmlCardsDeck(deck) {
   };
   aspect.onclick = () => { orientation = !lastPortrait; size(); };
   function setPresenting(active) {
+    if (presenting !== active || !full.hasAttribute('aria-pressed')) {
+      setIcon(full, active ? 'collapse' : 'expand', active ? '退出全屏' : '全屏', 'F');
+    }
     presenting = active;
-    full.textContent = active ? '退出全屏' : '全屏';
     full.setAttribute('aria-pressed', String(active));
   }
   function requestFullscreen(active) {
@@ -321,6 +531,12 @@ function mountHtmlCardsDeck(deck) {
   });
   document.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest?.('select,input,textarea,[contenteditable]')) return;
+    if (!directory.hidden && event.key === 'Escape') {
+      setDirectory(false, true);
+      event.preventDefault();
+      return;
+    }
+    if (directory.contains(event.target)) return;
     if (!full.hidden && /^f$/i.test(event.key)) {
       if (!event.repeat) requestFullscreen(!presenting);
       event.preventDefault();
@@ -336,7 +552,7 @@ function mountHtmlCardsDeck(deck) {
     const pages = { ArrowLeft: index - 1, ArrowRight: index + 1, Home: 0, End: slides.length - 1 };
     if (!Object.hasOwn(pages, event.key)) return;
     event.preventDefault();
-    show(pages[event.key]);
+    navigate(pages[event.key]);
   });
   window.addEventListener('resize', size);
   window.addEventListener('message', event => {
@@ -347,14 +563,17 @@ function mountHtmlCardsDeck(deck) {
       full.hidden = false;
       setPresenting(event.data.fullscreen === true);
       size();
-      if (firstContact) send('ready');
+      if (firstContact) {
+        send('ready');
+        preloadNext();
+      }
     }
     if (event.data?.channel === 'dsh-html-cards-reader' && typeof event.data.fit === 'boolean') {
       fit = event.data.fit;
       size();
     }
   });
-  show(0);
+  navigate(0);
   document.fonts?.ready.then(fitPortrait);
   if (window.parent !== window) send('ready');
 }
@@ -362,7 +581,7 @@ function mountHtmlCardsDeck(deck) {
 <script>'use strict';
 (() => {
   const payload = document.getElementById('reader-data');
-  const { html, title, hasTailwind } = JSON.parse(payload.textContent);
+  const { html, title, hasTailwind, deferred } = JSON.parse(payload.textContent);
   payload.remove();
   document.title = title;
 
@@ -395,21 +614,24 @@ function mountHtmlCardsDeck(deck) {
     }
   }
 
-  const block = 'script,iframe,frame,frameset,object,embed,portal,base,link,meta,template,title,animate,set,animateTransform,animateMotion,discard';
-  source.querySelectorAll(block).forEach(node => node.remove());
-
-  for (const node of source.querySelectorAll('*')) {
-    for (const { name, value, localName } of [...node.attributes]) {
-      const key = localName.toLowerCase();
-      if (key.startsWith('on') || ['target', 'action', 'formaction', 'srcdoc', 'srcset', 'ping', 'poster', 'background', 'data', 'attributionsrc', 'autofocus', 'base'].includes(key)) {
-        node.removeAttribute(name);
-      } else if (key === 'href' && !value.startsWith('#')) {
-        node.removeAttribute(name);
-      } else if (key === 'src' && !/^data:image\//i.test(value)) {
-        node.removeAttribute(name);
+  function sanitize(fragment) {
+    const block = 'script,iframe,frame,frameset,object,embed,portal,base,link,meta,template,title,animate,set,animateTransform,animateMotion,discard';
+    fragment.querySelectorAll(block).forEach(node => node.remove());
+    for (const node of fragment.querySelectorAll('*')) {
+      for (const { name, value, localName } of [...node.attributes]) {
+        const key = localName.toLowerCase();
+        if (key.startsWith('on') || ['target', 'action', 'formaction', 'srcdoc', 'srcset', 'ping', 'poster', 'background', 'data', 'attributionsrc', 'autofocus', 'base'].includes(key)) {
+          node.removeAttribute(name);
+        } else if (key === 'href' && !value.startsWith('#')) {
+          node.removeAttribute(name);
+        } else if (key === 'src' && !/^data:image\//i.test(value)) {
+          node.removeAttribute(name);
+        }
       }
     }
+    return fragment;
   }
+  sanitize(source);
 
   // Template parsing strips the root elements. Copy their presentation attributes separately.
   const structure = html.replace(/<!--[\s\S]*?-->|<(script|style|textarea)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, '');
@@ -432,7 +654,29 @@ function mountHtmlCardsDeck(deck) {
   if (deck) {
     const playerStyles = document.head.querySelector('#deck-player-style');
     if (playerStyles) document.body.append(playerStyles);
-    if (!document.documentElement.hasAttribute('data-html-cards-capture')) mountHtmlCardsDeck(deck);
+    if (!document.documentElement.hasAttribute('data-html-cards-capture')) {
+      const loadPage = deferred === true && window.parent !== window ? page => new Promise(resolve => {
+        const channel = 'pagestudio-deck';
+        function finish(fragment) {
+          clearTimeout(timeout);
+          window.removeEventListener('message', receive);
+          resolve(fragment);
+        }
+        function receive(event) {
+          const data = event.data;
+          if (event.source !== window.parent || data?.channel !== channel || data.version !== 1 ||
+              data.type !== 'page-content' || data.page !== page) return;
+          if (typeof data.html !== 'string') return finish(null);
+          const part = document.createElement('template');
+          part.innerHTML = data.html;
+          finish(sanitize(part.content));
+        }
+        const timeout = setTimeout(() => finish(null), 20000);
+        window.addEventListener('message', receive);
+        window.parent.postMessage({ channel, version: 1, type: 'page-request', page }, '*');
+      }) : undefined;
+      mountHtmlCardsDeck(deck, loadPage);
+    }
     return;
   }
   // Give unstyled documents a readable default without replacing authored palettes.
